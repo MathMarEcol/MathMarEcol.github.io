@@ -1,0 +1,4 @@
+blogdown:::serve_site()
+run servr::daemon_stop(1)
+servr::daemon_stop(1)
+blogdown:::serve_site()
