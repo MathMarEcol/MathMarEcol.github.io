@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dr Arthur Blanluet | Mathematical Marine Ecology</title>
+    <link>/author/dr-arthur-blanluet/</link>
+      <atom:link href="/author/dr-arthur-blanluet/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dr Arthur Blanluet</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright>
+    <image>
+      <url>/author/dr-arthur-blanluet/avatar_hu85fa46309b8c5e644939df4bc55a4ed3_57192_270x270_fill_q90_lanczos_center.jpg</url>
+      <title>Dr Arthur Blanluet</title>
+      <link>/author/dr-arthur-blanluet/</link>
+    </image>
+    
+    <item>
+      <title>2. Conservation and protected areas</title>
+      <link>/project/2.conservationprotectedareas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/2.conservationprotectedareas/</guid>
+      <description>&lt;p&gt;Human threats – including fishing, climate change, habitat destruction, pollution, and invasive species – are leading to declining abundance of many marine species. To mitigate impacts of these threats on biodiversity, marine protected areas – national parks in the ocean – are being created. As there is a global push to increase the marine protected area network coverage from 8% to potentially 20% or even 30% in the next decade, developing the science to underpin where to place these reserves is critical and timely.&lt;/p&gt;
+&lt;p&gt;A current focus of our research is thus how to design robust climate-smart marine protected areas that conserve biodiversity, protect against climate change, retain biodiversity as the climate warms, ensure connectivity, minimise conflict with fishing, whilst considering the 3-D nature of the ocean. This is a tough task! It requires extensive computational expertise and infrastructure. Our work involves mapping global biodiversity and developing new approaches to the design of climate-smart marine protected area networks using state-of-the-art statistical and computational approaches on super-computers.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

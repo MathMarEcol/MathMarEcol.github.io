@@ -5,7 +5,7 @@
     <link>/project/</link>
       <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Tue, 23 Jul 2019 17:10:44 +1000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
@@ -13,29 +13,47 @@
     </image>
     
     <item>
-      <title>1. Climate-smart protected areas</title>
-      <link>/project/climatesmartprotectedareas/</link>
-      <pubDate>Tue, 23 Jul 2019 17:10:44 +1000</pubDate>
-      <guid>/project/climatesmartprotectedareas/</guid>
-      <description>&lt;p&gt;Where do we place marine protected areas so that biodiversity is least impacted by climate change. And that as the ocean warms, biodiversity does not move out of it&amp;hellip;&lt;/p&gt;
+      <title>1. Dynamic ecosystem modelling</title>
+      <link>/project/1.dynamicecosystemmodelling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/1.dynamicecosystemmodelling/</guid>
+      <description>&lt;p&gt;Dynamic ecosystem models are needed to help guide management of marine biodiversity and fisheries now and into the future under climate change. We use a range of modelling approaches based on systems of partial differential equations. Much of our current work is on size spectrum models. These models describe life in the ocean from bacteria to whales by parameterising key biological processes such as feeding, growth and predation based on an organism’s body size.&lt;/p&gt;
+&lt;p&gt;Our focus is on improving the zooplankton – the  intermediate trophic level that regulates energy transfer between phytoplankton (primary producers) and fish. Historically, zooplankton have been ignored or modelled as only one or two groups in almost all ecosystem models. Our work on better-resolving zooplankton in ecosystem models uses state-of-the-art size spectrum models run on super-computers. This research will lead to improved future estimates of fish biomass and carbon sequestration under climate change.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>2. Ecosystem modelling</title>
-      <link>/project/ecosystemmodellingfisheries/</link>
-      <pubDate>Tue, 23 Jul 2019 17:10:44 +1000</pubDate>
-      <guid>/project/ecosystemmodellingfisheries/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+      <title>2. Conservation and protected areas</title>
+      <link>/project/2.conservationprotectedareas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/2.conservationprotectedareas/</guid>
+      <description>&lt;p&gt;Human threats – including fishing, climate change, habitat destruction, pollution, and invasive species – are leading to declining abundance of many marine species. To mitigate impacts of these threats on biodiversity, marine protected areas – national parks in the ocean – are being created. As there is a global push to increase the marine protected area network coverage from 8% to potentially 20% or even 30% in the next decade, developing the science to underpin where to place these reserves is critical and timely.&lt;/p&gt;
+&lt;p&gt;A current focus of our research is thus how to design robust climate-smart marine protected areas that conserve biodiversity, protect against climate change, retain biodiversity as the climate warms, ensure connectivity, minimise conflict with fishing, whilst considering the 3-D nature of the ocean. This is a tough task! It requires extensive computational expertise and infrastructure. Our work involves mapping global biodiversity and developing new approaches to the design of climate-smart marine protected area networks using state-of-the-art statistical and computational approaches on super-computers.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>3. Ecosystem change</title>
-      <link>/project/ecosystemchangeconservation/</link>
-      <pubDate>Tue, 23 Jul 2019 17:10:44 +1000</pubDate>
-      <guid>/project/ecosystemchangeconservation/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+      <link>/project/3.ecosystemchange/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/3.ecosystemchange/</guid>
+      <description>&lt;p&gt;To manage our oceans – and our impacts upon them – we need robust indicators of the state of marine ecosystems over time. This requires long-term ocean observing problems. In partnership with the Integrated Marine Observing System (IMOS) and CSIRO (Australia&amp;rsquo;s national science provider), we are collecting and analysing data around Australia on plankton – the lower trophic levels in the ocean that ultimately support fish, marine mammals, marine reptiles and seabirds. We use modern, flexible, robust statistical techniques such as generalised linear and additive mixed models and multivariate approaches to analyse these datasets and make data products such as maps and ecosystem indicators. These  indicators of ecosystem change inform marine assessments of the state and trends of the ocean ecosystems.&lt;/p&gt;
+&lt;p&gt;To find out more about our plankton monitoring work, see our:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Australian Plankton Survey website (&lt;a href=&#34;http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/&#34;&gt;http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Factsheet (&lt;a href=&#34;http://imos.org.au/fileadmin/user_upload/shared/IMOS%20General/documents/IMOS/Fact_Sheets/IMOS_Factsheet_AUSCPR_website2.pdf&#34;&gt;http://imos.org.au/fileadmin/user_upload/shared/IMOS%20General/documents/IMOS/Fact_Sheets/IMOS_Factsheet_AUSCPR_website2.pdf&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;The State and Trends of Australia&amp;rsquo;s Oceans Report (&lt;a href=&#34;https://www.imosoceanreport.org.au/)&#34;&gt;https://www.imosoceanreport.org.au/)&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Image gallery: &lt;a href=&#34;http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/zooplankton-image-gallery-species-from-australian-waters/&#34;&gt;http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/zooplankton-image-gallery-species-from-australian-waters/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>4. Marine megafauna</title>
+      <link>/project/4.marinemegafauna/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/4.marinemegafauna/</guid>
+      <description>&lt;p&gt;Whale sharks (endangered) and manta rays (vulnerable) are threatened marine megafauna that feed on zooplankton. As part of Project Manta (&lt;a href=&#34;https://biomedical-sciences.uq.edu.au/project-manta),&#34;&gt;https://biomedical-sciences.uq.edu.au/project-manta),&lt;/a&gt; our work involves a mix of field work, lab work, and the use of robust statistical approaches. Our focus has been on understanding the feeding, movement, social behaviour and generating population estimates and population trends of whale sharks and manta rays in Australia and beyond. Our work has helped to provide management recommendations for manta ray populations in the region.&lt;/p&gt;
 </description>
     </item>
     

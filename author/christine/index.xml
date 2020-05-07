@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Christine | Mathematical Marine Ecology</title>
+    <link>/author/christine/</link>
+      <atom:link href="/author/christine/index.xml" rel="self" type="application/rss+xml" />
+    <description>Christine</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Christine</title>
+      <link>/author/christine/</link>
+    </image>
+    
+    <item>
+      <title>3. Ecosystem change</title>
+      <link>/project/3.ecosystemchange/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/3.ecosystemchange/</guid>
+      <description>&lt;p&gt;To manage our oceans – and our impacts upon them – we need robust indicators of the state of various components of marine ecosystems over time. To this end, we have a strong ocean observing component to our work. We are collecting data on plankton – the lower trophic levels in the ocean that ultimately support fish, marine mammals, marine reptiles and seabirds – around Australia in collaboration with the Integrated Marine Observing System and CSIRO. We use modern, flexible, robust statistical techniques such as generalised linear and additive mixed models and multivariate approaches to analyse these datasets. Developing robust ecosystem indicators of change provides input into marine assessments of the state and trends of the ocean ecosystems.&lt;/p&gt;
+&lt;p&gt;Our interest in conservation and understanding the importance of zooplankton has led to extensive work on planktivorous (plankton-eating) megafauna, including manta rays and whale sharks. This work has developed population estimates, identified their feeding environments, investigated their biology and analysed drivers of their habitat use and movement. We have underpin our analyses with solid mathematical and statistical approaches.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

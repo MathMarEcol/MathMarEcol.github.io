@@ -63,66 +63,6 @@
   </url>
   
   <url>
-    <loc>/project/climatesmartprotectedareas/</loc>
-    <lastmod>2019-07-23T17:10:44+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/ecosystemmodellingfisheries/</loc>
-    <lastmod>2019-07-23T17:10:44+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/ecosystemchangeconservation/</loc>
-    <lastmod>2019-07-23T17:10:44+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/claire-davies/</loc>
-    <lastmod>2019-07-23T17:10:44+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/dr-jason-d.-everett/</loc>
-    <lastmod>2019-07-23T17:10:44+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/felicity-mcennulty/</loc>
-    <lastmod>2019-07-23T17:10:44+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/felicity-mcennulty-and-anthony-j.-richardson/</loc>
-    <lastmod>2019-07-23T17:10:44+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/iain-m.-suthers/</loc>
-    <lastmod>2019-07-23T17:10:44+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/iain-m.-suthers-and-anthony-j.-richardson/</loc>
-    <lastmod>2019-07-23T17:10:44+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/jason-d.-everett/</loc>
-    <lastmod>2019-07-23T17:10:44+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/jason-d.-everett-anthony-j.-richardson/</loc>
-    <lastmod>2019-07-23T17:10:44+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
-    <lastmod>2019-07-23T17:10:44+10:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/alistair-james-hobday/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url>
@@ -294,6 +234,11 @@
   
   <url>
     <loc>/publication/tulloch-future-2019/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/iain-m.-suthers/</loc>
     <lastmod>2019-04-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -689,6 +634,11 @@
   
   <url>
     <loc>/author/jason-beard/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jason-d.-everett/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -2889,6 +2839,16 @@
   
   <url>
     <loc>/author/chris-griffiths/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/claire-davies/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/felicity-mcennulty/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -6352,19 +6312,127 @@
   </url>
   
   <url>
+    <loc>/project/1.dynamicecosystemmodelling/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/2.conservationprotectedareas/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/3.ecosystemchange/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/4.marinemegafauna/</loc>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>/author/mme-honours/</loc>
+    <loc>/author/dr-arthur-blanluet/</loc>
   </url>
   
   <url>
-    <loc>/author/nelson-bighetti/</loc>
+    <loc>/author/dr-chris-dudgeon/</loc>
   </url>
   
   <url>
-    <loc>/author/nelson-bighetti/</loc>
+    <loc>/author/dr-jason-everett/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/dr-ruth-eriksen/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/dr-ryan-heneghan/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/mr-bert-rodgers/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/mr-chris-lawson/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/mr-frank-coman/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/mr-isaac-brito-morales/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/mr-jacob-rogers/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/mr-julian-uribe/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/mr-mark-tonks/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/mr-patrick-sykes/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/mr-phillip-dyer/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/ms-amelia-armstrong/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/ms-anita-slotwinski/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/ms-asia-armstrong/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/ms-claire-davies/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/ms-erin-medland/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/ms-felicity-mcennulty/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/ms-irene-richards/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/ms-maya-boueiz/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/ms-rafaela-de-albuquerque-ribeiro/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/ms-rosa-mar-dominguez/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/ms-rosemary-oconnor/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/ms-sarah-pausina/</loc>
   </url>
   
   <url>
@@ -6372,7 +6440,15 @@
   </url>
   
   <url>
+    <loc>/project/</loc>
+  </url>
+  
+  <url>
     <loc>/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/rosemaryoconnor/</loc>
   </url>
   
 </urlset>
