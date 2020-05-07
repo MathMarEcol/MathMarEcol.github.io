@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daniel Gledhill on Mathematical Marine Ecology</title>
+    <link>/authors/daniel-gledhill/</link>
+    <description>Recent content in Daniel Gledhill on Mathematical Marine Ecology</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Anthony J. Richardson; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/daniel-gledhill/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tropical Marginal Seas: Priority Regions for Managing Marine Biodiversity and Ecosystem Function</title>
+      <link>/publication/mckinnon-tropical-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/mckinnon-tropical-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workshop on the ecosystem and fisheries of the Coral Sea: an Australian perspective on research and management</title>
+      <link>/publication/young-workshop-2012/</link>
+      <pubDate>Sat, 01 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/young-workshop-2012/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

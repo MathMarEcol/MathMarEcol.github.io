@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>S. J. Painting | Mathematical Marine Ecology</title>
+    <link>/author/s.-j.-painting/</link>
+      <atom:link href="/author/s.-j.-painting/index.xml" rel="self" type="application/rss+xml" />
+    <description>S. J. Painting</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Tue, 01 Jun 1999 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>S. J. Painting</title>
+      <link>/author/s.-j.-painting/</link>
+    </image>
+    
+    <item>
+      <title>Seasonal changes in phytoplankton biomass on the western Agulhas Bank, South Africa</title>
+      <link>/publication/mitchell-innes-seasonal-1999/</link>
+      <pubDate>Tue, 01 Jun 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/mitchell-innes-seasonal-1999/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Environmental and biological monitoring for forecasting anchovy recruitment in the southern Benguela upwelling region</title>
+      <link>/publication/painting-environmental-1998/</link>
+      <pubDate>Tue, 01 Dec 1998 00:00:00 +0000</pubDate>
+      <guid>/publication/painting-environmental-1998/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiple factors affecting South African anchovy recruitment in the spawning, transport and nursery areas</title>
+      <link>/publication/hutchings-multiple-1998/</link>
+      <pubDate>Mon, 01 Jun 1998 00:00:00 +0000</pubDate>
+      <guid>/publication/hutchings-multiple-1998/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The effect of sea temperature and food availability on the spawning success of Cape anchovy textitEngraulis capensis in the southern Benguela</title>
+      <link>/publication/richardson-effect-1998/</link>
+      <pubDate>Mon, 01 Jun 1998 00:00:00 +0000</pubDate>
+      <guid>/publication/richardson-effect-1998/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Christine L. Dudgeon | Mathematical Marine Ecology</title>
+    <link>/author/christine-l.-dudgeon/</link>
+      <atom:link href="/author/christine-l.-dudgeon/index.xml" rel="self" type="application/rss+xml" />
+    <description>Christine L. Dudgeon</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Christine L. Dudgeon</title>
+      <link>/author/christine-l.-dudgeon/</link>
+    </image>
+    
+    <item>
+      <title>Photographic identification and citizen science combine to reveal long distance movements of individual reef manta rays Mobula alfredi along Australia’s east coast</title>
+      <link>/publication/armstrong-photographic-2019/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/armstrong-photographic-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Powering Ocean Giants: The Energetics of Shark and Ray Megafauna</title>
+      <link>/publication/lawson-powering-2019/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/lawson-powering-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

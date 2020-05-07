@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Mathematical Marine Ecology</title>
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Tue, 23 Jul 2019 17:10:44 +1000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects</title>
+      <link>/project/</link>
+    </image>
+    
+    <item>
+      <title>1. Climate-smart protected areas</title>
+      <link>/project/climatesmartprotectedareas/</link>
+      <pubDate>Tue, 23 Jul 2019 17:10:44 +1000</pubDate>
+      <guid>/project/climatesmartprotectedareas/</guid>
+      <description>&lt;p&gt;Where do we place marine protected areas so that biodiversity is least impacted by climate change. And that as the ocean warms, biodiversity does not move out of it&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2. Ecosystem modelling</title>
+      <link>/project/ecosystemmodellingfisheries/</link>
+      <pubDate>Tue, 23 Jul 2019 17:10:44 +1000</pubDate>
+      <guid>/project/ecosystemmodellingfisheries/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3. Ecosystem change</title>
+      <link>/project/ecosystemchangeconservation/</link>
+      <pubDate>Tue, 23 Jul 2019 17:10:44 +1000</pubDate>
+      <guid>/project/ecosystemchangeconservation/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

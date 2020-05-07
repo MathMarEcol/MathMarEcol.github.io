@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>B.A. Mitchell-Innes | Mathematical Marine Ecology</title>
+    <link>/author/b.a.-mitchell-innes/</link>
+      <atom:link href="/author/b.a.-mitchell-innes/index.xml" rel="self" type="application/rss+xml" />
+    <description>B.A. Mitchell-Innes</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Wed, 01 Oct 2003 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>B.A. Mitchell-Innes</title>
+      <link>/author/b.a.-mitchell-innes/</link>
+    </image>
+    
+    <item>
+      <title>A dynamic quantitative approach for predicting the shape of phytoplankton profiles in the ocean</title>
+      <link>/publication/richardson-dynamic-2003/</link>
+      <pubDate>Wed, 01 Oct 2003 00:00:00 +0000</pubDate>
+      <guid>/publication/richardson-dynamic-2003/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

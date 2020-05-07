@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>E. Head | Mathematical Marine Ecology</title>
+    <link>/author/e.-head/</link>
+      <atom:link href="/author/e.-head/index.xml" rel="self" type="application/rss+xml" />
+    <description>E. Head</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Tue, 01 May 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>E. Head</title>
+      <link>/author/e.-head/</link>
+    </image>
+    
+    <item>
+      <title>Changing zooplankton seasonality in a changing ocean: Comparing time series of zooplankton phenology</title>
+      <link>/publication/mackas-changing-2012/</link>
+      <pubDate>Tue, 01 May 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/mackas-changing-2012/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

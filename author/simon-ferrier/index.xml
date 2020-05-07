@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Simon Ferrier | Mathematical Marine Ecology</title>
+    <link>/author/simon-ferrier/</link>
+      <atom:link href="/author/simon-ferrier/index.xml" rel="self" type="application/rss+xml" />
+    <description>Simon Ferrier</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Fri, 01 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Simon Ferrier</title>
+      <link>/author/simon-ferrier/</link>
+    </image>
+    
+    <item>
+      <title>Climate Velocity Can Inform Conservation in a Warming World</title>
+      <link>/publication/brito-morales-climate-2018/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/brito-morales-climate-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integrating modelling of biodiversity composition and ecosystem function</title>
+      <link>/publication/mokany-integrating-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/mokany-integrating-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uniting marine and terrestrial modelling of biodiversity under climate change</title>
+      <link>/publication/mokany-uniting-2010/</link>
+      <pubDate>Fri, 01 Oct 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/mokany-uniting-2010/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

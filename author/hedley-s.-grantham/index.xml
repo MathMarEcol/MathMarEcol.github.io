@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hedley S. Grantham | Mathematical Marine Ecology</title>
+    <link>/author/hedley-s.-grantham/</link>
+      <atom:link href="/author/hedley-s.-grantham/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hedley S. Grantham</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Tue, 01 Feb 2011 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Hedley S. Grantham</title>
+      <link>/author/hedley-s.-grantham/</link>
+    </image>
+    
+    <item>
+      <title>Accommodating Dynamic Oceanographic Processes and Pelagic Biodiversity in Marine Conservation Planning</title>
+      <link>/publication/grantham-accommodating-2011/</link>
+      <pubDate>Tue, 01 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/grantham-accommodating-2011/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marine protected areas: a multidisciplinary approach</title>
+      <link>/publication/claudet-marine-2011/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/claudet-marine-2011/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pelagic MPAs: The devil you know</title>
+      <link>/publication/game-pelagic-2010/</link>
+      <pubDate>Mon, 01 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/game-pelagic-2010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pelagic protected areas: the missing dimension in ocean conservation</title>
+      <link>/publication/game-pelagic-2009/</link>
+      <pubDate>Wed, 01 Jul 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/game-pelagic-2009/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

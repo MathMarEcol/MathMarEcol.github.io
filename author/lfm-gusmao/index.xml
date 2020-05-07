@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lfm Gusmão | Mathematical Marine Ecology</title>
+    <link>/author/lfm-gusmao/</link>
+      <atom:link href="/author/lfm-gusmao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lfm Gusmão</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Thu, 01 Aug 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Lfm Gusmão</title>
+      <link>/author/lfm-gusmao/</link>
+    </image>
+    
+    <item>
+      <title>Female-biased sex ratios in marine pelagic copepods: Response to Hirst et al. (2013)</title>
+      <link>/publication/gusmao-female-biased-2013/</link>
+      <pubDate>Thu, 01 Aug 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/gusmao-female-biased-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>No evidence of predation causing female-biased sex ratios in marine pelagic copepods</title>
+      <link>/publication/gusmao-no-2013/</link>
+      <pubDate>Wed, 01 May 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/gusmao-no-2013/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

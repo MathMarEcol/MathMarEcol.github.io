@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graeme C. Hays | Mathematical Marine Ecology</title>
+    <link>/author/graeme-c.-hays/</link>
+      <atom:link href="/author/graeme-c.-hays/index.xml" rel="self" type="application/rss+xml" />
+    <description>Graeme C. Hays</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Graeme C. Hays</title>
+      <link>/author/graeme-c.-hays/</link>
+    </image>
+    
+    <item>
+      <title>Powering Ocean Giants: The Energetics of Shark and Ray Megafauna</title>
+      <link>/publication/lawson-powering-2019/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/lawson-powering-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-decadal oceanic ecological datasets and their application in marine policy and management</title>
+      <link>/publication/edwards-multi-decadal-2010/</link>
+      <pubDate>Fri, 01 Oct 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/edwards-multi-decadal-2010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The jellyfish joyride: causes, consequences and management responses to a more gelatinous future</title>
+      <link>/publication/richardson-jellyfish-2009/</link>
+      <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/richardson-jellyfish-2009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ocean surface warming: The North Atlantic remains within the envelope of previous recorded conditions</title>
+      <link>/publication/hobson-ocean-2008/</link>
+      <pubDate>Fri, 01 Feb 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/hobson-ocean-2008/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climate change and marine plankton</title>
+      <link>/publication/hays-climate-2005/</link>
+      <pubDate>Wed, 01 Jun 2005 00:00:00 +0000</pubDate>
+      <guid>/publication/hays-climate-2005/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

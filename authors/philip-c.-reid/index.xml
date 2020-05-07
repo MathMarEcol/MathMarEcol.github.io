@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Philip C. Reid on Mathematical Marine Ecology</title>
+    <link>/authors/philip-c.-reid/</link>
+    <description>Recent content in Philip C. Reid on Mathematical Marine Ecology</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Anthony J. Richardson; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 01 Mar 2008 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/philip-c.-reid/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Identifying four phytoplankton functional types from space: An ecological approach</title>
+      <link>/publication/raitsos-identifying-2008/</link>
+      <pubDate>Sat, 01 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/raitsos-identifying-2008/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climate effects and benthic–pelagic coupling in the North Sea</title>
+      <link>/publication/kirby-climate-2007/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/kirby-climate-2007/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extending the SeaWiFS chlorophyll data set back 50 years in the northeast Atlantic</title>
+      <link>/publication/raitsos-extending-2005-1/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/raitsos-extending-2005-1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

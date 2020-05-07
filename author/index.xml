@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mathematical Marine Ecology</title>
+    <link>/author/</link>
+      <atom:link href="/author/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mathematical Marine Ecology</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright>
+    <image>
+      <url>/author/avatar_hu96354b0a7c216fab6a705e7cefc48a37_2664013_270x270_fill_lanczos_center_2.png</url>
+      <title>Mathematical Marine Ecology</title>
+      <link>/author/</link>
+    </image>
+    
+  </channel>
+</rss>

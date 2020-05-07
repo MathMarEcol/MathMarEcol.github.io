@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Claire H. Davies | Mathematical Marine Ecology</title>
+    <link>/author/claire-h.-davies/</link>
+      <atom:link href="/author/claire-h.-davies/index.xml" rel="self" type="application/rss+xml" />
+    <description>Claire H. Davies</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Mon, 01 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Claire H. Davies</title>
+      <link>/author/claire-h.-davies/</link>
+    </image>
+    
+    <item>
+      <title>Australia’s Long-Term Plankton Observations: The Integrated Marine Observing System National Reference Station Network</title>
+      <link>/publication/eriksen-australias-2019/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/eriksen-australias-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marine environmental DNA biomonitoring reveals seasonal patterns in biodiversity and identifies ecosystem responses to anomalous climatic events</title>
+      <link>/publication/berry-marine-2019/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/berry-marine-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A database of chlorophyll a in Australian waters</title>
+      <link>/publication/davies-database-2018/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/davies-database-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BioTIME: A database of biodiversity time series for the Anthropocene</title>
+      <link>/publication/dornelas-biotime-2018/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/dornelas-biotime-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Systematic, continental scale temporal monitoring of marine pelagic microbiota by the Australian Marine Microbial Biodiversity Initiative</title>
+      <link>/publication/brown-systematic-2018/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/brown-systematic-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A database of marine phytoplankton abundance, biomass and species composition in Australian waters</title>
+      <link>/publication/davies-database-2016/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/davies-database-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Over 75 years of zooplankton data from Australia</title>
+      <link>/publication/davies-over-2014/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/davies-over-2014/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

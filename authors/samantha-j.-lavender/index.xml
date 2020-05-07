@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Samantha J. Lavender on Mathematical Marine Ecology</title>
+    <link>/authors/samantha-j.-lavender/</link>
+    <description>Recent content in Samantha J. Lavender on Mathematical Marine Ecology</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Anthony J. Richardson; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 01 Jul 2014 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/samantha-j.-lavender/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>From silk to satellite: half a century of ocean colour anomalies in the Northeast Atlantic</title>
+      <link>/publication/raitsos-silk-2014/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/raitsos-silk-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identifying four phytoplankton functional types from space: An ecological approach</title>
+      <link>/publication/raitsos-identifying-2008/</link>
+      <pubDate>Sat, 01 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/raitsos-identifying-2008/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extending the SeaWiFS chlorophyll data set back 50 years in the northeast Atlantic</title>
+      <link>/publication/raitsos-extending-2005-1/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/raitsos-extending-2005-1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Iain M Suthers | Mathematical Marine Ecology</title>
+    <link>/author/iain-m-suthers/</link>
+      <atom:link href="/author/iain-m-suthers/index.xml" rel="self" type="application/rss+xml" />
+    <description>Iain M Suthers</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Iain M Suthers</title>
+      <link>/author/iain-m-suthers/</link>
+    </image>
+    
+    <item>
+      <title>1 The importance of plankton</title>
+      <link>/publication/suthers-1-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/suthers-1-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3 Use of plankton for management</title>
+      <link>/publication/rissik-3-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rissik-3-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>8 Coastal and marine zooplankton: identification, biology and ecology</title>
+      <link>/publication/richardson-8-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/richardson-8-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>9 Educating with plankton</title>
+      <link>/publication/roe-9-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/roe-9-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

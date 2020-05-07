@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>David Rissik on Mathematical Marine Ecology</title>
+    <link>/authors/david-rissik/</link>
+    <description>Recent content in David Rissik on Mathematical Marine Ecology</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Anthony J. Richardson; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 01 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/david-rissik/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Plankton: A Guide to Their Ecology and for Water Quality</title>
+      <link>/publication/suthers-plankton-2019/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/suthers-plankton-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>1 The importance of plankton</title>
+      <link>/publication/suthers-1-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/suthers-1-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3 Use of plankton for management</title>
+      <link>/publication/rissik-3-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/rissik-3-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zooplankton of Moreton Bay</title>
+      <link>/publication/pausina-zooplankton-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/pausina-zooplankton-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A database of marine phytoplankton abundance, biomass and species composition in Australian waters</title>
+      <link>/publication/davies-database-2016/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/davies-database-2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

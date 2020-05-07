@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>James A. Smith on Mathematical Marine Ecology</title>
+    <link>/authors/james-a.-smith/</link>
+    <description>Recent content in James A. Smith on Mathematical Marine Ecology</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Anthony J. Richardson; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/james-a.-smith/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A database of marine larval fish assemblages in Australian temperate and subtropical waters</title>
+      <link>/publication/smith-database-2018/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/smith-database-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling What We Sample and Sampling What We Model: Challenges for Zooplankton Model Assessment</title>
+      <link>/publication/everett-modeling-2017/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/everett-modeling-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>William O. McLarney on Mathematical Marine Ecology</title>
+    <link>/authors/william-o.-mclarney/</link>
+    <description>Recent content in William O. McLarney on Mathematical Marine Ecology</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Anthony J. Richardson; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/william-o.-mclarney/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BioTIME: A database of biodiversity time series for the Anthropocene</title>
+      <link>/publication/dornelas-biotime-2018/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/dornelas-biotime-2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graham J. Edgar on Mathematical Marine Ecology</title>
+    <link>/authors/graham-j.-edgar/</link>
+    <description>Recent content in Graham J. Edgar on Mathematical Marine Ecology</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Anthony J. Richardson; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/graham-j.-edgar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BioTIME: A database of biodiversity time series for the Anthropocene</title>
+      <link>/publication/dornelas-biotime-2018/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/dornelas-biotime-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climate change cascades: Shifts in oceanography, species&#39; ranges and subtidal marine community dynamics in eastern Tasmania</title>
+      <link>/publication/johnson-climate-2011/</link>
+      <pubDate>Fri, 01 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/johnson-climate-2011/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

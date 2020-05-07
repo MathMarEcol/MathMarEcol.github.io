@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Richard J Matear | Mathematical Marine Ecology</title>
+    <link>/author/richard-j-matear/</link>
+      <atom:link href="/author/richard-j-matear/index.xml" rel="self" type="application/rss+xml" />
+    <description>Richard J Matear</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Sat, 01 Jan 2011 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Richard J Matear</title>
+      <link>/author/richard-j-matear/</link>
+    </image>
+    
+    <item>
+      <title>Vulnerability of open ocean food webs in the tropical Pacific to climate change</title>
+      <link>/publication/borgne-vulnerability-2011/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/borgne-vulnerability-2011/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

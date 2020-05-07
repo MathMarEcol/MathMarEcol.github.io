@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>B. A. Mitchell-Innes on Mathematical Marine Ecology</title>
+    <link>/authors/b.-a.-mitchell-innes/</link>
+    <description>Recent content in B. A. Mitchell-Innes on Mathematical Marine Ecology</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Anthony J. Richardson; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 01 Jun 2001 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/b.-a.-mitchell-innes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Identification and classification of vertical chlorophyll patterns in the Benguela upwelling system and Angola-Benguela front using an artificial neural network</title>
+      <link>/publication/silulwane-identification-2001/</link>
+      <pubDate>Fri, 01 Jun 2001 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/silulwane-identification-2001/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seasonal changes in phytoplankton biomass on the western Agulhas Bank, South Africa</title>
+      <link>/publication/mitchell-innes-seasonal-1999/</link>
+      <pubDate>Tue, 01 Jun 1999 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/mitchell-innes-seasonal-1999/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The effect of sea temperature and food availability on the spawning success of Cape anchovy textitEngraulis capensis in the southern Benguela</title>
+      <link>/publication/richardson-effect-1998/</link>
+      <pubDate>Mon, 01 Jun 1998 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/richardson-effect-1998/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

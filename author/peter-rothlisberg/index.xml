@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Peter Rothlisberg | Mathematical Marine Ecology</title>
+    <link>/author/peter-rothlisberg/</link>
+      <atom:link href="/author/peter-rothlisberg/index.xml" rel="self" type="application/rss+xml" />
+    <description>Peter Rothlisberg</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Peter Rothlisberg</title>
+      <link>/author/peter-rothlisberg/</link>
+    </image>
+    
+    <item>
+      <title>A database of chlorophyll a in Australian waters</title>
+      <link>/publication/davies-database-2018/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/davies-database-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Over 75 years of zooplankton data from Australia</title>
+      <link>/publication/davies-over-2014/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/davies-over-2014/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4 | Mathematical Marine Ecology</title>
+    <link>/publication-type/4/</link>
+      <atom:link href="/publication-type/4/index.xml" rel="self" type="application/rss+xml" />
+    <description>4</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>4</title>
+      <link>/publication-type/4/</link>
+    </image>
+    
+    <item>
+      <title>IMOS Ocean Report – State and Trends of Australia&#39;s Oceans</title>
+      <link>/publication/richardson-imos-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/richardson-imos-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climate Velocity Can Inform Conservation in a Warming World</title>
+      <link>/publication/brito-morales-climate-2018/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/brito-morales-climate-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Satellite tagging highlights the importance of productive Mozambican coastal waters to the ecology and conservation of whale sharks</title>
+      <link>/publication/rohner-satellite-2017/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/rohner-satellite-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

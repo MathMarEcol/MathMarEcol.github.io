@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hans M. Verheye on Mathematical Marine Ecology</title>
+    <link>/authors/hans-m.-verheye/</link>
+    <description>Recent content in Hans M. Verheye on Mathematical Marine Ecology</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Anthony J. Richardson; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/hans-m.-verheye/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BioTIME: A database of biodiversity time series for the Anthropocene</title>
+      <link>/publication/dornelas-biotime-2018/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/dornelas-biotime-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Growth Rates of Copepods in the Southern Benguela Upwelling System: The Interplay between Body Size and Food</title>
+      <link>/publication/richardson-growth-1999/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/richardson-growth-1999/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The relative importance of food and temperature to copepod egg production and somatic growth in the southern Benguela upwelling system</title>
+      <link>/publication/richardson-relative-1998/</link>
+      <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/richardson-relative-1998/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

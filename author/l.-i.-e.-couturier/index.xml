@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>L. I. E. Couturier | Mathematical Marine Ecology</title>
+    <link>/author/l.-i.-e.-couturier/</link>
+      <atom:link href="/author/l.-i.-e.-couturier/index.xml" rel="self" type="application/rss+xml" />
+    <description>L. I. E. Couturier</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Sun, 01 Jun 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>L. I. E. Couturier</title>
+      <link>/author/l.-i.-e.-couturier/</link>
+    </image>
+    
+    <item>
+      <title>Population dynamics of the reef manta ray Manta alfredi in eastern Australia</title>
+      <link>/publication/couturier-population-2014/</link>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/couturier-population-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unusually High Levels of n-6 Polyunsaturated Fatty Acids in Whale Sharks and Reef Manta Rays</title>
+      <link>/publication/couturier-unusually-2013/</link>
+      <pubDate>Tue, 01 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/couturier-unusually-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biology, ecology and conservation of the Mobulidae</title>
+      <link>/publication/couturier-biology-2012/</link>
+      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/couturier-biology-2012/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

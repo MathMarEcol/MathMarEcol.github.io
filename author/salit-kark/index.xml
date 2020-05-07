@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Salit Kark | Mathematical Marine Ecology</title>
+    <link>/author/salit-kark/</link>
+      <atom:link href="/author/salit-kark/index.xml" rel="self" type="application/rss+xml" />
+    <description>Salit Kark</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Fri, 01 Mar 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Salit Kark</title>
+      <link>/author/salit-kark/</link>
+    </image>
+    
+    <item>
+      <title>Can satellite-based night lights be used for conservation? The case of nesting sea turtles in the Mediterranean</title>
+      <link>/publication/mazor-can-2013/</link>
+      <pubDate>Fri, 01 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/mazor-can-2013/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elizabeth A. Fulton | Mathematical Marine Ecology</title>
+    <link>/author/elizabeth-a.-fulton/</link>
+      <atom:link href="/author/elizabeth-a.-fulton/index.xml" rel="self" type="application/rss+xml" />
+    <description>Elizabeth A. Fulton</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Elizabeth A. Fulton</title>
+      <link>/author/elizabeth-a.-fulton/</link>
+    </image>
+    
+    <item>
+      <title>Severe Continental-Scale Impacts of Climate Change Are Happening Now: Extreme Climate Events Impact Marine Habitat Forming Communities Along 45% of Australia’s Coast</title>
+      <link>/publication/babcock-severe-2019/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/babcock-severe-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integrating modelling of biodiversity composition and ecosystem function</title>
+      <link>/publication/mokany-integrating-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/mokany-integrating-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting Interactions among Fishing, Ocean Warming, and Ocean Acidification in a Marine System with Whole-Ecosystem Models: textitFishing, Ocean Warming, and Ocean Acidification</title>
+      <link>/publication/griffith-predicting-2012/</link>
+      <pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/griffith-predicting-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effects of fishing and acidification-related benthic mortality on the southeast Australian marine ecosystem: IMPACT OF FISHING AND ACIDIFICATION</title>
+      <link>/publication/griffith-effects-2011/</link>
+      <pubDate>Sat, 01 Oct 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/griffith-effects-2011/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

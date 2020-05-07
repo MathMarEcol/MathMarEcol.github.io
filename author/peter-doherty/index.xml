@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Peter Doherty | Mathematical Marine Ecology</title>
+    <link>/author/peter-doherty/</link>
+      <atom:link href="/author/peter-doherty/index.xml" rel="self" type="application/rss+xml" />
+    <description>Peter Doherty</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Mon, 01 Dec 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Peter Doherty</title>
+      <link>/author/peter-doherty/</link>
+    </image>
+    
+    <item>
+      <title>IMOS National Reference Stations: A Continental-Wide Physical, Chemical and Biological Coastal Observing System</title>
+      <link>/publication/lynch-imos-2014/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/lynch-imos-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workshop on the ecosystem and fisheries of the Coral Sea: an Australian perspective on research and management</title>
+      <link>/publication/young-workshop-2012/</link>
+      <pubDate>Sat, 01 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/young-workshop-2012/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

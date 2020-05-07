@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aiko Hayashi on Mathematical Marine Ecology</title>
+    <link>/authors/aiko-hayashi/</link>
+    <description>Recent content in Aiko Hayashi on Mathematical Marine Ecology</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Anthony J. Richardson; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 01 Mar 2016 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/aiko-hayashi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Aspergillus Sydowii Marine Fungal Bloom in Australian Coastal Waters, Its Metabolites and Potential Impact on Symbiodinium Dinoflagellates</title>
+      <link>/publication/hayashi-aspergillus-2016/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/hayashi-aspergillus-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Australian Dust Storm Associated with Extensive Aspergillus sydowii Fungal “Bloom” in Coastal Waters</title>
+      <link>/publication/hallegraeff-australian-2014/</link>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/hallegraeff-australian-2014/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

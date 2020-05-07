@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M. I. O&#39;Connor on Mathematical Marine Ecology</title>
+    <link>/authors/m.-i.-oconnor/</link>
+    <description>Recent content in M. I. O&#39;Connor on Mathematical Marine Ecology</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Anthony J. Richardson; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/m.-i.-oconnor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chapter 30. The Ocean</title>
+      <link>/publication/hoegh-guldberg-chapter-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/hoegh-guldberg-chapter-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Response to &#34;Invasive Species Unchecked by Climate&#34;</title>
+      <link>/publication/burrows-response-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/burrows-response-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Pace of Shifting Climate in Marine and Terrestrial Ecosystems</title>
+      <link>/publication/burrows-pace-2011/</link>
+      <pubDate>Tue, 01 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/burrows-pace-2011/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
