@@ -6308,10 +6308,6 @@
   </url>
   
   <url>
-    <loc>/author/</loc>
-  </url>
-  
-  <url>
     <loc>/project/1.dynamicecosystemmodelling/</loc>
   </url>
   
@@ -6325,6 +6321,10 @@
   
   <url>
     <loc>/project/4.marinemegafauna/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/anthony-j.-richardson/</loc>
   </url>
   
   <url>
