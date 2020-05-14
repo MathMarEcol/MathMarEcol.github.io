@@ -7,7 +7,7 @@
     <description>Mathematical Marine Ecology</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0100</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hubac80c396753cd2eccb22ff4a2c706e6_27916_512x512_fill_lanczos_center_2.png</url>
       <title>Mathematical Marine Ecology</title>
       <link>/</link>
     </image>
@@ -1292,7 +1292,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/project/1.dynamicecosystemmodelling/</guid>
       <description>&lt;p&gt;Dynamic ecosystem models are needed to help guide management of marine biodiversity and fisheries now and into the future under climate change. We use a range of modelling approaches based on systems of partial differential equations. Much of our current work is on size spectrum models. These models describe life in the ocean from bacteria to whales by parameterising key biological processes such as feeding, growth and predation based on an organism’s body size.&lt;/p&gt;
-&lt;p&gt;Our focus is on improving the zooplankton – the  intermediate trophic level that regulates energy transfer between phytoplankton (primary producers) and fish. Historically, zooplankton have been ignored or modelled as only one or two groups in almost all ecosystem models. Our work on better-resolving zooplankton in ecosystem models uses state-of-the-art size spectrum models run on super-computers. This research will lead to improved future estimates of fish biomass and carbon sequestration under climate change.&lt;/p&gt;
+&lt;p&gt;Our focus is on improving the zooplankton – the  intermediate trophic level that regulates energy transfer between phytoplankton (primary producers) and fish. Historically, zooplankton have been ignored or modelled as only one or two groups in almost all ecosystem models. Our work on better-resolving zooplankton in ecosystem models uses state-of-the-art size spectrum models such as ZooMSS (Zooplankton Model of Size Spectra) run on super-computers. This research will lead to improved future estimates of fish biomass and carbon sequestration under climate change.&lt;/p&gt;
 </description>
     </item>
     
