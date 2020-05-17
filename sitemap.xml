@@ -3,6 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/author/dr-jason-everett/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/dr-chris-dudgeon/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/dr-arthur-blanluet/</loc>
+  </url>
+  
+  <url>
     <loc>/publication-type/2/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
   </url>
@@ -6329,18 +6341,6 @@
   
   <url>
     <loc>/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>/author/dr-arthur-blanluet/</loc>
-  </url>
-  
-  <url>
-    <loc>/author/dr-chris-dudgeon/</loc>
-  </url>
-  
-  <url>
-    <loc>/author/dr-jason-everett/</loc>
   </url>
   
   <url>
