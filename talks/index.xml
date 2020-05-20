@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>post | Mathematical Marine Ecology</title>
+    <link>/talks/</link>
+      <atom:link href="/talks/index.xml" rel="self" type="application/rss+xml" />
+    <description>post</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hubac80c396753cd2eccb22ff4a2c706e6_27916_512x512_fill_lanczos_center_2.png</url>
+      <title>post</title>
+      <link>/talks/</link>
+    </image>
+    
+    <item>
+      <title>Climate-safe marine protected areas in 3-D</title>
+      <link>/talks/climatesafempas3d/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>/talks/climatesafempas3d/</guid>
+      <description>&lt;p&gt;Currently about 8% of the ocean is in protected areas. There is a strong push to increase this to 20% or even 30% by 2030. How do we make these new protected areas climate safe? More specificially, how do we ensure that protected areas are resilient to climate change and retaining species within their area of protection? As climate change will impact species differently at different depths in the ocean, can we design new protected area networks that are coherent across ocean depths? We are looking for a student interested in conservation and wants to improve their programming skills.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Benefits and challenges to fisheries of an extensive network of bluewater marine protected areas</title>
+      <link>/talks/fisheriesimpactsmpas/</link>
+      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/talks/fisheriesimpactsmpas/</guid>
+      <description>&lt;p&gt;Currently about 8% of the ocean is in protected areas. There is a strong push to increase this to 20% or even 30% by 2030. How this could affect fishing – both positively and negatively – is an open question. And how might different fisheries and countries be impacted? This project will use state-of-the-art conservation planning approaches combined with ecosystem modelling to estimate the impact on fisheries. We are looking for a student interested in mathematical ecology and be keen to improve their programming, mathematical and ecological skills.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Designing a global pelagic marine protected area network that best protects critical species habitats</title>
+      <link>/talks/conservingcriticalhabitats/</link>
+      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/talks/conservingcriticalhabitats/</guid>
+      <description>&lt;p&gt;Many migratory marine species move over large distances in the ocean, from spawning to feeding regions via migration pathways. During various times in their lifecycle, species are impacted by a suite of anthropogenic stressors. To date, the design of marine protected areas has focused on static information on the distribution of biodiversity, but has generally not included dynamic information on critical habitats, including migratory pathways. This project will design a global network of MPAs that best protect the major feeding, spawning and migration pathways (“ocean highways”) of marine species. We are looking for a student interested in conservation and wants to improve their programming skills.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using size spectrum ecosystem models to investigate the impact of climate change on marine systems and global fisheries</title>
+      <link>/talks/sizespectrummodelscc/</link>
+      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/talks/sizespectrummodelscc/</guid>
+      <description>&lt;p&gt;Climate change is expected to lead to the decline of phytoplankton production in the ocean, and thus a decline in fisheries in the future. However, our recent work on better-resolving zooplankton in ecosystem models using ZooMSS (Zooplankton Model of Size Spectra) has challenged this idea. This work suggests that changes in zooplankton in response might mitigate future impacts on fisheries. This work will explore the impact of climate change on marine ecosystems and ultimately how fisheries globally will be affected. We are looking for a motivated student with a strong background in mathematics and coding to work on this project.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demo | Mathematical Marine Ecology</title>
+    <link>/category/demo/</link>
+      <atom:link href="/category/demo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Demo</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hubac80c396753cd2eccb22ff4a2c706e6_27916_512x512_fill_lanczos_center_2.png</url>
+      <title>Demo</title>
+      <link>/category/demo/</link>
+    </image>
+    
+    <item>
+      <title>Benefits and challenges to fisheries of an extensive network of bluewater marine protected areas</title>
+      <link>/post/getting-started/</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+      <guid>/post/getting-started/</guid>
+      <description>&lt;p&gt;This is my project information - I not on front page!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
