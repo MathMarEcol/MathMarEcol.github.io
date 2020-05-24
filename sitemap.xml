@@ -30,6 +30,11 @@
   </url>
   
   <url>
+    <loc>/</loc>
+    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/future/</loc>
     <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url>
@@ -2452,21 +2457,6 @@
   <url>
     <loc>/author/%C3%B8rjan-totland/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/privacy/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/terms/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
   
   <url>
