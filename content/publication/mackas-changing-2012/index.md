@@ -1,0 +1,13 @@
+---
+title: "Changing zooplankton seasonality in a changing ocean: Comparing time series of zooplankton phenology"
+date: 2012-05-01
+publishDate: 2020-05-05T23:38:55.058671Z
+authors: ["D.L. Mackas", "W. Greve", "M. Edwards", "S. Chiba", "K. Tadokoro", "D. Eloire", "M.G. Mazzocchi", "S. Batten", "A.J. Richardson", "C. Johnson", "E. Head", "A. Conversi", "T. Peluso"]
+publication_types: ["2"]
+abstract: "Marine zooplankton must deal with seasonal variations of the upper-ocean environment that are both intense and prolonged compared to their life spans. This leads to large seasonal ﬂuctuations of population size, and strong evolutionary tuning of demographic processes (e.g. reproduction, somatic and population growth, and dormancy) for optimal match with the average annual alternation between good and poor growing conditions. However, neither environmental nor zooplankton seasonal cycles are exactly repetitive year-to-year. Recent analyses of several long zooplankton time series have found large (1–3 months) interannual variability of seasonal timing. In this paper, we compare and synthesize results from these studies. Variability in zooplankton phenology is often correlated with anomalies of one or more environmental variables. The most common phenology correlate is water temperature during and before the growing season, and the most common phenologic response to temperature is ‘‘earlier when and where warmer’’. But several species with seasonal maxima in late summer or autumn have a clear ‘‘later when warmer’’ response. Covariance of seasonal timing with temperature must therefore involve more than thermal acceleration of physiological rates. We suggest that water temperature (relatively slowly and smoothly varying in aquatic environments) is also used by zooplankton as a timing cue, much as terrestrial biota uses day-length. During recent warming trends, temperature-linked changes in seasonal timing may have moved some species outside their locally-optimal seasonal windows (e.g. Calanus ﬁnmarchicus in the North Sea, and Pseudocalanus elongatus in the Adriatic), and have been a major contributor to changes in community composition. Between-location similarities of zooplankton phenology and temperature anomaly time series decay with increasing site-to-site spatial separation. The decorrelation scale is several thousand kilometers in the subarctic Paciﬁc, but a thousand kilometers or less in marginal seas of the NE Atlantic."
+featured: false
+publication: "*Progress in Oceanography*"
+url_pdf: "https://linkinghub.elsevier.com/retrieve/pii/S0079661111001236"
+doi: "10.1016/j.pocean.2011.11.005"
+---
+

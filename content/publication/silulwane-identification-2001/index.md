@@ -1,0 +1,13 @@
+---
+title: "Identification and classification of vertical chlorophyll patterns in the Benguela upwelling system and Angola-Benguela front using an artificial neural network"
+date: 2001-06-01
+publishDate: 2020-05-05T23:38:55.080016Z
+authors: ["N. F. Silulwane", "A. J. Richardson", "F. A. Shillington", "B. A. Mitchell-Innes"]
+publication_types: ["2"]
+abstract: "Information on the vertical chlorophyll structure in the ocean is important for estimating integrated chlorophyll a and primary production from satellite. For this study, vertical chlorophyll profiles from the Benguela upwelling system and the Angola-Benguela front were collected in winter to identify characteristic profiles. A shifted Gaussian model was fitted to each profile to estimate four parameters that defined the shape of the curve: the background chlorophyll concentration (B0), the height parameter of the peak (h), the width of the peak (σ) and the depth of the chlorophyll peak (zm). A type of artificial neural network called a self-organizing map (SOM) was then used on these four parameters to identify characteristic profiles. The analysis identified a continuum of chlorophyll patterns, from those with large surface peaks (textgreater10 mg m -3) to those with smaller near-surface peaks (textless2 mg m-3). The frequency of occurrence of each chlorophyll pattern identified by the SOM showed that the most frequent pattern (~12%) had a near-surface peak and the least frequent pattern (~2%) had a large surface peak. These characteristic profile shapes were then related to pertinent environmental variables such as sea surface temperature, surface chlorophyll, mixed layer depth and euphotic depth. Partitioning the SOM output map into environmental categories showed large peaks of surface chlorophyll dominating in water with cool temperature, high surface chlorophyll concentration and shallow mixed layer and euphotic depth. By contrast, smaller peaks of subsurface chlorophyll were in water with warmer temperature, lower surface chlorophyll concentration, intermediate mixed layer and deep euphotic depth. These relationships can be used semi-quantitatively to predict profile shape under different environmental conditions. The SOM analysis highlighted the large variability in shape of vertical chlorophyll profiles in the Benguela. This suggests that an ideal typical chlorophyll profile, as used in the framework of biogeochemical provinces, may not be applicable to this dynamic upwelling system."
+featured: false
+publication: "*South African Journal of Marine Science*"
+url_pdf: "http://www.tandfonline.com/doi/abs/10.2989/025776101784528872"
+doi: "10.2989/025776101784528872"
+---
+
