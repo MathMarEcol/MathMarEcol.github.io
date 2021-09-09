@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>pages | Mathematical Marine Ecology</title>
+    <title>pages | Mathematical Marine Ecology Lab</title>
     <link>/future/</link>
       <atom:link href="/future/index.xml" rel="self" type="application/rss+xml" />
     <description>pages</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Anthony J. Richardson</copyright>
     <image>
-      <url>/images/icon_hue13ec9768477f6aaf9b00b431f1b1817_1426_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hue13ec9768477f6aaf9b00b431f1b1817_1426_512x512_fill_lanczos_center_3.png</url>
       <title>pages</title>
       <link>/future/</link>
     </image>
@@ -45,6 +45,17 @@
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       <guid>/future/sizespectrummodels_cc/</guid>
       <description>&lt;p&gt;Climate change is expected to lead to the decline of phytoplankton production in the ocean, and thus a decline in fisheries in the future. However, our recent work on better-resolving zooplankton in ecosystem models using ZooMSS (Zooplankton Model of Size Spectra) has challenged this idea. This work suggests that changes in zooplankton in response might mitigate future impacts on fisheries. This work will explore the impact of climate change on marine ecosystems and ultimately how fisheries globally will be affected. We are looking for a motivated student with a strong background in mathematics and coding to work on this project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Potential impacts of geoengineering the Earth&#39;s climate on marine biodiversity, ecosystems and  protected areas</title>
+      <link>/future/geoengineeringmpas/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/future/geoengineeringmpas/</guid>
+      <description>&lt;blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Climate engineering, known as  geoengineering, is the deliberate and large-scale manipulation of the Earth&amp;rsquo;s climate to minimise adverse effects of global warming. Geoengineering can be considered a worse-case scenario that might be necessary if we do not mitigate greenhouse gas emissions. Scientists are seriously exploring several geoengineering approaches, including their economic feasibility and their practical implementation. However,  potential risks of geoengineering on marine biodiversity, ecosystems and the efficacy of protected areas is unknown. In this project, the student will build on our existing work on the impacts of climate change on marine biodiversity and on protected area networks by constructing a suite of distribution models for marine species. We will then use these models to assess the impact of various geoengineering scenarios on marine biodiversity, ecosystems and various protected area network configurations. We are looking for a student interested in marine conservation and quantitative ecology.&lt;/p&gt;
 </description>
     </item>
     

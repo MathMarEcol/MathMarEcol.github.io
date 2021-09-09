@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ms Claire Davies | Mathematical Marine Ecology</title>
+    <title>Ms Claire Davies | Mathematical Marine Ecology Lab</title>
     <link>/author/ms-claire-davies/</link>
       <atom:link href="/author/ms-claire-davies/index.xml" rel="self" type="application/rss+xml" />
     <description>Ms Claire Davies</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Anthony J. Richardson</copyright>
     <image>
-      <url>/author/ms-claire-davies/avatar_huea1c9d1a3556e63bb44f8584ee4325d9_60823_270x270_fill_q90_lanczos_center.jpg</url>
+      <url>/images/icon_hue13ec9768477f6aaf9b00b431f1b1817_1426_512x512_fill_lanczos_center_3.png</url>
       <title>Ms Claire Davies</title>
       <link>/author/ms-claire-davies/</link>
     </image>
@@ -20,10 +20,10 @@
       <description>&lt;p&gt;To manage our oceans – and our impacts upon them – we need robust indicators of the state of marine ecosystems over time. This requires long-term ocean observing problems. In partnership with the Integrated Marine Observing System (IMOS) and CSIRO (Australia&amp;rsquo;s national science provider), we are collecting and analysing data around Australia on plankton – the lower trophic levels in the ocean that ultimately support fish, marine mammals, marine reptiles and seabirds. We use modern, flexible, robust statistical techniques such as generalised linear and additive mixed models and multivariate approaches to analyse these datasets and make data products such as maps and ecosystem indicators. These  indicators of ecosystem change inform marine assessments of the state and trends of the ocean ecosystems.&lt;/p&gt;
 &lt;p&gt;To find out more about our plankton monitoring work, see our:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Australian Plankton Survey website (&lt;a href=&#34;http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/&#34;&gt;http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Factsheet (&lt;a href=&#34;http://imos.org.au/fileadmin/user_upload/shared/IMOS%20General/documents/IMOS/Fact_Sheets/IMOS_Factsheet_AUSCPR_website2.pdf&#34;&gt;http://imos.org.au/fileadmin/user_upload/shared/IMOS%20General/documents/IMOS/Fact_Sheets/IMOS_Factsheet_AUSCPR_website2.pdf&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;The State and Trends of Australia&amp;rsquo;s Oceans Report (&lt;a href=&#34;https://www.imosoceanreport.org.au/)&#34;&gt;https://www.imosoceanreport.org.au/)&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Image gallery: &lt;a href=&#34;http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/zooplankton-image-gallery-species-from-australian-waters/&#34;&gt;http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/zooplankton-image-gallery-species-from-australian-waters/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Australian Plankton Survey website (&lt;a href=&#34;http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Factsheet (&lt;a href=&#34;http://imos.org.au/fileadmin/user_upload/shared/IMOS%20General/documents/IMOS/Fact_Sheets/IMOS_Factsheet_AUSCPR_website2.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://imos.org.au/fileadmin/user_upload/shared/IMOS%20General/documents/IMOS/Fact_Sheets/IMOS_Factsheet_AUSCPR_website2.pdf&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;The State and Trends of Australia&amp;rsquo;s Oceans Report (&lt;a href=&#34;https://www.imosoceanreport.org.au/%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.imosoceanreport.org.au/)&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Image gallery: &lt;a href=&#34;http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/zooplankton-image-gallery-species-from-australian-waters/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/zooplankton-image-gallery-species-from-australian-waters/&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>

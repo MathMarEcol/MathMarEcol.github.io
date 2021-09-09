@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dr Chris Dudgeon | Mathematical Marine Ecology</title>
+    <title>Dr Chris Dudgeon | Mathematical Marine Ecology Lab</title>
     <link>/author/dr-chris-dudgeon/</link>
       <atom:link href="/author/dr-chris-dudgeon/index.xml" rel="self" type="application/rss+xml" />
     <description>Dr Chris Dudgeon</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Anthony J. Richardson</copyright>
     <image>
-      <url>/author/dr-chris-dudgeon/avatar_hub8ce3a3ed0aea083623647bea24ef8a1_42304_270x270_fill_q90_lanczos_center.jpg</url>
+      <url>/images/icon_hue13ec9768477f6aaf9b00b431f1b1817_1426_512x512_fill_lanczos_center_3.png</url>
       <title>Dr Chris Dudgeon</title>
       <link>/author/dr-chris-dudgeon/</link>
     </image>
@@ -17,7 +17,7 @@
       <link>/project/4.marinemegafauna/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/project/4.marinemegafauna/</guid>
-      <description>&lt;p&gt;Whale sharks (endangered) and manta rays (vulnerable) are threatened marine megafauna that feed on zooplankton. As part of Project Manta (&lt;a href=&#34;https://biomedical-sciences.uq.edu.au/project-manta),&#34;&gt;https://biomedical-sciences.uq.edu.au/project-manta),&lt;/a&gt; our work involves a mix of field work, lab work, and the use of robust statistical approaches. Our focus has been on understanding the feeding, movement, social behaviour and generating population estimates and population trends of whale sharks and manta rays in Australia and beyond. Our work has helped to provide management recommendations for manta ray populations in the region.&lt;/p&gt;
+      <description>&lt;p&gt;Whale sharks (endangered) and manta rays (vulnerable) are threatened marine megafauna that feed on zooplankton. As part of Project Manta (&lt;a href=&#34;https://biomedical-sciences.uq.edu.au/project-manta%29,&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://biomedical-sciences.uq.edu.au/project-manta),&lt;/a&gt; our work involves a mix of field work, lab work, and the use of robust statistical approaches. Our focus has been on understanding the feeding, movement, social behaviour and generating population estimates and population trends of whale sharks and manta rays in Australia and beyond. Our work has helped to provide management recommendations for manta ray populations in the region.&lt;/p&gt;
 </description>
     </item>
     

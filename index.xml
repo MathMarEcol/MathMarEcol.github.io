@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mathematical Marine Ecology</title>
+    <title>Mathematical Marine Ecology Lab</title>
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <description>Mathematical Marine Ecology</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Anthony J. Richardson</copyright><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <description>Mathematical Marine Ecology Lab</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Anthony J. Richardson</copyright><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hue13ec9768477f6aaf9b00b431f1b1817_1426_512x512_fill_lanczos_center_2.png</url>
-      <title>Mathematical Marine Ecology</title>
+      <url>/images/icon_hue13ec9768477f6aaf9b00b431f1b1817_1426_512x512_fill_lanczos_center_3.png</url>
+      <title>Mathematical Marine Ecology Lab</title>
       <link>/</link>
     </image>
     
@@ -53,6 +53,17 @@
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       <guid>/future/sizespectrummodels_cc/</guid>
       <description>&lt;p&gt;Climate change is expected to lead to the decline of phytoplankton production in the ocean, and thus a decline in fisheries in the future. However, our recent work on better-resolving zooplankton in ecosystem models using ZooMSS (Zooplankton Model of Size Spectra) has challenged this idea. This work suggests that changes in zooplankton in response might mitigate future impacts on fisheries. This work will explore the impact of climate change on marine ecosystems and ultimately how fisheries globally will be affected. We are looking for a motivated student with a strong background in mathematics and coding to work on this project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Potential impacts of geoengineering the Earth&#39;s climate on marine biodiversity, ecosystems and  protected areas</title>
+      <link>/future/geoengineeringmpas/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/future/geoengineeringmpas/</guid>
+      <description>&lt;blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Climate engineering, known as  geoengineering, is the deliberate and large-scale manipulation of the Earth&amp;rsquo;s climate to minimise adverse effects of global warming. Geoengineering can be considered a worse-case scenario that might be necessary if we do not mitigate greenhouse gas emissions. Scientists are seriously exploring several geoengineering approaches, including their economic feasibility and their practical implementation. However,  potential risks of geoengineering on marine biodiversity, ecosystems and the efficacy of protected areas is unknown. In this project, the student will build on our existing work on the impacts of climate change on marine biodiversity and on protected area networks by constructing a suite of distribution models for marine species. We will then use these models to assess the impact of various geoengineering scenarios on marine biodiversity, ecosystems and various protected area network configurations. We are looking for a student interested in marine conservation and quantitative ecology.&lt;/p&gt;
 </description>
     </item>
     
@@ -1340,10 +1351,10 @@
       <description>&lt;p&gt;To manage our oceans – and our impacts upon them – we need robust indicators of the state of marine ecosystems over time. This requires long-term ocean observing problems. In partnership with the Integrated Marine Observing System (IMOS) and CSIRO (Australia&amp;rsquo;s national science provider), we are collecting and analysing data around Australia on plankton – the lower trophic levels in the ocean that ultimately support fish, marine mammals, marine reptiles and seabirds. We use modern, flexible, robust statistical techniques such as generalised linear and additive mixed models and multivariate approaches to analyse these datasets and make data products such as maps and ecosystem indicators. These  indicators of ecosystem change inform marine assessments of the state and trends of the ocean ecosystems.&lt;/p&gt;
 &lt;p&gt;To find out more about our plankton monitoring work, see our:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Australian Plankton Survey website (&lt;a href=&#34;http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/&#34;&gt;http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Factsheet (&lt;a href=&#34;http://imos.org.au/fileadmin/user_upload/shared/IMOS%20General/documents/IMOS/Fact_Sheets/IMOS_Factsheet_AUSCPR_website2.pdf&#34;&gt;http://imos.org.au/fileadmin/user_upload/shared/IMOS%20General/documents/IMOS/Fact_Sheets/IMOS_Factsheet_AUSCPR_website2.pdf&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;The State and Trends of Australia&amp;rsquo;s Oceans Report (&lt;a href=&#34;https://www.imosoceanreport.org.au/)&#34;&gt;https://www.imosoceanreport.org.au/)&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Image gallery: &lt;a href=&#34;http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/zooplankton-image-gallery-species-from-australian-waters/&#34;&gt;http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/zooplankton-image-gallery-species-from-australian-waters/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Australian Plankton Survey website (&lt;a href=&#34;http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Factsheet (&lt;a href=&#34;http://imos.org.au/fileadmin/user_upload/shared/IMOS%20General/documents/IMOS/Fact_Sheets/IMOS_Factsheet_AUSCPR_website2.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://imos.org.au/fileadmin/user_upload/shared/IMOS%20General/documents/IMOS/Fact_Sheets/IMOS_Factsheet_AUSCPR_website2.pdf&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;The State and Trends of Australia&amp;rsquo;s Oceans Report (&lt;a href=&#34;https://www.imosoceanreport.org.au/%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.imosoceanreport.org.au/)&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Image gallery: &lt;a href=&#34;http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/zooplankton-image-gallery-species-from-australian-waters/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/zooplankton-image-gallery-species-from-australian-waters/&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
@@ -1353,7 +1364,7 @@
       <link>/project/4.marinemegafauna/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/project/4.marinemegafauna/</guid>
-      <description>&lt;p&gt;Whale sharks (endangered) and manta rays (vulnerable) are threatened marine megafauna that feed on zooplankton. As part of Project Manta (&lt;a href=&#34;https://biomedical-sciences.uq.edu.au/project-manta),&#34;&gt;https://biomedical-sciences.uq.edu.au/project-manta),&lt;/a&gt; our work involves a mix of field work, lab work, and the use of robust statistical approaches. Our focus has been on understanding the feeding, movement, social behaviour and generating population estimates and population trends of whale sharks and manta rays in Australia and beyond. Our work has helped to provide management recommendations for manta ray populations in the region.&lt;/p&gt;
+      <description>&lt;p&gt;Whale sharks (endangered) and manta rays (vulnerable) are threatened marine megafauna that feed on zooplankton. As part of Project Manta (&lt;a href=&#34;https://biomedical-sciences.uq.edu.au/project-manta%29,&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://biomedical-sciences.uq.edu.au/project-manta),&lt;/a&gt; our work involves a mix of field work, lab work, and the use of robust statistical approaches. Our focus has been on understanding the feeding, movement, social behaviour and generating population estimates and population trends of whale sharks and manta rays in Australia and beyond. Our work has helped to provide management recommendations for manta ray populations in the region.&lt;/p&gt;
 </description>
     </item>
     
