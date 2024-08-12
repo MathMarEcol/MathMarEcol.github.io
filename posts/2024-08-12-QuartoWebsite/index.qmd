@@ -46,7 +46,7 @@ Here we provide a template for you to start creating your own personal website.
 You can take the template, fill in your information, and leave it as-is.
 Alternatively, if you find that crafting your own website sparks joy for you, and you want to further delve into the nuts and bolts, you can simply take this template as a basis and extend your website from there.
 
-The first step is to download the website template`.zip` archive with the template here: 
+The first step is to download the website template`.zip` archive with the template [here](website_template.zip).
 
 ## Renaming the template files
 
