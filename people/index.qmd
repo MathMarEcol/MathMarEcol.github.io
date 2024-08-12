@@ -25,7 +25,7 @@ If you have a background in mathematics/statistics and want to apply your skills
 :::
 
 ----
-## Senior Research Fellows
+## Senior Research Fellow
 ### Dr Jason Everett
 ::: columns
 ::: {.column width="25%"}
@@ -41,10 +41,142 @@ Jason's current research focus is to quantify how the size, abundance and biomas
 :::
 ## PhD Students
 
+### Kristine (Tin) Buenafe
+<!-- ::: columns -->
+<!-- ::: {.column width="25%"} -->
+<!-- <img src=".png" style="width: 80%; object-fit: contain"/> -->
+<!-- ::: -->
+<!-- ::: {.column width="75%"} -->
+
+<!-- ::: -->
+<!-- ::: -->
 
 
-## Masters Students
+### Sandra Neubert
+<!-- ::: columns -->
+<!-- ::: {.column width="25%"} -->
+<!-- <img src=".png" style="width: 80%; object-fit: contain"/> -->
+<!-- ::: -->
+<!-- ::: {.column width="75%"} -->
+
+<!-- ::: -->
+<!-- ::: -->
 
 
+### Alvise Dabala
+<!-- ::: columns -->
+<!-- ::: {.column width="25%"} -->
+<!-- <img src=".png" style="width: 80%; object-fit: contain"/> -->
+<!-- ::: -->
+<!-- ::: {.column width="75%"} -->
+
+<!-- ::: -->
+<!-- ::: -->
+
+
+### Alice Pidd
+<!-- ::: columns -->
+<!-- ::: {.column width="25%"} -->
+<!-- <img src=".png" style="width: 80%; object-fit: contain"/> -->
+<!-- ::: -->
+<!-- ::: {.column width="75%"} -->
+
+<!-- ::: -->
+<!-- ::: -->
+
+
+
+### Sharad Bayyana
+<!-- ::: columns -->
+<!-- ::: {.column width="25%"} -->
+<!-- <img src=".png" style="width: 80%; object-fit: contain"/> -->
+<!-- ::: -->
+<!-- ::: {.column width="75%"} -->
+
+<!-- ::: -->
+<!-- ::: -->
+
+
+
+### Aharon Fleury
+<!-- ::: columns -->
+<!-- ::: {.column width="25%"} -->
+<!-- <img src=".png" style="width: 80%; object-fit: contain"/> -->
+<!-- ::: -->
+<!-- ::: {.column width="75%"} -->
+
+<!-- ::: -->
+<!-- ::: -->
+
+### Diego Bezerra
+<!-- ::: columns -->
+<!-- ::: {.column width="25%"} -->
+<!-- <img src=".png" style="width: 80%; object-fit: contain"/> -->
+<!-- ::: -->
+<!-- ::: {.column width="75%"} -->
+
+<!-- ::: -->
+<!-- ::: -->
+
+### 
+<!-- ::: columns -->
+<!-- ::: {.column width="25%"} -->
+<!-- <img src=".png" style="width: 80%; object-fit: contain"/> -->
+<!-- ::: -->
+<!-- ::: {.column width="75%"} -->
+
+<!-- ::: -->
+<!-- ::: -->
+
+### 
+<!-- ::: columns -->
+<!-- ::: {.column width="25%"} -->
+<!-- <img src=".png" style="width: 80%; object-fit: contain"/> -->
+<!-- ::: -->
+<!-- ::: {.column width="75%"} -->
+
+<!-- ::: -->
+<!-- ::: -->
+
+## Tropimundo Students
+
+We regularly supervise students from the [Tropimundo Program](https://tropimundo.eu) for their final year thesis. 
+
+### Kris Jypson Esturas
+<!-- ::: columns -->
+<!-- ::: {.column width="25%"} -->
+<!-- <img src=".png" style="width: 80%; object-fit: contain"/> -->
+<!-- ::: -->
+<!-- ::: {.column width="75%"} -->
+
+<!-- ::: -->
+<!-- ::: -->
+
+
+### Bryan Alpecho
+<!-- ::: columns -->
+<!-- ::: {.column width="25%"} -->
+<!-- <img src=".png" style="width: 80%; object-fit: contain"/> -->
+<!-- ::: -->
+<!-- ::: {.column width="75%"} -->
+
+<!-- ::: -->
+<!-- ::: -->
+
+
+
+
+
+
+
+<!-- ###  -->
+<!-- ::: columns -->
+<!-- ::: {.column width="25%"} -->
+<!-- <img src=".png" style="width: 80%; object-fit: contain"/> -->
+<!-- ::: -->
+<!-- ::: {.column width="75%"} -->
+
+<!-- ::: -->
+<!-- ::: -->
 
 

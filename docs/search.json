@@ -151,14 +151,14 @@
     "href": "people/index.html",
     "title": "People",
     "section": "",
-    "text": "The Principal Investigator, Professor Anthony J. Richardson, is a 2018 highly cited researcher in Ecology. He has a joint research position between the School of Mathematics and Physics at the University of Queensland and CSIRO Environment, Australia’s national science provider.\nAnthony runs a dynamic lab at the nexus between mathematics/statistics/computation and marine ecology. His focus is on using mathematical tools to better conserve biodiversity, predict impacts of climate change, and understand the functioning of marine ecosystems. There is a collegial atmosphere in the lab and a critical mass of researchers working on similar problems.\nIf you have a background in mathematics/statistics and want to apply your skills to real-world problems, of if you have a background in ecology and are interested in developing your quantitative skills, then this could be the lab for you. If you are interested in joining the Mathematical Marine Ecology Lab, then feel free to contact Anthony directly."
+    "text": "The Principal Investigator, Professor Anthony J. Richardson, is a 2018 highly cited researcher in Ecology. He has a joint research position between the School of the Environment at the University of Queensland and CSIRO Environment, Australia’s national science provider.\nAnthony runs a dynamic lab at the nexus between mathematics/statistics/computation and marine ecology. His focus is on using mathematical tools to better conserve biodiversity, predict impacts of climate change, and understand the functioning of marine ecosystems. There is a collegial atmosphere in the lab and a critical mass of researchers working on similar problems.\nIf you have a background in mathematics/statistics and want to apply your skills to real-world problems, of if you have a background in ecology and are interested in developing your quantitative skills, then this could be the lab for you. If you are interested in joining the Mathematical Marine Ecology Lab, then feel free to contact Anthony directly."
   },
   {
     "objectID": "people/index.html#lead-investigator",
     "href": "people/index.html#lead-investigator",
     "title": "People",
     "section": "",
-    "text": "The Principal Investigator, Professor Anthony J. Richardson, is a 2018 highly cited researcher in Ecology. He has a joint research position between the School of Mathematics and Physics at the University of Queensland and CSIRO Environment, Australia’s national science provider.\nAnthony runs a dynamic lab at the nexus between mathematics/statistics/computation and marine ecology. His focus is on using mathematical tools to better conserve biodiversity, predict impacts of climate change, and understand the functioning of marine ecosystems. There is a collegial atmosphere in the lab and a critical mass of researchers working on similar problems.\nIf you have a background in mathematics/statistics and want to apply your skills to real-world problems, of if you have a background in ecology and are interested in developing your quantitative skills, then this could be the lab for you. If you are interested in joining the Mathematical Marine Ecology Lab, then feel free to contact Anthony directly."
+    "text": "The Principal Investigator, Professor Anthony J. Richardson, is a 2018 highly cited researcher in Ecology. He has a joint research position between the School of the Environment at the University of Queensland and CSIRO Environment, Australia’s national science provider.\nAnthony runs a dynamic lab at the nexus between mathematics/statistics/computation and marine ecology. His focus is on using mathematical tools to better conserve biodiversity, predict impacts of climate change, and understand the functioning of marine ecosystems. There is a collegial atmosphere in the lab and a critical mass of researchers working on similar problems.\nIf you have a background in mathematics/statistics and want to apply your skills to real-world problems, of if you have a background in ecology and are interested in developing your quantitative skills, then this could be the lab for you. If you are interested in joining the Mathematical Marine Ecology Lab, then feel free to contact Anthony directly."
   },
   {
     "objectID": "people/index.html#senior-research-fellows",
@@ -172,7 +172,7 @@
     "href": "people/index.html#phd-students",
     "title": "People",
     "section": "PhD Students",
-    "text": "PhD Students"
+    "text": "PhD Students\n\nKristine (Tin) Buenafe\n\n\n\n\n\n\n\n\n\nSandra Neubert\n\n\n\n\n\n\n\n\n\nAlvise Dabala\n\n\n\n\n\n\n\n\n\nAlice Pidd\n\n\n\n\n\n\n\n\n\nSharad Bayyana\n\n\n\n\n\n\n\n\n\nAharon Fleury\n\n\n\n\n\n\n\n\n\nDiego Bezerra"
   },
   {
     "objectID": "people/index.html#masters-students",
@@ -341,5 +341,19 @@
     "title": "Build your own Quarto website",
     "section": "5.3 Huge thanks!",
     "text": "5.3 Huge thanks!\nThis tutorial was originally published by Marvin Schmitt on his blog.. We have adapted the content to suit our lab, but the building blocks of this tutorial are all his. Have a look at the other great articles that Marvin has on his blog."
+  },
+  {
+    "objectID": "people/index.html#senior-research-fellow",
+    "href": "people/index.html#senior-research-fellow",
+    "title": "People",
+    "section": "Senior Research Fellow",
+    "text": "Senior Research Fellow\n\nDr Jason Everett\n\n\n\n\nJason is a biological oceanographer, with an interest in how oceanographic processes structure planktonic ecosystems.\nHis research has focused on how flow regimes, boundary currents, eddies and upwelling events drive changes in the biomass, species distribution and size structure of zooplankton communities. In addition, he have extensive experience working with satellite data and numerical model output.\nJason’s current research focus is to quantify how the size, abundance and biomass of zooplankton and fish change across local, regional and global scales. By quantifying the size-based ecosystem through modelling and observations, we can better understand processes such as metabolism, predation or movement, which constrain the role of an individual in its food web. In particular, the biomass and size distribution of zooplankton is poorly understood relative to phytoplankton and fish in our oceans, yet it is critical to understanding the efficiency of energy transfer through to fisheries."
+  },
+  {
+    "objectID": "people/index.html#tropimundo-students",
+    "href": "people/index.html#tropimundo-students",
+    "title": "People",
+    "section": "Tropimundo Students",
+    "text": "Tropimundo Students\nWe regularly supervise students from the Tropimundo Program for their final year thesis.\n\nKris Jypson Esturas\n\n\n\n\n\n\n\n\n\nBryan Alpecho"
   }
 ]
