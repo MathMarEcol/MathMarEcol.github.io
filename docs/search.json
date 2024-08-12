@@ -96,5 +96,12 @@
     "title": "Create Your Website with Quarto: Complete Tutorial and Template",
     "section": "5.2 Quarto specific tips",
     "text": "5.2 Quarto specific tips\nHere are some tips that are specific to Quarto, Markdown, or RMarkdown.\n\n5.2.1 Adding a table of contents\nThanks to Quarto, it’s super easy to add a table of contents. Just add the following lines to the header of your .qmd file, without any indentation:\n\n\nindex.qmd\n\ntoc: true\ntoc-title: Contents\ntoc-location: left"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Github\n  \n  \n    \n     Email\n  \n\n\n\n\nWelcome\nThe Mathematical Marine Ecology Lab uses mathematical, statistical and computational tools to investigate human impacts on our oceans - and to find solutions. By developing models of marine ecosystems based on differential equations and cutting-edge statistical approaches using high-performance computing, we aim to better understand key system drivers, conserve biodiversity, and ensure productive fisheries under climate change.\nThe Principal Investigator, Professor Anthony J. Richardson, is a 2018 highly cited researcher in Ecology. He has a joint research position between the School of Mathematics and Physics at the University of Queensland and CSIRO Oceans and Atmosphere, Australia’s national science provider.\nThis website introduces our lab, its members, and summarises our activities. If you have a background in mathematics/statistics and want to apply your skills to real-world problems, of if you have a background in ecology and are interested in developing your quantitative skills, then this could be the lab for you. Feel free to contact us - we are always looking for motivated students to join our lab!"
   }
 ]
