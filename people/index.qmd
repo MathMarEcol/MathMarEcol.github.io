@@ -16,7 +16,7 @@ toc-expand: true
 <img src="Anthony.png" style="width: 80%; object-fit: contain"/>
 :::
 ::: {.column width="75%"}
-The Principal Investigator, Professor Anthony J. Richardson, is a 2018 highly cited researcher in Ecology. He has a joint research position between the School of Mathematics and Physics at the University of Queensland and CSIRO Environment, Australia’s national science provider.
+The Principal Investigator, Professor Anthony J. Richardson, is a 2018 highly cited researcher in Ecology. He has a joint research position between the School of the Environment at the University of Queensland and CSIRO Environment, Australia’s national science provider.
 
 Anthony runs a dynamic lab at the nexus between mathematics/statistics/computation and marine ecology. His focus is on using mathematical tools to better conserve biodiversity, predict impacts of climate change, and understand the functioning of marine ecosystems. There is a collegial atmosphere in the lab and a critical mass of researchers working on similar problems.
 
@@ -32,11 +32,11 @@ If you have a background in mathematics/statistics and want to apply your skills
 <img src="Jason.jpg" style="width: 80%; object-fit: contain"/>
 :::
 ::: {.column width="75%"}
-I am a biological oceanographer, with an interest in how oceanographic processes structure planktonic ecosystems.
+Jason is a biological oceanographer, with an interest in how oceanographic processes structure planktonic ecosystems.
 
-My research has focused on how flow regimes, boundary currents, eddies and upwelling events drive changes in the biomass, species distribution and size structure of zooplankton communities. In addition, I have extensive experience working with satellite data and numerical model output.
+His research has focused on how flow regimes, boundary currents, eddies and upwelling events drive changes in the biomass, species distribution and size structure of zooplankton communities. In addition, he have extensive experience working with satellite data and numerical model output.
 
-My current research focus is to quantify how the size, abundance and biomass of zooplankton and fish change across local, regional and global scales. By quantifying the size-based ecosystem through modelling and observations, we can better understand processes such as metabolism, predation or movement, which constrain the role of an individual in its food web. In particular, the biomass and size distribution of zooplankton is poorly understood relative to phytoplankton and fish in our oceans, yet it is critical to understanding the efficiency of energy transfer through to fisheries.
+Jason's current research focus is to quantify how the size, abundance and biomass of zooplankton and fish change across local, regional and global scales. By quantifying the size-based ecosystem through modelling and observations, we can better understand processes such as metabolism, predation or movement, which constrain the role of an individual in its food web. In particular, the biomass and size distribution of zooplankton is poorly understood relative to phytoplankton and fish in our oceans, yet it is critical to understanding the efficiency of energy transfer through to fisheries.
 :::
 :::
 ## PhD Students
