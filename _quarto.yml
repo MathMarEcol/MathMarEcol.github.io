@@ -2,7 +2,7 @@
 
 # website settings
 website:
-  title: "Mathematical Marine Ecology Laboratory"  # Your name
+  title: "Mathematical Marine Ecology Lab"  # Your name
   description: "The Mathematical Marine Ecology Lab uses mathematical, statistical and computational tools to investigate human impacts on our oceans - and to find solutions"   # A brief slogan (optional)
   image: people/Anthony.png
 
@@ -17,12 +17,14 @@ website:
     left:
       - text: "People"
         href: people/index.qmd
-      - text: "Projects"
-        href: projects/index.qmd
+      - text: "Research"
+        href: research/index.qmd
+      - text: "Future Projects"
+        href: future/index.qmd
       - text: "Blog"
-        href: posts.qmd
-      - text: "Publications"
-        href: https://scholar.google.com.au
+        href: blog.qmd
+      - text: "Lab Publications"
+        href: https://scholar.google.com.au/citations?hl=en&user=RLeJq98AAAAJ&view_op=list_works&sortby=pubdate
         target: _blank
 
     # your social media handles
@@ -63,6 +65,7 @@ format:
     theme:
       - solar #
       # - html/styles.scss
+    page-layout: full
     toc: false
     code-link: true
     anchor-sections: true

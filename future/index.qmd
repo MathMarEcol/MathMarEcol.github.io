@@ -1,0 +1,27 @@
+---
+title: Available Projects
+toc: true
+# toc-title: Future Projects
+toc-location: left
+---
+
+## Modelling zoolankton and fisheries to understand the global carbon cycles
+
+Understanding the role of zooplankton is arguably the biggest gap in our knowledge of the ocean carbon cycle. Zooplankton constitute 40% of total marine biomass, feed on different sizes of plankton, vary by an order of magnitude in their carbon content, and have diverse roles in carbon transport across the world’s oceans. Yet these features are poorly resolved in current ecosystem models.
+ 
+You would develop new ways of modelling zooplankton in an innovative ecosystem model – the Zooplankton Model of Size Spectra (ZooMSS). You will use the model to explore present and future impacts of climate change on the global ocean’s capacity to sequester carbon and support fisheries. You would be working with a team of modellers, zooplankton ecologists, and climate change scientists.
+ 
+This position is funded through the Australian Research Council Discovery Project Zooplankton: the missing link in modelling the ocean carbon cycle.
+ 
+The scholarship includes: living stipend of $35,000 per annum tax free (2024 rate; indexed annually) and your tuition fees are covered.
+ 
+This scholarship is available for Australian (or New Zealand) citizens and Australian permanent residents.
+ 
+You will have demonstrated skills in modelling, coding experience (in any programming language), and strong written and communication skills. You do not need experience in marine ecology (although it is preferred), but you must have a keen interest to learn.
+ 
+More information and how to apply for this position is available [here](https://study.uq.edu.au/study-options/phd-mphil-professional-doctorate/projects/uncovering-role-zooplankton-global-carbon-cycle-using-dynamic-modelling)
+
+----
+
+
+

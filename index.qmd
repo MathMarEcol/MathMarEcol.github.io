@@ -1,15 +1,8 @@
 ---
 about:
-  template: jolla # jolla, trestles, solana, marquee, broadside
+  template: marquee # jolla, trestles, solana, marquee, broadside
   id: about-block
-  image: "people/Anthony.png"
-  links:
-    - icon: github
-      text: Github
-      href: https://github.com/MathMarEcol
-    - icon: envelope
-      text: Email
-      href: "mailto:a.richardson1@uq.edu.au"  
+  image: "img/MME_banner_LR.png"
 ---
 
 ::: {#about-block}

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>My Blog – Mathematical Marine Ecology Lab</title>
+<title>Our Blog – Mathematical Marine Ecology Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -77,9 +77,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -162,8 +162,12 @@ window.Quarto = {
 <span class="menu-text">Future Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page"> 
+    <a class="nav-link active" href="./blog.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://scholar.google.com.au/citations?hl=en&amp;user=RLeJq98AAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank"> 
+<span class="menu-text">Lab Publications</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -189,13 +193,13 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="academia">academia <span class="quarto-category-count">(1)</span></div><div class="category" data-category="golem">golem <span class="quarto-category-count">(1)</span></div><div class="category" data-category="quarto">quarto <span class="quarto-category-count">(2)</span></div><div class="category" data-category="web app">web app <span class="quarto-category-count">(1)</span></div><div class="category" data-category="website">website <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="academia">academia <span class="quarto-category-count">(1)</span></div><div class="category" data-category="quarto">quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="website">website <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">My Blog</h1>
+<h1 class="title">Our Blog</h1>
 </div>
 
 
@@ -216,18 +220,21 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="website,academia,quarto" data-listing-date-sort="1723384800000" data-listing-file-modified-sort="1723436536649" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2624">
-<a href="./posts/2024-08-12-QuartoWebsite/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2024-08-12-QuartoWebsite/quarto.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Build your own Quarto website
-</h5>
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="website,academia,quarto" data-listing-date-sort="1723384800000" data-listing-file-modified-sort="1723444143265" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2669">
+<div class="thumbnail">
+<p><a href="./blog/2024-08-12-QuartoWebsite/index.html" class="no-external"></a></p><a href="./blog/2024-08-12-QuartoWebsite/index.html" class="no-external">
+<p><img loading="lazy" src="./blog/2024-08-12-QuartoWebsite/quarto.png" class="thumbnail-image"></p>
+</a><p><a href="./blog/2024-08-12-QuartoWebsite/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./blog/2024-08-12-QuartoWebsite/index.html" class="no-external">Build your own Quarto website</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./blog/2024-08-12-QuartoWebsite/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('website'); return false;">
 website
@@ -239,59 +246,20 @@ academia
 quarto
 </div>
 </div>
-<div class="card-text listing-description">
-This tutorial and template will help you build your own personal or academic website with Quarto
+<div class="listing-description">
+<a href="./blog/2024-08-12-QuartoWebsite/index.html" class="no-external">This tutorial and template will help you build your own personal or academic website with Quarto.</a>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Jason Everett
 </div>
+<div class="metadata">
+<a href="./blog/2024-08-12-QuartoWebsite/index.html" class="no-external">
 <div class="listing-date">
 Aug 12, 2024
 </div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="quarto,R,web app,golem" data-listing-date-sort="1713448800000" data-listing-file-modified-sort="1723420083727" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="293">
-<a href="./posts/2024-04-19-app-pros-con/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2024-04-19-app-pros-con/shiny.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Web apps in R - To package or not to package?
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('quarto'); return false;">
-quarto
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('web app'); return false;">
-web app
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('golem'); return false;">
-golem
-</div>
-</div>
-<div class="card-text listing-description">
-Different approaches to developing web apps in R
-</div>
-<div class="card-attribution card-text-small justify">
 <div class="listing-author">
-Christina Buelow
-</div>
-<div class="listing-date">
-Apr 19, 2024
-</div>
-</div>
-</div>
+Jason Everett
 </div>
 </a>
+</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">

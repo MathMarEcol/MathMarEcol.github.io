@@ -1,6 +1,6 @@
 ---
-title: "Create Your Website with Quarto: Complete Tutorial and Template"
-description: "This tutorial and template will help you build your own personal or academic website with Quarto"
+title: "Build your own Quarto website"
+description: "This tutorial and template will help you build your own personal or academic website with Quarto."
 author:
   - name: Jason Everett
 date: 2024-08-12
@@ -34,8 +34,6 @@ But even within the realm of code-based web design, there are more tools than a 
 
 # Setting up your website with Quarto
 
-
-
 [Quarto](https://quarto.org/) is a new open-source publishing system built on Pandoc. Quarto lets you write dynamic content using [Python](https://www.python.org/), [R](https://www.r-project.org/), [Julia](https://julialang.org/), and [Observable](https://observablehq.com/), and author documents as plain text markdown or Jupyter notebooks. You can also publish your work in various formats, such as HTML, PDF, MS Word, ePub, and more. Quarto is the next generation of [RMarkdown](https://rmarkdown.rstudio.com/), and it aims to make scientific and technical publishing easier and more accessible for everyone.
 
 For our purpose of creating a personal website, Quarto is well-suited because you might already use R (possibly even via RStudio) for your analyses. But even if you are new to the R ecosystem, worry not -- you do not need any R to build your website with Quarto.
@@ -52,7 +50,7 @@ The first step is to download the website template`.zip` archive with the templa
 
 First unpack the downloaded archive and move the `quarto-website-template` folder to where you store all your GitHub repositories. I usually suggest this is `~/GitHub/`. 
 
-Next rename the folder to `<github username>_github.io` (This is what your website location will be online. For our lab it is `MathMarEcol.github.io`).
+Next rename the folder to `<github username>.github.io` (This is what your website location will be online. For our lab it is `MathMarEcol.github.io`).
 
 For completeness, I suggest renaming the `.proj` file to the same as the folder.
 
@@ -329,3 +327,7 @@ toc: true
 toc-title: Contents
 toc-location: left
 ```
+
+## Huge thanks!
+
+This tutorial was originally published by [Marvin Schmitt](https://www.marvinschmitt.com) on his [blog.](https://www.marvinschmitt.com/blog/website-tutorial-quarto/). We have adapted the content to suit our lab, but the building blocks of this tutorial are all his. Have a look at the other great articles that Marvin has on his blog.

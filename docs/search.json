@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Welcome",
     "section": "",
-    "text": "Github\n  \n  \n    \n     Email\n  \n\n\n\n\nWelcome\nThe Mathematical Marine Ecology Lab uses mathematical, statistical and computational tools to investigate human impacts on our oceans - and to find solutions. By developing models of marine ecosystems based on differential equations and cutting-edge statistical approaches using high-performance computing, we aim to better understand key system drivers, conserve biodiversity, and ensure productive fisheries under climate change.\nThe Principal Investigator, Professor Anthony J. Richardson, is a 2018 highly cited researcher in Ecology. He has a joint research position between the School of Mathematics and Physics at the University of Queensland and CSIRO Oceans and Atmosphere, Australia’s national science provider.\nThis website introduces our lab, its members, and summarises our activities. If you have a background in mathematics/statistics and want to apply your skills to real-world problems, of if you have a background in ecology and are interested in developing your quantitative skills, then this could be the lab for you. Feel free to contact us - we are always looking for motivated students to join our lab!"
+    "text": "Welcome\nThe Mathematical Marine Ecology Lab uses mathematical, statistical and computational tools to investigate human impacts on our oceans - and to find solutions. By developing models of marine ecosystems based on differential equations and cutting-edge statistical approaches using high-performance computing, we aim to better understand key system drivers, conserve biodiversity, and ensure productive fisheries under climate change.\nThe Principal Investigator, Professor Anthony J. Richardson, is a 2018 highly cited researcher in Ecology. He has a joint research position between the School of Mathematics and Physics at the University of Queensland and CSIRO Oceans and Atmosphere, Australia’s national science provider.\nThis website introduces our lab, its members, and summarises our activities. If you have a background in mathematics/statistics and want to apply your skills to real-world problems, of if you have a background in ecology and are interested in developing your quantitative skills, then this could be the lab for you. Feel free to contact us - we are always looking for motivated students to join our lab!"
   },
   {
     "objectID": "posts.html",
     "href": "posts.html",
     "title": "My Blog",
     "section": "",
-    "text": "Create Your Website with Quarto: Complete Tutorial and Template\n\n\n\nwebsite\n\n\nacademia\n\n\nquarto\n\n\n\nThis tutorial and template will help you build your own personal or academic website with Quarto\n\n\n\nJason Everett\n\n\nAug 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeb apps in R - To package or not to package?\n\n\n\nquarto\n\n\nR\n\n\nweb app\n\n\ngolem\n\n\n\nDifferent approaches to developing web apps in R\n\n\n\nChristina Buelow\n\n\nApr 19, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Build your own Quarto website\n\n\n\nwebsite\n\n\nacademia\n\n\nquarto\n\n\n\nThis tutorial and template will help you build your own personal or academic website with Quarto\n\n\n\nJason Everett\n\n\nAug 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeb apps in R - To package or not to package?\n\n\n\nquarto\n\n\nR\n\n\nweb app\n\n\ngolem\n\n\n\nDifferent approaches to developing web apps in R\n\n\n\nChristina Buelow\n\n\nApr 19, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/index.html",
@@ -58,91 +58,91 @@
   {
     "objectID": "posts/2024-08-12-QuartoWebsite/index.html",
     "href": "posts/2024-08-12-QuartoWebsite/index.html",
-    "title": "Create Your Website with Quarto: Complete Tutorial and Template",
+    "title": "Build your own Quarto website",
     "section": "",
     "text": "As an academic researcher, scientist, or basically anyone working with a computer, it’s essential to have an online presence. With the rise of the internet, having a personal website has become more critical than ever. A personal website serves as a platform to showcase your research work, achievements, and credentials to a global audience. It’s a professional tool that helps you stand out in a crowded digital world and reach a wider audience. In this tutorial, we will be exploring the steps involved in creating a personal website that accurately reflects your identity. From choosing the right tools all the way to publishing your website on the internet, this post will cover everything you need to know to create a successful and effective personal website. Whether you’re a seasoned researcher or just starting out, this guide is designed to help you achieve your online goals and reach a new level of discoverability.\nThe internet is full of tools to build a website, and their sheer amount can be overwhelming. WordPress is a great no-code tool, but its visual editor has driven me nuts when I used it in the past to do client work as a freelance web designer. I personally prefer code-based tools because they give me full control and reproducibility. But even within the realm of code-based web design, there are more tools than a single person could ever try out. In this blog post, we will talk about how to set up your personal website with Quarto."
   },
   {
     "objectID": "posts/2024-08-12-QuartoWebsite/index.html#the-template",
     "href": "posts/2024-08-12-QuartoWebsite/index.html#the-template",
-    "title": "Create Your Website with Quarto: Complete Tutorial and Template",
+    "title": "Build your own Quarto website",
     "section": "2.1 The template",
     "text": "2.1 The template\nHere we provide a template for you to start creating your own personal website. You can take the template, fill in your information, and leave it as-is. Alternatively, if you find that crafting your own website sparks joy for you, and you want to further delve into the nuts and bolts, you can simply take this template as a basis and extend your website from there.\nThe first step is to download the website template.zip archive with the template here."
   },
   {
     "objectID": "posts/2024-08-12-QuartoWebsite/index.html#renaming-the-template-files",
     "href": "posts/2024-08-12-QuartoWebsite/index.html#renaming-the-template-files",
-    "title": "Create Your Website with Quarto: Complete Tutorial and Template",
+    "title": "Build your own Quarto website",
     "section": "2.2 Renaming the template files",
-    "text": "2.2 Renaming the template files\nFirst unpack the downloaded archive and move the quarto-website-template folder to where you store all your GitHub repositories. I usually suggest this is ~/GitHub/.\nNext rename the folder to &lt;github username&gt;_github.io (This is what your website location will be online. For our lab it is MathMarEcol.github.io).\nFor completeness, I suggest renaming the .proj file to the same as the folder."
+    "text": "2.2 Renaming the template files\nFirst unpack the downloaded archive and move the quarto-website-template folder to where you store all your GitHub repositories. I usually suggest this is ~/GitHub/.\nNext rename the folder to &lt;github username&gt;.github.io (This is what your website location will be online. For our lab it is MathMarEcol.github.io).\nFor completeness, I suggest renaming the .proj file to the same as the folder."
   },
   {
     "objectID": "posts/2024-08-12-QuartoWebsite/index.html#opening-the-template-in-rstudio",
     "href": "posts/2024-08-12-QuartoWebsite/index.html#opening-the-template-in-rstudio",
-    "title": "Create Your Website with Quarto: Complete Tutorial and Template",
+    "title": "Build your own Quarto website",
     "section": "2.3 Opening the template in RStudio",
     "text": "2.3 Opening the template in RStudio\nopen the &lt;github username&gt;_github.io.Rproj file in RStudio.\nYou should see a new Build tab in the upper-right panel of RStudio with a button Render Website:\n!If you open the template project, Rstudio should show a Build tab containing a Render Website button\nIf you do not see that tab and button, please use the most powerful debugging tool known to mankind: Restart RStudio."
   },
   {
     "objectID": "posts/2024-08-12-QuartoWebsite/index.html#global-configuration",
     "href": "posts/2024-08-12-QuartoWebsite/index.html#global-configuration",
-    "title": "Create Your Website with Quarto: Complete Tutorial and Template",
+    "title": "Build your own Quarto website",
     "section": "2.4 Global configuration",
     "text": "2.4 Global configuration\nOpen the file _quarto.yml in the root directory. This is where you control the settings of your website. The YAML format is a compromise between a machine-readable and a human-readable file. The good news is: You don’t have to write new YAML blocks; you just have to enter some info in the appropriate places. Let’s go through the _quarto.yml file step by step.\n\n2.4.1 Author info\nIt’s time to tell the readers about yourself. Fill in your details, such as your name (title field), a brief description, and a global image of yourself.\n\n\n2.4.2 Navigation\nThe navigation in the template is split in two parts. The left side contains icons for your social links, such as Twitter, GitHub, or email.\nThe right side links to other pages of your website. Each navigation entry consists of a title (text), followed by a link (href). Take a look at the example entries and continue the pattern as you see fit.\n\n\n2.4.3 Advanced settings\nThe rest of the _quarto.yml file just controls that we will indeed create a website, our preview tab doesn’t change all the time, and we can publish our website without complications. Don’t mess with this part unless you know what you are doing. If you do know what you are doing: Move fast and break things 😉\n\n\n2.4.4 More config tweaks\nThis blog post covers the fundamentals to set you up with a working website. Are you hungry for more and want to pull an all-nighter because creating a website can be super addictive? The official Quarto Documentation contains a bunch of other settings you can tweak via the _quarto.yml configuration. Happy hacking. Please submit a PR or raise an issue if you find something interesting that we all should know about."
   },
   {
     "objectID": "posts/2024-08-12-QuartoWebsite/index.html#the-landing-page",
     "href": "posts/2024-08-12-QuartoWebsite/index.html#the-landing-page",
-    "title": "Create Your Website with Quarto: Complete Tutorial and Template",
+    "title": "Build your own Quarto website",
     "section": "2.5 The landing page",
     "text": "2.5 The landing page\nIn the root directory of the template folder, you find the file index.qmd. This is the landing page of your website. This is the first impression that visitors have from your website. It is a great opportunity to tell them a bit about yourself and spark their interest.\nIn this template, we are not designing a full landing page from scratch. Instead, we use one of the great template designs that are shipped with Quarto. Template inception.\nOpen the /index.qmd file and inspect the header, that is, the part at the top of the source code which is enclosed in --- delimiters:\n\n\n/index.qmd\n\n---\nabout:\n  template: jolla\n  id: about-block\n  image: img/my_image.png\n  links:\n    - icon: twitter\n      text: Twitter\n      href: https://twitter.com/WhoUsesTwitterAnymore\n    - icon: github\n      text: Github\n      href: https://github.com/MathMarEcol\n    - icon: linkedin\n      text: LinkedIn\n      href: https://www.linkedin.com/in/WeDontHaveAnAccount\n    - icon: envelope\n      text: Email\n      href: \"mailto:a.richardson1@uq.edu.au\"\n---\n\nAll following fields are nested in the about field, which is our way of telling Quarto that all the subsequent information should be associated with our “About” section. The template is called jolla, and you can find other options here. The id field assigns a name to the “About” section such that you can insert it anywhere in your page. As the name might suggest, the image field contains the path of an image to display on your landing page. Finally, the links field contains a bunch of social links. Each social entry consists of three fields:\n\nicon: identifier of an icon, such as twitter or envelope. You can take a look at the Standard Bootstrap5 Icons for more icon names.\ntext: description of the entry, usually for accessibility\nhref: link, make sure to add mailto: before an email address\n\nAs you can see in the /index.qmd file, the “About” block is inserted in the actual document via\n\n\n/index.qmd\n\n::: {#about-block}\n:::\n\nand you can add a nice introduction about yourself below the block."
   },
   {
     "objectID": "posts/2024-08-12-QuartoWebsite/index.html#changing-the-theme",
     "href": "posts/2024-08-12-QuartoWebsite/index.html#changing-the-theme",
-    "title": "Create Your Website with Quarto: Complete Tutorial and Template",
+    "title": "Build your own Quarto website",
     "section": "2.6 Changing the theme",
     "text": "2.6 Changing the theme\nQuarto includes 25 themes from the Bootswatch project. You can easily update them in the _quarto.yml to any of the Bootswatch Themes"
   },
   {
     "objectID": "posts/2024-08-12-QuartoWebsite/index.html#customizing-the-colors",
     "href": "posts/2024-08-12-QuartoWebsite/index.html#customizing-the-colors",
-    "title": "Create Your Website with Quarto: Complete Tutorial and Template",
+    "title": "Build your own Quarto website",
     "section": "2.7 Customizing the colors",
     "text": "2.7 Customizing the colors\nI have prepared a style file at html/styles.scss, which contains the core configuration from the fabulous website of Andrew Heiss. This section defines the colors of the website which are used throughout many pages.\n\n\nhtml/styles.scss\n\n$primary:   $teal!default;\n$secondary: $gray-700 !default;\n$success:   $green !default;\n$info:      $cyan !default;\n$warning:   $orange !default;\n$danger:    $red !default;\n$light:     $gray-400 !default;\n$dark:      $black !default;\n\nThe most important field is arguably $primary. If you want your website to look mainly green, just change that line to $primary: $green!default;. Note that $teal and $green are SCSS variables, which are defined further up in the file. If you want to fine-tune your color palette, you can change these HEX codes."
   },
   {
     "objectID": "posts/2024-08-12-QuartoWebsite/index.html#adding-new-pages",
     "href": "posts/2024-08-12-QuartoWebsite/index.html#adding-new-pages",
-    "title": "Create Your Website with Quarto: Complete Tutorial and Template",
+    "title": "Build your own Quarto website",
     "section": "2.8 Adding new pages",
     "text": "2.8 Adding new pages\nIf you want to add a new page with the name mypage to your website, create a folder mypage/ and add a file index.qmd in that folder. This has one subtle advantage over creating mypage.qmd in the base directory. If you created /mypage.qmd, the URL would be www.yourname.com/mypage.html. That exposed .html in the URL looks very 2010. Instead, you should go with /mypage/index.qmd and get the modern-looking URL www.yourname.com/mypage.\n!Avoid .html in your URL by using a subfolder with index.html.\nOnce you have created your brand-new index.qmd, just copy the code skeleton of any other index.qmd from the template and start adding your content. If you wish to, add the newly created page to the navigation (see Section 2.4.2). That’s it, you have successfully extended your website 🚀"
   },
   {
     "objectID": "posts/2024-08-12-QuartoWebsite/index.html#preparing-your-website-for-github-pages",
     "href": "posts/2024-08-12-QuartoWebsite/index.html#preparing-your-website-for-github-pages",
-    "title": "Create Your Website with Quarto: Complete Tutorial and Template",
+    "title": "Build your own Quarto website",
     "section": "3.1 Preparing your website for GitHub pages",
     "text": "3.1 Preparing your website for GitHub pages\nThe template already contains all necessary settings for GitHub pages, so you don’t have to do anything in this section. However, it’s always good to have a superficial understanding of how things work, and it’s fairly straightforward in this case. We use the simplest form of GitHub pages: We build the entire website locally (i.e., in RStudio) and output the built page into the docs/ folder. This is configured in the output-dir field of the almighty _quarto.yml:\n\n\n_quarto.yml\n\nproject:\n  type: website\n  output-dir: docs\n\nWe commit the &lt;github username&gt;.github.io to Github, which includes the docs/ folder, and GitHub pages simply uses that folder to serve our website. This has one important consequence: If we make any change to our website, we have to Render the website again in RStudio. That’s how the updates make it to the docs/ folder! Only changing the .qmd file is not enough because GitHub does not render our site directly from the .qmd source.\nNote to advanced readers: You can set up a GitHub action to let GitHub build the website directly from the source files. But that deserves its own tutorial since some bugs persist which make things awkward (as of February 2023). If you would like to see automatic deployment covered in a future blog post, please let me know!\nThe second change to our website files is to include an empty file with the name .nojekyll (already included in the template). Usually, GitHub pages does some post-processing on your website files with Jekyll. Since Quarto handles all the processing we need, we want to deactivate Jekyll’s post-processing. Adding a .nojekyll file to your website root directory does exactly that: It bypasses post-processing via Jekyll."
   },
   {
     "objectID": "posts/2024-08-12-QuartoWebsite/index.html#deployment",
     "href": "posts/2024-08-12-QuartoWebsite/index.html#deployment",
-    "title": "Create Your Website with Quarto: Complete Tutorial and Template",
+    "title": "Build your own Quarto website",
     "section": "3.2 Deployment 🥳",
     "text": "3.2 Deployment 🥳\nWe are almost there!\nYou will now create a new repository with the name &lt;github username&gt;.github.io, where &lt;github username&gt; is the exact name of your GitHub account. It is important that you follow this pattern, because &lt;github username&gt;.github.io is the only repository that will be hosted directly to the URL &lt;github username&gt;.github.io.\nOn the GitHub repository, go to Settings and click on GitHub Pages. Make sure that GitHub pages will deploy from a branch (1), the branch is set to main or master (2), and GitHub Pages is served from the docs/ folder (3):\n!GitHub pages deploys from a branch (1), the branch is set to main or master (2), and it serves from the docs/ folder\nGo back to the repository and you’ll see a brown dot indicating that a build is in progress. This can take a couple of minutes. Once the deploy is done, the indicator dot will turn green. That’s it. Congratulations, your website is now live at &lt;github username&gt;.github.io! 🎈🥂🥳"
   },
   {
     "objectID": "posts/2024-08-12-QuartoWebsite/index.html#general-web-development-tips",
     "href": "posts/2024-08-12-QuartoWebsite/index.html#general-web-development-tips",
-    "title": "Create Your Website with Quarto: Complete Tutorial and Template",
+    "title": "Build your own Quarto website",
     "section": "5.1 General web development tips",
     "text": "5.1 General web development tips\nHere are some general web development tips, ranging from file management and DNS over to HTML, CSS, and JavaScript.\n\n5.1.1 Relative links\nSuppose you are editing the file projects/index.qmd and want to add a link to the page &lt;github username&gt;.github.io/photography. You can of course link to the full URL &lt;github username&gt;.github.io/photography, but that link will break if you change your domain name to www.&lt;name&gt;.com. Instead, you can use relative links. You only need to know that ../ takes you one layer back on the folder tree.\nExample: Starting from projects/index.qmd, you can use ../photography/index.qmd to walk back one layer into the root folder of your website, and then move into the folder photography/, where index.qmd of photography lives. This relative path is valid no matter what domain you use. It only breaks if you decide to remodel the entire structure of your website. But in this case, I assume you know what you are doing and you’re well off on your own 😉\n\n\n5.1.2 CSS flavors\nQuarto supports some cool CSS variants, such as SCSS. In SCSS, you can add variables such as $orange to define your favorite color once and use it in many different places. This deserves a separate blog post, though.\n\n\n5.1.3 Include Order\nIf you mix HTML with CSS and JavaScript, make sure to include the files in the correct order. If your JavaScript manipulates existing HTML objects through the DOM, make sure to include the JavaScript file after the HTML body. If you include the JavaScript before the HTML body, JavaScript will not know that the HTML objects exist, and you will have a bad time. Been there, spent well over 2 hours debugging. 0/10, cannot recommend.\n\n\n5.1.4 Add favicon"
   },
   {
     "objectID": "posts/2024-08-12-QuartoWebsite/index.html#quarto-specific-tips",
     "href": "posts/2024-08-12-QuartoWebsite/index.html#quarto-specific-tips",
-    "title": "Create Your Website with Quarto: Complete Tutorial and Template",
+    "title": "Build your own Quarto website",
     "section": "5.2 Quarto specific tips",
     "text": "5.2 Quarto specific tips\nHere are some tips that are specific to Quarto, Markdown, or RMarkdown.\n\n5.2.1 Adding a table of contents\nThanks to Quarto, it’s super easy to add a table of contents. Just add the following lines to the header of your .qmd file, without any indentation:\n\n\nindex.qmd\n\ntoc: true\ntoc-title: Contents\ntoc-location: left"
   },
@@ -151,21 +151,21 @@
     "href": "people/index.html",
     "title": "People",
     "section": "",
-    "text": "The Principal Investigator, Professor Anthony J. Richardson, is a 2018 highly cited researcher in Ecology. He has a joint research position between the School of Mathematics and Physics at the University of Queensland and CSIRO Oceans and Atmosphere, Australia’s national science provider.\nAnthony runs a dynamic lab at the nexus between mathematics/statistics/computation and marine ecology. His focus is on using mathematical tools to better conserve biodiversity, predict impacts of climate change, and understand the functioning of marine ecosystems. There is a collegial atmosphere in the lab and a critical mass of researchers working on similar problems.\nIf you have a background in mathematics/statistics and want to apply your skills to real-world problems, of if you have a background in ecology and are interested in developing your quantitative skills, then this could be the lab for you. If you are interested in joining the Mathematical Marine Ecology Lab, then feel free to contact Anthony directly."
+    "text": "The Principal Investigator, Professor Anthony J. Richardson, is a 2018 highly cited researcher in Ecology. He has a joint research position between the School of Mathematics and Physics at the University of Queensland and CSIRO Environment, Australia’s national science provider.\nAnthony runs a dynamic lab at the nexus between mathematics/statistics/computation and marine ecology. His focus is on using mathematical tools to better conserve biodiversity, predict impacts of climate change, and understand the functioning of marine ecosystems. There is a collegial atmosphere in the lab and a critical mass of researchers working on similar problems.\nIf you have a background in mathematics/statistics and want to apply your skills to real-world problems, of if you have a background in ecology and are interested in developing your quantitative skills, then this could be the lab for you. If you are interested in joining the Mathematical Marine Ecology Lab, then feel free to contact Anthony directly."
   },
   {
     "objectID": "people/index.html#lead-investigator",
     "href": "people/index.html#lead-investigator",
     "title": "People",
     "section": "",
-    "text": "The Principal Investigator, Professor Anthony J. Richardson, is a 2018 highly cited researcher in Ecology. He has a joint research position between the School of Mathematics and Physics at the University of Queensland and CSIRO Oceans and Atmosphere, Australia’s national science provider.\nAnthony runs a dynamic lab at the nexus between mathematics/statistics/computation and marine ecology. His focus is on using mathematical tools to better conserve biodiversity, predict impacts of climate change, and understand the functioning of marine ecosystems. There is a collegial atmosphere in the lab and a critical mass of researchers working on similar problems.\nIf you have a background in mathematics/statistics and want to apply your skills to real-world problems, of if you have a background in ecology and are interested in developing your quantitative skills, then this could be the lab for you. If you are interested in joining the Mathematical Marine Ecology Lab, then feel free to contact Anthony directly."
+    "text": "The Principal Investigator, Professor Anthony J. Richardson, is a 2018 highly cited researcher in Ecology. He has a joint research position between the School of Mathematics and Physics at the University of Queensland and CSIRO Environment, Australia’s national science provider.\nAnthony runs a dynamic lab at the nexus between mathematics/statistics/computation and marine ecology. His focus is on using mathematical tools to better conserve biodiversity, predict impacts of climate change, and understand the functioning of marine ecosystems. There is a collegial atmosphere in the lab and a critical mass of researchers working on similar problems.\nIf you have a background in mathematics/statistics and want to apply your skills to real-world problems, of if you have a background in ecology and are interested in developing your quantitative skills, then this could be the lab for you. If you are interested in joining the Mathematical Marine Ecology Lab, then feel free to contact Anthony directly."
   },
   {
     "objectID": "people/index.html#senior-research-fellows",
     "href": "people/index.html#senior-research-fellows",
     "title": "People",
     "section": "Senior Research Fellows",
-    "text": "Senior Research Fellows\n\nDr Jason Everett\n\nI am a biological oceanographer, with an interest in how oceanographic processes structure planktonic ecosystems.\nMy research has focused on how flow regimes, boundary currents, eddies and upwelling events drive changes in the biomass, species distribution and size structure of zooplankton communities. In addition, I have extensive experience working with satellite data and numerical model output.\nMy current research focus is to quantify how the size, abundance and biomass of zooplankton and fish change across local, regional and global scales. By quantifying the size-based ecosystem through modelling and observations, we can better understand processes such as metabolism, predation or movement, which constrain the role of an individual in its food web. In particular, the biomass and size distribution of zooplankton is poorly understood relative to phytoplankton and fish in our oceans, yet it is critical to understanding the efficiency of energy transfer through to fisheries."
+    "text": "Senior Research Fellows\n\nDr Jason Everett\n\n\n\n\nI am a biological oceanographer, with an interest in how oceanographic processes structure planktonic ecosystems.\nMy research has focused on how flow regimes, boundary currents, eddies and upwelling events drive changes in the biomass, species distribution and size structure of zooplankton communities. In addition, I have extensive experience working with satellite data and numerical model output.\nMy current research focus is to quantify how the size, abundance and biomass of zooplankton and fish change across local, regional and global scales. By quantifying the size-based ecosystem through modelling and observations, we can better understand processes such as metabolism, predation or movement, which constrain the role of an individual in its food web. In particular, the biomass and size distribution of zooplankton is poorly understood relative to phytoplankton and fish in our oceans, yet it is critical to understanding the efficiency of energy transfer through to fisheries."
   },
   {
     "objectID": "people/index.html#phd-students",
@@ -180,5 +180,166 @@
     "title": "People",
     "section": "Masters Students",
     "text": "Masters Students"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "Dynamic ecosystem models are needed to help guide management of marine biodiversity and fisheries now and into the future under climate change. We use a range of modelling approaches based on systems of partial differential equations. Much of our current work is on size spectrum models. These models describe life in the ocean from bacteria to whales by parameterising key biological processes such as feeding, growth and predation based on an organism’s body size.\nOur focus is on improving the zooplankton – the intermediate trophic level that regulates energy transfer between phytoplankton (primary producers) and fish. Historically, zooplankton have been ignored or modelled as only one or two groups in almost all ecosystem models. Our work on better-resolving zooplankton in ecosystem models uses state-of-the-art size spectrum models such as ZooMSS (Zooplankton Model of Size Spectra) run on super-computers. This research will lead to improved future estimates of fish biomass and carbon sequestration under climate change."
+  },
+  {
+    "objectID": "research/index.html#dynamic-ecosystem-modelling",
+    "href": "research/index.html#dynamic-ecosystem-modelling",
+    "title": "Research",
+    "section": "",
+    "text": "Dynamic ecosystem models are needed to help guide management of marine biodiversity and fisheries now and into the future under climate change. We use a range of modelling approaches based on systems of partial differential equations. Much of our current work is on size spectrum models. These models describe life in the ocean from bacteria to whales by parameterising key biological processes such as feeding, growth and predation based on an organism’s body size.\nOur focus is on improving the zooplankton – the intermediate trophic level that regulates energy transfer between phytoplankton (primary producers) and fish. Historically, zooplankton have been ignored or modelled as only one or two groups in almost all ecosystem models. Our work on better-resolving zooplankton in ecosystem models uses state-of-the-art size spectrum models such as ZooMSS (Zooplankton Model of Size Spectra) run on super-computers. This research will lead to improved future estimates of fish biomass and carbon sequestration under climate change."
+  },
+  {
+    "objectID": "research/index.html#conservation-and-protected-areas",
+    "href": "research/index.html#conservation-and-protected-areas",
+    "title": "Research",
+    "section": "Conservation and protected areas",
+    "text": "Conservation and protected areas\n\nHuman threats – including fishing, climate change, habitat destruction, pollution, and invasive species – are leading to declining abundance of many marine species. To mitigate impacts of these threats on biodiversity, marine protected areas – national parks in the ocean – are being created. As there is a global push to increase the marine protected area network coverage from 8% to potentially 20% or even 30% in the next decade, developing the science to underpin where to place these reserves is critical and timely.\nA current focus of our research is thus how to design robust climate-smart marine protected areas that conserve biodiversity, protect against climate change, retain biodiversity as the climate warms, ensure connectivity, minimise conflict with fishing, whilst considering the 3-D nature of the ocean. This is a tough task! It requires extensive computational expertise and infrastructure. Our work involves mapping global biodiversity and developing new approaches to the design of climate-smart marine protected area networks using state-of-the-art statistical and computational approaches on super-computers."
+  },
+  {
+    "objectID": "research/index.html#ecosystem-change",
+    "href": "research/index.html#ecosystem-change",
+    "title": "Research",
+    "section": "Ecosystem Change",
+    "text": "Ecosystem Change\n\nTo manage our oceans – and our impacts upon them – we need robust indicators of the state of marine ecosystems over time. This requires long-term ocean observing problems. In partnership with the Integrated Marine Observing System (IMOS) and CSIRO (Australia’s national science provider), we are collecting and analysing data around Australia on plankton – the lower trophic levels in the ocean that ultimately support fish, marine mammals, marine reptiles and seabirds. We use modern, flexible, robust statistical techniques such as generalised linear and additive mixed models and multivariate approaches to analyse these datasets and make data products such as maps and ecosystem indicators. These indicators of ecosystem change inform marine assessments of the state and trends of the ocean ecosystems.\nTo find out more about our plankton monitoring work see:\nAustralian Plankton Survey website.\nThe Plankton Factsheet.\nThe State and Trends of Australia’s Oceans Report.\nThe IMOS Image gallery."
+  },
+  {
+    "objectID": "research/index.html#marine-megafauna",
+    "href": "research/index.html#marine-megafauna",
+    "title": "Research",
+    "section": "Marine Megafauna",
+    "text": "Marine Megafauna\n\nWhale sharks (endangered) and manta rays (vulnerable) are threatened marine megafauna that feed on zooplankton. As part of Project Manta, our work involves a mix of field work, lab work, and the use of robust statistical approaches. Our focus has been on understanding the feeding, movement, social behaviour and generating population estimates and population trends of whale sharks and manta rays in Australia and beyond. Our work has helped to provide management recommendations for manta ray populations in the region."
+  },
+  {
+    "objectID": "future/index.html",
+    "href": "future/index.html",
+    "title": "Available Projects",
+    "section": "",
+    "text": "Understanding the role of zooplankton is arguably the biggest gap in our knowledge of the ocean carbon cycle. Zooplankton constitute 40% of total marine biomass, feed on different sizes of plankton, vary by an order of magnitude in their carbon content, and have diverse roles in carbon transport across the world’s oceans. Yet these features are poorly resolved in current ecosystem models.\nYou would develop new ways of modelling zooplankton in an innovative ecosystem model – the Zooplankton Model of Size Spectra (ZooMSS). You will use the model to explore present and future impacts of climate change on the global ocean’s capacity to sequester carbon and support fisheries. You would be working with a team of modellers, zooplankton ecologists, and climate change scientists.\nThis position is funded through the Australian Research Council Discovery Project Zooplankton: the missing link in modelling the ocean carbon cycle.\nThe scholarship includes: living stipend of $35,000 per annum tax free (2024 rate; indexed annually) and your tuition fees are covered.\nThis scholarship is available for Australian (or New Zealand) citizens and Australian permanent residents.\nYou will have demonstrated skills in modelling, coding experience (in any programming language), and strong written and communication skills. You do not need experience in marine ecology (although it is preferred), but you must have a keen interest to learn.\nMore information and how to apply for this position is available here"
+  },
+  {
+    "objectID": "future/index.html#modelling-zoolankton-and-fisheries-to-understand-the-global-carbon-cycles",
+    "href": "future/index.html#modelling-zoolankton-and-fisheries-to-understand-the-global-carbon-cycles",
+    "title": "Available Projects",
+    "section": "",
+    "text": "Understanding the role of zooplankton is arguably the biggest gap in our knowledge of the ocean carbon cycle. Zooplankton constitute 40% of total marine biomass, feed on different sizes of plankton, vary by an order of magnitude in their carbon content, and have diverse roles in carbon transport across the world’s oceans. Yet these features are poorly resolved in current ecosystem models.\nYou would develop new ways of modelling zooplankton in an innovative ecosystem model – the Zooplankton Model of Size Spectra (ZooMSS). You will use the model to explore present and future impacts of climate change on the global ocean’s capacity to sequester carbon and support fisheries. You would be working with a team of modellers, zooplankton ecologists, and climate change scientists.\nThis position is funded through the Australian Research Council Discovery Project Zooplankton: the missing link in modelling the ocean carbon cycle.\nThe scholarship includes: living stipend of $35,000 per annum tax free (2024 rate; indexed annually) and your tuition fees are covered.\nThis scholarship is available for Australian (or New Zealand) citizens and Australian permanent residents.\nYou will have demonstrated skills in modelling, coding experience (in any programming language), and strong written and communication skills. You do not need experience in marine ecology (although it is preferred), but you must have a keen interest to learn.\nMore information and how to apply for this position is available here"
+  },
+  {
+    "objectID": "people/index.html#biological-ocean-observer",
+    "href": "people/index.html#biological-ocean-observer",
+    "title": "People",
+    "section": "Biological Ocean Observer",
+    "text": "Biological Ocean Observer"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Our Blog",
+    "section": "",
+    "text": "Build your own Quarto website\n\n\n\n\n\n\nwebsite\n\n\nacademia\n\n\nquarto\n\n\n\nThis tutorial and template will help you build your own personal or academic website with Quarto.\n\n\n\n\n\nAug 12, 2024\n\n\nJason Everett\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/2024-08-12-QuartoWebsite/index.html",
+    "href": "blog/2024-08-12-QuartoWebsite/index.html",
+    "title": "Build your own Quarto website",
+    "section": "",
+    "text": "As an academic researcher, scientist, or basically anyone working with a computer, it’s essential to have an online presence. With the rise of the internet, having a personal website has become more critical than ever. A personal website serves as a platform to showcase your research work, achievements, and credentials to a global audience. It’s a professional tool that helps you stand out in a crowded digital world and reach a wider audience. In this tutorial, we will be exploring the steps involved in creating a personal website that accurately reflects your identity. From choosing the right tools all the way to publishing your website on the internet, this post will cover everything you need to know to create a successful and effective personal website. Whether you’re a seasoned researcher or just starting out, this guide is designed to help you achieve your online goals and reach a new level of discoverability.\nThe internet is full of tools to build a website, and their sheer amount can be overwhelming. WordPress is a great no-code tool, but its visual editor has driven me nuts when I used it in the past to do client work as a freelance web designer. I personally prefer code-based tools because they give me full control and reproducibility. But even within the realm of code-based web design, there are more tools than a single person could ever try out. In this blog post, we will talk about how to set up your personal website with Quarto."
+  },
+  {
+    "objectID": "blog/2024-08-12-QuartoWebsite/index.html#the-template",
+    "href": "blog/2024-08-12-QuartoWebsite/index.html#the-template",
+    "title": "Build your own Quarto website",
+    "section": "2.1 The template",
+    "text": "2.1 The template\nHere we provide a template for you to start creating your own personal website. You can take the template, fill in your information, and leave it as-is. Alternatively, if you find that crafting your own website sparks joy for you, and you want to further delve into the nuts and bolts, you can simply take this template as a basis and extend your website from there.\nThe first step is to download the website template.zip archive with the template here."
+  },
+  {
+    "objectID": "blog/2024-08-12-QuartoWebsite/index.html#renaming-the-template-files",
+    "href": "blog/2024-08-12-QuartoWebsite/index.html#renaming-the-template-files",
+    "title": "Build your own Quarto website",
+    "section": "2.2 Renaming the template files",
+    "text": "2.2 Renaming the template files\nFirst unpack the downloaded archive and move the quarto-website-template folder to where you store all your GitHub repositories. I usually suggest this is ~/GitHub/.\nNext rename the folder to &lt;github username&gt;.github.io (This is what your website location will be online. For our lab it is MathMarEcol.github.io).\nFor completeness, I suggest renaming the .proj file to the same as the folder."
+  },
+  {
+    "objectID": "blog/2024-08-12-QuartoWebsite/index.html#opening-the-template-in-rstudio",
+    "href": "blog/2024-08-12-QuartoWebsite/index.html#opening-the-template-in-rstudio",
+    "title": "Build your own Quarto website",
+    "section": "2.3 Opening the template in RStudio",
+    "text": "2.3 Opening the template in RStudio\nopen the &lt;github username&gt;_github.io.Rproj file in RStudio.\nYou should see a new Build tab in the upper-right panel of RStudio with a button Render Website:\n!If you open the template project, Rstudio should show a Build tab containing a Render Website button\nIf you do not see that tab and button, please use the most powerful debugging tool known to mankind: Restart RStudio."
+  },
+  {
+    "objectID": "blog/2024-08-12-QuartoWebsite/index.html#global-configuration",
+    "href": "blog/2024-08-12-QuartoWebsite/index.html#global-configuration",
+    "title": "Build your own Quarto website",
+    "section": "2.4 Global configuration",
+    "text": "2.4 Global configuration\nOpen the file _quarto.yml in the root directory. This is where you control the settings of your website. The YAML format is a compromise between a machine-readable and a human-readable file. The good news is: You don’t have to write new YAML blocks; you just have to enter some info in the appropriate places. Let’s go through the _quarto.yml file step by step.\n\n2.4.1 Author info\nIt’s time to tell the readers about yourself. Fill in your details, such as your name (title field), a brief description, and a global image of yourself.\n\n\n2.4.2 Navigation\nThe navigation in the template is split in two parts. The left side contains icons for your social links, such as Twitter, GitHub, or email.\nThe right side links to other pages of your website. Each navigation entry consists of a title (text), followed by a link (href). Take a look at the example entries and continue the pattern as you see fit.\n\n\n2.4.3 Advanced settings\nThe rest of the _quarto.yml file just controls that we will indeed create a website, our preview tab doesn’t change all the time, and we can publish our website without complications. Don’t mess with this part unless you know what you are doing. If you do know what you are doing: Move fast and break things 😉\n\n\n2.4.4 More config tweaks\nThis blog post covers the fundamentals to set you up with a working website. Are you hungry for more and want to pull an all-nighter because creating a website can be super addictive? The official Quarto Documentation contains a bunch of other settings you can tweak via the _quarto.yml configuration. Happy hacking. Please submit a PR or raise an issue if you find something interesting that we all should know about."
+  },
+  {
+    "objectID": "blog/2024-08-12-QuartoWebsite/index.html#the-landing-page",
+    "href": "blog/2024-08-12-QuartoWebsite/index.html#the-landing-page",
+    "title": "Build your own Quarto website",
+    "section": "2.5 The landing page",
+    "text": "2.5 The landing page\nIn the root directory of the template folder, you find the file index.qmd. This is the landing page of your website. This is the first impression that visitors have from your website. It is a great opportunity to tell them a bit about yourself and spark their interest.\nIn this template, we are not designing a full landing page from scratch. Instead, we use one of the great template designs that are shipped with Quarto. Template inception.\nOpen the /index.qmd file and inspect the header, that is, the part at the top of the source code which is enclosed in --- delimiters:\n\n\n/index.qmd\n\n---\nabout:\n  template: jolla\n  id: about-block\n  image: img/my_image.png\n  links:\n    - icon: twitter\n      text: Twitter\n      href: https://twitter.com/WhoUsesTwitterAnymore\n    - icon: github\n      text: Github\n      href: https://github.com/MathMarEcol\n    - icon: linkedin\n      text: LinkedIn\n      href: https://www.linkedin.com/in/WeDontHaveAnAccount\n    - icon: envelope\n      text: Email\n      href: \"mailto:a.richardson1@uq.edu.au\"\n---\n\nAll following fields are nested in the about field, which is our way of telling Quarto that all the subsequent information should be associated with our “About” section. The template is called jolla, and you can find other options here. The id field assigns a name to the “About” section such that you can insert it anywhere in your page. As the name might suggest, the image field contains the path of an image to display on your landing page. Finally, the links field contains a bunch of social links. Each social entry consists of three fields:\n\nicon: identifier of an icon, such as twitter or envelope. You can take a look at the Standard Bootstrap5 Icons for more icon names.\ntext: description of the entry, usually for accessibility\nhref: link, make sure to add mailto: before an email address\n\nAs you can see in the /index.qmd file, the “About” block is inserted in the actual document via\n\n\n/index.qmd\n\n::: {#about-block}\n:::\n\nand you can add a nice introduction about yourself below the block."
+  },
+  {
+    "objectID": "blog/2024-08-12-QuartoWebsite/index.html#changing-the-theme",
+    "href": "blog/2024-08-12-QuartoWebsite/index.html#changing-the-theme",
+    "title": "Build your own Quarto website",
+    "section": "2.6 Changing the theme",
+    "text": "2.6 Changing the theme\nQuarto includes 25 themes from the Bootswatch project. You can easily update them in the _quarto.yml to any of the Bootswatch Themes"
+  },
+  {
+    "objectID": "blog/2024-08-12-QuartoWebsite/index.html#customizing-the-colors",
+    "href": "blog/2024-08-12-QuartoWebsite/index.html#customizing-the-colors",
+    "title": "Build your own Quarto website",
+    "section": "2.7 Customizing the colors",
+    "text": "2.7 Customizing the colors\nI have prepared a style file at html/styles.scss, which contains the core configuration from the fabulous website of Andrew Heiss. This section defines the colors of the website which are used throughout many pages.\n\n\nhtml/styles.scss\n\n$primary:   $teal!default;\n$secondary: $gray-700 !default;\n$success:   $green !default;\n$info:      $cyan !default;\n$warning:   $orange !default;\n$danger:    $red !default;\n$light:     $gray-400 !default;\n$dark:      $black !default;\n\nThe most important field is arguably $primary. If you want your website to look mainly green, just change that line to $primary: $green!default;. Note that $teal and $green are SCSS variables, which are defined further up in the file. If you want to fine-tune your color palette, you can change these HEX codes."
+  },
+  {
+    "objectID": "blog/2024-08-12-QuartoWebsite/index.html#adding-new-pages",
+    "href": "blog/2024-08-12-QuartoWebsite/index.html#adding-new-pages",
+    "title": "Build your own Quarto website",
+    "section": "2.8 Adding new pages",
+    "text": "2.8 Adding new pages\nIf you want to add a new page with the name mypage to your website, create a folder mypage/ and add a file index.qmd in that folder. This has one subtle advantage over creating mypage.qmd in the base directory. If you created /mypage.qmd, the URL would be www.yourname.com/mypage.html. That exposed .html in the URL looks very 2010. Instead, you should go with /mypage/index.qmd and get the modern-looking URL www.yourname.com/mypage.\n!Avoid .html in your URL by using a subfolder with index.html.\nOnce you have created your brand-new index.qmd, just copy the code skeleton of any other index.qmd from the template and start adding your content. If you wish to, add the newly created page to the navigation (see Section 2.4.2). That’s it, you have successfully extended your website 🚀"
+  },
+  {
+    "objectID": "blog/2024-08-12-QuartoWebsite/index.html#preparing-your-website-for-github-pages",
+    "href": "blog/2024-08-12-QuartoWebsite/index.html#preparing-your-website-for-github-pages",
+    "title": "Build your own Quarto website",
+    "section": "3.1 Preparing your website for GitHub pages",
+    "text": "3.1 Preparing your website for GitHub pages\nThe template already contains all necessary settings for GitHub pages, so you don’t have to do anything in this section. However, it’s always good to have a superficial understanding of how things work, and it’s fairly straightforward in this case. We use the simplest form of GitHub pages: We build the entire website locally (i.e., in RStudio) and output the built page into the docs/ folder. This is configured in the output-dir field of the almighty _quarto.yml:\n\n\n_quarto.yml\n\nproject:\n  type: website\n  output-dir: docs\n\nWe commit the &lt;github username&gt;.github.io to Github, which includes the docs/ folder, and GitHub pages simply uses that folder to serve our website. This has one important consequence: If we make any change to our website, we have to Render the website again in RStudio. That’s how the updates make it to the docs/ folder! Only changing the .qmd file is not enough because GitHub does not render our site directly from the .qmd source.\nNote to advanced readers: You can set up a GitHub action to let GitHub build the website directly from the source files. But that deserves its own tutorial since some bugs persist which make things awkward (as of February 2023). If you would like to see automatic deployment covered in a future blog post, please let me know!\nThe second change to our website files is to include an empty file with the name .nojekyll (already included in the template). Usually, GitHub pages does some post-processing on your website files with Jekyll. Since Quarto handles all the processing we need, we want to deactivate Jekyll’s post-processing. Adding a .nojekyll file to your website root directory does exactly that: It bypasses post-processing via Jekyll."
+  },
+  {
+    "objectID": "blog/2024-08-12-QuartoWebsite/index.html#deployment",
+    "href": "blog/2024-08-12-QuartoWebsite/index.html#deployment",
+    "title": "Build your own Quarto website",
+    "section": "3.2 Deployment 🥳",
+    "text": "3.2 Deployment 🥳\nWe are almost there!\nYou will now create a new repository with the name &lt;github username&gt;.github.io, where &lt;github username&gt; is the exact name of your GitHub account. It is important that you follow this pattern, because &lt;github username&gt;.github.io is the only repository that will be hosted directly to the URL &lt;github username&gt;.github.io.\nOn the GitHub repository, go to Settings and click on GitHub Pages. Make sure that GitHub pages will deploy from a branch (1), the branch is set to main or master (2), and GitHub Pages is served from the docs/ folder (3):\n!GitHub pages deploys from a branch (1), the branch is set to main or master (2), and it serves from the docs/ folder\nGo back to the repository and you’ll see a brown dot indicating that a build is in progress. This can take a couple of minutes. Once the deploy is done, the indicator dot will turn green. That’s it. Congratulations, your website is now live at &lt;github username&gt;.github.io! 🎈🥂🥳"
+  },
+  {
+    "objectID": "blog/2024-08-12-QuartoWebsite/index.html#general-web-development-tips",
+    "href": "blog/2024-08-12-QuartoWebsite/index.html#general-web-development-tips",
+    "title": "Build your own Quarto website",
+    "section": "5.1 General web development tips",
+    "text": "5.1 General web development tips\nHere are some general web development tips, ranging from file management and DNS over to HTML, CSS, and JavaScript.\n\n5.1.1 Relative links\nSuppose you are editing the file projects/index.qmd and want to add a link to the page &lt;github username&gt;.github.io/photography. You can of course link to the full URL &lt;github username&gt;.github.io/photography, but that link will break if you change your domain name to www.&lt;name&gt;.com. Instead, you can use relative links. You only need to know that ../ takes you one layer back on the folder tree.\nExample: Starting from projects/index.qmd, you can use ../photography/index.qmd to walk back one layer into the root folder of your website, and then move into the folder photography/, where index.qmd of photography lives. This relative path is valid no matter what domain you use. It only breaks if you decide to remodel the entire structure of your website. But in this case, I assume you know what you are doing and you’re well off on your own 😉\n\n\n5.1.2 CSS flavors\nQuarto supports some cool CSS variants, such as SCSS. In SCSS, you can add variables such as $orange to define your favorite color once and use it in many different places. This deserves a separate blog post, though.\n\n\n5.1.3 Include Order\nIf you mix HTML with CSS and JavaScript, make sure to include the files in the correct order. If your JavaScript manipulates existing HTML objects through the DOM, make sure to include the JavaScript file after the HTML body. If you include the JavaScript before the HTML body, JavaScript will not know that the HTML objects exist, and you will have a bad time. Been there, spent well over 2 hours debugging. 0/10, cannot recommend.\n\n\n5.1.4 Add favicon"
+  },
+  {
+    "objectID": "blog/2024-08-12-QuartoWebsite/index.html#quarto-specific-tips",
+    "href": "blog/2024-08-12-QuartoWebsite/index.html#quarto-specific-tips",
+    "title": "Build your own Quarto website",
+    "section": "5.2 Quarto specific tips",
+    "text": "5.2 Quarto specific tips\nHere are some tips that are specific to Quarto, Markdown, or RMarkdown.\n\n5.2.1 Adding a table of contents\nThanks to Quarto, it’s super easy to add a table of contents. Just add the following lines to the header of your .qmd file, without any indentation:\n\n\nindex.qmd\n\ntoc: true\ntoc-title: Contents\ntoc-location: left"
+  },
+  {
+    "objectID": "blog/2024-08-12-QuartoWebsite/index.html#huge-thanks",
+    "href": "blog/2024-08-12-QuartoWebsite/index.html#huge-thanks",
+    "title": "Build your own Quarto website",
+    "section": "5.3 Huge thanks!",
+    "text": "5.3 Huge thanks!\nThis tutorial was originally published by Marvin Schmitt on his blog.. We have adapted the content to suit our lab, but the building blocks of this tutorial are all his. Have a look at the other great articles that Marvin has on his blog."
   }
 ]
