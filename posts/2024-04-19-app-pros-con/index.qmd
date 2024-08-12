@@ -1,0 +1,24 @@
+---
+title: "Web apps in R - To package or not to package?"
+description: "Different approaches to developing web apps in R"
+author:
+  - name: Christina Buelow
+date: 2024-04-19
+categories: [quarto, R, web app, golem] # self-defined categories
+image: shiny.png
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+### Quarto 'quick and dirty' or {Golem} for longevity and complexity?
+
+As expected in an open-source programming language, the app-making landscape in **R** seems to be in constant flux. Something *newish* that I've been finding useful lately is using [Quarto's 'Dashboards with Shiny for R'](https://quarto.org/docs/dashboards/interactivity/shiny-r.html) feature.
+
+**Quarto** is very similar to Rmarkdown, but has a few additional features. One of them is the ability to embed R {shiny} apps. So you end up writing your app like you would a markdown doc - the context, ui, and server are all code chunks, and the text around those code chunks set's up the UI. For example, normally in markdown we use `#` to delineate and navigate headers; in Quarto Shiny Dashboards, `#` are used to delineate pages, tab panels, etc.
+
+I've found it's great for proto-typing simple apps - you can get something up and running very quickly in **Quarto's 'Dashboards with Shiny for R'**. However, I think it could get unwieldy when you start building complex apps with modules etc. In that case, developing your {shiny} app as an R package with [{golem}](https://github.com/ThinkR-open/golem?tab=readme-ov-file#golem-) might be a better option. {golem} provides a great framework for [engineering production grade shiny apps](https://engineering-shiny.org/) that are complex and can be easily maintained in the long-term.
+
+I ended up turning the prototype app I built in **Quarto's 'Dashboards with Shiny for R'** into an R package with {golem}. It took much longer than I expected, but much of that time was learning about R package development (which I had never done before) and {golem}.
+
+In the end I think it was worth the extra time and effort streamline as an R package. But if you want to compare for yourself, find the [protoype Quarto dashboard shiny here](https://github.com/cabuelow/oceans-dashboard?tab=readme-ov-file#oceans-mel-dashboard) and the {golem} [R package version here](https://github.com/cabuelow/OceansDash?tab=readme-ov-file#oceans-monitoring-evaluation--learning-dashboard).
+
+Curious to hear others' experiences though - please get in touch.

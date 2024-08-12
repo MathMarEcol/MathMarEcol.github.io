@@ -1,0 +1,71 @@
+# This file controls the settings for your Quarto template. Modified from www.marvinschmitt.com
+
+# website settings
+website:
+  title: "Mathematical Marine Ecology Laboratory"  # Your name
+  description: "The Mathematical Marine Ecology Lab uses mathematical, statistical and computational tools to investigate human impacts on our oceans - and to find solutions"   # A brief slogan (optional)
+  image: people/Anthony.png
+
+  favicon: img/favicon.png
+
+  # start of the navigation bar at the top of the website
+  navbar:
+    pinned: true
+    logo: /img/logo.png
+
+    # your sub-pages
+    left:
+      - text: "People"
+        href: people/index.qmd
+      - text: "Projects"
+        href: projects/index.qmd
+      - text: "Blog"
+        href: posts.qmd
+      - text: "Publications"
+        href: https://scholar.google.com.au
+        target: _blank
+
+    # your social media handles
+    right:
+      - icon: envelope
+        aria-label: email
+        href: "mailto:a.richardson1@uq.edu.au"
+      - icon: github
+        href: https://github.com/MathMarEcol
+
+
+
+# Don't touch unless you know what you are doing :) ------------
+  search:
+    location: navbar
+    type: textbox
+  page-footer:
+    left: |
+      <span class="faux-block">&#169; 2024 Mathematical Marine Ecology Laboratory, The University of Queensland</span>
+    right: |
+      <span class="faux-block"><a href="https://github.com/MathMarEcol/MathMarEcol.github.io">View source on GitHub</a></span>
+
+project:
+  type: website
+  output-dir: docs
+
+  preview:
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+execute:
+  freeze: false
+
+format:
+  html:
+    fontsize: 1.1em
+    theme:
+      - solar #
+      # - html/styles.scss
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true

@@ -1,0 +1,44 @@
+---
+title: Projects
+toc: true
+toc-title: Projects
+toc-location: left
+---
+
+## Dynamic ecosystem modelling
+
+<img src="EcosystemModels.png" style="width: 50%; object-fit: contain"/>
+
+Dynamic ecosystem models are needed to help guide management of marine biodiversity and fisheries now and into the future under climate change. We use a range of modelling approaches based on systems of partial differential equations. Much of our current work is on size spectrum models. These models describe life in the ocean from bacteria to whales by parameterising key biological processes such as feeding, growth and predation based on an organism’s body size.
+
+Our focus is on improving the zooplankton – the intermediate trophic level that regulates energy transfer between phytoplankton (primary producers) and fish. Historically, zooplankton have been ignored or modelled as only one or two groups in almost all ecosystem models. Our work on better-resolving zooplankton in ecosystem models uses state-of-the-art size spectrum models such as ZooMSS (Zooplankton Model of Size Spectra) run on super-computers. This research will lead to improved future estimates of fish biomass and carbon sequestration under climate change.
+
+----
+
+## Conservation and protected areas
+
+<img src="ProtectedAreas.png" style="width: 50%; object-fit: contain"/>
+
+Human threats – including fishing, climate change, habitat destruction, pollution, and invasive species – are leading to declining abundance of many marine species. To mitigate impacts of these threats on biodiversity, marine protected areas – national parks in the ocean – are being created. As there is a global push to increase the marine protected area network coverage from 8% to potentially 20% or even 30% in the next decade, developing the science to underpin where to place these reserves is critical and timely.
+
+A current focus of our research is thus how to design robust climate-smart marine protected areas that conserve biodiversity, protect against climate change, retain biodiversity as the climate warms, ensure connectivity, minimise conflict with fishing, whilst considering the 3-D nature of the ocean. This is a tough task! It requires extensive computational expertise and infrastructure. Our work involves mapping global biodiversity and developing new approaches to the design of climate-smart marine protected area networks using state-of-the-art statistical and computational approaches on super-computers.
+
+----
+
+## Ecosystem Change
+
+<img src="Plankton.jpeg" style="width: 50%; object-fit: contain"/>
+
+To manage our oceans – and our impacts upon them – we need robust indicators of the state of marine ecosystems over time. This requires long-term ocean observing problems. In partnership with the Integrated Marine Observing System (IMOS) and CSIRO (Australia’s national science provider), we are collecting and analysing data around Australia on plankton – the lower trophic levels in the ocean that ultimately support fish, marine mammals, marine reptiles and seabirds. We use modern, flexible, robust statistical techniques such as generalised linear and additive mixed models and multivariate approaches to analyse these datasets and make data products such as maps and ecosystem indicators. These indicators of ecosystem change inform marine assessments of the state and trends of the ocean ecosystems.
+
+To find out more about our plankton monitoring work see:    
+[Australian Plankton Survey website](http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/).   
+[The Plankton Factsheet](http://imos.org.au/fileadmin/user_upload/shared/IMOS%20General/documents/IMOS/Fact_Sheets/IMOS_Factsheet_AUSCPR_website2.pdf).   
+[The State and Trends of Australia’s Oceans Report](https://www.imosoceanreport.org.au/).    
+[The IMOS Image gallery](http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/zooplankton-image-gallery-species-from-australian-waters/).   
+
+## Marine Megafauna
+
+<img src="Megafauna.jpg" style="width: 50%; object-fit: contain"/>
+
+Whale sharks (endangered) and manta rays (vulnerable) are threatened marine megafauna that feed on zooplankton. As part of [Project Manta](https://biomedical-sciences.uq.edu.au/project-manta), our work involves a mix of field work, lab work, and the use of robust statistical approaches. Our focus has been on understanding the feeding, movement, social behaviour and generating population estimates and population trends of whale sharks and manta rays in Australia and beyond. Our work has helped to provide management recommendations for manta ray populations in the region.
