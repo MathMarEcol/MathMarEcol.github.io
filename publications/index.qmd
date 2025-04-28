@@ -1,0 +1,6 @@
+---
+title: Lab Publications
+toc: false
+---
+
+<embed src="Publications.pdf" width="100%" height="1000px" type="application/pdf">

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.5.56">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -159,14 +159,10 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./future/index.html"> 
-<span class="menu-text">Future Projects</span></a>
+<span class="menu-text">Available Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
-<span class="menu-text">Blog</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://scholar.google.com.au/citations?hl=en&amp;user=RLeJq98AAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank"> 
+    <a class="nav-link" href="./publications/index.html"> 
 <span class="menu-text">Lab Publications</span></a>
   </li>  
 </ul>
@@ -222,7 +218,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="website,academia,quarto" data-listing-date-sort="1723384800000" data-listing-file-modified-sort="1745379949826" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2669">
+<div class="quarto-post image-right" data-index="0" data-categories="website,academia,quarto" data-listing-date-sort="1723384800000" data-listing-file-modified-sort="1744266625577" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2669">
 <div class="thumbnail">
 <p><a href="./blog/2024-08-12-QuartoWebsite/index.html" class="no-external"></a></p><a href="./blog/2024-08-12-QuartoWebsite/index.html" class="no-external">
 <p><img loading="lazy" src="./blog/2024-08-12-QuartoWebsite/quarto.png" class="thumbnail-image"></p>
@@ -372,6 +368,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -690,7 +691,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><span class="faux-block">© 2024 Mathematical Marine Ecology Laboratory, The University of Queensland</span></p>
+<p><span class="faux-block">© 2025 Mathematical Marine Ecology Laboratory, The University of Queensland</span></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

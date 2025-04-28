@@ -4,6 +4,9 @@ toc: true
 toc-title: People
 toc-location: left
 toc-expand: true
+format:
+  html:
+    link-external-newwindow: true
 ---
 
 ## Lab head
@@ -16,7 +19,7 @@ toc-expand: true
 <img src="Anthony.jpg" style="width: 80%; object-fit: contain"/>
 :::
 ::: {.column width="75%"}
-Professor Anthony J. Richardson leads a dynamic and collaborative research group dedicated to using mathematical and computational tools to tackle some of the most pressing challenges in the ocean. His lab focuses on developing models to understand how to conserve marine biodiversity, predict and manage impacts of climate change, and understand the role of plankton in the ocean.
+Professor Anthony J. Richardson leads a dynamic and collaborative research group dedicated to using mathematical and computational tools to tackle some of the most pressing challenges in the ocean. His lab focuses on developing models to understand how to conserve marine biodiversity, predict and manage impacts of climate change, and understand the role of plankton in the ocean. He has [authored over 250 scientific papers, been cited more than 35,000 times](https://scholar.google.com.au/citations?hl=en&user=RLeJq98AAAAJ&view_op=list_works&sortby=pubdate).
 
 The Mathematical Marine Ecology Lab is known for its supportive and collegial atmosphere, with a critical mass of researchers who share a passion for solving real-world ecological problems through quantitative approaches. Lab members benefit from a culture of curiosity, collaboration and innovation, and are encouraged to explore ideas at the interface of conservation, ecology and data science.
 
@@ -42,6 +45,7 @@ His research has focused on how flow regimes, boundary currents, eddies and upwe
 Jason's current research focus is to quantify how the size, abundance and biomass of zooplankton and fish change across local, regional and global scales. By quantifying the size-based ecosystem through modelling and observations, we can better understand processes such as metabolism, predation or movement, which constrain the role of an individual in its food web. In particular, the biomass and size distribution of zooplankton is poorly understood relative to phytoplankton and fish in our oceans, yet it is critical to understanding the efficiency of energy transfer through to fisheries.
 :::
 :::
+
 ## PhD Students
 
 ### Kristine (Tin) Buenafe
@@ -133,6 +137,7 @@ We regularly supervise students from the [Tropimundo Program](https://tropimundo
 :::
 ::: {.column width="75%"}
 Bryan is a marine ecologist interested in the ecology of zooplankton ecology, and their role in ecosystem functioning. Currently, he is evaluating the changes in the zooplankton community across the global chlorophyll-a gradient. He is using a harmonized dataset of Continuous Plankton Recorder data from around the world. Previously, he has worked on plankton communities in a key Philippine reservoir and used benthic macroinvertebrates as bioindicators to assess the water quality in Philippine geothermal reserves. He is in his final semester for the Erasmus Mundus Joint Master’s Degree in Tropical Biodiversity and Ecosystems (TROPIMUNDO). :::
+:::
 :::
 
 ### Kris Jypson Esturas
