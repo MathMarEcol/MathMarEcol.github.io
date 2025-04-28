@@ -4,23 +4,29 @@ toc: true
 toc-title: People
 toc-location: left
 toc-expand: true
+format:
+  html:
+    link-external-newwindow: true
 ---
 
-## Lead Investigator
+## Lab head
 
 ### Professor Anthony Richardson
 
 ::: columns
 ::: {.column width="25%"}
 <!-- ![Anthony](Anthony.png) -->
-<img src="Anthony.png" style="width: 80%; object-fit: contain"/>
+<img src="Anthony.jpg" style="width: 80%; object-fit: contain"/>
 :::
 ::: {.column width="75%"}
-The Principal Investigator, Professor Anthony J. Richardson, is a 2018 highly cited researcher in Ecology. He has a joint research position between the School of the Environment at the University of Queensland and CSIRO Environment, Australia’s national science provider.
+Professor Anthony J. Richardson leads a dynamic and collaborative research group dedicated to using mathematical and computational tools to tackle some of the most pressing challenges in the ocean. His lab focuses on developing models to understand how to conserve marine biodiversity, predict and manage impacts of climate change, and understand the role of plankton in the ocean. He has [authored over 250 scientific papers, been cited more than 35,000 times](https://scholar.google.com.au/citations?hl=en&user=RLeJq98AAAAJ&view_op=list_works&sortby=pubdate).
 
-Anthony runs a dynamic lab at the nexus between mathematics/statistics/computation and marine ecology. His focus is on using mathematical tools to better conserve biodiversity, predict impacts of climate change, and understand the functioning of marine ecosystems. There is a collegial atmosphere in the lab and a critical mass of researchers working on similar problems.
+The Mathematical Marine Ecology Lab is known for its supportive and collegial atmosphere, with a critical mass of researchers who share a passion for solving real-world ecological problems through quantitative approaches. Lab members benefit from a culture of curiosity, collaboration and innovation, and are encouraged to explore ideas at the interface of conservation, ecology and data science.
 
-If you have a background in mathematics/statistics and want to apply your skills to real-world problems, of if you have a background in ecology and are interested in developing your quantitative skills, then this could be the lab for you. If you are interested in joining the Mathematical Marine Ecology Lab, then feel free to contact Anthony directly.
+If you want to have impact and have a strong quantitative background or are keen to build those skills, then this could be the perfect lab for you. We welcome students and early-career researchers from a wide range of disciplines—including conservation, ecology, mathematics, statistics and computer science—to get in touch and discuss opportunities to work together.
+
+Outside the lab, Anthony enjoys long-distance cycling and is an avid traveller. He has a love for African wildlife, and can often be found exploring game reserves during his holidays.
+
 :::
 :::
 
@@ -39,6 +45,7 @@ His research has focused on how flow regimes, boundary currents, eddies and upwe
 Jason's current research focus is to quantify how the size, abundance and biomass of zooplankton and fish change across local, regional and global scales. By quantifying the size-based ecosystem through modelling and observations, we can better understand processes such as metabolism, predation or movement, which constrain the role of an individual in its food web. In particular, the biomass and size distribution of zooplankton is poorly understood relative to phytoplankton and fish in our oceans, yet it is critical to understanding the efficiency of energy transfer through to fisheries.
 :::
 :::
+
 ## PhD Students
 
 ### Kristine (Tin) Buenafe
@@ -118,29 +125,20 @@ Diego is an interdisciplinary marine ecologist interested in understanding the e
 :::
 :::
 
-<!-- ### NAME -->
-<!-- ::: columns -->
-<!-- ::: {.column width="25%"} -->
-<!-- <img src=".png" style="width: 80%; object-fit: contain"/> -->
-<!-- ::: -->
-<!-- ::: {.column width="75%"} -->
-
-<!-- ::: -->
-<!-- ::: -->
-
-<!-- ### NAME -->
-<!-- ::: columns -->
-<!-- ::: {.column width="25%"} -->
-<!-- <img src=".png" style="width: 80%; object-fit: contain"/> -->
-<!-- ::: -->
-<!-- ::: {.column width="75%"} -->
-
-<!-- ::: -->
-<!-- ::: -->
 
 ## Tropimundo Students
 
 We regularly supervise students from the [Tropimundo Program](https://tropimundo.eu) for their final year thesis. 
+
+### Bryan Alpecho
+::: columns
+::: {.column width="25%"}
+<img src="Bryan2.jpeg" style="width: 80%; object-fit: contain"/>
+:::
+::: {.column width="75%"}
+Bryan is a marine ecologist interested in the ecology of zooplankton ecology, and their role in ecosystem functioning. Currently, he is evaluating the changes in the zooplankton community across the global chlorophyll-a gradient. He is using a harmonized dataset of Continuous Plankton Recorder data from around the world. Previously, he has worked on plankton communities in a key Philippine reservoir and used benthic macroinvertebrates as bioindicators to assess the water quality in Philippine geothermal reserves. He is in his final semester for the Erasmus Mundus Joint Master’s Degree in Tropical Biodiversity and Ecosystems (TROPIMUNDO). :::
+:::
+:::
 
 ### Kris Jypson Esturas
 ::: columns
@@ -152,8 +150,7 @@ Kris is a budding marine ecologist with a strong interest in marine conservation
 :::
 :::
 
-
-<!-- ### Bryan Alpecho -->
+<!-- ### NAME -->
 <!-- ::: columns -->
 <!-- ::: {.column width="25%"} -->
 <!-- <img src=".png" style="width: 80%; object-fit: contain"/> -->
@@ -163,13 +160,7 @@ Kris is a budding marine ecologist with a strong interest in marine conservation
 <!-- ::: -->
 <!-- ::: -->
 
-
-
-
-
-
-
-<!-- ###  -->
+<!-- ### NAME -->
 <!-- ::: columns -->
 <!-- ::: {.column width="25%"} -->
 <!-- <img src=".png" style="width: 80%; object-fit: contain"/> -->
@@ -178,5 +169,3 @@ Kris is a budding marine ecologist with a strong interest in marine conservation
 
 <!-- ::: -->
 <!-- ::: -->
-
-

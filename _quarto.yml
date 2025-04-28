@@ -19,13 +19,10 @@ website:
         href: people/index.qmd
       - text: "Research"
         href: research/index.qmd
-      - text: "Future Projects"
+      - text: "Available Projects"
         href: future/index.qmd
-      - text: "Blog"
-        href: blog.qmd
       - text: "Lab Publications"
-        href: https://scholar.google.com.au/citations?hl=en&user=RLeJq98AAAAJ&view_op=list_works&sortby=pubdate
-        target: _blank
+        href: publications/index.qmd
 
     # your social media handles
     right:
@@ -36,14 +33,13 @@ website:
         href: https://github.com/MathMarEcol
 
 
-
 # Don't touch unless you know what you are doing :) ------------
   search:
     location: navbar
     type: textbox
   page-footer:
     left: |
-      <span class="faux-block">&#169; 2024 Mathematical Marine Ecology Laboratory, The University of Queensland</span>
+      <span class="faux-block">&#169; 2025 Mathematical Marine Ecology Laboratory, The University of Queensland</span>
     right: |
       <span class="faux-block"><a href="https://github.com/MathMarEcol/MathMarEcol.github.io">View source on GitHub</a></span>
 
@@ -61,6 +57,7 @@ execute:
 
 format:
   html:
+    link-external-newwindow: true
     fontsize: 1.1em
     theme:
       - solar #
