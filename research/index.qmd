@@ -5,40 +5,65 @@ toc-title: Research
 toc-location: left
 ---
 
+## Conservation and protected areas
+
+<img src="ProtectedAreas.png" style="width: 80%; object-fit: contain"/>
+
+The ocean is under pressure — from overfishing, climate change, pollution, habitat loss, and invasive species. To protect marine biodiversity, countries are rapidly expanding networks of marine protected areas (MPAs), aiming for 30% ocean coverage by 2030 (the “30x30” target). But where should these reserves go?
+
+Our lab tackles this question using quantitative, climate-smart conservation planning. We combine biodiversity mapping, oceanographic data, and advanced modelling to design MPAs that:
+
+- Conserve species and ecosystems into the future
+- Optimise multipe use (e.g., fishing, shipping, mining, renewable energy, aquaculture) through ocean zoning
+- Enhance climate resilience and connectivity of protected areas
+- Provide maximum fisheries benefits to communities
+- Minimise conflict between conservation and industries
+- Account for the ocean’s complex 3D structure
+- Use our methodological developments to increase the protection of marine biodiversity and improve ocean management
+- Develop real-time ocean shiny apps for stake-holder engagement
+
+This work uses supercomputing, real-time decision tools (Shiny apps), and includes multiple-use planning and ecosystem service trade-offs. It's applied, computational, and directly supports policy and marine management. Examples of our real-world applications can be found [here](https://spatialplanning.github.io/realTime.html).
+
+----
+
+## Tracking climate change using plankton
+
+<img src="Plankton.jpeg" style="width: 50%; object-fit: contain"/>
+
+Plankton are sentinels of climate change. Phytoplankton produce half the oxygen on Earth and support marine food webs, while zooplankton transfer carbon to fish, whales, and seabirds, and drive key biogeochemical cycles. But in a rapidly changing climate, how are these critical organisms responding?
+
+Our lab uses decades of high-resolution plankton data from the Australian Integrated Marine Observing System (IMOS) run by CSIRO, historical records, and global data sets to uncover how climate variability and change—including marine heatwaves, El Niño, warming, and acidification—is reshaping plankton abundance, distribution, species composition, and behaviour.
+
+We apply cutting-edge statistical modelling (e.g., GLMMs, GAMMs, time-series analysis) to investigate:
+
+- Shifts in plankton distribution, abundance, timing and community structure
+- Zooplankton responses to warming and acidification
+- Emerging trends in gelatinous zooplankton (jellyfish and salps) in response to global change
+- Changes in zooplankton diel vertical migration in response to cliamte change, with implications for predator-prey interactions and the biological carbon pump
+- Ecosystem health indicators and assess trends over time to inform marine assessments and national reporting.
+
+Learn more:
+👉 [Australian Plankton Survey](http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/)
+👉 [Plankton Factsheet](http://imos.org.au/fileadmin/user_upload/shared/IMOS%20General/documents/IMOS/Fact_Sheets/IMOS_Factsheet_AUSCPR_website2.pdf)
+👉 [State of Australia's Oceans](https://www.imosoceanreport.org.au/)
+👉 [Zooplankton Image Gallery](http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/zooplankton-image-gallery-species-from-australian-waters/)
+
+
 ## Dynamic ecosystem modelling
 
 <img src="EcosystemModels.png" style="width: 50%; object-fit: contain"/>
 
-Dynamic ecosystem models are needed to help guide management of marine biodiversity and fisheries now and into the future under climate change. We use a range of modelling approaches based on systems of partial differential equations. Much of our current work is on size spectrum models. These models describe life in the ocean from bacteria to whales by parameterising key biological processes such as feeding, growth and predation based on an organism’s body size.
+To manage marine biodiversity and fisheries sustainably in a changing climate, we need powerful tools to forecast how ecosystems will respond. Our lab develops dynamic ecosystem models that simulate life in the ocean—from bacteria to whales—based on core biological processes like feeding, growth, and predation. Central to our approach are size spectrum models, which track energy flow and carbon cycling across all body sizes and trophic levels.
 
-Our focus is on improving the zooplankton – the intermediate trophic level that regulates energy transfer between phytoplankton (primary producers) and fish. Historically, zooplankton have been ignored or modelled as only one or two groups in almost all ecosystem models. Our work on better-resolving zooplankton in ecosystem models uses state-of-the-art size spectrum models such as ZooMSS (Zooplankton Model of Size Spectra) run on super-computers. This research will lead to improved future estimates of fish biomass and carbon sequestration under climate change.
+A major innovation in our work is resolving zooplankton, the critical but often overlooked link between phytoplankton and fish. Zooplankton not only sustain food webs but also drive the biological carbon pump—a process that draws carbon from the atmosphere and stores it in the deep sea. Yet most models simplify or omit their role.
+
+We are advancing ZooMSS (Zooplankton Model of Size Spectra), a global, process-based model designed to better represent zooplankton diversity, temperature sensitivity, and carbon dynamics. By refining how zooplankton are modelled—including their impact on fisheries and carbon sequestration—we aim to answer key questions:
+
+- How will climate change alter zooplankton communities and their role in ocean carbon storage?
+- How does the temperature sensitivity of different zooplankton groups and processes alter carbon cycling in the ocean?
+- Why are there so many tuna in nutrient-poor tropical waters?
+- What can improved zooplankton modelling tell us about future fish stocks and climate mitigation?
+
+ZooMSS is an ecosystem model based on partial differential equations, is run on a supercomputer, and is the only global fisheries-ecosystem model that focuses on better representing zooplankton feeding relationships.
 
 ----
-
-## Conservation and protected areas
-
-<img src="ProtectedAreas.png" style="width: 50%; object-fit: contain"/>
-
-Human threats – including fishing, climate change, habitat destruction, pollution, and invasive species – are leading to declining abundance of many marine species. To mitigate impacts of these threats on biodiversity, marine protected areas – national parks in the ocean – are being created. As there is a global push to increase the marine protected area network coverage from 8% to potentially 20% or even 30% in the next decade, developing the science to underpin where to place these reserves is critical and timely.
-
-A current focus of our research is thus how to design robust climate-smart marine protected areas that conserve biodiversity, protect against climate change, retain biodiversity as the climate warms, ensure connectivity, minimise conflict with fishing, whilst considering the 3-D nature of the ocean. This is a tough task! It requires extensive computational expertise and infrastructure. Our work involves mapping global biodiversity and developing new approaches to the design of climate-smart marine protected area networks using state-of-the-art statistical and computational approaches on super-computers.
-
-----
-
-## Ecosystem Change
-
-<img src="Plankton.jpeg" style="width: 50%; object-fit: contain"/>
-
-To manage our oceans – and our impacts upon them – we need robust indicators of the state of marine ecosystems over time. This requires long-term ocean observing problems. In partnership with the Integrated Marine Observing System (IMOS) and CSIRO (Australia’s national science provider), we are collecting and analysing data around Australia on plankton – the lower trophic levels in the ocean that ultimately support fish, marine mammals, marine reptiles and seabirds. We use modern, flexible, robust statistical techniques such as generalised linear and additive mixed models and multivariate approaches to analyse these datasets and make data products such as maps and ecosystem indicators. These indicators of ecosystem change inform marine assessments of the state and trends of the ocean ecosystems.
-
-To find out more about our plankton monitoring work see:    
-[Australian Plankton Survey website](http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/).   
-[The Plankton Factsheet](http://imos.org.au/fileadmin/user_upload/shared/IMOS%20General/documents/IMOS/Fact_Sheets/IMOS_Factsheet_AUSCPR_website2.pdf).   
-[The State and Trends of Australia’s Oceans Report](https://www.imosoceanreport.org.au/).    
-[The IMOS Image gallery](http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/zooplankton-image-gallery-species-from-australian-waters/).   
-
-## Marine Megafauna
-
-<img src="Megafauna.jpg" style="width: 50%; object-fit: contain"/>
-
-Whale sharks (endangered) and manta rays (vulnerable) are threatened marine megafauna that feed on zooplankton. As part of [Project Manta](https://biomedical-sciences.uq.edu.au/project-manta), our work involves a mix of field work, lab work, and the use of robust statistical approaches. Our focus has been on understanding the feeding, movement, social behaviour and generating population estimates and population trends of whale sharks and manta rays in Australia and beyond. Our work has helped to provide management recommendations for manta ray populations in the region.

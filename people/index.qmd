@@ -11,15 +11,14 @@ format:
 
 ## Lab head
 
-### Professor Anthony Richardson
+### Professor Anthony J. Richardson
 
 ::: columns
 ::: {.column width="25%"}
-<!-- ![Anthony](Anthony.png) -->
 <img src="Anthony.jpg" style="width: 80%; object-fit: contain"/>
 :::
 ::: {.column width="75%"}
-Professor Anthony J. Richardson leads a dynamic and collaborative research group dedicated to using mathematical and computational tools to tackle some of the most pressing challenges in the ocean. His lab focuses on developing models to understand how to conserve marine biodiversity, predict and manage impacts of climate change, and understand the role of plankton in the ocean. He has [authored over 250 scientific papers, been cited more than 35,000 times](https://scholar.google.com.au/citations?hl=en&user=RLeJq98AAAAJ&view_op=list_works&sortby=pubdate).
+Professor Anthony J. Richardson leads a dynamic and collaborative research group dedicated to using mathematical and computational tools to tackle some of the most pressing challenges in the ocean. His lab focuses on developing models to understand how to conserve marine biodiversity, predict and manage impacts of climate change, and understand the role of plankton in the ocean. He has [authored >250 scientific papers and been cited >35,000 times](https://scholar.google.com.au/citations?hl=en&user=RLeJq98AAAAJ&view_op=list_works&sortby=pubdate).
 
 The Mathematical Marine Ecology Lab is known for its supportive and collegial atmosphere, with a critical mass of researchers who share a passion for solving real-world ecological problems through quantitative approaches. Lab members benefit from a culture of curiosity, collaboration and innovation, and are encouraged to explore ideas at the interface of conservation, ecology and data science.
 
@@ -30,7 +29,6 @@ Outside the lab, Anthony enjoys long-distance cycling and is an avid traveller. 
 :::
 :::
 
-----
 ## Senior Research Fellow
 ### Dr Jason Everett
 ::: columns
@@ -46,52 +44,21 @@ Jason's current research focus is to quantify how the size, abundance and biomas
 :::
 :::
 
+## Postdoctoral Fellows
+### Dr Kieran Murphy
+
+## Research Assistant
+### Kris Jypson Esturas
+::: columns
+::: {.column width="25%"}
+<img src="Kris.jpeg" style="width: 80%; object-fit: contain"/>
+:::
+::: {.column width="75%"}
+Kris is a budding marine ecologist with a strong interest in marine conservation, especially within the context of global climate change. He has recently finished an Erasmus Mundus Joint Master's Degree in Tropical Biodiversity and Ecosystems (TROPIMUNDO), where he graduated as the top student of his cohort and received the Best Student Award. For his masters, he has studied in different institutions across different countries in Europe: Université Libre de Bruxelles/Vrije Universiteit Brussel (Semester 1); Université de La Réunion (Semester 2); and Università degli Studi di Firenze (Semester 3). For his final semester, which is completely allocated to thesis work, he worked on a marine spatial planning project using quantitative tools with The University of Queensland.
+:::
+:::
+
 ## PhD Students
-
-### Kristine (Tin) Buenafe
-::: columns
-::: {.column width="25%"}
-<img src="Tin.jpg" style="width: 80%; object-fit: contain"/>
-:::
-::: {.column width="75%"}
-Kristine, better known as Tin, is a quantitative marine ecologist from the Philippines. Although most of her colleagues in her undergraduate degree chose to go into medicine, she took the road less travelled — a path in research... and while most of her colleagues in marine science studied coastal ecosystems, she was more interested in the high seas. Tin has a Master’s degree in [Tropical Biodiversity and Ecosystems (TROPIMUNDO)](https://tropimundo.eu), an Eramus Mundus Joint Master’s Degree program, where she finished first in her batch (Plus Grande Distinction). Tin has developed methods used by conservation practitioners to transition to more climate-smart spatial planning approaches. She’s done this by prioritising protection on climate refugia. In her PhD research, Tin wishes to continue her work on climate change and spatial planning by taking it a step further and developing ways of designing more connected, climate-smart protected area networks.
-:::
-:::
-
-
-### Sandra Neubert
-::: columns
-::: {.column width="25%"}
-<img src="Sandra.jpg" style="width: 80%; object-fit: contain"/>
-:::
-::: {.column width="75%"}
-Sandra is a marine data scientist with an interest in marine spatial planning and ecosystem modelling. She holds a BSc (Hons) in Marine Biology from the University of Plymouth and a MSc in Bioinformatics from the University of Leipzig. Sandra previous experience includes writing R packages and Shiny apps to facilitate stakeholder engagement with time-efficient and reproducible marine spatial planning apps. Her research focuses on designing marine protected areas and assessing their costs and benefits from an ecological and economic perspective. Her PhD will address multiple-use spatial planning in the Global South in a joint project by the University of Queensland and the University of Exeter.
-:::
-:::
-
-
-### Alvise Dabala
-::: columns
-::: {.column width="25%"}
-<img src="Alvise.jpg" style="width: 80%; object-fit: contain"/>
-:::
-::: {.column width="75%"}
-Alvise is a PhD student at the Mathematical Marine Ecology Lab and the Applied Marine Biogeography Lab, supervised by Prof. Anthony Richardson and A/Prof. Daniel Dunn. His research focuses on developing climate-smart and connected spatial prioritisations for mangrove conservation to protect mangrove biodiversity and ecosystem services. He holds an Erasmus Mundus Master’s degree in tropical ecology (TROPIMUNDO). During his thesis, he developed a global study which identifies priority areas for mangrove conservation that maximise ecosystem services. Before starting his PhD at The University of Queensland, he joined the iAtlantic project, funded by the European Union’s Horizon 2020 research and innovation program, developing spatial prioritisations for the conservation of the Atlantic Ocean at the University of Azores.
-:::
-:::
-
-
-<!-- ### Alice Pidd -->
-<!-- ::: columns -->
-<!-- ::: {.column width="25%"} -->
-<!-- <img src=".png" style="width: 80%; object-fit: contain"/> -->
-<!-- ::: -->
-<!-- ::: {.column width="75%"} -->
-
-<!-- ::: -->
-<!-- ::: -->
-
-
 
 ### Sharad Bayyana
 ::: columns
@@ -100,18 +67,6 @@ Alvise is a PhD student at the Mathematical Marine Ecology Lab and the Applied M
 :::
 ::: {.column width="75%"}
 Sharad is a marine biologist who has joined the School of Environment as a PhD candidate. He comes from India, where he was engaged in several marine and wildlife research projects, after completing his master’s in marine biology. He also holds a post-graduate diploma in Remote Sensing and GIS. Back in India, he conducted research at the Wildlife Institute of India, in understanding the spatial ecology of Dugongs, mangroves succession in the Nicobar group of islands after the tsunami of 2004, and coral reef biodiversity assessment of Malvan Marine Sanctuary, along the west coast of India. He has previously worked at the Horniman Museum, London as a visiting researcher, to conduct research on coral reproductive biology and restoration practices. Lately, at Wildlife Conservation Society-India, he was involved in developing data-driven strategies for management practices of Marine Protected Areas along the west coast of India, before moving to Brisbane. For his PhD, he will pursue the implications of climate-driven risks on the biodiversity dynamics under the project “Portfolio projection of biodiversity responses under climate change”. The project aims to quantify adaptive and migration responses as vulnerability metrics, providing resource managers with novel tools to formulate flexible management strategies.
-:::
-:::
-
-
-
-### Aharon Fleury
-::: columns
-::: {.column width="25%"}
-<img src="Aharon.jpg" style="width: 80%; object-fit: contain"/>
-:::
-::: {.column width="75%"}
-Aharon Fleury completed his Master of Science Biology (Fisheries) program at University of Victoria, Canada in 2016 where he evaluated the reproductive ecology of hagfish off the coast of Vancouver Island. He has since worked five years as an environmental consultant performing ecological and human health risk assessments and modelling the movement of contaminants to humans, plants, and animals via biotic transport pathways. The aim of Aharon’s PhD research is to develop and apply a framework, built on an individual-based model, for environmental impact assessments of marine species that explicitly incorporates connectivity across a migratory cycle and facilitates decision-making by incorporating stakeholder values. 
 :::
 :::
 
@@ -125,30 +80,123 @@ Diego is an interdisciplinary marine ecologist interested in understanding the e
 :::
 :::
 
+### Kristine (Tin) Buenafe
+::: columns
+::: {.column width="25%"}
+<img src="Tin.jpg" style="width: 80%; object-fit: contain"/>
+:::
+::: {.column width="75%"}
+Kristine, better known as Tin, is a quantitative marine ecologist from the Philippines. Although most of her colleagues in her undergraduate degree chose to go into medicine, she took the road less travelled — a path in research... and while most of her colleagues in marine science studied coastal ecosystems, she was more interested in the high seas. Tin has a Master’s degree in [Tropical Biodiversity and Ecosystems (TROPIMUNDO)](https://tropimundo.eu), an Eramus Mundus Joint Master’s Degree program, where she finished first in her batch (Plus Grande Distinction). Tin has developed methods used by conservation practitioners to transition to more climate-smart spatial planning approaches. She’s done this by prioritising protection on climate refugia. In her PhD research, Tin wishes to continue her work on climate change and spatial planning by taking it a step further and developing ways of designing more connected, climate-smart protected area networks.
+:::
+:::
+
+### Emer Cunningham
+::: columns
+::: {.column width="25%"}
+<img src="Emer.jpg" style="width: 80%; object-fit: contain"/>
+:::
+::: {.column width="75%"}
+Emer is a marine ecology student and researcher, who lives and works in her hometown of Magandjin (Brisbane). Emer acknowledges that this ‘home’ is unceded, sovereign Aboriginal Country, and is committed to learning more about the lands and waters that she cares about so deeply. Back in 2018, Emer started a Bachelor of Advanced Science (Honours) at the University of Queensland – and she’s never left. Emer is in the final year of her PhD, investigating the patterns and drivers of ‘novel’ ecological states within coral reef ecosystems and pelagic plankton communities. Currently, Emer is working in the MME Lab researching ‘novelty’ in our changing climate – and helping to integrate this concept of rapid, unprecedented environmental change into marine spatial planning.
+:::
+:::
+
+### Alvise Dabala
+::: columns
+::: {.column width="25%"}
+<img src="Alvise.jpg" style="width: 80%; object-fit: contain"/>
+:::
+::: {.column width="75%"}
+Alvise is a PhD student at the Mathematical Marine Ecology Lab and the Applied Marine Biogeography Lab, supervised by Prof. Anthony Richardson and A/Prof. Daniel Dunn. His research focuses on developing climate-smart and connected spatial prioritisations for mangrove conservation to protect mangrove biodiversity and ecosystem services. He holds an Erasmus Mundus Master’s degree in tropical ecology (TROPIMUNDO). During his thesis, he developed a global study which identifies priority areas for mangrove conservation that maximise ecosystem services. Before starting his PhD at The University of Queensland, he joined the iAtlantic project, funded by the European Union’s Horizon 2020 research and innovation program, developing spatial prioritisations for the conservation of the Atlantic Ocean at the University of Azores.
+:::
+:::
+
+### Aharon Fleury
+::: columns
+::: {.column width="25%"}
+<img src="Aharon.jpg" style="width: 80%; object-fit: contain"/>
+:::
+::: {.column width="75%"}
+Aharon Fleury completed his Master of Science Biology (Fisheries) program at University of Victoria, Canada in 2016 where he evaluated the reproductive ecology of hagfish off the coast of Vancouver Island. He has since worked five years as an environmental consultant performing ecological and human health risk assessments and modelling the movement of contaminants to humans, plants, and animals via biotic transport pathways. The aim of Aharon’s PhD research is to develop and apply a framework, built on an individual-based model, for environmental impact assessments of marine species that explicitly incorporates connectivity across a migratory cycle and facilitates decision-making by incorporating stakeholder values. 
+:::
+:::
+
+### Yunzhe Liu
+::: columns
+::: {.column width="25%"}
+<!--<img src="Sandra.jpg" style="width: 80%; object-fit: contain"/>
+:::
+::: {.column width="75%"}
+<!-- ::: -->
+:::
+:::
+
+### Hannah Moloney
+::: columns
+::: {.column width="25%"}
+<!--<img src="Kris.jpeg" style="width: 80%; object-fit: contain"/>
+:::
+::: {.column width="75%"}
+<!-- ::: -->
+:::
+:::
+
+### Sandra Neubert
+::: columns
+::: {.column width="25%"}
+<img src="Sandra.jpg" style="width: 80%; object-fit: contain"/>
+:::
+::: {.column width="75%"}
+Sandra is a marine data scientist with an interest in marine spatial planning and ecosystem modelling. She holds a BSc (Hons) in Marine Biology from the University of Plymouth and a MSc in Bioinformatics from the University of Leipzig. Sandra previous experience includes writing R packages and Shiny apps to facilitate stakeholder engagement with time-efficient and reproducible marine spatial planning apps. Her research focuses on designing marine protected areas and assessing their costs and benefits from an ecological and economic perspective. Her PhD will address multiple-use spatial planning in the Global South in a joint project by the University of Queensland and the University of Exeter.
+:::
+:::
+
+### Alice Pidd
+::: columns
+::: {.column width="25%"}
+<!--<img src="Sandra.jpg" style="width: 80%; object-fit: contain"/>
+:::
+::: {.column width="75%"}
+<!-->
+:::
+:::
+
+### Jaime Restrepo
+::: columns
+::: {.column width="25%"}
+<img src="Jaime.jpeg" style="width: 80%; object-fit: contain"/>
+:::
+::: {.column width="75%"}
+Jaime (read: Hi-Meh [Hispanic name]) is a Colombian researcher and conservationist, with a background in environmental sciences. He has a master’s degree from the International Institute for Conservation and Wildlife Management from the University of Costa Rica. Jaime has more than a decade of experience working on the field and studying some of the most important populations of marine turtles globally, monitoring major rookeries for leatherback (Dermochelys coriacea), olive ridley (Lepidochelys olivacea), hawksbill (Eretmochelys imbricata) and green turtle (Chelonia mydas). Jaime has also been involved in conservation programs to protect the recovering population of jaguars (Panthera onca) at Tortuguero National Park, in Costa Rica. Currently, Jaime is an active member of the International Sea Turtle Society; as such, he has taken part on several symposia both presenting his research outcomes and coordinating regional meetings, he is now a PhD candidate at the University of Queensland, studying migratory connectivity for the two largest nesting populations of green turtles globally, implementing satellite telemetry monitoring combined with stable isotopes analysis to identify important foraging areas supporting these important populations.
+ 
+Some of his previous work can be found [here](https://scholar.google.com.au/citations?hl=en&user=VIbycnwAAAAJ&view_op=list_works&gmla=AIfU4H7_AG6k3931AJSSenO51NjeT3gOOrJGqxKHNoF_ibc-Qs1pnDtRe5Nqx3FV75jxF9tbiXw4).  
+:::
+:::
 
 ## Tropimundo Students
-
 We regularly supervise students from the [Tropimundo Program](https://tropimundo.eu) for their final year thesis. 
 
 ### Bryan Alpecho
 ::: columns
 ::: {.column width="25%"}
-<img src="Bryan2.jpeg" style="width: 80%; object-fit: contain"/>
+<img src="Bryan.jpg" style="width: 80%; object-fit: contain"/>
 :::
 ::: {.column width="75%"}
-Bryan is a marine ecologist interested in the ecology of zooplankton ecology, and their role in ecosystem functioning. Currently, he is evaluating the changes in the zooplankton community across the global chlorophyll-a gradient. He is using a harmonized dataset of Continuous Plankton Recorder data from around the world. Previously, he has worked on plankton communities in a key Philippine reservoir and used benthic macroinvertebrates as bioindicators to assess the water quality in Philippine geothermal reserves. He is in his final semester for the Erasmus Mundus Joint Master’s Degree in Tropical Biodiversity and Ecosystems (TROPIMUNDO). :::
+Bryan is a marine ecologist interested in the ecology of zooplankton ecology, and their role in ecosystem functioning. Currently, he is evaluating the changes in the zooplankton community across the global chlorophyll-a gradient. He is using a harmonized dataset of Continuous Plankton Recorder data from around the world. Previously, he has worked on plankton communities in a key Philippine reservoir and used benthic macroinvertebrates as bioindicators to assess the water quality in Philippine geothermal reserves. He is in his final semester for the Erasmus Mundus Joint Master’s Degree in Tropical Biodiversity and Ecosystems (TROPIMUNDO).
 :::
 :::
 
-### Kris Jypson Esturas
+## Honours Students
+We regularly supervise Honours students.
+
+### Davina Gifford
 ::: columns
 ::: {.column width="25%"}
-<img src="Kris.jpeg" style="width: 80%; object-fit: contain"/>
+<!--<img src="Kris.jpeg" style="width: 80%; object-fit: contain"/>
 :::
-::: {.column width="75%"}
-Kris is a budding marine ecologist with a strong interest in marine conservation, especially within the context of global climate change. He has recently finished an Erasmus Mundus Joint Master's Degree in Tropical Biodiversity and Ecosystems (TROPIMUNDO), where he graduated as the top student of his cohort and received the Best Student Award. For his masters, he has studied in different institutions across different countries in Europe: Université Libre de Bruxelles/Vrije Universiteit Brussel (Semester 1); Université de La Réunion (Semester 2); and Università degli Studi di Firenze (Semester 3). For his final semester, which is completely allocated to thesis work, he worked on a marine spatial planning project using quantitative tools with The University of Queensland.
+<!-- ::: {.column width="75%"} -->
 :::
 :::
+
 
 <!-- ### NAME -->
 <!-- ::: columns -->
