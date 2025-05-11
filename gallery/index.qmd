@@ -1,0 +1,14 @@
+---
+title: "Our Blog"
+listing:
+  contents: 
+    - "*.png" # all Quarto docs in the `posts` directory will be included on your listing page
+    - "*.jpg"
+  type: grid # `grid` or `default` or `table`; each type has its own set of yaml options to include
+  template: |
+    <div class="quarto-grid-item">
+      <img src="{{ file }}" class="img-fluid">
+    </div>
+  sort: "date desc" # can also sort on more than one field
+  categories: true # allows you to sort posts by assigned categories 
+---
