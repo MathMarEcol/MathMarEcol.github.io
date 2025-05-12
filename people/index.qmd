@@ -16,6 +16,15 @@ format:
 ::: columns
 ::: {.column width="25%"}
 <img src="Anthony.jpg" style="width: 80%; object-fit: contain"/>
+
+<a href="https://scholar.google.com.au/citations?hl=en&user=RLeJq98AAAAJ" target="_blank" class="icons">{{< iconify academicons:google-scholar >}}</a>
+&nbsp; &nbsp;
+<a href="https://github.com/ric325" target="_blank" class="icons">{{< iconify fa6-brands:github >}}</a>
+&nbsp; &nbsp;
+<a href="mailto:arichardson1@uq.edu.au" target="_blank" class="icons">{{< iconify bi:envelope >}}</a>
+&nbsp; &nbsp;
+<a href="https://orcid.org/0000-0002-9289-7366" target="_blank" class="icons">{{< iconify academicons:orcid >}}</a>
+
 :::
 ::: {.column width="75%"}
 Professor Anthony J. Richardson leads a dynamic and collaborative research group dedicated to using mathematical and computational tools to tackle some of the most pressing challenges in the ocean. His lab focuses on developing models to understand how to conserve marine biodiversity, predict and manage impacts of climate change, and understand the role of plankton in the ocean. He has [authored >250 scientific papers and been cited >35,000 times](https://scholar.google.com.au/citations?hl=en&user=RLeJq98AAAAJ&view_op=list_works&sortby=pubdate).
@@ -34,6 +43,15 @@ Outside the lab, Anthony enjoys long-distance cycling and is an avid traveller. 
 ::: columns
 ::: {.column width="25%"}
 <img src="Jason.jpg" style="width: 80%; object-fit: contain"/>
+
+<a href="https://scholar.google.com.au/citations?user=3EM7jEcAAAAJ&hl=en/" target="_blank" class="icons">{{< iconify academicons:google-scholar >}}</a>
+&nbsp; &nbsp;
+<a href="https://github.com/jaseeverett" target="_blank" class="icons">{{< iconify fa6-brands:github >}}</a>
+&nbsp; &nbsp;
+<a href="mailto:Jason.Everett@uq.edu.au" target="_blank" class="icons">{{< iconify bi:envelope >}}</a>
+&nbsp; &nbsp;
+<a href="https://orcid.org/0000-0002-6681-8054" target="_blank" class="icons">{{< iconify academicons:orcid >}}</a>
+
 :::
 ::: {.column width="75%"}
 Jason is a biological oceanographer, with an interest in how oceanographic processes structure planktonic ecosystems.
