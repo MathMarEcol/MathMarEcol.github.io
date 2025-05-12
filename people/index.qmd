@@ -18,11 +18,11 @@ format:
 <img src="Anthony.jpg" style="width: 80%; object-fit: contain"/>
 
 <a href="https://scholar.google.com.au/citations?hl=en&user=RLeJq98AAAAJ" target="_blank" class="icons">{{< iconify academicons:google-scholar >}}</a>
-&nbsp; &nbsp;
+&nbsp;
 <a href="https://github.com/ric325" target="_blank" class="icons">{{< iconify fa6-brands:github >}}</a>
-&nbsp; &nbsp;
+&nbsp;
 <a href="mailto:arichardson1@uq.edu.au" target="_blank" class="icons">{{< iconify bi:envelope >}}</a>
-&nbsp; &nbsp;
+&nbsp;
 <a href="https://orcid.org/0000-0002-9289-7366" target="_blank" class="icons">{{< iconify academicons:orcid >}}</a>
 
 :::
@@ -44,12 +44,14 @@ Outside the lab, Anthony enjoys long-distance cycling and is an avid traveller. 
 ::: {.column width="25%"}
 <img src="Jason.jpg" style="width: 80%; object-fit: contain"/>
 
+<a href="https://jaseeverett.github.io" target="_blank" class="icons">{{< iconify streamline:web >}}</a>
+&nbsp;
 <a href="https://scholar.google.com.au/citations?user=3EM7jEcAAAAJ&hl=en/" target="_blank" class="icons">{{< iconify academicons:google-scholar >}}</a>
-&nbsp; &nbsp;
+&nbsp;
 <a href="https://github.com/jaseeverett" target="_blank" class="icons">{{< iconify fa6-brands:github >}}</a>
-&nbsp; &nbsp;
+&nbsp;
 <a href="mailto:Jason.Everett@uq.edu.au" target="_blank" class="icons">{{< iconify bi:envelope >}}</a>
-&nbsp; &nbsp;
+&nbsp;
 <a href="https://orcid.org/0000-0002-6681-8054" target="_blank" class="icons">{{< iconify academicons:orcid >}}</a>
 
 :::
