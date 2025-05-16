@@ -211,7 +211,7 @@ Sandra is a marine data scientist with an interest in marine spatial planning an
 ::: {.column width="75%"}
 Jaime (read: Hi-Meh [Hispanic name]) is a Colombian researcher and conservationist, with a background in environmental sciences. He has a master’s degree from the International Institute for Conservation and Wildlife Management from the University of Costa Rica. Jaime has more than a decade of experience working on the field and studying some of the most important populations of marine turtles globally, monitoring major rookeries for leatherback (Dermochelys coriacea), olive ridley (Lepidochelys olivacea), hawksbill (Eretmochelys imbricata) and green turtle (Chelonia mydas). Jaime has also been involved in conservation programs to protect the recovering population of jaguars (Panthera onca) at Tortuguero National Park, in Costa Rica. Currently, Jaime is an active member of the International Sea Turtle Society; as such, he has taken part on several symposia both presenting his research outcomes and coordinating regional meetings, he is now a PhD candidate at the University of Queensland, studying migratory connectivity for the two largest nesting populations of green turtles globally, implementing satellite telemetry monitoring combined with stable isotopes analysis to identify important foraging areas supporting these important populations.
  
-Some of his previous work can be found [here](https://scholar.google.com.au/citations?hl=en&user=VIbycnwAAAAJ&view_op=list_works&gmla=AIfU4H7_AG6k3931AJSSenO51NjeT3gOOrJGqxKHNoF_ibc-Qs1pnDtRe5Nqx3FV75jxF9tbiXw4).  
+Some of his previous work can be found [here](https://scholar.google.com.au/citations?hl=en&user=VIbycnwAAAAJ&view_op=list_works&gmla=AIfU4H7_AG6k3931AJSSenO51NjeT3gOOrJGqxKHNoF_ibc-Qs1pnDtRe5Nqx3FV75jxF9tbiXw4).
 :::
 :::
 
@@ -228,9 +228,17 @@ Bryan is a marine ecologist interested in the ecology of zooplankton ecology, an
 :::
 :::
 
-## Honours Students
+## Masters/Honours Students
 We regularly supervise Honours students.
 
+### Riley Wagner
+::: columns
+::: {.column width="25%"}
+<img src="Riley.jpg" style="width: 80%; object-fit: contain"/>
+:::
+::: {.column width="75%"}
+Riley is a student in the Master of Conservation Science, undertaking research at the Mathematical Marine Ecology Lab supervised by Professor Anthony J. Richardson and Associate Professor Christopher Brown (University of Tasmania). His research focuses on identifying long term trends in zooplankton biomass in response to evidence that phytoplankton have exhibited a long term decline globally, in the hopes of contributing to knowledge of marine trophic cascades. Before starting his Master’s degree at The University of Queensland, Riley was a secondary mathematics teacher in Brisbane and North Queensland.
+ 
 ### Davina Gifford
 ::: columns
 ::: {.column width="25%"}
