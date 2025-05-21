@@ -224,7 +224,7 @@ We regularly supervise students from the [Tropimundo Program](https://tropimundo
 <img src="Bryan.png" style="width: 80%; object-fit: contain"/>
 :::
 ::: {.column width="75%"}
-Bryan is a marine ecologist interested in the ecology of zooplankton ecology, and their role in ecosystem functioning. Currently, he is evaluating the changes in the zooplankton community across the global chlorophyll-a gradient. He is using a harmonized dataset of Continuous Plankton Recorder data from around the world. Previously, he has worked on plankton communities in a key Philippine reservoir and used benthic macroinvertebrates as bioindicators to assess the water quality in Philippine geothermal reserves. He is in his final semester for the Erasmus Mundus Joint Master’s Degree in Tropical Biodiversity and Ecosystems (TROPIMUNDO).
+Bryan is a marine ecologist interested in the ecology of zooplankton, and their role in ecosystem functioning. Currently, he is evaluating the changes in the zooplankton community across the global chlorophyll-a gradient. He is using a harmonized dataset of Continuous Plankton Recorder surveys from around the world. Previously, he has worked on plankton communities in a key Philippine reservoir and used benthic macroinvertebrates as bioindicators to assess the water quality in Philippine geothermal reserves. He is in his final semester for the Erasmus Mundus Joint Master’s Degree in Tropical Biodiversity and Ecosystems (TROPIMUNDO).
 :::
 :::
 
