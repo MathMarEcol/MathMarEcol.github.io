@@ -5,9 +5,37 @@ toc: true
 toc-location: left
 ---
 
-Below is a list of available research projects. These represent a sample of the opportunities in the lab—other topics can be tailored to your interests. Most of the projects are for PhDs, but often an Honours or MSc project can be designed based on a PhD project. Most of these projects require postgraduate scholarships - good places to look for scholarships are the [UQ Graduate School Scholarships](https://scholarships.uq.edu.au/scholarship/graduate-school-scholarships-uqgss-%E2%80%93-includes-rtp) (these scholarships are much easier to get for Australians and New Zealanders), [the Australia Awards](https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships), or scholarships in your home country for studying in Australia.
+## Why Join the Mathematical Marine Ecology Lab?
+Our lab focuses on data analysis and modelling, rather than fieldwork. This approach offers several key advantages:
 
-Feel free to contact Anthony (<a href="mailto:a.richardson1@uq.edu.au">a.richardson1@uq.edu.au</a>) for more information or to discuss potential project ideas.
+- **Lower risk:** Fieldwork can be unpredictable—weather, permits, logistics, and costs often limit data collection. In contrast, analysis and modelling projects are more reliable and flexible.
+- **Lower cost:** Field and lab work are expensive. We prioritise funding for student training, conferences, and top-up scholarships aligned with funded projects.
+- **Broader impact:** Fieldwork is often local in scope. With global data sets freely available, you can tackle large-scale ecological questions—limited only by your curiosity and analytical skills. Explore our [Mathematical Marine Ecology Lab publication list](https://mathmarecol.github.io/publications/) to see what’s possible.
+- **In-demand skills:** Quantitative analysis and modelling are highly sought after in both academia and industry, giving you a competitive edge in your career.
+
+## A Diverse, Supportive Community
+We are proud to be a multicultural lab. Our current students come from Australia, Brazil, China, Colombia, Germany, India, Ireland, Italy, the Philippines, and the US. Past members have hailed from many other countries, including Chile, France, Israel, New Zealand, South Africa, Switzerland, and the UK.
+
+## Scholarship Opportunities
+### Domestic Students (Australia & New Zealand)
+Apply through the [UQ Graduate School Scholarships](https://scholarships.uq.edu.au/scholarship/graduate-school-scholarships-uqgss-%E2%80%93-includes-rtp).
+
+### International Students
+Scholarships are available from a range of sources:
+
+- **All countries:** [UQ Graduate School Scholarships](https://scholarships.uq.edu.au/scholarship/graduate-school-scholarships-uqgss-%E2%80%93-includes-rtp)
+- **The Global South:** [the Australia Awards](https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships)
+- **US:** (e.g., [Fulbright Scholarships](https://www.fulbright.org.au/applicants/us-applicants/); [American Australian Association](https://americanaustralian.org/))
+- **EU** [Marie Skłodowska-Curie Actions](https://marie-sklodowska-curie-actions.ec.europa.eu/)
+Fulbright Scholarships, American Australian Association
+- **Other countries:** Many governments and philanthropic organisations offer PhD funding—check opportunities in your home country.
+
+*Note: UQ scholarships for international students are competitive. One or more peer-reviewed publications are typically required.*
+
+# Research Opportunities
+We offer a range of PhD projects, with options to tailor topics to your interests. Many can also be adapted for Honours or MSc projects. Browse our current project list below.
+
+For more information about potential research projects or scholarships, contact Anthony (<a href="mailto:a.richardson1@uq.edu.au">a.richardson1@uq.edu.au</a>).
 
 # Conservation
 
@@ -79,6 +107,3 @@ Are jellyfish really taking over the oceans? Gelatinous zooplankton—including 
 As global temperatures rise and ocean productivity declines, one of the most fundamental behaviours in the marine food web—zooplankton diel vertical migration—may be undergoing a dramatic shift. This project asks a pressing question: in a warming ocean, will zooplankton reduce their daytime descents to the safety of deeper waters to feed for longer in surface waters and thus be more at risk of predation by visual predators such as fish? The outcomes have major implications for marine predator-prey dynamics and the biological carbon pump. Climate models and observations increasingly suggest that primary production from phytoplankton will decline, challenging zooplankton to find sufficient food while coping with the higher metabolic demands of warmer waters. By analysing long-term (>60 yrs) global zooplankton datasets, this project will investigate if copepods are already altering their migration patterns, drawing parallels with other climate-driven behavioural changes in the animal kingdom—such as increased diurnal ibex foraging at night to escape heat, despite increased risk. The successful candidate will gain skills in big data analysis, ecological modelling, and climate-ecosystem interactions, contributing to a frontier area of marine science with wide-reaching ecological and biogeochemical consequences.
 
 ----
-
-
-

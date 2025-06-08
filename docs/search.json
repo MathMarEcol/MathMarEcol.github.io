@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Our Blog",
     "section": "",
-    "text": "Build your own Quarto website\n\n\n\nwebsite\n\nacademia\n\nquarto\n\n\n\nThis tutorial and template will help you build your own personal or academic website with Quarto.\n\n\n\n\n\nAug 12, 2024\n\n\nJason Everett\n\n\n\n\n\nNo matching items"
+    "text": "Build your own Quarto website\n\n\n\n\n\n\nwebsite\n\n\nacademia\n\n\nquarto\n\n\n\nThis tutorial and template will help you build your own personal or academic website with Quarto.\n\n\n\n\n\nAug 12, 2024\n\n\nJason Everett\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people/index.html",
@@ -56,11 +56,11 @@
     "text": "Tropimundo Students\nWe regularly supervise students from the Tropimundo Program for their final year thesis.\n\nBryan Alpecho\n\n\n\n\nBryan is a marine ecologist interested in the ecology of zooplankton ecology, and their role in ecosystem functioning. Currently, he is evaluating the changes in the zooplankton community across the global chlorophyll-a gradient. He is using a harmonized dataset of Continuous Plankton Recorder data from around the world. Previously, he has worked on plankton communities in a key Philippine reservoir and used benthic macroinvertebrates as bioindicators to assess the water quality in Philippine geothermal reserves. He is in his final semester for the Erasmus Mundus Joint Master’s Degree in Tropical Biodiversity and Ecosystems (TROPIMUNDO)."
   },
   {
-    "objectID": "people/index.html#honours-students",
-    "href": "people/index.html#honours-students",
+    "objectID": "people/index.html#mastershonours-students",
+    "href": "people/index.html#mastershonours-students",
     "title": "People",
-    "section": "Honours Students",
-    "text": "Honours Students\nWe regularly supervise Honours students.\n\nDavina Gifford"
+    "section": "Masters/Honours Students",
+    "text": "Masters/Honours Students\nWe regularly supervise Honours students.\n\nRiley Wagner\n\n\n\n\nRiley is a student in the Master of Conservation Science, undertaking research at the Mathematical Marine Ecology Lab supervised by Professor Anthony J. Richardson and Associate Professor Christopher Brown (University of Tasmania). His research focuses on identifying long term trends in zooplankton biomass in response to evidence that phytoplankton have exhibited a long term decline globally, in the hopes of contributing to knowledge of marine trophic cascades. Before starting his Master’s degree at The University of Queensland, Riley was a secondary mathematics teacher in Brisbane and North Queensland.\n\nDavina Gifford"
   },
   {
     "objectID": "index.html",
@@ -200,7 +200,28 @@
     "href": "future/index.html",
     "title": "Available Projects",
     "section": "",
-    "text": "Below is a list of available research projects. These represent a sample of the opportunities in the lab—other topics can be tailored to your interests. Most of the projects are for PhDs, but often an Honours or MSc project can be designed based on a PhD project. Most of these projects require postgraduate scholarships - good places to look for scholarships are the UQ Graduate School Scholarships (these scholarships are much easier to get for Australians and New Zealanders), the Australia Awards, or scholarships in your home country for studying in Australia.\nFeel free to contact Anthony (a.richardson1@uq.edu.au) for more information or to discuss potential project ideas."
+    "text": "Our lab focuses on data analysis and modelling, rather than fieldwork. This approach offers several key advantages:\n\nLower risk: Fieldwork can be unpredictable—weather, permits, logistics, and costs often limit data collection. In contrast, analysis and modelling projects are more reliable and flexible.\nLower cost: Field and lab work are expensive. We prioritise funding for student training, conferences, and top-up scholarships aligned with funded projects.\nBroader impact: Fieldwork is often local in scope. With global data sets freely available, you can tackle large-scale ecological questions—limited only by your curiosity and analytical skills. Explore our Mathematical Marine Ecology Lab publication list to see what’s possible.\nIn-demand skills: Quantitative analysis and modelling are highly sought after in both academia and industry, giving you a competitive edge in your career."
+  },
+  {
+    "objectID": "future/index.html#why-join-the-mathematical-marine-ecology-lab",
+    "href": "future/index.html#why-join-the-mathematical-marine-ecology-lab",
+    "title": "Available Projects",
+    "section": "",
+    "text": "Our lab focuses on data analysis and modelling, rather than fieldwork. This approach offers several key advantages:\n\nLower risk: Fieldwork can be unpredictable—weather, permits, logistics, and costs often limit data collection. In contrast, analysis and modelling projects are more reliable and flexible.\nLower cost: Field and lab work are expensive. We prioritise funding for student training, conferences, and top-up scholarships aligned with funded projects.\nBroader impact: Fieldwork is often local in scope. With global data sets freely available, you can tackle large-scale ecological questions—limited only by your curiosity and analytical skills. Explore our Mathematical Marine Ecology Lab publication list to see what’s possible.\nIn-demand skills: Quantitative analysis and modelling are highly sought after in both academia and industry, giving you a competitive edge in your career."
+  },
+  {
+    "objectID": "future/index.html#a-diverse-supportive-community",
+    "href": "future/index.html#a-diverse-supportive-community",
+    "title": "Available Projects",
+    "section": "A Diverse, Supportive Community",
+    "text": "A Diverse, Supportive Community\nWe are proud to be a multicultural lab. Our current students come from Australia, Brazil, China, Colombia, Germany, India, Ireland, Italy, the Philippines, and the US. Past members have hailed from many other countries, including Chile, France, Israel, New Zealand, South Africa, Switzerland, and the UK."
+  },
+  {
+    "objectID": "future/index.html#scholarship-opportunities",
+    "href": "future/index.html#scholarship-opportunities",
+    "title": "Available Projects",
+    "section": "Scholarship Opportunities",
+    "text": "Scholarship Opportunities\n\nDomestic Students (Australia & New Zealand)\nApply through the UQ Graduate School Scholarships.\n\n\nInternational Students\nScholarships are available from a range of sources:\n\nAll countries: UQ Graduate School Scholarships\nThe Global South: the Australia Awards\nUS: (e.g., Fulbright Scholarships; American Australian Association)\nEU Marie Skłodowska-Curie Actions Fulbright Scholarships, American Australian Association\nOther countries: Many governments and philanthropic organisations offer PhD funding—check opportunities in your home country.\n\nNote: UQ scholarships for international students are competitive. One or more peer-reviewed publications are typically required."
   },
   {
     "objectID": "future/index.html#seamount-connectivity-informing-deep-sea-conservation-with-oceanographic-models",
@@ -313,12 +334,5 @@
     "title": "Available Projects",
     "section": "Shifting depths: Zooplankton behaviour in a warming ocean",
     "text": "Shifting depths: Zooplankton behaviour in a warming ocean\nAs global temperatures rise and ocean productivity declines, one of the most fundamental behaviours in the marine food web—zooplankton diel vertical migration—may be undergoing a dramatic shift. This project asks a pressing question: in a warming ocean, will zooplankton reduce their daytime descents to the safety of deeper waters to feed for longer in surface waters and thus be more at risk of predation by visual predators such as fish? The outcomes have major implications for marine predator-prey dynamics and the biological carbon pump. Climate models and observations increasingly suggest that primary production from phytoplankton will decline, challenging zooplankton to find sufficient food while coping with the higher metabolic demands of warmer waters. By analysing long-term (&gt;60 yrs) global zooplankton datasets, this project will investigate if copepods are already altering their migration patterns, drawing parallels with other climate-driven behavioural changes in the animal kingdom—such as increased diurnal ibex foraging at night to escape heat, despite increased risk. The successful candidate will gain skills in big data analysis, ecological modelling, and climate-ecosystem interactions, contributing to a frontier area of marine science with wide-reaching ecological and biogeochemical consequences."
-  },
-  {
-    "objectID": "people/index.html#mastershonours-students",
-    "href": "people/index.html#mastershonours-students",
-    "title": "People",
-    "section": "Masters/Honours Students",
-    "text": "Masters/Honours Students\nWe regularly supervise Honours students.\n\nRiley Wagner\n\n\n\n\nRiley is a student in the Master of Conservation Science, undertaking research at the Mathematical Marine Ecology Lab supervised by Professor Anthony J. Richardson and Associate Professor Christopher Brown (University of Tasmania). His research focuses on identifying long term trends in zooplankton biomass in response to evidence that phytoplankton have exhibited a long term decline globally, in the hopes of contributing to knowledge of marine trophic cascades. Before starting his Master’s degree at The University of Queensland, Riley was a secondary mathematics teacher in Brisbane and North Queensland.\n\nDavina Gifford"
   }
 ]
