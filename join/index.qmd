@@ -1,0 +1,31 @@
+---
+title: Why join the Mathematical Marine Ecology Lab?
+toc: true
+toc-location: left
+---
+
+Our lab focuses on data analysis and modelling, rather than fieldwork. This approach offers several key advantages:
+
+  - **Lower risk:** Fieldwork can be unpredictable—weather, permits, logistics, and costs often limit data collection. In contrast, analysis and modelling projects are more reliable and flexible.
+- **Lower cost:** Field and lab work are expensive. We prioritise funding for student training, conferences, and top-up scholarships aligned with funded projects.
+- **Broader impact:** Fieldwork is often local in scope. With global data sets freely available, you can tackle large-scale ecological questions—limited only by your curiosity and analytical skills. Explore our [Mathematical Marine Ecology Lab publication list](https://mathmarecol.github.io/publications/) to see what’s possible.
+- **In-demand skills:** Quantitative analysis and modelling are highly sought after in both academia and industry, giving you a competitive edge in your career.
+
+## A Diverse, Supportive Community
+We are proud to be a multicultural lab. Our current students come from Australia, Brazil, China, Colombia, Germany, India, Ireland, Italy, the Philippines, and the US. Past members have hailed from many other countries, including Chile, France, Israel, New Zealand, South Africa, Switzerland, and the UK.
+
+## Scholarship Opportunities
+### Domestic Students (Australia & New Zealand)
+Apply through the [UQ Graduate School Scholarships](https://scholarships.uq.edu.au/scholarship/graduate-school-scholarships-uqgss-%E2%80%93-includes-rtp).
+
+### International Students
+Scholarships are available from a range of sources:
+
+  - **All countries:** [UQ Graduate School Scholarships](https://scholarships.uq.edu.au/scholarship/graduate-school-scholarships-uqgss-%E2%80%93-includes-rtp)
+- **The Global South:** [the Australia Awards](https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships)
+- **US:** (e.g., [Fulbright Scholarships](https://www.fulbright.org.au/applicants/us-applicants/); [American Australian Association](https://americanaustralian.org/))
+- **EU** [Marie Skłodowska-Curie Actions](https://marie-sklodowska-curie-actions.ec.europa.eu/)
+Fulbright Scholarships, American Australian Association
+- **Other countries:** Many governments and philanthropic organisations offer PhD funding—check opportunities in your home country.
+
+*Note: UQ scholarships for international students are competitive. One or more peer-reviewed publications are typically required.*

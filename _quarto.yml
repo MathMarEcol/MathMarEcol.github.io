@@ -17,6 +17,8 @@ website:
         href: people/index.qmd
       - text: "Research"
         href: research/index.qmd
+      - text: "Why Join?"
+        href: join/index.qmd
       - text: "Available Projects"
         href: future/index.qmd
       - text: "Lab Publications"
