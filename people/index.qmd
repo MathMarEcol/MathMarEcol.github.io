@@ -196,11 +196,10 @@ Sandra is a marine data scientist with an interest in marine spatial planning an
 ### Alice Pidd
 ::: columns
 ::: {.column width="25%"}
-<!--<img src="Sandra.jpg" style="width: 80%; object-fit: contain"/>
+<img src="Alice.jpg" style="width: 80%; object-fit: contain"/>
 :::
 ::: {.column width="75%"}
-<!-->
-:::
+Alice is a final-year PhD student with a supervisory team spanning the University of the Sunshine Coast and the University of Queensland. Her research uses CMIP6 climate projections up to 2100 to: (1) identify climate refugia across various exposure metrics within Australia’s existing marine protected area (MPA) network; (2) assess the climate connectivity of existing MPAs using climate velocity trajectories; and (3) incorporate these layers into a spatial prioritisation to explore alternative MPA configurations that may be more robust to long-term climate impacts. An interloper from NSW, Alice has a past life in fisheries science, having previously developed Ecological Risk Assessments and contributed to Stock Assessments for both NSW and QLD commercial fisheries. She is pursuing post-doc opportunities, and is particularly interested in long-term approaches to marine conservation, quantitative marine ecology, data visualisation, and functional programming.
 :::
 
 ### Jaime Restrepo
