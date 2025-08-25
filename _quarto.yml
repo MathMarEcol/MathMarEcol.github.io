@@ -63,8 +63,8 @@ format:
     link-external-newwindow: true
     fontsize: 1.1em
     theme:
-      light: flatly
       dark: superhero
+      light: flatly
     page-layout: full
     toc: false
     code-link: true
