@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Research – Mathematical Marine Ecology Lab</title>
+<title>Education – Mathematical Marine Ecology Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../img/favicon.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-a331e776612922e8a26c861783a558cd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./img/favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-a331e776612922e8a26c861783a558cd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,22 +68,80 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="../styles.css">
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="floating nav-fixed quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../img/logo.png" alt="" class="navbar-logo">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./img/logo.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Mathematical Marine Ecology Lab</span>
     </a>
   </div>
@@ -92,27 +152,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../people/index.html"> 
+    <a class="nav-link" href="./people/index.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../research/index.html" aria-current="page"> 
+    <a class="nav-link" href="./research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../join/index.html"> 
+    <a class="nav-link" href="./join/index.html"> 
 <span class="menu-text">Why Join?</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../future/index.html"> 
+    <a class="nav-link" href="./future/index.html"> 
 <span class="menu-text">Available Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../education.html"> 
+    <a class="nav-link active" href="./education.html" aria-current="page"> 
 <span class="menu-text">Education</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../publications/index.html"> 
+    <a class="nav-link" href="./publications/index.html"> 
 <span class="menu-text">Lab Publications</span></a>
   </li>  
 </ul>
@@ -135,97 +195,78 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
-<!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Research</h2>
-   
-  <ul>
-  <li><a href="#conservation-and-protected-areas" id="toc-conservation-and-protected-areas" class="nav-link active" data-scroll-target="#conservation-and-protected-areas">Conservation and protected areas</a></li>
-  <li><a href="#tracking-climate-change-using-plankton" id="toc-tracking-climate-change-using-plankton" class="nav-link" data-scroll-target="#tracking-climate-change-using-plankton">Tracking climate change using plankton</a></li>
-  <li><a href="#dynamic-ecosystem-modelling" id="toc-dynamic-ecosystem-modelling" class="nav-link" data-scroll-target="#dynamic-ecosystem-modelling">Dynamic ecosystem modelling</a></li>
-  </ul>
-</nav>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-    </div>
-<!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Research</h1>
-</div>
-
-
-
-<div class="quarto-title-meta column-page-right">
-
-    
-  
-    
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Education</h1>
+            <p class="subtitle lead">A collection of our teaching resources</p>
+                      </div>
   </div>
+    
   
+  <div class="quarto-title-meta column-page-left">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YWNhZGVtaWE=">academia <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJvZ3JhbW1pbmc=">programming <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(1)</span></div></div></div>
+<!-- main -->
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
-</header>
 
 
-<section id="conservation-and-protected-areas" class="level2">
-<h2 class="anchored" data-anchor-id="conservation-and-protected-areas">Conservation and protected areas</h2>
-<p><img src="ProtectedAreas.png" style="width: 80%; object-fit: contain"></p>
-<p>The ocean is under pressure — from overfishing, climate change, pollution, habitat loss, and invasive species. To protect marine biodiversity, countries are rapidly expanding networks of marine protected areas (MPAs), aiming for 30% ocean coverage by 2030 (the “30x30” target). But where should these reserves go?</p>
-<p>Our lab tackles this question using quantitative, climate-smart conservation planning. We combine biodiversity mapping, oceanographic data, and advanced modelling to design MPAs that:</p>
-<ul>
-<li>Conserve species and ecosystems into the future</li>
-<li>Optimise multipe use (e.g., fishing, shipping, mining, renewable energy, aquaculture) through ocean zoning</li>
-<li>Enhance climate resilience and connectivity of protected areas</li>
-<li>Provide maximum fisheries benefits to communities</li>
-<li>Minimise conflict between conservation and industries</li>
-<li>Account for the ocean’s complex 3D structure</li>
-<li>Use our methodological developments to increase the protection of marine biodiversity and improve ocean management</li>
-<li>Develop real-time ocean shiny apps for stake-holder engagement</li>
-</ul>
-<p>This work uses supercomputing, real-time decision tools (Shiny apps), and includes multiple-use planning and ecosystem service trade-offs. It’s applied, computational, and directly supports policy and marine management. Examples of our real-world applications can be found <a href="https://spatialplanning.github.io/realTime.html">here</a>.</p>
-<hr>
-</section>
-<section id="tracking-climate-change-using-plankton" class="level2">
-<h2 class="anchored" data-anchor-id="tracking-climate-change-using-plankton">Tracking climate change using plankton</h2>
-<p><img src="Plankton.jpeg" style="width: 50%; object-fit: contain"></p>
-<p>Plankton are sentinels of climate change. Phytoplankton produce half the oxygen on Earth and support marine food webs, while zooplankton transfer carbon to fish, whales, and seabirds, and drive key biogeochemical cycles. But in a rapidly changing climate, how are these critical organisms responding?</p>
-<p>Our lab uses decades of high-resolution plankton data from the Australian Integrated Marine Observing System (IMOS) run by CSIRO, historical records, and global data sets to uncover how climate variability and change—including marine heatwaves, El Niño, warming, and acidification—is reshaping plankton abundance, distribution, species composition, and behaviour.</p>
-<p>We apply cutting-edge statistical modelling (e.g., GLMMs, GAMMs, time-series analysis) to investigate:</p>
-<ul>
-<li>Shifts in plankton distribution, abundance, timing and community structure</li>
-<li>Zooplankton responses to warming and acidification</li>
-<li>Emerging trends in gelatinous zooplankton (jellyfish and salps) in response to global change</li>
-<li>Changes in zooplankton diel vertical migration in response to cliamte change, with implications for predator-prey interactions and the biological carbon pump</li>
-<li>Ecosystem health indicators and assess trends over time to inform marine assessments and national reporting.</li>
-</ul>
-<p>Learn more: 👉 <a href="http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/">Australian Plankton Survey</a> 👉 <a href="http://imos.org.au/fileadmin/user_upload/shared/IMOS%20General/documents/IMOS/Fact_Sheets/IMOS_Factsheet_AUSCPR_website2.pdf">Plankton Factsheet</a> 👉 <a href="https://www.imosoceanreport.org.au/">State of Australia’s Oceans</a> 👉 <a href="http://imos.org.au/facilities/shipsofopportunity/auscontinuousplanktonrecorder/zooplankton-image-gallery-species-from-australian-waters/">Zooplankton Image Gallery</a></p>
-</section>
-<section id="dynamic-ecosystem-modelling" class="level2">
-<h2 class="anchored" data-anchor-id="dynamic-ecosystem-modelling">Dynamic ecosystem modelling</h2>
-<p><img src="EcosystemModels.png" style="width: 50%; object-fit: contain"></p>
-<p>To manage marine biodiversity and fisheries sustainably in a changing climate, we need powerful tools to forecast how ecosystems will respond. Our lab develops dynamic ecosystem models that simulate life in the ocean—from bacteria to whales—based on core biological processes like feeding, growth, and predation. Central to our approach are size spectrum models, which track energy flow and carbon cycling across all body sizes and trophic levels.</p>
-<p>A major innovation in our work is resolving zooplankton, the critical but often overlooked link between phytoplankton and fish. Zooplankton not only sustain food webs but also drive the biological carbon pump—a process that draws carbon from the atmosphere and stores it in the deep sea. Yet most models simplify or omit their role.</p>
-<p>We are advancing ZooMSS (Zooplankton Model of Size Spectra), a global, process-based model designed to better represent zooplankton diversity, temperature sensitivity, and carbon dynamics. By refining how zooplankton are modelled—including their impact on fisheries and carbon sequestration—we aim to answer key questions:</p>
-<ul>
-<li>How will climate change alter zooplankton communities and their role in ocean carbon storage?</li>
-<li>How does the temperature sensitivity of different zooplankton groups and processes alter carbon cycling in the ocean?</li>
-<li>Why are there so many tuna in nutrient-poor tropical waters?</li>
-<li>What can improved zooplankton modelling tell us about future fish stocks and climate mitigation?</li>
-</ul>
-<p>ZooMSS is an ecosystem model based on partial differential equations, is run on a supercomputer, and is the only global fisheries-ecosystem model that focuses on better representing zooplankton feeding relationships.</p>
-<hr>
 
 
-</section>
 
-</main> <!-- /main -->
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="YWNhZGVtaWElMkNSJTJDcHJvZ3JhbW1pbmc=" data-listing-date-sort="1756044000000" data-listing-file-modified-sort="1756090707965" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2533">
+<div class="thumbnail"><a href="./education/2025-08-25-WritingFunctions/index.html" class="no-external">
+
+<p class="card-img-top"><img src="education/2025-08-25-WritingFunctions/index_files/figure-html/unnamed-chunk-5-1.png"  class="thumbnail-image card-img"/></p>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./education/2025-08-25-WritingFunctions/index.html" class="no-external">Writing Flexible Functions in R</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('YWNhZGVtaWE='); return false;">academia</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHJvZ3JhbW1pbmc='); return false;">programming</div>
+
+</div>
+<div class="delink listing-description"><a href="./education/2025-08-25-WritingFunctions/index.html" class="no-external">
+<p>This tutorial will cover the basics of function structure, writing and documenting your own functions and making them as flexible as possible</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./education/2025-08-25-WritingFunctions/index.html" class="no-external">
+<div class="listing-date">
+Aug 25, 2025
+</div>
+<div class="listing-author">
+Jason Everett
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
