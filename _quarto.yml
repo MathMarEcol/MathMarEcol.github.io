@@ -21,6 +21,8 @@ website:
         href: join/index.qmd
       - text: "Available Projects"
         href: future/index.qmd
+      - text: "Education"
+        href: education.qmd
       - text: "Lab Publications"
         href: publications/index.qmd
 
@@ -61,7 +63,7 @@ format:
     link-external-newwindow: true
     fontsize: 1.1em
     theme:
-      - solar #
+      - flatly #
       # - html/styles.scss
     page-layout: full
     toc: false

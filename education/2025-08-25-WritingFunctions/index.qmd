@@ -1,0 +1,574 @@
+---
+title: "Writing Flexible Functions in R"
+description: "This tutorial will cover the basics of function structure, writing and documenting your own functions and making them as flexible as possible"
+author:
+  - name: Jason Everett
+date: 2025-08-25
+categories:
+  - academia
+  - R
+  - programming
+# image: quarto.png
+draft: false
+number-sections: true
+toc: true
+toc-depth: 3
+toc-title: "Contents"
+editor:
+  markdown:
+    wrap: sentence
+---
+
+For this session we are going to use the [`gapminder`](https://www.gapminder.org/) dataset.
+
+::: {.callout-note}
+## About the Gapminder Dataset
+
+The [`gapminder`](https://www.gapminder.org/) dataset contains information about life expectancy, population, and GDP per capita for countries around the world from 1952 to 2007. This dataset was made famous by Hans Rosling, a Swedish physician and statistician who used it in his captivating TED talks to challenge misconceptions about global development. Rosling's animated visualisations of this data revealed surprising trends about how countries have progressed over time, showing that the world has become healthier and wealthier than many people realise.
+
+The dataset is perfect for demonstrating data analysis techniques because it contains both categorical variables (country, continent) and numerical variables (year, life expectancy, population, GDP per capita), with enough complexity to showcase real-world data challenges while remaining manageable for learning purposes.
+:::
+
+
+Before we start, let's load the packages we'll need:
+
+```{r}
+#| message: false
+#| warning: false
+
+library(tidyverse)
+library(gapminder)
+```
+
+# Why We Use Functions in R
+Functions are the building blocks of reproducible analysis in R. They:
+
+- Help you avoid repeating yourself (DRY principle)
+- Make your code easier to read, test, and debug
+- Allow you to generalise analyses to any dataset
+- Enable collaboration and sharing of code
+
+Today, we'll learn how to write flexible functions that work with any data, and how to document them for others to use.
+
+# What the Basic Structure of a Function Looks Like
+
+Here is the basic structure of a function in R:
+
+```{r}
+#| eval: false
+
+# Function name assignment
+my_function <- function(arg1, arg2) {  # Arguments (parameters)
+  # Function body - the code that does the work
+  result <- arg1 + arg2
+  return(result)  # Return value (optional)
+}
+```
+
+Let's break down the key components:
+
+- **Function name**: `my_function` - what you'll call to use the function
+- **Assignment operator**: `<-` - assigns the function to a name
+- **`function()` keyword**: tells R you're creating a function
+- **Arguments**: `arg1, arg2` - the inputs your function accepts
+- **Function body**: the code between `{}` that does the actual work
+- **Return value**: what the function gives back (optional - R returns the last evaluated expression by default)
+
+Here's a simple working example:
+
+```{r}
+# A function to calculate the area of a rectangle
+calculate_area <- function(length, width) {
+  area <- length * width
+  return(area)
+}
+
+# Test our function
+calculate_area(5, 3)
+```
+
+
+# Writing a Basic Function to Show the Structure
+
+Let's write a function that filters the `gapminder` dataset for countries with life expectancy above a given threshold. We'll keep it simple and use a fixed column name:
+
+```{r}
+filter_lifeExp <- function(data, threshold) {
+  data %>%
+    filter(lifeExp > threshold) %>%
+    slice_head(n = 10)
+}
+
+# Example usage
+filter_lifeExp(gapminder, 60)
+```
+
+
+# Writing a More Complex Function That Plots Data
+
+Now let's write a plotting function for the same data:
+
+```{r}
+my_scatter_plot <- function(data) {
+  data %>%
+    ggplot(aes(x = gdpPercap, y = lifeExp)) +
+    geom_point(colour = "blue", alpha = 0.7) +
+    theme_minimal()
+}
+
+# Example usage
+filtered <- filter_lifeExp(gapminder, 60)
+my_scatter_plot(filtered)
+```
+
+Try changing the threshold in `filter_lifeExp()` to see how the plot changes.
+
+
+:::{.callout-important}
+## The Limitation of Fixed Column Names
+
+But what if we wanted more flexible functions that can take many different column names? Or even work with a completely different dataset with different column names?
+
+Our current functions are quite rigid - they only work with specific column names like `lifeExp` and `gdpPercap`. This limits their reusability!
+:::
+
+# Working with Column Names as Strings - `[[]]`
+
+Before we dive into tidy evaluation, let's look at some common scenarios. Normally, we make an explicit choice about which column we want to access in our data.
+
+```{r}
+gapminder %>%
+  filter(lifeExp > 60) %>% # or .data$lifeExp
+  slice_head(n = 10)
+```
+
+What if you wanted to change that column programmatically and not update your code every time? First, let's assume your column name is stored as a string.
+
+The `[[]]` operator with `.data` **directly looks up** a column by its string name. Think of it as saying "go find the column with this exact name and give me its values." It bypasses all the fancy tidy evaluation and just does a straightforward column lookup.
+
+```{r}
+# Using [[]] with .data for explicit column access
+column_name <- "lifeExp"
+
+gapminder %>%
+  filter(.data[[column_name]] > 60) %>%
+  slice_head(n = 10)
+```
+
+This is particularly useful in functions where you might receive column names as strings:
+
+```{r}
+# Function that takes a column name as a string
+filter_by_string_name <- function(data, col_name_string, threshold) {
+  data %>%
+    filter(.data[[col_name_string]] > threshold)
+}
+
+# Test with column name as string
+filter_by_string_name(gapminder, "gdpPercap", 30000) %>%
+  slice_head(n = 10)
+```
+
+
+Equally, it works with ggplot2, which is quite helpful because you often want to write generic plotting functions for multiple variables.
+
+```{r}
+# Function to create a simple scatter plot
+my_scatter_plot <- function(data, x_column, y_column) {
+  data %>%
+    ggplot(aes(x = .data[[x_column]], y = .data[[y_column]])) +
+    geom_point(alpha = 0.7) +
+    theme_minimal()
+}
+
+dat <- filter_by_string_name(gapminder, "gdpPercap", 30000) %>%
+  slice_head(n = 10)
+
+# Create a plot
+my_scatter_plot(dat, "gdpPercap", "lifeExp")
+
+```
+Try one of the other numeric variables, or reverse `x_column` and `y_column`.
+
+Did you know that piping works with your own functions too?
+
+
+```{r}
+
+gg <- gapminder %>% 
+  filter_by_string_name("gdpPercap", 30000) %>%
+  slice_head(n = 10) %>%
+  my_scatter_plot("gdpPercap", "lifeExp")
+
+```
+
+
+
+
+
+:::{.callout-tip}
+## The `[[]]` approach works, but...
+
+The `[[]]` syntax with `.data` is explicit column access - you're directly looking up columns by their string names. This works well when:
+
+- You have column names as strings
+- You want to be very explicit about data access
+- You're building functions that work with string-based specifications
+
+**But what if users want to pass unquoted column names** like `filter_function(data, lifeExp, 75)` instead of `filter_function(data, "lifeExp", 75)`?
+
+That's where tidy evaluation comes in...
+:::
+
+# What is Tidy Evaluation?
+
+**Tidy evaluation** is the system that allows tidyverse functions to work with unquoted column names. It's what makes this possible:
+
+```{r}
+# This works - no quotes around column names despite `year` not being in your environment!
+gapminder %>% 
+  filter(year == 2007) %>% 
+  select(country, continent, lifeExp, gdpPercap)
+```
+
+
+## The Problem: Functions Don't Work with dplyr
+
+The challenge comes when you try to write your own functions. Let's see what happens:
+
+```{r}
+#| error = TRUE
+# This function won't work as expected
+my_filter <- function(data, column_name, value) {
+  data %>%
+    filter(column_name == value)  # This doesn't work!
+}
+
+# Try to use it
+my_filter(gapminder, year, 2007)
+```
+
+The function fails because `column_name` is treated as the literal text "column_name", not as the variable name we passed in (`year`). This is where tidy evaluation and data masking comes to the rescue!
+
+# Data Masking
+
+:::{.callout-note}
+## What is Data Masking?
+
+**Data masking** makes column names in your data frame available as if they were regular variables. It is what allows you to write `filter(gapminder, year == 2007)` instead of `filter(gapminder, gapminder$year == 2007)`. The column name `year` gets "masked" so it appears to exist in your current environment.
+
+This is why you can write:
+
+```{r}
+# This works - year refers to the column
+gapminder %>% filter(year == 2007)
+```
+
+You've been using data masking every time you use dplyr functions - you just didn't know it had a name!
+:::
+
+# The Curly-Curly Operator `{{}}`
+
+The **curly-curly** operator `{{}}` is the solution to our function problem!
+
+Conceptually, `{{}}` **captures and forwards** whatever the user passed to your function. Think of it as a "pass-through" mechanism - it takes the unquoted column name the user gave you (like `lifeExp`) and forwards it to dplyr functions as if you had typed that column name directly in the code.
+
+:::{.callout-tip}
+## What does `{{}}` do?
+
+The `{{}}` operator (called "curly-curly") is like a magic wrapper that:
+
+1. **Captures** the column name you pass to your function
+2. **Passes it through** to dplyr functions correctly
+3. **Makes it work** just like typing the column name directly
+
+Think of `{{column_name}}` as saying "use whatever column name the user gave me here."
+:::
+
+```{r}
+# Fixed version using curly-curly
+my_filter <- function(data, column_name, value) {
+  data %>%
+    filter({{column_name}} == value)  # {{}} makes this work!
+}
+
+# Now it works!
+my_filter(gapminder, year, 2007) %>%
+  slice_head(n = 10)
+```
+
+Let's try a few more simple examples:
+
+```{r}
+# Function to select and arrange data
+my_select_arrange <- function(data, column_name) {
+  data %>%
+    select(country, year, {{column_name}}) %>%
+    arrange({{column_name}})
+}
+
+# Test it out
+my_select_arrange(gapminder, lifeExp) %>%
+  slice_head(n = 10)
+```
+
+```{r}
+# Function to create a simple summary
+my_summary <- function(data, group_column, summary_column) {
+  data %>%
+    group_by({{group_column}}) %>%
+    summarise(
+      average = mean({{summary_column}}, na.rm = TRUE),
+      count = n(),
+      .groups = "drop"
+    )
+}
+
+# Test with different combinations
+my_summary(gapminder, continent, lifeExp)
+```
+
+## Using `{{}}` with ggplot2
+
+The curly-curly operator also works with ggplot2:
+
+```{r}
+# Function to create a simple scatter plot
+my_scatter_plot <- function(data, x_column, y_column) {
+  data %>%
+    ggplot(aes(x = {{x_column}}, y = {{y_column}})) +
+    geom_point(alpha = 0.7) +
+    theme_minimal()
+}
+
+# Create a plot
+my_scatter_plot(gapminder %>% filter(year == 2007), gdpPercap, lifeExp)
+```
+
+:::{.callout-note}
+## Key Point: `{{}}` works everywhere
+
+The `{{}}` operator works with:
+
+- **dplyr functions**: `filter()`, `select()`, `mutate()`, `group_by()`, etc.
+- **ggplot2**: inside `aes()` for aesthetics
+- **Any tidyverse function** that uses tidy evaluation
+This consistency makes it easy to remember - just wrap your column arguments in `{{}}` and they'll work!
+:::
+
+# Using `...` for Ultimate Flexibility
+
+The **dot-dot-dot** (`...`) parameter is another powerful tool for creating flexible functions. It allows your function to accept any number of additional arguments and pass them along to other functions.
+
+:::{.callout-note}
+## What does `...` do?
+
+The `...` parameter (called "dot-dot-dot" or "ellipsis") allows your function to:
+
+1. **Accept unlimited arguments** that you don't need to specify in advance
+2. **Pass arguments through** to other functions without knowing what they are
+3. **Make wrapper functions** that extend existing functionality
+
+Think of `...` as saying "accept whatever else the user wants to pass along."
+:::
+
+## Example 1: Passing Arguments to ggplot2
+
+Let's create a plotting function that can accept any additional ggplot2 arguments:
+
+```{r}
+# Function that accepts additional ggplot arguments via ...
+flexible_scatter <- function(data, x_col, y_col, ...) {
+  data %>%
+    ggplot(aes(x = {{x_col}}, y = {{y_col}})) +
+    geom_point(...) +  # Pass ... to geom_point()
+    theme_minimal()
+}
+
+# Now we can pass any geom_point() arguments
+flexible_scatter(gapminder %>% filter(year == 2007),
+                gdpPercap, lifeExp,
+                colour = "red", size = 2, alpha = 0.6)
+```
+
+## Example 2: Flexible Summary Function
+
+Here's a summary function that can accept additional arguments for the summary functions:
+
+```{r}
+# Function that passes ... to summary functions
+flexible_summary <- function(data, group_col, summary_col, ...) {
+  data %>%
+    group_by({{group_col}}) %>%
+    summarise(
+      mean_val = mean({{summary_col}}, ...),  # Pass ... to mean()
+      median_val = median({{summary_col}}, ...),  # Pass ... to median()
+      count = n(),
+      .groups = "drop"
+    )
+}
+
+# Test with na.rm = TRUE passed through ...
+gapminder_with_na <- gapminder
+gapminder_with_na$lifeExp[1:5] <- NA  # Add some missing values
+
+flexible_summary(gapminder_with_na, continent, lifeExp, na.rm = TRUE)
+```
+
+## Example 3: Combining `{{}}` and `...`
+
+You can use both `{{}}` and `...` in the same function for maximum flexibility:
+
+```{r}
+# Ultimate flexible plotting function
+ultimate_plot <- function(data, x_col, y_col, plot_type = "point", ...) {
+  p <- data %>%
+    ggplot(aes(x = {{x_col}}, y = {{y_col}}))
+  
+  if (plot_type == "point") {
+    p <- p + geom_point(...)
+  } else if (plot_type == "line") {
+    p <- p + geom_line(...)
+  }
+  
+  p + theme_minimal()
+}
+
+# Use with different geom arguments
+ultimate_plot(gapminder %>% filter(country == "Australia"),
+              year, lifeExp,
+              plot_type = "line",
+              colour = "blue", linewidth = 1.2)
+```
+
+:::{.callout-tip}
+## When to Use `...`
+
+Use `...` when you want to:
+
+- **Wrap existing functions** and allow users to pass additional arguments
+- **Create flexible plotting functions** that accept aesthetic parameters
+- **Build summary functions** that can handle different options (like `na.rm`)
+- **Make your functions extensible** without knowing all possible future arguments
+
+**Be careful**: `...` can make debugging harder since you don't know what arguments might be passed!
+:::
+
+
+
+
+# Documenting Your Functions
+
+Documenting your functions is essential for sharing and future use. Good documentation helps others (and future you!) understand:
+
+- What the function does
+- What inputs it expects
+- What it returns
+- How to use it
+
+The standard in R is to use **roxygen2** comments above your function. These special comments start with `#'` and use specific tags:
+
+:::{.callout-tip}
+## Keyboard Shortcuts for Roxygen2
+
+**RStudio shortcuts for adding roxygen2 headers:**
+
+- **Windows/Linux**: `Ctrl + Alt + Shift + R`
+- **Mac**: `Cmd + Option + Shift + R`
+
+Place your cursor anywhere inside your function and use this shortcut to automatically generate a roxygen2 template with all the `@param` tags for your function arguments!
+:::
+
+```{r}
+#' Filter a data frame by a column and threshold
+#'
+#' This function filters a data frame to show only rows where the specified
+#' column values are above a given threshold, returning the top 3 results.
+#'
+#' @param data A data frame to filter
+#' @param column_name Column name as a string (e.g., "lifeExp")
+#' @param threshold Numeric threshold value for filtering
+#' @return A filtered data frame with up to 3 rows
+#' @examples
+#' filter_gapminder(gapminder, "lifeExp", 75)
+#' filter_gapminder(gapminder, "gdpPercap", 30000)
+filter_gapminder <- function(data, column_name, threshold) {
+  data %>%
+    filter(.data[[column_name]] > threshold) %>%
+    slice_head(n = 10)
+}
+```
+
+## Common roxygen2 Tags
+
+- `@param`: Describes each parameter
+- `@return`: Describes what the function returns
+- `@examples`: Shows how to use the function
+- `@export`: Makes the function available when building a package
+
+Let's document one of our curly-curly functions as well:
+
+```{r}
+#' Create a summary by group
+#'
+#' This function groups data by a specified column and calculates the mean
+#' and count for another column.
+#'
+#' @param data A data frame
+#' @param group_column Column to group by (unquoted)
+#' @param summary_column Column to summarise (unquoted)
+#' @return A data frame with group, average, and count columns
+#' @examples
+#' my_summary(gapminder, continent, lifeExp)
+#' my_summary(gapminder, year, gdpPercap)
+my_summary <- function(data, group_column, summary_column) {
+  data %>%
+    group_by({{group_column}}) %>%
+    summarise(
+      average = mean({{summary_column}}, na.rm = TRUE),
+      count = n(),
+      .groups = "drop"
+    )
+}
+```
+
+:::{.callout-tip}
+## Building Packages
+
+If you're building an R package, you can use [`devtools::document()`](https://devtools.r-lib.org/) to automatically generate help files from your roxygen2 comments. This creates the standard R help documentation that users can access with `?function_name`.
+:::
+
+# Summary
+
+Today we've covered:
+
+1. **Basic function structure** - the essential components of any R function
+2. **String-based column access** - using `.data[[]]` for programmatic column selection
+3. **Tidy evaluation** - understanding how tidyverse functions work with unquoted names
+4. **Data masking** - the system that makes column names available as variables
+5. **The curly-curly operator `{{}}`** - making your functions work seamlessly with tidyverse
+6. **Documentation** - using roxygen2 to create professional function documentation
+
+## Key Takeaways
+
+- Use `{{}}` when you want users to pass unquoted column names
+- Use `.data[[]]` when you have column names as strings
+- Always document your functions with roxygen2 comments
+- Test your functions with different datasets to ensure flexibility
+
+## Practice Exercises
+
+Try creating your own functions that:
+
+1. Filter data based on multiple conditions using `{{}}`
+2. Create different types of plots with flexible aesthetics
+3. Calculate custom summaries with grouping variables
+4. Include proper roxygen2 documentation
+
+Remember: the best functions are flexible, well-documented, and solve real problems in your analysis workflow!
+
+
+
+
+
+
