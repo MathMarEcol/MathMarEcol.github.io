@@ -70,6 +70,27 @@
     "text": "Welcome to the Mathematical Marine Ecology Lab\nWe use mathematical, statistical, and computational tools to understand and address impacts of human activities on our oceans. By developing advanced models of marine ecosystems and leveraging high-performance computing, our research helps identify the key processes driving ocean change, support biodiversity conservation, and promote sustainable fisheries—particularly in the face of climate change.\nOur work sits at the intersection of ecology, oceanography, climate science, and data science, and we collaborate widely to ensure our findings are useful for science, policy, and conservation practice.\n\n\nAbout the Lab Head\nProfessor Anthony J. Richardson leads the lab and holds a joint position with the School of the Environment at the University of Queensland and CSIRO Environment, Australia’s national science agency. Anthony is a mathematical ecologist whose research is driven by a passion for marine conservation and understanding how climate change is reshaping life in the ocean.\nHe has authored over 250 scientific papers, been cited more than 35,000 times, and has made significant contributions to our understanding of climate impacts on marine ecosystems—from plankton to fish. His research has also helped shape national and international strategies for marine spatial planning, biodiversity conservation and ecosystem-based management.\n\n\nJoin Us\nThis website introduces our lab, our team, current research themes, and opportunities for collaboration. We also list potential research projects for Honours, Masters, and PhD students. If you’re excited by marine ecology and keen to build your quantitative skills, we would love to hear from you. We welcome students from a variety of backgrounds, including ecology, mathematics, physics, computer science, and environmental science.\nGet in touch—we’re always looking for curious, motivated people to join our team!"
   },
   {
+    "objectID": "join/index.html",
+    "href": "join/index.html",
+    "title": "Why join the Mathematical Marine Ecology Lab?",
+    "section": "",
+    "text": "Our lab focuses on data analysis and modelling, rather than fieldwork. This approach offers several key advantages:"
+  },
+  {
+    "objectID": "join/index.html#a-diverse-supportive-community",
+    "href": "join/index.html#a-diverse-supportive-community",
+    "title": "Why join the Mathematical Marine Ecology Lab?",
+    "section": "A Diverse, Supportive Community",
+    "text": "A Diverse, Supportive Community\nWe are proud to be a multicultural lab. Our current students come from Australia, Brazil, China, Colombia, Germany, India, Ireland, Italy, the Philippines, and the US. Past members have hailed from many other countries, including Chile, France, Israel, New Zealand, South Africa, Switzerland, and the UK."
+  },
+  {
+    "objectID": "join/index.html#scholarship-opportunities",
+    "href": "join/index.html#scholarship-opportunities",
+    "title": "Why join the Mathematical Marine Ecology Lab?",
+    "section": "Scholarship Opportunities",
+    "text": "Scholarship Opportunities\n\nDomestic Students (Australia & New Zealand)\nApply through the UQ Graduate School Scholarships.\n\n\nInternational Students\nScholarships are available from a range of sources:\n\nAll countries: UQ Graduate School Scholarships\nThe Global South: the Australia Awards\nUS: (e.g., Fulbright Scholarships; American Australian Association)\nEU Marie Skłodowska-Curie Actions Fulbright Scholarships, American Australian Association\nOther countries: Many governments and philanthropic organisations offer PhD funding—check opportunities in your home country.\n\nNote: UQ scholarships for international students are competitive. One or more peer-reviewed publications are typically required."
+  },
+  {
     "objectID": "research/index.html",
     "href": "research/index.html",
     "title": "Research",
@@ -98,25 +119,67 @@
     "text": "Dynamic ecosystem modelling\n\nTo manage marine biodiversity and fisheries sustainably in a changing climate, we need powerful tools to forecast how ecosystems will respond. Our lab develops dynamic ecosystem models that simulate life in the ocean—from bacteria to whales—based on core biological processes like feeding, growth, and predation. Central to our approach are size spectrum models, which track energy flow and carbon cycling across all body sizes and trophic levels.\nA major innovation in our work is resolving zooplankton, the critical but often overlooked link between phytoplankton and fish. Zooplankton not only sustain food webs but also drive the biological carbon pump—a process that draws carbon from the atmosphere and stores it in the deep sea. Yet most models simplify or omit their role.\nWe are advancing ZooMSS (Zooplankton Model of Size Spectra), a global, process-based model designed to better represent zooplankton diversity, temperature sensitivity, and carbon dynamics. By refining how zooplankton are modelled—including their impact on fisheries and carbon sequestration—we aim to answer key questions:\n\nHow will climate change alter zooplankton communities and their role in ocean carbon storage?\nHow does the temperature sensitivity of different zooplankton groups and processes alter carbon cycling in the ocean?\nWhy are there so many tuna in nutrient-poor tropical waters?\nWhat can improved zooplankton modelling tell us about future fish stocks and climate mitigation?\n\nZooMSS is an ecosystem model based on partial differential equations, is run on a supercomputer, and is the only global fisheries-ecosystem model that focuses on better representing zooplankton feeding relationships."
   },
   {
-    "objectID": "join/index.html",
-    "href": "join/index.html",
-    "title": "Why join the Mathematical Marine Ecology Lab?",
+    "objectID": "education/2025-08-25-WritingFunctions/index.html",
+    "href": "education/2025-08-25-WritingFunctions/index.html",
+    "title": "Writing Flexible Functions in R",
     "section": "",
-    "text": "Our lab focuses on data analysis and modelling, rather than fieldwork. This approach offers several key advantages:"
+    "text": "For this session we are going to use the gapminder dataset.\nBefore we start, let’s load the packages we’ll need:\nlibrary(tidyverse)\nlibrary(gapminder)"
   },
   {
-    "objectID": "join/index.html#a-diverse-supportive-community",
-    "href": "join/index.html#a-diverse-supportive-community",
-    "title": "Why join the Mathematical Marine Ecology Lab?",
-    "section": "A Diverse, Supportive Community",
-    "text": "A Diverse, Supportive Community\nWe are proud to be a multicultural lab. Our current students come from Australia, Brazil, China, Colombia, Germany, India, Ireland, Italy, the Philippines, and the US. Past members have hailed from many other countries, including Chile, France, Israel, New Zealand, South Africa, Switzerland, and the UK."
+    "objectID": "education/2025-08-25-WritingFunctions/index.html#the-problem-functions-dont-work-with-dplyr",
+    "href": "education/2025-08-25-WritingFunctions/index.html#the-problem-functions-dont-work-with-dplyr",
+    "title": "Writing Flexible Functions in R",
+    "section": "\n6.1 The Problem: Functions Don’t Work with dplyr",
+    "text": "6.1 The Problem: Functions Don’t Work with dplyr\nThe challenge comes when you try to write your own functions. Let’s see what happens:\n\n# This function won't work as expected\nmy_filter &lt;- function(data, column_name, value) {\n  data %&gt;%\n    filter(column_name == value)  # This doesn't work!\n}\n\n# Try to use it\nmy_filter(gapminder, year, 2007)\n\nError in `filter()`:\nℹ In argument: `column_name == value`.\nCaused by error in `column_name == value`:\n! comparison (==) is possible only for atomic and list types\n\n\nThe function fails because column_name is treated as the literal text “column_name”, not as the variable name we passed in (year). This is where tidy evaluation and data masking comes to the rescue!"
   },
   {
-    "objectID": "join/index.html#scholarship-opportunities",
-    "href": "join/index.html#scholarship-opportunities",
-    "title": "Why join the Mathematical Marine Ecology Lab?",
-    "section": "Scholarship Opportunities",
-    "text": "Scholarship Opportunities\n\nDomestic Students (Australia & New Zealand)\nApply through the UQ Graduate School Scholarships.\n\n\nInternational Students\nScholarships are available from a range of sources:\n\nAll countries: UQ Graduate School Scholarships\nThe Global South: the Australia Awards\nUS: (e.g., Fulbright Scholarships; American Australian Association)\nEU Marie Skłodowska-Curie Actions Fulbright Scholarships, American Australian Association\nOther countries: Many governments and philanthropic organisations offer PhD funding—check opportunities in your home country.\n\nNote: UQ scholarships for international students are competitive. One or more peer-reviewed publications are typically required."
+    "objectID": "education/2025-08-25-WritingFunctions/index.html#using-with-ggplot2",
+    "href": "education/2025-08-25-WritingFunctions/index.html#using-with-ggplot2",
+    "title": "Writing Flexible Functions in R",
+    "section": "\n8.1 Using {{}} with ggplot2",
+    "text": "8.1 Using {{}} with ggplot2\nThe curly-curly operator also works with ggplot2:\n\n# Function to create a simple scatter plot\nmy_scatter_plot &lt;- function(data, x_column, y_column) {\n  data %&gt;%\n    ggplot(aes(x = {{x_column}}, y = {{y_column}})) +\n    geom_point(alpha = 0.7) +\n    theme_minimal()\n}\n\n# Create a plot\nmy_scatter_plot(gapminder %&gt;% filter(year == 2007), gdpPercap, lifeExp)\n\n\n\n\n\n\n\n\n\n\n\n\n\nKey Point: {{}} works everywhere\n\n\n\nThe {{}} operator works with:\n\n\ndplyr functions: filter(), select(), mutate(), group_by(), etc.\n\nggplot2: inside aes() for aesthetics\n\nAny tidyverse function that uses tidy evaluation This consistency makes it easy to remember - just wrap your column arguments in {{}} and they’ll work!"
+  },
+  {
+    "objectID": "education/2025-08-25-WritingFunctions/index.html#example-1-passing-arguments-to-ggplot2",
+    "href": "education/2025-08-25-WritingFunctions/index.html#example-1-passing-arguments-to-ggplot2",
+    "title": "Writing Flexible Functions in R",
+    "section": "\n9.1 Example 1: Passing Arguments to ggplot2",
+    "text": "9.1 Example 1: Passing Arguments to ggplot2\nLet’s create a plotting function that can accept any additional ggplot2 arguments:\n\n# Function that accepts additional ggplot arguments via ...\nflexible_scatter &lt;- function(data, x_col, y_col, ...) {\n  data %&gt;%\n    ggplot(aes(x = {{x_col}}, y = {{y_col}})) +\n    geom_point(...) +  # Pass ... to geom_point()\n    theme_minimal()\n}\n\n# Now we can pass any geom_point() arguments\nflexible_scatter(gapminder %&gt;% filter(year == 2007),\n                gdpPercap, lifeExp,\n                colour = \"red\", size = 2, alpha = 0.6)"
+  },
+  {
+    "objectID": "education/2025-08-25-WritingFunctions/index.html#example-2-flexible-summary-function",
+    "href": "education/2025-08-25-WritingFunctions/index.html#example-2-flexible-summary-function",
+    "title": "Writing Flexible Functions in R",
+    "section": "\n9.2 Example 2: Flexible Summary Function",
+    "text": "9.2 Example 2: Flexible Summary Function\nHere’s a summary function that can accept additional arguments for the summary functions:\n\n# Function that passes ... to summary functions\nflexible_summary &lt;- function(data, group_col, summary_col, ...) {\n  data %&gt;%\n    group_by({{group_col}}) %&gt;%\n    summarise(\n      mean_val = mean({{summary_col}}, ...),  # Pass ... to mean()\n      median_val = median({{summary_col}}, ...),  # Pass ... to median()\n      count = n(),\n      .groups = \"drop\"\n    )\n}\n\n# Test with na.rm = TRUE passed through ...\ngapminder_with_na &lt;- gapminder\ngapminder_with_na$lifeExp[1:5] &lt;- NA  # Add some missing values\n\nflexible_summary(gapminder_with_na, continent, lifeExp, na.rm = TRUE)\n\n# A tibble: 5 × 4\n  continent mean_val median_val count\n  &lt;fct&gt;        &lt;dbl&gt;      &lt;dbl&gt; &lt;int&gt;\n1 Africa        48.9       47.8   624\n2 Americas      64.7       67.0   300\n3 Asia          60.4       62.0   396\n4 Europe        71.9       72.2   360\n5 Oceania       74.3       73.7    24"
+  },
+  {
+    "objectID": "education/2025-08-25-WritingFunctions/index.html#example-3-combining-and-...",
+    "href": "education/2025-08-25-WritingFunctions/index.html#example-3-combining-and-...",
+    "title": "Writing Flexible Functions in R",
+    "section": "\n9.3 Example 3: Combining {{}} and ...\n",
+    "text": "9.3 Example 3: Combining {{}} and ...\n\nYou can use both {{}} and ... in the same function for maximum flexibility:\n\n# Ultimate flexible plotting function\nultimate_plot &lt;- function(data, x_col, y_col, plot_type = \"point\", ...) {\n  p &lt;- data %&gt;%\n    ggplot(aes(x = {{x_col}}, y = {{y_col}}))\n  \n  if (plot_type == \"point\") {\n    p &lt;- p + geom_point(...)\n  } else if (plot_type == \"line\") {\n    p &lt;- p + geom_line(...)\n  }\n  \n  p + theme_minimal()\n}\n\n# Use with different geom arguments\nultimate_plot(gapminder %&gt;% filter(country == \"Australia\"),\n              year, lifeExp,\n              plot_type = \"line\",\n              colour = \"blue\", linewidth = 1.2)\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhen to Use ...\n\n\n\nUse ... when you want to:\n\n\nWrap existing functions and allow users to pass additional arguments\n\nCreate flexible plotting functions that accept aesthetic parameters\n\nBuild summary functions that can handle different options (like na.rm)\n\nMake your functions extensible without knowing all possible future arguments\n\nBe careful: ... can make debugging harder since you don’t know what arguments might be passed!"
+  },
+  {
+    "objectID": "education/2025-08-25-WritingFunctions/index.html#common-roxygen2-tags",
+    "href": "education/2025-08-25-WritingFunctions/index.html#common-roxygen2-tags",
+    "title": "Writing Flexible Functions in R",
+    "section": "\n10.1 Common roxygen2 Tags",
+    "text": "10.1 Common roxygen2 Tags\n\n\n@param: Describes each parameter\n\n@return: Describes what the function returns\n\n@examples: Shows how to use the function\n\n@export: Makes the function available when building a package\n\nLet’s document one of our curly-curly functions as well:\n\n#' Create a summary by group\n#'\n#' This function groups data by a specified column and calculates the mean\n#' and count for another column.\n#'\n#' @param data A data frame\n#' @param group_column Column to group by (unquoted)\n#' @param summary_column Column to summarise (unquoted)\n#' @return A data frame with group, average, and count columns\n#' @examples\n#' my_summary(gapminder, continent, lifeExp)\n#' my_summary(gapminder, year, gdpPercap)\nmy_summary &lt;- function(data, group_column, summary_column) {\n  data %&gt;%\n    group_by({{group_column}}) %&gt;%\n    summarise(\n      average = mean({{summary_column}}, na.rm = TRUE),\n      count = n(),\n      .groups = \"drop\"\n    )\n}\n\n\n\n\n\n\n\nBuilding Packages\n\n\n\nIf you’re building an R package, you can use devtools::document() to automatically generate help files from your roxygen2 comments. This creates the standard R help documentation that users can access with ?function_name."
+  },
+  {
+    "objectID": "education/2025-08-25-WritingFunctions/index.html#key-takeaways",
+    "href": "education/2025-08-25-WritingFunctions/index.html#key-takeaways",
+    "title": "Writing Flexible Functions in R",
+    "section": "\n11.1 Key Takeaways",
+    "text": "11.1 Key Takeaways\n\nUse {{}} when you want users to pass unquoted column names\nUse .data[[]] when you have column names as strings\nAlways document your functions with roxygen2 comments\nTest your functions with different datasets to ensure flexibility"
+  },
+  {
+    "objectID": "education/2025-08-25-WritingFunctions/index.html#practice-exercises",
+    "href": "education/2025-08-25-WritingFunctions/index.html#practice-exercises",
+    "title": "Writing Flexible Functions in R",
+    "section": "\n11.2 Practice Exercises",
+    "text": "11.2 Practice Exercises\nTry creating your own functions that:\n\nFilter data based on multiple conditions using {{}}\n\nCreate different types of plots with flexible aesthetics\nCalculate custom summaries with grouping variables\nInclude proper roxygen2 documentation\n\nRemember: the best functions are flexible, well-documented, and solve real problems in your analysis workflow!"
   },
   {
     "objectID": "blog/2024-08-12-QuartoWebsite/index.html",
