@@ -407,7 +407,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content"><p>For this session we are going to use the <a href="https://www.gapminder.org/"><code>gapminder</code></a> dataset.</p>
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content"><section id="why-we-use-functions-in-r" class="level1" data-number="1"><h1 data-number="1">
+<span class="header-section-number">1</span> Why We Use Functions in R</h1>
+<p>For this session we are going to use the <a href="https://www.gapminder.org/"><code>gapminder</code></a> dataset.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -427,8 +429,6 @@ About the Gapminder Dataset
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/jennybc/gapminder">gapminder</a></span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<section id="why-we-use-functions-in-r" class="level1" data-number="1"><h1 data-number="1">
-<span class="header-section-number">1</span> Why We Use Functions in R</h1>
 <p>Functions are the building blocks of reproducible analysis in R. They:</p>
 <ul>
 <li>Help you avoid repeating yourself (DRY principle)</li>
@@ -1092,8 +1092,6 @@ Keyboard Shortcuts for Roxygen2
 <code>@return</code>: Describes what the function returns</li>
 <li>
 <code>@examples</code>: Shows how to use the function</li>
-<li>
-<code>@export</code>: Makes the function available when building a package</li>
 </ul>
 <p>Let’s document one of our curly-curly functions as well:</p>
 <div class="cell">

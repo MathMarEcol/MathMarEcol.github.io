@@ -19,6 +19,8 @@ editor:
     wrap: sentence
 ---
 
+# Why We Use Functions in R
+
 For this session we are going to use the [`gapminder`](https://www.gapminder.org/) dataset.
 
 ::: {.callout-note}
@@ -40,7 +42,6 @@ library(tidyverse)
 library(gapminder)
 ```
 
-# Why We Use Functions in R
 Functions are the building blocks of reproducible analysis in R. They:
 
 - Help you avoid repeating yourself (DRY principle)
@@ -125,6 +126,7 @@ Try changing the threshold in `filter_lifeExp()` to see how the plot changes.
 
 
 :::{.callout-important}
+
 ## The Limitation of Fixed Column Names
 
 But what if we wanted more flexible functions that can take many different column names? Or even work with a completely different dataset with different column names?
@@ -201,10 +203,6 @@ gg <- gapminder %>%
   my_scatter_plot("gdpPercap", "lifeExp")
 
 ```
-
-
-
-
 
 :::{.callout-tip}
 ## The `[[]]` approach works, but...
@@ -454,9 +452,6 @@ Use `...` when you want to:
 **Be careful**: `...` can make debugging harder since you don't know what arguments might be passed!
 :::
 
-
-
-
 # Documenting Your Functions
 
 Documenting your functions is essential for sharing and future use. Good documentation helps others (and future you!) understand:
@@ -504,7 +499,6 @@ filter_gapminder <- function(data, column_name, threshold) {
 - `@param`: Describes each parameter
 - `@return`: Describes what the function returns
 - `@examples`: Shows how to use the function
-- `@export`: Makes the function available when building a package
 
 Let's document one of our curly-curly functions as well:
 
@@ -566,9 +560,4 @@ Try creating your own functions that:
 4. Include proper roxygen2 documentation
 
 Remember: the best functions are flexible, well-documented, and solve real problems in your analysis workflow!
-
-
-
-
-
 
