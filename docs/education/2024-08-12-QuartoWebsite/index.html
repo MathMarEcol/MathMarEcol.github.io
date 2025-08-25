@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jason Everett">
+<meta name="dcterms.date" content="2024-08-12">
+<meta name="description" content="This tutorial and template will help you build your own personal or academic website with Quarto.">
+
+<title>Build your own Quarto website – Mathematical Marine Ecology Lab</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../img/favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-a331e776612922e8a26c861783a558cd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../img/logo.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Mathematical Marine Ecology Lab</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../people/index.html"> 
+<span class="menu-text">People</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../research/index.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../join/index.html"> 
+<span class="menu-text">Why Join?</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../future/index.html"> 
+<span class="menu-text">Available Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../education.html"> 
+<span class="menu-text">Education</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications/index.html"> 
+<span class="menu-text">Lab Publications</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:a.richardson1@uq.edu.au"> <i class="bi bi-envelope" role="img" aria-label="email">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/MathMarEcol"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page">
+      <h1 class="title">Build your own Quarto website</h1>
+                  <div>
+        <div class="description">
+          This tutorial and template will help you build your own personal or academic website with Quarto.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">website</div>
+                <div class="quarto-category">academia</div>
+                <div class="quarto-category">quarto</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Jason Everett </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">August 12, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+
+
+
+
+
+<section id="introduction" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
+<p>As an academic researcher, scientist, or basically anyone working with a computer, it’s essential to have an online presence. With the rise of the internet, having a personal website has become more critical than ever. A personal website serves as a platform to showcase your research work, achievements, and credentials to a global audience. It’s a professional tool that helps you stand out in a crowded digital world and reach a wider audience. In this tutorial, we will be exploring the steps involved in creating a personal website that accurately reflects your identity. From choosing the right tools all the way to publishing your website on the internet, this post will cover everything you need to know to create a successful and effective personal website. Whether you’re a seasoned researcher or just starting out, this guide is designed to help you achieve your online goals and reach a new level of discoverability.</p>
+<p>The internet is full of tools to build a website, and their sheer amount can be overwhelming. WordPress is a great no-code tool, but its visual editor has driven me nuts when I used it in the past to do client work as a freelance web designer. I personally prefer code-based tools because they give me full control and reproducibility. But even within the realm of code-based web design, there are more tools than a single person could ever try out. In this blog post, we will talk about how to set up your personal website with <code>Quarto</code>.</p>
+</section>
+<section id="setting-up-your-website-with-quarto" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Setting up your website with Quarto</h1>
+<p><a href="https://quarto.org/">Quarto</a> is a new open-source publishing system built on Pandoc. Quarto lets you write dynamic content using <a href="https://www.python.org/">Python</a>, <a href="https://www.r-project.org/">R</a>, <a href="https://julialang.org/">Julia</a>, and <a href="https://observablehq.com/">Observable</a>, and author documents as plain text markdown or Jupyter notebooks. You can also publish your work in various formats, such as HTML, PDF, MS Word, ePub, and more. Quarto is the next generation of <a href="https://rmarkdown.rstudio.com/">RMarkdown</a>, and it aims to make scientific and technical publishing easier and more accessible for everyone.</p>
+<p>For our purpose of creating a personal website, Quarto is well-suited because you might already use R (possibly even via RStudio) for your analyses. But even if you are new to the R ecosystem, worry not – you do not need any R to build your website with Quarto.</p>
+<section id="the-template" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="the-template"><span class="header-section-number">2.1</span> The template</h2>
+<p>Here we provide a template for you to start creating your own personal website. You can take the template, fill in your information, and leave it as-is. Alternatively, if you find that crafting your own website sparks joy for you, and you want to further delve into the nuts and bolts, you can simply take this template as a basis and extend your website from there.</p>
+<p>The first step is to download the website template<code>.zip</code> archive with the template <a href="website_template.zip">here</a>.</p>
+</section>
+<section id="renaming-the-template-files" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="renaming-the-template-files"><span class="header-section-number">2.2</span> Renaming the template files</h2>
+<p>First unpack the downloaded archive and move the <code>quarto-website-template</code> folder to where you store all your GitHub repositories. I usually suggest this is <code>~/GitHub/</code>.</p>
+<p>Next rename the folder to <code>&lt;github username&gt;.github.io</code> (This is what your website location will be online. For our lab it is <code>MathMarEcol.github.io</code>).</p>
+<p>For completeness, I suggest renaming the <code>.proj</code> file to the same as the folder.</p>
+</section>
+<section id="opening-the-template-in-rstudio" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="opening-the-template-in-rstudio"><span class="header-section-number">2.3</span> Opening the template in RStudio</h2>
+<p>open the <code>&lt;github username&gt;_github.io.Rproj</code> file in RStudio.</p>
+<p>You should see a new <code>Build</code> tab in the upper-right panel of RStudio with a button <code>Render Website</code>:</p>
+<p>!If you open the template project, Rstudio should show a <code>Build</code> tab containing a <code>Render Website</code> button</p>
+<p>If you do not see that tab and button, please use the most powerful debugging tool known to mankind: Restart RStudio.</p>
+</section>
+<section id="global-configuration" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="global-configuration"><span class="header-section-number">2.4</span> Global configuration</h2>
+<p>Open the file <code>_quarto.yml</code> in the root directory. This is where you control the settings of your website. The <a href="https://en.wikipedia.org/wiki/YAML">YAML</a> format is a compromise between a machine-readable and a human-readable file. The good news is: You don’t have to write new YAML blocks; you just have to enter some info in the appropriate places. Let’s go through the <code>_quarto.yml</code> file step by step.</p>
+<section id="author-info" class="level3" data-number="2.4.1">
+<h3 data-number="2.4.1" class="anchored" data-anchor-id="author-info"><span class="header-section-number">2.4.1</span> Author info</h3>
+<p>It’s time to tell the readers about yourself. Fill in your details, such as your name (<code>title</code> field), a brief description, and a global image of yourself.</p>
+</section>
+<section id="sec-navigation" class="level3" data-number="2.4.2">
+<h3 data-number="2.4.2" class="anchored" data-anchor-id="sec-navigation"><span class="header-section-number">2.4.2</span> Navigation</h3>
+<p>The navigation in the template is split in two parts. The <em>left side</em> contains icons for your social links, such as Twitter, GitHub, or email.</p>
+<p>The <em>right side</em> links to other pages of your website. Each navigation entry consists of a title (<code>text</code>), followed by a link (<code>href</code>). Take a look at the example entries and continue the pattern as you see fit.</p>
+</section>
+<section id="advanced-settings" class="level3" data-number="2.4.3">
+<h3 data-number="2.4.3" class="anchored" data-anchor-id="advanced-settings"><span class="header-section-number">2.4.3</span> Advanced settings</h3>
+<p>The rest of the <code>_quarto.yml</code> file just controls that we will indeed create a website, our preview tab doesn’t change all the time, and we can publish our website without complications. Don’t mess with this part unless you know what you are doing. If you <em>do</em> know what you are doing: Move fast and break things 😉</p>
+</section>
+<section id="more-config-tweaks" class="level3" data-number="2.4.4">
+<h3 data-number="2.4.4" class="anchored" data-anchor-id="more-config-tweaks"><span class="header-section-number">2.4.4</span> More config tweaks</h3>
+<p>This blog post covers the fundamentals to set you up with a working website. Are you hungry for more and want to pull an all-nighter because creating a website can be super addictive? The official <a href="https://quarto.org/docs/guide/">Quarto Documentation</a> contains a bunch of other settings you can tweak via the <code>_quarto.yml</code> configuration. Happy hacking. Please <a href="https://github.com/MathMarEcol/MathMarEcol.github.io">submit a PR or raise an issue</a> if you find something interesting that we all should know about.</p>
+</section>
+</section>
+<section id="the-landing-page" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="the-landing-page"><span class="header-section-number">2.5</span> The landing page</h2>
+<p>In the root directory of the template folder, you find the file <code>index.qmd</code>. This is the landing page of your website. This is the first impression that visitors have from your website. It is a great opportunity to tell them a bit about yourself and spark their interest.</p>
+<p>In this template, we are not designing a full landing page from scratch. Instead, we use one of the great template designs that are shipped with Quarto. Template inception.</p>
+<p>Open the <code>/index.qmd</code> file and inspect the header, that is, the part at the top of the source code which is enclosed in <code>---</code> delimiters:</p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>/index.qmd</strong></pre>
+</div>
+<pre data-filename="/index.qmd"><code>---
+about:
+  template: jolla
+  id: about-block
+  image: img/my_image.png
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/WhoUsesTwitterAnymore
+    - icon: github
+      text: Github
+      href: https://github.com/MathMarEcol
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/WeDontHaveAnAccount
+    - icon: envelope
+      text: Email
+      href: "mailto:a.richardson1@uq.edu.au"
+---</code></pre>
+</div>
+<p>All following fields are nested in the <code>about</code> field, which is our way of telling Quarto that all the subsequent information should be associated with our “About” section. The template is called <code>jolla</code>, and you can find other options <a href="https://quarto.org/docs/websites/website-about.html">here</a>. The <code>id</code> field assigns a name to the “About” section such that you can insert it anywhere in your page. As the name might suggest, the <code>image</code> field contains the path of an image to display on your landing page. Finally, the <code>links</code> field contains a bunch of social links. Each social entry consists of three fields:</p>
+<ol type="1">
+<li><code>icon</code>: identifier of an icon, such as <code>twitter</code> or <code>envelope</code>. You can take a look at the <a href="https://icons.getbootstrap.com/">Standard Bootstrap5 Icons</a> for more icon names.</li>
+<li><code>text</code>: description of the entry, usually for accessibility</li>
+<li><code>href</code>: link, make sure to add <code>mailto:</code> before an email address</li>
+</ol>
+<p>As you can see in the <code>/index.qmd</code> file, the “About” block is inserted in the actual document via</p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>/index.qmd</strong></pre>
+</div>
+<pre data-filename="/index.qmd"><code>::: {#about-block}
+:::</code></pre>
+</div>
+<p>and you can add a nice introduction about yourself below the block.</p>
+</section>
+<section id="changing-the-theme" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="changing-the-theme"><span class="header-section-number">2.6</span> Changing the theme</h2>
+<p>Quarto includes 25 themes from the Bootswatch project. You can easily update them in the <code>_quarto.yml</code> to any of the <a href="https://quarto.org/docs/output-formats/html-themes.html#overview">Bootswatch Themes</a></p>
+</section>
+<section id="customizing-the-colors" class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="customizing-the-colors"><span class="header-section-number">2.7</span> Customizing the colors</h2>
+<p>I have prepared a style file at <code>html/styles.scss</code>, which contains the core configuration from the fabulous website of <a href="www.andrewheiss.com">Andrew Heiss</a>. This section defines the colors of the website which are used throughout many pages.</p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>html/styles.scss</strong></pre>
+</div>
+<pre data-filename="html/styles.scss"><code>$primary:   $teal!default;
+$secondary: $gray-700 !default;
+$success:   $green !default;
+$info:      $cyan !default;
+$warning:   $orange !default;
+$danger:    $red !default;
+$light:     $gray-400 !default;
+$dark:      $black !default;</code></pre>
+</div>
+<p>The most important field is arguably <code>$primary</code>. If you want your website to look mainly green, just change that line to <code>$primary: $green!default;</code>. Note that <code>$teal</code> and <code>$green</code> are SCSS variables, which are defined further up in the file. If you want to fine-tune your color palette, you can change these HEX codes.</p>
+</section>
+<section id="adding-new-pages" class="level2" data-number="2.8">
+<h2 data-number="2.8" class="anchored" data-anchor-id="adding-new-pages"><span class="header-section-number">2.8</span> Adding new pages</h2>
+<p>If you want to add a new page with the name <code>mypage</code> to your website, create a folder <code>mypage/</code> and add a file <code>index.qmd</code> in that folder. This has one subtle advantage over creating <code>mypage.qmd</code> in the base directory. If you created <code>/mypage.qmd</code>, the URL would be <code>www.yourname.com/mypage.html</code>. That exposed <code>.html</code> in the URL looks very 2010. Instead, you should go with <code>/mypage/index.qmd</code> and get the modern-looking URL <code>www.yourname.com/mypage</code>.</p>
+<p>!Avoid <code>.html</code> in your URL by using a subfolder with <code>index.html</code>.</p>
+<p>Once you have created your brand-new <code>index.qmd</code>, just copy the code skeleton of any other <code>index.qmd</code> from the template and start adding your content. If you wish to, add the newly created page to the navigation (see <a href="#sec-navigation" class="quarto-xref">Section&nbsp;2.4.2</a>). That’s it, you have successfully extended your website 🚀</p>
+</section>
+</section>
+<section id="publishing-your-website-to-the-internet" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Publishing your website to the internet</h1>
+<p>Now that we have built the core of your website, we actually want to publish your page on the internet. This process is called <em>deployment</em>. The standard way of deploying a website is through a domain which maps to a webspace. But domains and webspaces cost money and I want to reduce the barriers of creating a website for you. Luckily, GitHub offers a free service to deploy websites of their users. This free service is called <em>GitHub pages</em>, and your website will live at <code>&lt;username&gt;.github.io</code> if you deploy with GitHub pages.</p>
+<section id="preparing-your-website-for-github-pages" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="preparing-your-website-for-github-pages"><span class="header-section-number">3.1</span> Preparing your website for GitHub pages</h2>
+<p>The template already contains all necessary settings for GitHub pages, so you don’t have to <em>do</em> anything in this section. However, it’s always good to have a superficial understanding of how things work, and it’s fairly straightforward in this case. We use the simplest form of GitHub pages: We build the entire website <em>locally</em> (i.e., in RStudio) and output the built page into the <code>docs/</code> folder. This is configured in the <code>output-dir</code> field of the almighty <code>_quarto.yml</code>:</p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>_quarto.yml</strong></pre>
+</div>
+<pre data-filename="_quarto.yml"><code>project:
+  type: website
+  output-dir: docs</code></pre>
+</div>
+<p>We commit the <code>&lt;github username&gt;.github.io</code> to Github, which includes the <code>docs/</code> folder, and GitHub pages simply uses that folder to serve our website. This has one important consequence: If we make any change to our website, we have to <code>Render</code> the website again in RStudio. That’s how the updates make it to the <code>docs/</code> folder! Only changing the <code>.qmd</code> file is not enough because GitHub does not render our site directly from the <code>.qmd</code> source.</p>
+<p><strong>Note to advanced readers:</strong> You can set up a GitHub action to let GitHub build the website directly from the source files. But that deserves its own tutorial since some bugs persist which make things awkward (as of February 2023). If you would like to see automatic deployment covered in a future blog post, please let me know!</p>
+<p>The second change to our website files is to include an empty file with the name <code>.nojekyll</code> (already included in the template). Usually, GitHub pages does some post-processing on your website files with <a href="https://jekyllrb.com/">Jekyll</a>. Since Quarto handles all the processing we need, we want to deactivate Jekyll’s post-processing. Adding a <code>.nojekyll</code> file to your website root directory does exactly that: It bypasses post-processing via Jekyll.</p>
+</section>
+<section id="deployment" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="deployment"><span class="header-section-number">3.2</span> Deployment 🥳</h2>
+<p>We are almost there!</p>
+<p>You will now create a new repository with the name <code>&lt;github username&gt;.github.io</code>, where <code>&lt;github username&gt;</code> is the <em>exact</em> name of your GitHub account. It is important that you follow this pattern, because <code>&lt;github username&gt;.github.io</code> is the only repository that will be hosted directly to the URL <code>&lt;github username&gt;.github.io</code>.</p>
+<p>On the GitHub repository, go to <code>Settings</code> and click on <code>GitHub Pages</code>. Make sure that GitHub pages will deploy from a branch (1), the branch is set to <code>main</code> or <code>master</code> (2), and GitHub Pages is served from the <code>docs/</code> folder (3):</p>
+<p>!GitHub pages deploys from a branch (1), the branch is set to <code>main</code> or <code>master</code> (2), and it serves from the <code>docs/</code> folder</p>
+<p>Go back to the repository and you’ll see a brown dot indicating that a build is in progress. This can take a couple of minutes. Once the deploy is done, the indicator dot will turn green. That’s it. Congratulations, your website is now live at <code>&lt;github username&gt;.github.io</code>! 🎈🥂🥳</p>
+</section>
+</section>
+<section id="creating-content" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Creating Content</h1>
+<p>Creating high-quality content is obviously one of the most important aspects of building a personal website. Your content serves as a reflection of your work and achievements. When creating content, it’s crucial to keep it clear and concise, while also making sure it accurately reflects your brand.</p>
+<p>There are several types of content that you can include on your personal website. Articles, blogs, research papers, and presentations are some of the most common options. When choosing the type of content to include, it’s important to consider the purpose of your website. If you’re using your website to showcase your research work, it’s recommended to include research papers and presentations. If you’re using your website to share your thoughts and insights, it’s recommended to include articles and blogs. Some people (myself included) also upload a public CV to their website, but that’s an individual decision.</p>
+<p>When creating content, it’s also essential to consider your target audience. Write in a language that is easy to understand and appealing to your target audience. It’s important to remember that your website is not just a place to showcase the technical products your work, but also an opportunity to connect with your audience and build relationships.</p>
+<p>To create high-quality content, it’s recommended to:</p>
+<ul>
+<li>Write in a clear and concise language;</li>
+<li>Use visuals such as graphs, charts, and images to make your content more engaging;</li>
+<li>Proofread your content to ensure it’s error-free; and</li>
+<li>Regularly update your content to keep your website fresh and relevant – that is especially important if you feature articles or blog posts.</li>
+</ul>
+<p>By following these tips, you can create content that accurately reflects your brand and appeals to your target audience. Your content is an essential aspect of building a successful personal website, so make sure to give it the attention and care it deserves.</p>
+</section>
+<section id="some-quick-tips" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Some quick tips</h1>
+<p>This is a random collection of quick tips that people asked me to cover in this blog post.</p>
+<section id="general-web-development-tips" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="general-web-development-tips"><span class="header-section-number">5.1</span> General web development tips</h2>
+<p>Here are some general web development tips, ranging from file management and DNS over to HTML, CSS, and JavaScript.</p>
+<section id="relative-links" class="level3" data-number="5.1.1">
+<h3 data-number="5.1.1" class="anchored" data-anchor-id="relative-links"><span class="header-section-number">5.1.1</span> Relative links</h3>
+<p>Suppose you are editing the file <code>projects/index.qmd</code> and want to add a link to the page <code>&lt;github username&gt;.github.io/photography</code>. You can of course link to the full URL <code>&lt;github username&gt;.github.io/photography</code>, but that link will break if you change your domain name to <code>www.&lt;name&gt;.com</code>. Instead, you can use <em>relative</em> links. You only need to know that <code>../</code> takes you one layer back on the folder tree.</p>
+<p><strong>Example:</strong> Starting from <code>projects/index.qmd</code>, you can use <code>../photography/index.qmd</code> to walk back one layer into the root folder of your website, and then move into the folder <code>photography/</code>, where <code>index.qmd</code> of <code>photography</code> lives. This relative path is valid no matter what domain you use. It only breaks if you decide to remodel the entire structure of your website. But in this case, I assume you know what you are doing and you’re well off on your own 😉</p>
+</section>
+<section id="css-flavors" class="level3" data-number="5.1.2">
+<h3 data-number="5.1.2" class="anchored" data-anchor-id="css-flavors"><span class="header-section-number">5.1.2</span> CSS flavors</h3>
+<p>Quarto supports some cool CSS variants, such as SCSS. In SCSS, you can add variables such as <code>$orange</code> to define your favorite color once and use it in many different places. This deserves a separate blog post, though.</p>
+</section>
+<section id="include-order" class="level3" data-number="5.1.3">
+<h3 data-number="5.1.3" class="anchored" data-anchor-id="include-order"><span class="header-section-number">5.1.3</span> Include Order</h3>
+<p>If you mix HTML with CSS and JavaScript, make sure to include the files in the correct order. If your JavaScript manipulates existing HTML objects through the DOM, make sure to include the JavaScript file <em>after</em> the HTML body. If you include the JavaScript before the HTML body, JavaScript will not know that the HTML objects exist, and you will have a bad time. Been there, spent well over 2 hours debugging. 0/10, cannot recommend.</p>
+</section>
+<section id="add-favicon" class="level3" data-number="5.1.4">
+<h3 data-number="5.1.4" class="anchored" data-anchor-id="add-favicon"><span class="header-section-number">5.1.4</span> Add favicon</h3>
+</section>
+</section>
+<section id="quarto-specific-tips" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="quarto-specific-tips"><span class="header-section-number">5.2</span> Quarto specific tips</h2>
+<p>Here are some tips that are specific to Quarto, Markdown, or RMarkdown.</p>
+<section id="adding-a-table-of-contents" class="level3" data-number="5.2.1">
+<h3 data-number="5.2.1" class="anchored" data-anchor-id="adding-a-table-of-contents"><span class="header-section-number">5.2.1</span> Adding a table of contents</h3>
+<p>Thanks to Quarto, it’s super easy to add a table of contents. Just add the following lines to the header of your <code>.qmd</code> file, without any indentation:</p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>index.qmd</strong></pre>
+</div>
+<pre data-filename="index.qmd"><code>toc: true
+toc-title: Contents
+toc-location: left</code></pre>
+</div>
+</section>
+</section>
+<section id="huge-thanks" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="huge-thanks"><span class="header-section-number">5.3</span> Huge thanks!</h2>
+<p>This tutorial was originally published by <a href="https://www.marvinschmitt.com">Marvin Schmitt</a> on his <a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">blog.</a>. We have adapted the content to suit our lab, but the building blocks of this tutorial are all his. Have a look at the other great articles that Marvin has on his blog.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><span class="faux-block">© 2025 Mathematical Marine Ecology Laboratory, The University of Queensland</span></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p><span class="faux-block"><a href="https://github.com/MathMarEcol/MathMarEcol.github.io">View source on GitHub</a></span></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
