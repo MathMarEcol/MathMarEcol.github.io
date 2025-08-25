@@ -8,7 +8,7 @@ categories:
   - academia
   - R
   - programming
-# image: quarto.png
+image: workshop-image.svg
 draft: false
 number-sections: true
 toc: true

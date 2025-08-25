@@ -1,0 +1,31 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blue gradient background -->
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2fa4e7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e88e5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background rectangle -->
+  <rect width="500" height="500" fill="url(#blueGradient)" />
+  
+  <!-- Main title -->
+  <text x="250" y="160" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="48" font-weight="bold">
+    Writing Flexible
+  </text>
+  <text x="250" y="220" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="48" font-weight="bold">
+    Functions in R
+  </text>
+  
+  <!-- f(x) symbol -->
+  <text x="250" y="340" text-anchor="middle" fill="white" font-family="Times, serif" font-size="120" font-weight="normal" font-style="italic">
+    f(x)
+  </text>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="100" r="3" fill="rgba(255,255,255,0.3)" />
+  <circle cx="400" cy="120" r="2" fill="rgba(255,255,255,0.4)" />
+  <circle cx="80" cy="400" r="2.5" fill="rgba(255,255,255,0.3)" />
+  <circle cx="420" cy="380" r="3" fill="rgba(255,255,255,0.4)" />
+</svg>

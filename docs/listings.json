@@ -1,14 +1,9 @@
 [
   {
-    "listing": "/blog.html",
-    "items": [
-      "/blog/2024-08-12-QuartoWebsite/index.html"
-    ]
-  },
-  {
     "listing": "/education.html",
     "items": [
-      "/education/2025-08-25-WritingFunctions/index.html"
+      "/education/2025-08-25-WritingFunctions/index.html",
+      "/education/2024-08-12-QuartoWebsite/index.html"
     ]
   }
 ]
