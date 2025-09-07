@@ -1,0 +1,1909 @@
+---
+title: "How to write well"
+description: "This tutorial provides what we think is best practice in terms of scientific writing and simple approaches to avoid common pitfalls."
+author:
+  - name: Anthony Richardson
+date: 2025-09-08
+categories:
+  - academia
+  - writing
+image: tree_words.png
+draft: false
+number-sections: true
+toc: true
+toc-expand: true
+toc-title: "Contents"
+editor:
+  markdown:
+    wrap: sentence
+---
+
+# Introduction
+
+![](tree_words.png){width=400px}
+
+Writing can be difficult!
+
+_"There is nothing to writing. All you do is sit down at a typewriter and bleed." Ernest Hemingway_
+
+Writing can be a lot of work!
+
+_"If I had more time I would have written a shorter letter" Blaize Pascal, 1657_
+
+Writing can invoke strong feelings!
+
+_"Here is a lesson in creative writing. The first rule: do not use semicolons. They are transvestite hermaphrodites representing absolutely nothing. All they do is show you've been to college" Kurt Vonnegut, The Man Without a Country_
+
+Writing can be fun!
+
+_"To write is human, to edit is divine." Stephen King_
+
+## What is good scientific writing?
+
+Maybe a truthful but uninformative answer is "You know when you read it!". Being able to understand the message easily is clearly essential. But so is being concise, as words cost journals money and scientists have limited time to read your work. But good scientific writing is more than just being clear and concise. For example, newspaper articles can be clear and concise, but most would say that the journalistic style is inappropriate in a scientific setting. Scientific writing has a host of conventions, not all of which are always made explicit. For example, adhering to the typical structure of a scientific paper, not using colloquialisms, not providing opinion, and not being emotive, to name a few. Although it might feel that such "rules" take the fun out of writing, good scientific writing should not be bland and boring to read. There is room, and indeed a need, for creativity.
+
+## Why write well?
+
+There are many reasons why as scientists we need to write well. First, science is about ideas, and we need to communicate those ideas clearly, effectively and interestingly. An engaged reader will remember what s/he has read. If you fail to communicate effectively, your work will ultimately be of little use to the wider scientific community, resulting in lower uptake and fewer citations. 
+
+Second, publishing is the currency of science and requires convincing Editors and Reviewers that your work is robust and meaningful. If your work is not well written, you cannot expect others to understand it. Reviewers can become bogged down in poor writing and sometimes assume that it is indicative of poor science. Reviewers sometimes return poorly written manuscripts directly to the Editor and refuse to review it. At best poor scientific writing leads to delays in the publication process, and at worst outright rejection.
+
+Third, writing clearly will improve your science. If your supervisors, co-authors, and collaborators understand your message and see that you have worked hard to provide a clearly written piece of work, they will provide far better input. If collaborators have to rewrite your work to understand it before they can comment on the content, you will frustrate them immensely and you will receive fewer quality comments about scientific direction and whether your paper hits the mark. In fact, writing well is valued by many collaborators and will lead to more collaborations.
+
+Last, writing well is a fundamental scientific skill (along with, for example, knowledge of the scientific method, quantitative skills, and discipline-specific technical skills), and we have a responsibility to write as well as we can out of respect for others, and to pass this knowledge on. With escalating pressures on academics, fewer of them are taking the time to help students with their writing skills. In the worst cases, supervisors and collaborators to pass on the task of language editing to the peer-review process. This is hugely counterproductive, and simply reinforces the cycle of deterioration in writing skills. Students and the academics who supervise them need to take responsibility in being part of  the solution -- improving scientific writing by passing on their knowledge to others.
+
+## Why do we have difficulties writing well?
+
+We all have to learn scientific writing -- scientific English is no one's first language! And it is even more difficult if English is not your mother tongue, especially for people who speak languages from outside Europe. So scientific writing does not come easily and requires hard work.
+
+Throughout our studies, we are not taught the concepts that are necessary for good writing. In many countries, the teaching of grammar at school is out of vogue. Scientific writing is also often not taught at university at the undergraduate levels. Nowadays, writing well is not a major learning outcome of most science courses, and assignments are marked predominantly on content and not readability and style. It is also easier to learn scientific writing during your postgraduate study when you can draw on your research, but many countries do not have coursework during postgraduate studies. Unfortunately, during this key developmental period, many supervisors often feel too busy to spend time to improve the writing of their students.
+
+Writing well also takes considerable time and effort. Writing well requires hard work rewriting many drafts, being self-critical of your own work, being afraid to make sometimes substantial changes, and opening up yourself to critique and potential criticism from others.  For all these reasons, many scientists have trouble writing well. But scientific writing can be learned.
+
+## How this e-book can help
+
+This e-book, _How to write well_, provides what we think is best practice in terms of scientific writing and simple approaches to avoid common pitfalls. Often errors in writing are corrected or stylistic suggestions made by supervisors,
+
+reviewers or peers, without an explanation, primarily because of the people are time poor. This book is a result of seeing common mistakes by our students, and wanting to teach them how they can improve their writing. During our careers we have developed inherent knowledge about good scientific writing, and this e- book is an attempt to write this down into a coherent whole that is useful to others.
+
+Our approach is to identify a common problem, explain why it is a problem, illustrate it with examples, and show solutions. The content here is based on our experience, is by no means exhaustive, and others might have a different opinion. We are not English teachers or grammar Nazis (although Dave might be...?). We are merely practicing scientists interested in improving our own and others' writing by sharing our experiences.
+
+Finally, this is part of a series of e-books that can help guide you through your scientific career. Often the best way to learn much of this information is to seek out a mentor. But it can be difficult to find a mentor with the insight, all-round skills, and the time available to provide advice. We have written this series of e- books to provide you with such a mentor -- hopefully to provide the knowledge and guidance that you need in your career.
+
+This is the first e-book in the series. The second e-book is _Writing a scientific paper_. Early on in our careers we are ill-prepared for this challenge. Experienced scientists generally acquire the skills slowly and haphazardly through osmosis or from trial-and-error. Writing a paper thus often seems like a "dark art" -- one that some scientists have mastered, but one that is hidden and rarely shared. The e- book _Writing a scientific paper_ shines a light on the process of writing a scientific paper and helps you master it.
+
+The third e-book is _Navigating the peer-review process_. This often-overlooked part of the publication process involves understanding what different journals expect, what Editors and Reviewers look for, and how the peer-review process works. The e-book _Navigating the peer-review process_ formalises our knowledge, experiences and opinions over the past 25 years of how we have gotten our work published. This e-book should will boost your chances of getting your work published, make it easier to get it published, reduce the time it takes to get it published, and help you formalise your own best practice.
+
+You can read these e-books in any order, and you can read their chapters in any order, dipping into the chapters most relevant to you. These books are targeted at early- and mid-career researchers, but will also provide insights for more experienced scientists. We would appreciate your feedback about what you found useful (or not) in the e-books, and what you would like to see covered in the future.
+
+Anthony J. Richardson and David S. Schoeman
+
+# General scientific style
+
+## Remove emotive language
+
+You should try and state the facts without using emotive terms include _alarming_, _concerning_, _drastic_, _lovely_, _useless_, _wonderful_ and _worringly_. Especially in research focusing on conservation of habitats or iconic species, it is easy to use emotive language. If in doubt, think of the animal as a cockroach and see whether you would use the same language!
+
+Rather than: Following those *alarming* catch reductions, bans for manta ray fisheries were applied to some areas.
+
+**Try:** Following declining catches, bans for manta ray fisheries were applied to some areas.
+
+**Or, stronger:** Following precipitous declines in catches, bans for manta ray fisheries were applied to some areas.
+
+## Be consistent
+
+
+Reviewers and examiners often regard sloppiness and lack of attention in scientific writing as an indication of carelessness in your science. Some common examples include: 
+-   Use capitals for proper nouns everywhere 
+-   Whether you choose to use *--ize* or *--ise*, be consistent 
+-   Whether you choose to use a space (preferably) or not between numbers and their units, be consistent
+
+## Be particular!
+
+There are a bunch of things that are wrong and are just sloppy. Below are some examples, none of which is that important, but show a lack of care that can make the reader question how careful your science is.
+
+**Rather than:** La Nina/El Nino
+
+**It is:** La Niña/El Niño
+
+**Rather than:** *Homo spp.*
+
+**It is:** *Homo* spp. (Only the genus names is italicised).
+
+**** Rather than: m2
+
+**It is:** m2
+
+**Rather than:** [www.lternet.edu](http://www.lternet.edu/)
+
+**It is:** [www.lternet.edu (]{.underline}Enables the Reader to use the hyperlink in a pdf).
+
+## Repetition is good!
+
+Scientific writing is different from writing novels. For example, in a novel an author might use different terms to identify the same thing to make it more interesting. However, in a scientific paper, repetition of the same term in makes it easier for the Reader to follow.
+
+## Elegant variation confuses...
+
+When there are multiple ways to say the same thing, one should not cycle through the different options for "elegant variation" because the use of a different word to a Reader can suggest something different is happening. For example, if a scientist is working on 'copepods', it is best to use this consistently throughout the paper, rather than referring to them variedly as 'small crustaceans', 'zooplankton', 'maxillopodes', 'arthropods', and 'insects of the sea', as the Reader will wonder if the author means different things by the different terms.
+
+In the following example, the Author has switched from using 'measurement types' and 'ecological traits' to 'measurement attributes' and 'ecological characters', making the Reader wonder if it is the same quantities being described.
+
+**Rather than:** Predictors were divided into two categories: measurement types and ecological traits. For measurement attributes we considered the frequency of sampling. For ecological characters we used a global database.
+
+**Try:** Predictors were divided into two categories: measurement types and ecological traits. For measurement types we considered the frequency of sampling. For ecological traits we used a global database.
+
+The following example uses 'influenced' and 'described' in similar contexts, leaving the Reader wondering whether the author meant to highlight such a difference.
+
+**Rather than:** While the abundance of pelagic fish is *influenced* by food availability and reproduction, their movement is *described* by oceanographic variables.
+
+**Try:** While the abundance of pelagic fish is *influenced* by food availability and reproduction, their movement is *influenced* by oceanographic variables.
+
+## Making word structure parallel...
+
+Repetition of structure in sentences and paragraphs, and even in headings, can make things easier to follow because it meets the expectations of a Reader. In the following example, the US is at the end of its part of the sentence and the UK is at the start.
+
+**Rather than:** ...targeting the National Science Foundation in the US and the UK Natural Environment Research Council.
+
+**Try:** ...targeting the US National Science Foundation and the UK Natural Environment Research Council.
+
+The specification of these three regions is not consistence amongst the parts of the sentence.
+
+**Rather than:** The northern region (10-25˚S) is characterised by warm tropical surface waters and a shallow mixed layer, subtropical waters form the central region (25-45˚S), and the most southern region (45-60˚S) verges on cooler subantarctic waters.
+
+**Try:** The northern region (10-24˚S) has warm tropical surface waters and a shallow mixed layer, the central region (24-45˚S) has subtropical and well mixed waters, and the southern region (45-50˚S) has cool subantarctic waters.
+
+## Be specific
+
+**Rather than:** Aggregations of reef manta rays *Manta alfredi*, such as those in the Maldives, Western Australia, and Komodo National Park in Indonesia are correlated with productivity.
+
+**Try:** Reef manta rays *Manta alfredi* in the Maldives, Western Australia, and in Indonesia aggregate in regions and at times when there is greater productivity.
+
+**Rather than:** The third version of the Receiving Water Quality Model, which is the version used in this study, resolved several limitations of the second version. **Try:** We used the third version of the Receiving Water Quality Model, which resolved several limitations of the second version, including X, Y and Z.
+
+**Rather than:** As a consequence, many diatoms exhibit a discontinuous seasonal occurrence that usually coincides with the introduction of nutrients such as during spring blooms.
+
+**Try:** Consequently, many diatoms peak during spring when nutrients and light are available.
+
+**Rather than:** etc.
+
+**Try:** Remove etc. from lists or precede it with "such as" or "including",
+
+**Why?:** "etc." is vague and everyone will think of different things. Using "such as" or "including" makes it clear you are only listing some of the options.
+
+## Be formal, not colloquial
+
+
+Scientific writing is a formal writing style and using colloquialisms are not appropriate. For example, using a phrase we might commonly use in everyday conversation such as "something is cool" is not appropriate (unless referring to temperature!). It might be more appropriate, however, in a scientific talk, to show you were excited about your results.
+
+**Rather than:** Like
+
+**Try:** Such as
+
+**Rather than:** My results were not very good/puzzling.
+
+**Try:** Results were unexpected/inaccurate/difficult to explain/non-intuitive/inconclusive/uninformative. Give reasons if possible.
+
+## Typeset equations properly
+
+If using Word, equations should be included using the Equation Editor, as numbers and variables are treated differently (e.g., variables are italicised) and the typesetting is clearer (e.g., for quotients). It is also better to have units in text rather than equation
+
+**Rather than:** *MR (calories kg^-1^ day^-1^) = (68.9+177.8 \* W) \* 3.25 / (W \* 24)*
+
+**Try:** The equation for Metabolic Rate (𝑀𝑅, calories kg-1 d-1) as a function of Mass (𝑊, kg) is: *MR* = 3.5 × 68.9 + 177.8*W* / 24×𝑊
+
+## Make your writing more accessible: minimise acronyms
+
+1. Always spell them out the first time you use them
+2. Minimize their use as much as possible to make it easier for Readers. It is best not to use abbreviations if you use them \<5 times
+3. Best not to use them in headings
+4. Use capital letters
+5. The further apart the acronym needs to be used in the manuscript (e.g. Methods, Results, Discussion), the more times it needs to be used in the manuscript to warrant the use of the abbreviation
+6. Don't use them in titles or figure legends
+
+# Simple words
+
+## Replace complex with simpler words
+
+Replacing more complex words with simpler (and usually shorter) words will make your writing more easily understood.
+
++------------------+--------------------------+
+| **Rather than**  | **Try**                  |
++==================+==========================+
+| ameliorate       | improve                  |
++------------------+--------------------------+
+| analogous        | similar                  |
++------------------+--------------------------+
+| anticipate       | expect                   |
++------------------+--------------------------+
+| approximately    | remove where possible,   |
+|                  | or use about, ~ or ca.  |
++------------------+--------------------------+
+| biota            | species                  |
++------------------+--------------------------+
+| contradicts with | contrasts with           |
++------------------+--------------------------+
+| differential     | different                |
++------------------+--------------------------+
+| employ           | use                      |
++------------------+--------------------------+
+| enumerate        | count                    |
++------------------+--------------------------+
+| facilitate       | help                     |
++------------------+--------------------------+
+| furthermore      | further                  |
++------------------+--------------------------+
+| magnitude        | size, extent, importance |
++------------------+--------------------------+
+| miniscule        | tiny, small              |
++------------------+--------------------------+
+| numerous         | many, several            |
++------------------+--------------------------+
+| obviate          | avoid/minimise           |
++------------------+--------------------------+
+| orientate        | orient                   |
++------------------+--------------------------+
+| relatively equal | similar                  |
++------------------+--------------------------+
+| semi-annually    | twice a year             |
++------------------+--------------------------+
+| terminate        | stop, end, finish        |
++------------------+--------------------------+
+| upon             | on                       |
++------------------+--------------------------+
+| utilise          | use                      |
++------------------+--------------------------+
+
+## Simpler word groups: unstacking modifiers
+
+Stacking modifiers before a noun is the written equivalent of a traffic jam. Long noun strings save a word or two, but are awkward and confusing. Here is a bad one:
+
+"Space telescope wide-field planetary camera instrument definition team ground based charged-couple-device camera" (from *New Scientist*, cited by Matthew Lindsay Stevens in *Subtleties of Scientific Style*, 2007)
+
+Here is another example.
+
+**Rather than:** The availability of statistical correlative species distribution modelling algorithms has led to a rapid increase in their development.
+
+**Try:** The availability of algorithms for correlative species distribution modelling has led to a rapid increase in their development.
+
+**Best:** The availability of algorithms for correlative modelling of species' distributions has led to their rapid development.
+
+**Rather than:** Thermal niche tracking in marine species
+
+**Try:** The tracking by marine species of their thermal niche
+
+**Rather than:** Marine species range edge shifts
+
+**Try:** Shifts in range edges of marine species
+
+**Rather than:** marine climate change impact studies
+
+**Try:** studies of the impacts of marine climate change
+
+## Redundant word pairs
+
+Be on the lookout for redundant word pairs, where one word implies the other.
+
+**Examples:** Small in size (small), rectangular in shape (rectangular), blue in colour (blue), tenuous in nature (tenuous), month of February (February), warming temperatures (warming), latitude 25°S (25°S)
+
+# Appropriate words
+
+## Appropriate adjectives
+
+Low and high and are over-used. Usually more-specific adjectives are more descriptive and interesting. High and low should really be confined to discussing height or elevation. Similarly, comparatives such as lower and higher are also used too often, and usually more specific comparatives are more apt.
+
++-----------------------------------+-----------------------------------+
+| **Rather than**                   | **Try**                         |
++===================================+===================================+
+| low (high)/lower (higher)         | Small (large, big)/smaller      |
+| abundance                         | (larger, bigger)                |
++-----------------------------------+-----------------------------------+
+| low (high)/lower (higher)         | poor (rich)/poorer (richer)     |
+| biodiversity                      |                                   |
++-----------------------------------+-----------------------------------+
+| low (high)/lower (higher) cost    | cheap (expensive)/cheaper (more |
+|                                   | expensive) ~~cost~~             |
++-----------------------------------+-----------------------------------+
+| low (high)/lower (higher)         | weak (strong)/weaker (stronger) |
+| currents/forcing/stress/winds     |                                   |
++-----------------------------------+-----------------------------------+
+| low (high)/lower (higher)         | low (high)/lower (higher)       |
+| density/pitch/pressure/mountains/ |                                   |
+| relief                            |                                   |
++-----------------------------------+-----------------------------------+
+| low (high)/lower (higher) mass    | light (heavy)/lighter (heavier) |
+|                                   | ~~mass~~                        |
++-----------------------------------+-----------------------------------+
+| low (high)/lower (higher)         | short (long, far)/shorter       |
+| distance                          | (longer, further)               |
++-----------------------------------+-----------------------------------+
+| low (high)/lower (higher)         | slow (fast)/slower (faster)     |
+| growth/photosynthetic/production/ |                                   |
+| speed rates                       |                                   |
++-----------------------------------+-----------------------------------+
+| low (high)/lower (higher)         | flat, weak (steep,              |
+| gradients                         | strong)/flatter, weaker         |
+|                                   | (steepr/stronger)               |
++-----------------------------------+-----------------------------------+
+| low (high)/lower (higher) numbers | few (many, several)/fewer       |
+|                                   | (more, greater) ~~number~~      |
++-----------------------------------+-----------------------------------+
+| low (high)/lower (higher) amount  | small (larger)/smaller, lesser  |
+|                                   | (larger, greater)               |
++-----------------------------------+-----------------------------------+
+| low (high)/lower (higher)         | cold, cool (warm, hot)/colder,  |
+| temperature                       | cooler (warmer, hotter)         |
+|                                   | ~~temperature~~                 |
++-----------------------------------+-----------------------------------+
+
+**Rather than:** Higher whale shark occurrence has been shown to correlate with La Niña conditions off Western Australia.
+
+**Try:** Whale sharks are more common during La Niña conditions off Western Australia.
+
+## Appropriate prepositions
+
++-------------------+---------------------------------------+
+| **Rather than**   | **Try**                             |
++-------------------+---------------------------------------+
+| biased for        | biased toward. (e.g., Biased toward  |
+|                   | temperate latitudes)                |
++-------------------+---------------------------------------+
+| comparative to    | compared with  <br>                     |
+|                   | in comparison to                    |
++-------------------+---------------------------------------+
+| compared to       | compared with                       |
++-------------------+---------------------------------------+
+| comparing between | comparing                           |
++-------------------+---------------------------------------+
+| correlated to     | correlated with                     |
++-------------------+---------------------------------------+
+| different to      | different from                      |
++-------------------+---------------------------------------+
+| in accordance to  | in accordance with                  |
++-------------------+---------------------------------------+
+| in comparison to  | in comparison with                  |
++-------------------+---------------------------------------+
+| insight to        | insight into                        |
++-------------------+---------------------------------------+
+| similar as        | similar to                          |
++-------------------+---------------------------------------+
+| spread in         | spread throughout                   |
++-------------------+---------------------------------------+
+| targeted at       | targeted for                        |
++-------------------+---------------------------------------+
+
+## Appropriate word partners
+
+Using the appropriate word choice can be more powerful and comfortable, but also is sometimes needed to be correct. There are several examples below where the word "addressed" can be replaced with something more appropriate.
+
++-----------------------------------+-----------------------------------+
+| **Rather than**                   | **Try**                           |
++===================================+===================================+
+| There are many questions to be    | There are many *questions* to     |
+| addressed.                        | be *answered*                     |
++-----------------------------------+-----------------------------------+
+| There are many gaps to be         | There are many *gaps* to be       |
+| addressed.                        | *filled*.                         |
++-----------------------------------+-----------------------------------+
+| There are many problems to be     | There are many *problems* to be   |
+| addressed.                        | *solved*.                         |
++-----------------------------------+-----------------------------------+
+| There are many questions to be    | There are many *questions* to     |
+| addressed.                        | be *answered*.                    |
++-----------------------------------+-----------------------------------+
+| There are many challenges to      | There are many *challenges* to    |
+| solve                             |   *address* /*meet*               |
++-----------------------------------+-----------------------------------+
+| The goals to be addressed were:   | The *goals* to *meet* were:       |
++-----------------------------------+-----------------------------------+
+| The issue arises                  | The issue raised                  |
++-----------------------------------+-----------------------------------+
+| The question is raised            | The question arises               |
++-----------------------------------+-----------------------------------+
+| a number of caveats were          | a number of caveats               |
+| conceded                          |                                   |
++-----------------------------------+-----------------------------------+
+| Greater shifts in summer relative | Greater  shifts in summer *than*  |
+| to winter                         | *winter*                          |
++-----------------------------------+-----------------------------------+
+| Ranged from 0.008°C/y and         | Ranged *from* 0.008°C/yr *to*     |
+| 0.016°C/yr                        | 0.016°C/y                         |
++-----------------------------------+-----------------------------------+
+| The clear difference between      | The clear difference between      |
+| oceanic and shelf break stations  | oceanic and shelf break stations  | 
+| *indicates* that temperature      | *suggests* that temperature       |
+| influences chaetognath community  | influences chaetognath community  |
+| structure, *a premise* that is    | structure, a *premise* that is    |
+| strongly supported in other       | strongly supported in other       |
+| regions.                          | regions. *Can something that is   |
+|                                   | indicated be a premise?*          |
++-----------------------------------+-----------------------------------+
+
+## Overused words
+
+We all have our different writing styles. However, sometimes we might use a word so frequently in our writing that it can grate on Readers, or a word is used without sufficient thought given to its meaning.
+
+## Occur
+
+"Occur" is often used too frequently. In one publication we commented on, the person used "occur/occurs/occurring/occurrence" 8 times in the Introduction, 11 times in the Methods, 44 times in the Results, and 49 times in the Discussion, and she was unaware she was over-using it. Here is an example from one paragraph:
+
+**Rather than:** Scenarios of moderate and strong upwelling were more likely to *occur* in the late upwelling season. Specifically, moderate upwelling *occurred* in January and February in seven of the eleven sampling events, while strong upwelling *occurred* in January, February and March in seven of the eight sampling events. A strong upwelling was recorded to *occur* only once in the early upwelling season (November 2015) during the study. Cold water (\<15 °C) never reached the surface for any sampling event during the study period. Highest φ values, indicative of stratification, *occurred* during moderate and strong upwelling, while φ values similar to those during winter and preconditioning *occurred* during suppression indicating a less stable water column and/or breakdown of stratification *occurred* during suppression.
+
+**Try:** Scenarios of moderate and strong upwelling were more likely in the late upwelling season. Specifically, there was moderate upwelling in January and February in seven of the eleven sampling events, while there was strong upwelling in January, February and March in seven of the eight sampling events. There was strong upwelling only once in the early upwelling season (November 2015). Cold water (\<15°C) never reached the surface for any sampling event during the study period. There were highest φ values, indicative of stratification, during moderate and strong upwelling, while φ values were similar to those during winter and preconditioning during suppression, indicating a less stable water column and/or breakdown of stratification.
+
+**Rather than:** For these management actions to occur, it is necessary to have strong and effective law enforcement. (Passive)
+
+**Try:** These management actions require strong and effective law enforcement. (Active)
+
+**Rather than:** We calculated mean annual phytoplankton biomass ( 〉 *A* , mmol.m- 3) for the top 50 m of each latitude band, which is where the greatest phytoplankton biomass typically occurs.
+
+**Try:** We calculated mean annual phytoplankton biomass ( 〉 *A* , mmol.m-3) for the top 50 m of each latitude band, where phytoplankton biomass is typically greatest.
+
+**Rather than:** Most invasions emerging from tropical regions occur before 2040.
+
+**Try:** Most invasions from tropical regions emerge before 2040.
+
+**Rather than:** The Central Indo-Pacific is an extreme example of a region where range contractions are projected to occur faster than expansions.
+
+**Try:** The Central Indo-Pacific is an extreme example of a region where faster range contractions than expansions are projected.
+
+**Passive:** Strong negative density-dependent regulation has been shown to occur at the critical recruitment stage.
+
+**Active:** There is strong negative density-dependent regulation at the critical recruitment stage.
+
+**Passive:** Coral bleaching has occurred in most regions
+
+**Active:** Coral has bleached in most regions.
+
+**Active:** Current evidence suggests range contractions seem to occur at significantly lower rates than expansions (refs).
+
+**Passive:** Range contractions are significantly slower than expansions (refs).
+
+Often "there are" can be used to remove "occur"
+
+**Rather than:** Anecdotal reports from dive centres along this coast indicate that whale shark aggregations occur at various locations between Zàvora and Bazaruto throughout the year.
+
+**Try:** Anecdotal reports from dive centres along this coast indicate that there are whale shark aggregations at various locations between Zàvora and Bazaruto throughout the year.
+
+**Rather than:** Remote connections occurring over longer time periods such as the Pacific Decadal Oscillation also affect the productivity of the region (Bakun and Broad, 2003).
+
+**Try:** Remote connections over longer time periods such as the Pacific Decadal Oscillation also affect the productivity of the region (Bakun and Broad, 2003).
+
+**Rather than:** It can occur that a single process such as recruitment may regulate a population if it is density-dependent in one instance, but limit a population if it is density-independent in another.
+
+**Try:** A single process such as recruitment may regulate a population if it is density-dependent in one instance, but limit a population if it is density- independent in another.
+
+## Important/crucial/critical
+
+The words "important", "crucial" and "critical" are overused. If we say everything is important, crucial or critical, then they lose their impact and meaning. These words can be powerful when used sparingly and if the reasoning behind them is explained. If they are used multiple times in a paper, these words can often be removed with no ill effect. Valuable can often be used instead, but should also be followed by an explanation.
+
+**Rather than:** Salps are important members of the zooplankton community that have historically been ignored.
+
+**Try:** Salps are important in the global carbon cycle, but have historically been ignored.
+
+**Rather than:** *E. radiata* is a critical species in coastal ecosystems (Steneck et al., 2003).
+
+**Try:** *E. radiata* is a critical component of coastal ecosystems because it is a habitat-forming species that creates diverse niches for other species, as well as being highly productive and a preferred food source for a range of secondary consumers (Steneck et al., 2003).
+
+**Rather than:** *Ecklonia* communities are important because they play several major roles in coastal marine ecosystems (Hurd, 2000).
+
+**Try:** *Ecklonia* communities play several major roles in coastal marine ecosystems (Hurd, 2000).
+
+**Rather than:** It is important to identify the threats to flatback turtles while they are in their inter-nesting habitat around the Port of Gladstone so that points of conflict can be reduced, enabling the population to be more resilient (Witherington *et al.* 2008).
+
+**Try:** Identifying the threats to flatback turtles while they are in their inter- nesting habitat around the Port of Gladstone will allow points of conflict to be reduced, enabling the population to be more resilient (Witherington *et al.* 2008).
+
+**Rather than:** It is crucial that work such as this can be translated to on-ground decisions through open communication and collaboration among stakeholders in the region, thus ensuring sustainable development occurs that minimises the risk of negative outcomes for both biodiversity and livelihoods.
+
+**Try:** Similar work can be translated into on-ground decisions through open communication and collaboration among stakeholders in the region, thus ensuring sustainable development that minimises negative outcomes for both biodiversity and livelihoods.
+
+## Respectively
+
+Using 'respectively' in sentences can be needed, but often the sentence can be simplified to make it easier to read.
+
+**Rather than:** In the North Atlantic Ocean and north east Pacific albacore preferred respective temperatures between 10-17 ˚C and 11-23 ˚C, but individuals in the South Pacific (off the coast of American Samoa) have shown higher temperature preferences of 20-25 ˚C.
+
+**Try**: Pacific albacore prefer 10-17˚C water in the North Atlantic Ocean and 11- 23˚C water in the northeast Pacific, but warmer 20-25˚C waters in the South Pacific.
+
+## Confusing word pairs
+
+Here are some confusing word pairs and how to select the correct word.
+
+_**'A'**_ vs _**'an'**_
+
+We know that 'a' is used before a word starting with a consonant, and 'an' is used before a word starting with a vowel. But, which sounds better?
+
+"An university degree" or "A university degree"?
+
+Here even though 'university' starts with a vowel, the 'u' makes the sound of the consonant 'y' (as in 'yellow') and thus sounds better with an 'a'. So the rule that 'an' should precede words that start with a vowel is a generalization that does not cover all situations. An addendum to this rule is that 'a' should precede words where the first letter makes the sound of a consonant. Similarly, 'an' should precede words where the first letter makes the sound of a vowel.
+
+It is worth noting that some writers use "a hypothesis" and others use "an hypothesis". We prefer using "a hypotheisis".
+
+## 'A' rather than 'an'
+
++---------------------+----------------------+-----------------------------+
+| **Rather than**     | **Try**              | **Why?**                  |
++=====================+======================+=============================+
+| An eucalyptus       | A eucalyptus         | 'eu' pronounced 'y' as in |
+|                     |                      | 'yellow'                  |
++---------------------+----------------------+-----------------------------+
+| An euphemism        | A euphemism          | 'eu' pronounced 'y'       |
++---------------------+----------------------+-----------------------------+
+| An euphoric         | A euphoric           | 'eu' pronounced 'y'       |
++---------------------+----------------------+-----------------------------+
+| An European         | A European           | 'eu' pronounced 'y'       |
++---------------------+----------------------+-----------------------------+
+| An eutrophic        | A eutrophic          | 'eu' pronounced 'y'       |
++---------------------+----------------------+-----------------------------+
+| An one-hundred fold | A one-hundred fold   | 'o' pronounced 'w'        |
++---------------------+----------------------+-----------------------------+
+| An SCUBA            | A SCUBA              | Because acronym is said   |
+|                     |                      | rather than spelt         |
++---------------------+----------------------+-----------------------------+
+| An uniform          | A uniform            | 'u' pronounced 'y'        |
++---------------------+----------------------+-----------------------------+
+| An union            | A union              | 'u' pronounced 'y'  |
++---------------------+----------------------+-----------------------------+
+| An unilateral       | A unilateral         | 'u' pronounced 'y'  |
++---------------------+----------------------+-----------------------------+
+| An unique           | A unique             | 'u' pronounced 'y'  |
++---------------------+----------------------+-----------------------------+
+| An united           | A united             | 'u' pronounced 'y'  |
++---------------------+----------------------+-----------------------------+
+| An university       | A university         | 'u' pronounced 'y'  |
++---------------------+----------------------+-----------------------------+
+| An US               | A US                 | 'U' sounds like 'y' |
++---------------------+----------------------+-----------------------------+
+| An used             | A used               | 'u' pronounced 'y'  |
++---------------------+----------------------+-----------------------------+
+| An user-friendly    | A user-friendly      | 'u' pronounced 'y'  |
++---------------------+----------------------+-----------------------------+
+| An UV               | A UV                 | 'U' sounds like 'y' |
++---------------------+----------------------+-----------------------------+
+
+## 'An' rather than 'a'
+
++---------------------+----------------------+-----------------------+
+| **Rather than**     | **Try**              | **Why?**            |
++=====================+======================+=======================+
+| A heirloom          | An heirloom          | 'h' silent          |
++---------------------+----------------------+-----------------------+
+| A honest            | An honest            | 'h' silent          |
++---------------------+----------------------+-----------------------+
+| A honour/honourable | An honour/honourable | 'h' silent          |
++---------------------+----------------------+-----------------------+
+| A hour              | An hour              | 'h' silent          |
++---------------------+----------------------+-----------------------+
+| A x-ray             | An x-ray             | 'x' pronounced 'e'  |
++---------------------+----------------------+-----------------------+
+| A x-chromosome      | An x-chromosome      | 'x' pronounced 'e'  |
++---------------------+----------------------+-----------------------+
+| A FDA-approved      | An FDA-approved      | 'F' pronounced 'e'  |
++---------------------+----------------------+-----------------------+
+| A LCD               | An LCD               | 'L' pronounced 'e'  |
++---------------------+----------------------+-----------------------+
+| A MSc               | An MSc               | 'M' pronounced 'e'  |
++---------------------+----------------------+-----------------------+
+| A RGB               | An RGB               | 'R' pronounced 'ah' |
++---------------------+----------------------+-----------------------+
+| A STD call          | An STD call          | 'S' pronounced 'e'  |
++---------------------+----------------------+-----------------------+
+
+## 'Aims' vs 'objectives'
+
+Although some authors use these interchangeably, careful writers distinguish them. Aims (and similarly goals) are general statements and are usually long- term or big picture. Objectives are specific, concrete statements that are often short-term, and can follow the SMART framework (Specific, Measurable, Accurate, Reasonable and Time-bound). Aims are often strategic in nature whereas objectives are more tactical.
+
+## 'All together' vs 'Altogether'
+
+'Altogether' means 'overall' or 'completely'. 'All together' pertains to a group and means 'everyone' or everything-together'.
+
+One way of assessing which to use is to test the sentence without the word 'all'. If the sentence remains intact and comprehensible without 'all', it means the appropriate adverb is 'all together'. If it no longer makes sense after 'all' has been removed, 'altogether' should be used.
+
+## Examples of 'altogether'
+
+1. Such barriers are generally weaker than those on land, subtly retarding movement in one direction or another rather than preventing it altogether (Gaines *et al*., 2007).
+2. The gemfish fishery, already under pressure from apparent over-fishing, collapsed altogether when the zonal winds declined to their low point in the 10-year cycle.
+3. In the interest of brevity, the suspect data have been removed from the paper altogether.
+4. Most of these estuaries have small river catchments and river flow is minimal or stops altogether for long periods at a time.
+5. For each of the three groups, two measures were analysed, giving six models altogether.
+
+## Examples of 'all together'
+
+1. Using the lattice package we can produce a histogram of gcsescore for each score, placing them all together on a single page
+2. All together, the papers documents the complete development process
+
+## 'Between' vs 'Among'
+
+Between for two things (e.g. between the goal posts)
+
+Among for three or more things (e.g. among the trees)
+
+## 'Complement' vs 'Compliment'
+
+'Complement' means 'something that completes or brings to perfection.' A *compliment* is an expression of praise. Almost all scientific uses are 'complement'.
+
+**Example:** Although he said that men and women have strengths that complement each other, she did not take this as a compliment.
+
+**Rather than:** This is a complimentary data set to the Australian Zooplankton Database available through the Australian Ocean Data Network portal.
+
+**It is:** This is a complementary data set to the Australian Zooplankton Database available through the Australian Ocean Data Network portal.
+
+**'Comprise'/'Consist of'/'Composed of' vs 'Constitute'** "Comprise", "consist of", and "composed of" are synonymous and all mean "is made up of". By contrast, constitute means "makes up"
+
+**Example:** The nucleus *comprises* protons and neutrons.
+**Example:** The nucleus *consists of* protons and neutrons.
+**Example:** The nucleus is *composed of* protons and neutrons.
+**Example:** Protons and neutrons *constitute* the nucleus.
+
+You could say that the parts 'constitute' the whole, and the whole 'comprises' or 'consists of' or is 'composed of' the parts. Note that you never say 'composed of'.
+
+**Rather than:** Benthic crustaceans and molluscs comprise most of the fishery catch. **Rather than:** Benthic crustaceans and molluscs consists of most of the fishery catch. **Rather than:** Benthic crustaceans and molluscs composes most of the fishery catch.
+
+**It is:** Benthic crustaceans and molluscs constitute most of the fishery catch. 
+**It is:** Most of the fishery catch comprises benthic crustaceans and molluscs. 
+**It is:** Most of the fishery catch consists of benthic crustaceans and molluscs.
+**It is:** Most of the fishery catch is composed of benthic crustaceans and molluscs.
+
+**Rather than:** Each stock has a preferred latitudinal and depth range, comprising the species' habitat.
+
+**Rather than:** Each stock has a preferred latitudinal and depth range, comprising the species' habitat.
+
+**It is:** Each stock has a preferred latitudinal and depth range, constituting the species' habitat.
+
+Sometimes it is neater to remove comprises/consists of/is composed completely.
+
+**Rather than:** Copepods comprised/consisted of/are composed of \~75% of the community by number.
+
+**It is:** Copepods constitute \~75% of the community by number.
+
+**Best:** Copepods are \~75% of the community by number.
+
+**Rather than:** Ecuador's coastal and offshore waters comprises/consists of/is composed of part of the Humboldt Current.
+
+**It is:** Ecuador's coastal and offshore waters constitutes part of the Humboldt Current.
+
+**Best:** Ecuador's coastal and offshore waters are part of the Humboldt Current.
+
+## 'Dependent' vs 'Dependant'
+
+In UK English, 'Dependant' is the noun, and 'dependent' is the adjective. In scientific writing, almost all cases are 'dependent'. This distinction is not made in US English; it uses 'dependent' in both instances.
+
+**Rather than:** The response of fish to climate change is dependant upon evolutionary history.
+
+**It is:** The response of fish to climate change is dependent upon evolutionary history.
+
+## 'Effect' vs 'Affect'
+
+'Effect' and 'affect' are probably the two words that are regularly confused in scientific writing. 'Affect' is a verb meaning 'to influence'. 'Effect' is usually a noun meaning result, but it can also (more rarely) be used as a verb meaning to cause. 'Effect' as a noun is followed by the preposition 'on' and preceded by an article ('a', 'an', 'the').
+
+**Example:** Temperature affects metabolic rates. (Affect is a verb).
+
+**Example:** Temperature has an effect on metabolism. (Common use of effect as a noun).
+
+**Example:** Temperature effects a change on metabolism. (Rarer use of effect as a verb).
+
+## 'Either or' vs 'Neither nor'
+
+These apply to no more than two items. Similarly, former and latter refer only to the first and second of only two items.
+
+## 'Estimated' vs 'Measured' vs 'Quantified' vs 'Determined' vs 'Assessed'
+
+These verbs all have somewhat similar meanings, but there are nuanced differences. They are generally not used interchangeably. It is worthwhile giving some thought to which is appropriate in different circumstances, but one should not cycle through the different options for "elegant variation" because the use of a different word to a Reader can suggest something different is happening. Although it is difficult to give hard-and-fast rules, and it can be slightly different depending on discipline, but here are some rules-of-thumb.
+
+## Measured
+
+Measured is used when a relatively simple instrument is used to make a measurement. Although in the following examples it is correct grammatically to use estimated, quantified, assessed, quantified or determined instead of measured, measured is more appropriate.
+
+**Example:** We measured the temperature of seawater using a thermometer.
+
+**Example:** We used an anemometer to measure wind strength and direction.
+
+## Estimated
+
+Estimated is less precise than measured. We often measure physical quantities and estimate biological quantities.
+
+**Example 1:** We estimated the density of fish using visual transects.
+
+**Example 2:** You estimate the density of copepods in the surface water
+
+## Assessed
+
+Assessed is generally used when testing a hypothesis, answering a question, or drawing conclusions from data.
+
+**Example:** We assessed whether the density of fish was related to habitat quality.
+
+### Quantified
+
+Quantified is typically used when you want to find a count, amount or a percentage of something.
+
+**Example:** We quantified the number of fish on the reef.
+
+### Determined
+
+Can be used when experimental values recorded by an instrument have to be processed to obtain the values.
+
+**Example 1:** We determined the chlorophyll concentations by measuring the fluorescence.
+
+**Example 2:** We determined that copepods stop feeding at food concentrations <0.01 mg.m3 of chl-a.
+
+### 'Led' vs 'Lead'
+
+Mixing these two is a very common mistake in scientific writing.
+
+*Led* is the past tense and past participle of the verb *to lead* (rhymes with *bead*). Lead (rhymes with *bead*) is a noun referring to an initiative or a position at the front.
+
+Lead (rhymes with *red*) is also a noun referring to the metal.
+
+*"*The Australian programme is led by the University of Queensland, which is also the lead institution in the International Consortium of Lead Research Institutions."
+
+### 'Lesser' vs 'Fewer'
+
+'Lesser' refers to quantity, whereas 'fewer refers to number.
+
+### 'Maybe' vs 'May be'
+
+"Maybe" is an adverb and refers to a choice. "Maybe" means "perhaps" when used as an adverb and denotes a choice. A simple trick of finding out if you have used "maybe" in the right place is by interchanging "maybe" with "perhaps." The sentence should refer to a choice and make sense.
+
+**Rather than:** The jellyfish collected by the Continuous Plankton Recorder are primarily epipelagic, but *may be* not neustonic.
+
+**It is:** The jellyfish collected by the Continuous Plankton Recorder are primarily epipelagic, but *maybe* not neustonic.
+
+**Rather than:** A decline of mud content in sediments took place over extensive areas, *may be* because of the removal of all mussel beds around 1990.
+
+**It is:** A decline of mud content in sediments took place over extensive areas, *maybe* because of the removal of all mussel beds around 1990.
+
+"May be" is a verb and refers to a possibility. The way to check if "may be" is correct, is to substitute "could be" or "would be" in its place. If it makes sense, the usage is correct.
+
+**Rather than:** It maybe difficult to separate from' 'Coelenterate tissue'' if the bell is not found.
+
+**It is:** It may be difficult to separate from' 'Coelenterate tissue'' if the bell is not found.
+
+**Rather than:** Generally, all individuals are counted, but for particularly dense samples a sub-sample maybe counted.
+
+**It is:** Generally, all individuals are counted, but for particularly dense samples a sub-sample may be counted.
+
+### 'May' vs 'Might' vs 'Could'
+
+Some journals prefer 'might' rather than 'may' because 'may' can have a connotation of permission. 'Could' is often stronger than 'may' or 'might' and thus is preferable sometimes.
+
+### 'Past' vs 'Last'
+
+There is not much difference, but careful writers prefer 'past'. This is because 'last' can have the connotation of finality; there can be nothing after the last. It is thus preferable to use 'past' when referring to the period of time leading up to the present.
+
+### 'Practice' vs 'Practise'
+
+'Practice' is a noun referring to the application of an idea ('the practice of science'), the exercise of a profession ('he left scientific practice'), customary procedure ('it was common practice'), or repeated exercise or performance ('knowing his times table required a lot of practice')
+
+'Practise' is a verb meaning to perform an activity or skill repeatedly to improve one\'s proficiency ('He practised his dissection techniques', or to observe or work at something ('She practises science')
+
+*Example:* You can practise your grammar at English Practice.
+
+Note that in US English, 'practise' is not used at all, only 'practice' for both meanings. If unsure, do what the Americans do and use practice!
+
+### Predominate vs Predominant
+
+Predominate is a verb. Predominant is the adjective; as an adverb, predominantly (not \"predominately\").
+
+**Example:** Brown eye colour is the predominant trait
+
+**Example:** Brown eye colour predominates in humans.
+
+### 'Principle' vs 'Principal'
+
+'Principle' is always a noun and is a 'basic truth' or 'rule'
+
+'Principal' can be an adjective or a noun. As an adjective it means 'most important'. As a noun it means an "administrator" or "sum of money'. Note that when principal is used as a noun (e.g. *principal* of a school or the *principal* of a loan), it is the shortened form of a phrase ('*principal teacher*' or '*principal* sum').
+
+*Hint:* A useful way to remember which one to use is: "If you can substitute 'main' (which contains an 'a'), use *principal* (which also contains an 'a'). If you can substitute 'rule' (which ends in 'le'), use *principle* (which also ends in 'le') (William and Mary Morris, *Harper Dictionary of Contemporary Usage*. Harper & Row, 1975).
+
+"The principal reason that allometry is a scientific principle is principally that size governs the physiological, biological and ecological processes of plants and animals."
+
+### Should vs Could
+
+Stating something "should" be done, rather than "could" be done, can be interpreted as too prescriptive and even a bit arrogant. It is usually better to say "could".
+
+**Rather than:** Further studies should investigate vertical water column biomass structure as concentrated zooplankton prey densities may occur deeper at this site.
+
+**Try:** Further studies could investigate vertical water column biomass structure as concentrated zooplankton prey densities may occur deeper at this site
+
+### 'Toward' vs 'Towards'
+
+These are interchangeable. US and Canadian writers 'towards' and British and other English writers prefer 'towards'. The same is true for 'backwards/fowards' and 'backward/forward' when used as adverb in the UK and US respectively. But when used as an adverb 'Something is backward compatible' or 'She is forward- looking', then it never has an 's'.
+
+### 'Where' vs 'When'
+
+Think about whether the sentence is talking about space or time. For example:
+
+**Rather than:** "Where *M. birostris* were observed with their cephalic fins firmly rolled up and not engaging in any other activity, behaviour was designated as cruising."
+
+**Try:** "When *M. birostris* were observed with their cephalic fins firmly rolled up and not engaging in any other activity, behaviour was designated as cruising."
+
+### 'Which' vs 'That'
+
+Distinguishing these two words can help to make intended relationships unmistakable, which is important in reporting scientific information. If the clause can be omitted without leaving the modified noun incomplete, use which and enclose the clause within commas or parentheses; otherwise, use that.
+
+Careful users of English distinguish the two. A 'that' should be used before a restrictive clause and 'which' before a non-restrictive clause. A restrictive clause is one that defines the situation and cannot be removed. A non-restrictive clause is separated by commas and is an additional piece of information that can be removed from the sentence without altering the meaning.
+
+For example, which of the following is correct:
+
+"Chickens that are well fed produce many eggs" 
+"Chickens, which are well fed, produce many eggs" 
+"Chickens which are well fed produce many eggs"
+
+The 1st one is correct, because only chickens that are well fed will produce many eggs. In the 2nd sentence, removing the 'which are well fed' separated by commas, leaves us with a sentence 'Chickens produce many eggs' that has a different meaning to the first sentence and is untrue (chickens produce no eggs when they are starving). In the 3rd sentence, it is better to replace the 'which' with 'that', as a clause with 'which' should be separated by commas and it is not then the restrictive clause that is needed here. Here is another example:
+
+"Copepods that are the world's most abundant metazoans are ubiquitous." "Copepods, which are the world's most abundant metazoans, are ubiquitous." "Copepods which are the world's most abundant metazoans are ubiquitous." Here the 2nd one is correct. The 'which are the world's most abundant metazoans' is a non-restrictive clause, and removing this clause does not change the meaning of the sentence 'Copepods are ubiquitous'.
+
+Although this might seem to be splitting hairs (or setae in the case of copepods!), it helps the Reader more easily follow your writing.
+
+## Punctuation
+
+### Apostrophes
+
+Apostrophes are used to show the omission of a letter or letters in a contraction, and to indicate possession. The possessive case causes the most problems. The following guidelines apply:
+
+1.  Singular nouns are made possessive by adding an apostrophe and an 's' at the end of them, even if they end in an 's' or 'ss':
+
+The manta's feeding area (the feeding area belongs to the manta) The student's thesis (the thesis belongs to the student)
+
+The pus's colour (the colour belongs to the pus)
+
+The moss's growth (the growth belongs to the moss)
+
+2.  Plural nouns (e.g. multiple animals) that end in 's' (which is most plurals) are made possessive by adding an apostrophe without an 's':
+
+The mantas' feeding area (the feeding area belongs to multiple mantas).
+
+The fishes' tank (the tank belongs to the fish)
+
+The students\' theses (the theses belong to the students)
+
+3.  Plural nouns that do not end in 's' are made possessive by adding an apostrophe with an 's':
+
+The people's conference (the conference belonging to the people) The
+sheep's brains (the brains belonging to the sheep)
+
+4.  There is an exception to \#1. If the singular and plural of a noun both end in an 's', the possessive for both is then formed by adding an apostrophe only:
+
+The species' status is endangered (the status belonging to species)
+
+Rabies' cases were increasing (the cases belonging to rabies)
+
+In the case of a noun where both forms end in an 's', it may be necessary to reword the sentence to clarify whether you are referring to a singular or plural noun:
+
+The status of the species was endangered. The status of the two species was endangered.
+
+5.  When two or more nouns possess the same thing, add apostrophe 's' to
+    the last noun:
+
+Smith and Pauly's paper (Smith and Pauly worked together on the same paper)
+
+6.  When two or more nouns separately possess something, add apostrophe 's' to each noun:
+
+Smith\'s and Pauly's papers (Each person has their own paper)
+
+7.  Do Not Use an Apostrophe with Possessive Pronouns. Possessive pronouns already show ownership (e.g. yours, his, hers, theirs). However, we do add an apostrophe 's' to form the possessive of some indefinite pronouns (e.g. anybody\'s guess, one\'s personal responsibility, somebody\'s breakthrough)
+
+8.  Do not use an apostrophe when the word desired is a plura. For example, it shodul be 1980s, not 1980's.
+
+### Recommendations
+
+Apostrophes can be a bit of a minefield, and are often avoided in scientific writing. Here are some recommendations.
+
+#### Minimize contractions. 
+
+Contractions are used frequently in informal writing, but are rare in scientific writing
+
+**Rather than:** Isn't
+
+**Try:** Is not
+
+**Rather than:** There's
+
+**Try:** There is
+
+#### Minimize apostrophes for possessives.
+
+**Rather than:** The manta's underside is blotched
+
+**Try:** The underside of the manta is blotched
+
+#### Never use an apostrophe to form a plural. 
+
+Use an 's' without an apostrophe to form plurals of nouns, including dates, acronyms, and family names (it is not possessive)
+
+**Rather than:** The mid-1980's
+
+**Try:** The mid-1980s
+
+**Rather than:** Ecosystem Based Model's (*EBM's*) are common
+
+**Try:** Ecosystem Based Models (*EBMs*) are common
+
+#### "**It's" vs "Its".** These are often confused. "It's" is common in colloquial writing and can be replaced by "it is" in scientific writing. "Its" is a personal pronoun.
+
+**Rather than:** It's difficult to calculate its value
+
+**Try:** It is difficult to calculate its value
+
+### Commas
+
+Commas make your writing more readable and sometimes are essential for correct meaning. A comma is used to break up two clauses where a pause is needed between them. The pause can be used to introduce a new idea or to separate items in a list. A comma often helps to separate clauses that being with "but" or "with", and at pauses at start of sentences, say after "Similarly, ".
+
+The following sentence is more readable with a comma after "reproduction".
+
+**Rather than:** While the abundance of pelagic fish is influenced by food availability and reproduction their movement is influenced by oceanographic variables.
+
+**Try:** While the abundance of pelagic fish is influenced by food availability and reproduction, their movement is influenced by oceanographic variables.
+
+Similarly, a comma after "live weight" makes the following sentence clearer.
+
+Without the comma after "live weight", you have to read the first sentence multiple times to understand its meaning.
+
+**Rather than:** As data were expressed in terms of live weight conversion factors were used again to determine the weight of consumable seafood in tonnes.
+
+**Try:** As data were expressed in terms of live weight, conversion factors were used to determine the weight of consumable seafood in tonnes.
+
+Often a comma is needed for clarity in a list when there are multiple "ands". In the following, the comma after "flows" makes the list much easier to read.
+
+**Rather than:** The tidal range, flood and ebb flows and reef morphology create patterns in zooplankton accumulation and productivity around islands.
+
+**Try:** The tidal range, flood and ebb flows, and reef morphology create patterns in zooplankton accumulation and productivity around islands.
+
+Sometimes the meaning of a sentence can be changed entirely depending on if and where a comma is used.
+
+**Version 1:** While this hypothesis has not been formally tested, at least for Irukandji it appears to be fairly reliable. (The hypothesis has not been tested but appears to be reliable for Irukandji)
+
+**Version 2:** While this hypothesis has not been formally tested, at least for the Irukandji *Carukia barnesi*, it does appear to be fairly reliable. (The hypothesis has not been tested for Irukandji, but it appears reliable for other species)
+
+And one last example to illustrate that you can get yourself into real trouble with the (mis)-use of commas. This appeared in the Times, intended as a description of a Peter Ustinov documentary:
+
+**Hmmm:** Highlights of his global tour include encounters with Nelson Mandela, an 800-year-old demigod and a dildo collector.
+
+Do not omit commas before conjunctions in compound sentences.
+
+### Spaces
+
+Historically writers have used two spaces after a fullstop, but now the norm is to use one space. This is the standard in scientific journals. It also makes your work a bit shorter, which is always good. You can search for two spaces and replace with one space once ready to submit.
+
+Most journals use a space between numbers and units. Usually journals do not leave a space between the number and units of °C, %, °N, °S, °E, °W.
+
+### Hyphens
+Hyphening of compound or unit modifiers is often needed to clarify what is modifying what. For example, a small-grain harvest (harvest of small grain) is different from a small grain harvest (small harvest of all grain). A man eating fish is different from a man-eating fish! (see [[http://www.chem.ucla.edu/dept/Faculty/merchant/pdf/Word\_Usage\_Scientific\_Writin]{.underline}](http://www.chem.ucla.edu/dept/Faculty/merchant/pdf/Word_Usage_Scientific_Writin) [g.pdf]{.underline})
+
+## Short and simple sentences
+
+There is a tendency in scientific writing to have long, complex sentences, making it difficult for the Reader to follow. Your work will be cited more if you use shorter and more understandable sentences. If you need to have a long sentence, follow it with a short sentence to give the Reader a rest.
+
+One way of assessing how convoluted your writing is, is to use a Fog Index. Gunnings's Fog Index is the best known and measures the level of reading difficulty of any document. It is an estimate of the education grade/year that a Reader would need to understand your work. It can be calculated at [[http://gunning-fog-index.com/index.html]{.underline}.](http://gunning-fog-index.com/index.html)
+
+Gunning's Fog Index = \[(average number of words per sentence) + (number of words of 3 syllables or more)\] × 0.4
+
+The Bible, Shakespeare and Mark Twain all have Fog Indexes of about 6. Time, Newsweek, and the Wall Street Journal average about 11. Scientific writing has higher Fog Indexes because of the nature of the content, but it is worth calculating yours for different pieces of work and try to reduce it. If your Fog Index soars then you might lose your readers in the fog!
+
+Microsoft Word calculates two other indexes for you. The Flesch Reading Ease Test is on a 100-point scale, with the higher the score the easier it is to read. The Flesch-Kincaid Grade Level Test rates text on a U.S. school grade level, similar to the Gunnings Fog Index, with a score of 7 meaning that a seventh grader can understand it. You can calculate these directly in your Word documents. In Windows, under Word 'Options', click 'Proofing', select 'Check grammar with spelling', and under 'When correcting grammar in Word' select 'Show readability statistics check box'. For a Mac, go to Word 'Preferences', select 'Spelling and Grammar', and check 'Show readability statistics'. When you then go through and use Tools Spelling and Grammar, Word will give you scores for the Flesch Reading Ease Test and the Flesch-Kincaid Grade Level Test.
+
+### Can you say something more simply? Make explicit statements
+
+Many scientists are reluctant to state facts explicitly, constantly couching expressions in vague terms. Maybe the logic is that if you are not making definitive statements then you can never be wrong. However, this means you end up saying very little, and what you do say confuses rather than informs. Remember words cost money for a journal (in terms of space) so be concise. A key skill in science is to be clear what we know and state those explicitly, and what we suspect/think and couch those more carefully. Many times, explicit statements are much clearer.
+
+**Rather than:** Some reef fish are known to farm algae, which shifts the benthos from a bare surface to an algal covered benthos.
+
+**Try:** Some reef fish farm algae, which shifts the seafloor from a bare surface to one covered by algae.
+
+**Rather than:** These organisms may require mechanisms of motility to access nutrients and preferred environmental conditions.
+
+**Try:** These organisms are motile so they can access nutrients and their preferred environmental conditions.
+
+**Rather than:** The possibility of vertical adjustment of species as a response to climate change has been shown at a large-scale for fish and invertebrate species in various parts of the ocean.
+
+**Try:** Fish and invertebrates can move deeper as oceans warm.
+
+In the next example, did the researchers "aim to investigate" the problem, or did they actually "investigate" the problem?
+
+**Rather than:** Here we aimed to investigate the interaction between whale shark feeding ecology and characteristics of the zooplankton community.
+
+**Try:** Here we investigated the relationship between whale shark feeding ecology and the zooplankton community.
+
+**Rather than:** There is very little difference of the impact of the different scenarios on evenness.
+
+**Try:** Different scenarios have similar evenness.
+
+**Rather than:** Targeted fisheries at aggregation sites can considerably affect population abundance of a species and can rapidly lead to local depletion.
+
+**Try:** Targeted fisheries at aggregation sites can deplete local populations.
+
+**Rather than:** There is strong evidence that trophic level has been shown to increase continuously with body size in plankton, benthic invertebrates and pelagic fish communities.
+
+**Try:** Trophic level increases with body size in plankton, benthic invertebrates and pelagic fish.
+
+**Rather than:** Climate velocity and connectivity tailored to capture the rates and directions of change in climate matching temporal windows of biological processes or life stages can therefore provide critically meaningful information for conservation.
+
+**Try:** Climate velocity and connectivity tailored to match temporal windows of biological processes or life stages can therefore provide meaningful information for conservation.
+
+An additional way to make your writing more concise is to remove 'the' before plurals.
+
+**Rather than:** The samples were collected...
+
+**Try:** Samples were collected...
+
+**Rather than:** Thermal niche tracking in marine species was shown in a previous study by Poloczanska *et al.*, (2013) where from a meta-database (Marine Climate Change Impacts Database) containing 1,735 marine species' responses, species exhibiting a shift typically moved at a rate consistent with sea-surface temperature changes.
+
+**Try:** Based on a meta-database containing 1,735 marine species' responses, Poloczanska *et al.*, (2013) showed that species tracked their thermal niche, moving at a rate consistent with sea surface temperature changes.
+
+### Uncertainties -- only one in a sentence
+
+Multiple uncertainties in a sentence weaken your message and waste words.
+
+**Rather than**: It is possible that this optimum temperature may be too high for albacore in our region.
+
+**Try:** It is possible that this optimum temperature is too high for albacore in our region.
+
+**Best:** This optimum temperature could be too warm for albacore in our region.
+
+**Rather than:** We suggest that the majority of dietary intake for this species may be of mesopelagic origin.
+
+**Try:** We suggest that the majority of dietary intake for this species is of mesopelagic origin.
+
+**Rather than:** Reduction of residence time may suggest reduced viability of a protected area.
+
+**Try:** Reduction of residence time suggests reduced viability of a protected area.
+
+### Removing redundancy in sentences
+
+Sentences can often be made clearer and shorter by removing redundant and superfluous words. In the following sentence, the last clause "but this remains undemonstrated" is redundant, as it is implied by the third clause "has been hypothesized to cause illness".
+
+**Rather than:** One species in the genus Carybdea, the Australian form of *Carybdea xaymacana*, has been hypothesised to cause illness, but this remains undemonstrated.
+
+**Try:** One species in the genus Carybdea, the Australian form of *Carybdea xaymacana*, has been hypothesised to cause illness.
+
+In the following example, there is no need to give coordinates when you refer to a map in a figure.
+
+**Rather than:** The region was subsetted into five discrete 5° latitudinal by 5° longitudinal cells for analyses (Figure 1). The five regions included the north- south latitudinal gradient with the following coordinates; region 1, 20°S to 25°S, 20°S, 155°E to 160°E; region 2, 25°S to 30°S, 155°E to 160°E; region 3, 30°S to 35°S, 155°E to 160°E; region 4, 35°S to 40°S, 152.5°E to 157.5°E; and region 5, 40°S to 45°S, 150°E to 155°E.
+
+**Try:** The region was subsetted into five 5° latitudinal by 5° longitudinal cells for analyses (Figure 1).
+
+In the next example, it is best not to refer back to previous sections of your work (e.g., as described/discussed/mentioned above, as described/discussed/mentioned previously), because it is vague, as you know exactly where, but your Readers do not. You should either assume people have read it or be more explicit about what you are referring to. The same goes for referring to something below.
+
+**Rather than:** As numerical techniques and accuracy evolved, models showed that kelp distribution was correlated with many of the other variables discussed above.
+
+**Try:** As numerical techniques and accuracy evolved, models showed that kelp distribution was correlated with X, Y and Z. Remove sentences that do not say much.
+
+Sometimes sentences do not say much and thus confuse the Reader and muddle your message. The examples below say very little and they are
+
+These are throw statements that you do not learn much from.
+
+**Meaning?** Although they concluded that further knowledge is needed regarding food web organization, ...
+
+If 83% of the ocean is warming then this implies ocean temperatures are changing.
+
+**Rather than:** Approximately 83% of the area of the global ocean has warmed over the past half century (Burrows *et al*., 2011), as ocean temperatures change worldwide (Durack *et al.*, 2014).
+
+**Try:** Approximately 83% of the area of the global ocean has warmed over the past half century (Burrows *et al*., 2011, Durack *et al.*, 2014).
+
+## Effective sentences
+
+Sentences are the building blocks of any written piece. Knowing how to write well means getting your sentences right.
+
+### Agreement of subject and verb
+
+Singular subjects need singular verbs and plural subjects need plural verbs. This can be tricky when the subject is not immediately next to the verb, as in the following. In the following two examples, the subject of the sentence is singular ('information' and 'number') and not plural ('parameters' or 'analyses'), so a singular verb ('is') is needed.
+
+**Rather than:** *Information* on basic biological parameters *are* essential.
+
+**It is:** *Information* on basic biological parameters *is* essential.
+
+**Rather than:** A *number* of supplementary analyses *were* conducted.
+
+**It is:** A *number* of supplementary analyses *was* conducted
+
+Here is one final example of a singular subject ('distance') needing a singular verb ('is').
+
+**Rather than:** The *distance* shifted at the leading and trailing edges *are* less prominent.
+
+**It is:** The *distance* shifted at the leading and trailing edges *is* less prominent
+
+And here is an example where the subject of the sentence is plural ('distances') and not singular ('edge'), so a plural verb ('are') is needed.
+
+**Rather than:** *Distances* shifted at the leading and trailing edge *is* less prominent.
+
+**It is:** *Distances* shifted at the leading and trailing edge *are* less prominent.
+
+### Putting like things together
+
+Similar points should be closer together in a sentence or you risk. Here mercury and lead are not tissues but trace elements, so should go near trace elements.
+
+**Rather than:** Elasmobranchs accumulate trace elements in their tissues such as mercury and lead.
+
+**Try:** Elasmobranchs accumulate trace elements such as mercury and lead in their tissues
+
+### Active vs Passive voice
+
+There are two voices in English -- active and passive. The active voice is often more direct, clearer and vivid, and is preferred for scientific writing and giving instructions. However, the passive voice is preferred when the subject of the sentence is implied, indefinite, general, unimportant, or if the writer is trying to increase vagueness or suspense. The passive voice often uses the word 'by' and is usually longer. The active voice often used personal pronouns (I, We, His, Her, Us). Historically, it has been frowned upon to use personal pronouns in scientific writing, perhaps because science should be independent of personal biases and detached from the researchers themselves. We are often taught in our undergraduate studies that using personal pronouns in scientific writing is anathema and many traditional scientists still reject it.
+
+In more recent years, however, there has been a push toward using the active rather than the passive voice in scientific writing because it is more direct and shorter. Our advice is to write in the active voice and use personal pronouns wherever you need to. Occasionally you will get an Editor who might not like it, but this is increasingly rare. If you do strike an Editor who does not like it, change it. Microsoft Word will highlight passive sentences and help you change them.
+
+Examples of passive vs active voice follow. Which voice do you prefer?
+
+##Passive:## Gravity was discovered by Galileo. *Here 'Gravity' is the subject, 'Galileo' is the object and 'was discovered by' is the verb.*
+
+##Active:## Galileo discovered gravity. *Here 'Galileo' is the subject of the sentence, 'gravity' is the object and 'discovered' is the verb*
+
+##Passive 1:## An ecosystem model was constructed by us. *Here 'an ecosystem model' is the subject, 'us' is the object, and 'was constructed by' is the verb.*
+
+##Passive 2:## An ecosystem model was constructed. *As above, but the object "us" is implied.*
+
+##Active:## We constructed an ecosystem model. *Here 'We' is the subject, 'an ecosystem model' is the object, and 'constructed' is the verb.*
+
+##Rather than##: Photosynthesis is regulated by light and nutrients.
+
+**Try:** Light and nutrients regulate photosynthesis.
+
+### Logical sequence
+
+It is usually best to use a logical sequence in a sentence, wherever possible. For example, in time (e.g., February before March), space (e.g., describe sites from North to South), phylogenetically (e.g., from simple to complex), or importance (e.g., human stresses on ecosystems that are most to least harmful). When this is not possible, alphabetical order is a good option.
+
+In the next example, transposing 'weekly and daily' makes more sense, as the sentence now goes from hourly, through daily, to weekly.
+
+**Rather than:** Hourly data were used for the case studies, while weekly and daily means were calculated for time-series analyses.
+
+**Try:** Hourly data were used for the case studies, while daily and weekly means were calculated for time-series analyses.
+
+### Numbers in sentences
+
+The general rule of writing numbers is that you spell out numbers less than 10 and write as a number those 10 or greater. There are a few extensions to this though.
+
+Never write numbers before units.
+
+**Rather than:** five m.s-1
+
+**It is:** 5 m.s-1
+
+When there are several numbers in a sentence and some are smaller and some are larger than 10, it is clearer for Readers to write them all as numbers.
+
+**Rather than:** The three lionesses had 10 cubs.
+
+**Try:** The 3 lionesses had 10 cubs.
+
+Some writers do not like starting a sentence with a number and prefer to spell it out, but it is usually neater to rewrite the sentence.
+
+**Rather than:** 50 samples were collected.
+
+**Try:** A total of 50 samples were collected.
+
+### One idea per sentence
+
+One idea per sentence makes it easier to follow, although two ideas can be linked if they are short and simple.
+
+**Rather than:** Occurring in all of the world's oceans, diatoms are primarily comprised of rigid silica walls and are the first taxa to rapidly increase their abundance, or "bloom" following the introduction of nutrient-rich waters.
+
+**Try:** Diatoms have rigid silica walls and are found in all oceans. Diatoms are the first taxa to rapidly increase in abundance ("bloom") following the introduction of nutrient-rich waters.
+
+### Lists in a sentence
+
+A standard way to have a list in a sentence is to start it with a colon, have semicolons between the items, and to use an 'and' after the last semicolon. It can be with or without numbers.
+
+**Example:** Assuming these trends in ocean warming are continued in the future, we hypothesise that: (1) pelagic fish species leading edges would shift further than their trailing edges; (2) shifts would be greater in winter than summer; and (3) shallower species would shift further south than deeper species.
+
+## Effective paragraphs
+
+### Structure
+
+Topic sentence and concluding sentences in paragraphs -- not appropriate in fictional writing.
+
+The 1st sentence of a paragraph should summarize the paragraph. Thus if you want to skim a paper, you should be able to read the 1st sentence of each paragraph and follow the logic of the paper. This means that when writing a paragraph, keep in mind that it should give the overall message of the paragraph.
+
+Paragraphs should also not be too long. The longer the paragraph, the more difficult it is for the Reader to follow the message, and the more likely the Writer is to meander. Short, punchy paragraphs will best convey your messages.
+
+Here it is useful to separate the single long paragraph into two shorter paragraphs so the Reader does not get the impression that you are saying the same thing twice -- it emphasises that one analysis is for Biomass and the other one is for Abundance.
+
+**Rather than:** Zooplankton biomass was significantly higher during manta ray feeding events than when manta rays were not feeding or were absent (ANOVA F~(2,87)~=11.41, p=3.98x10-5; Figure 4a). There was no significant difference in zooplankton biomass when manta rays were not feeding or were absent. Zooplankton was also significantly more abundant during feeding events than when manta rays were not feeding or were absent (ANOVA F~2,47~=11.48, p=8.69x10-5; Figure 4b). There was no significant difference in manta ray abundance when manta rays were not feeding or were absent.
+
+**Try:** Biomass of zooplankton (Figure 4a) was significantly higher during manta ray feeding events than when manta rays were not feeding (9.33 mg m-3, n=12; or were absent (ANOVA F~(2,87)~=11.41, p=3.98x10-5). There was no significant difference in zooplankton biomass when manta rays were not feeding or were absent.
+
+Abundance of zooplankton (Figure 4b) was also significantly higher during feeding events than when manta rays were not feeding or were absent (ANOVA F~2,47~=11.48, p=8.69x10-5). There was no significant difference in manta ray abundance when manta rays were not feeding or were absent
+
+### Lists
+
+The use of lists highlights a difference between writing in novels and scientific/technical writing. In a novel, there are never boring, repetitive lists that would lose Readers' interest. In scientific and technical writing, however, lists are often vital for helping the Reader follow a complex argument or know all the different causes. Only use lists when there are three or more items: two items can just be explained one after the other and the Reader can easily follow. Lists are normally introduced with a sentence that states there are few/several/many explanations/reasons/steps for something.
+
+**Rather than:** Firstly, ... Secondly, ... Thirdly
+
+**Try:** Firstly, ... Secondly, ... Lastly
+
+**Or best:** First, ... Second, ... Last
+
+## Common grammatical mistakes
+
+### Remove double negatives
+
+**Rather than:** not over the limit.
+
+**Try:** below the limit.
+
+### Plurals
+
+**Rather than:** data is
+
+**Try:** data are
+
+**Rather than:** strata is
+
+**Try:** strata are
+
+### Split infinitives
+
+**Rather than:** estimations
+
+**Try:** estimates
+
+### However
+
+Better to place it more often within a sentence than at the beginning or end. "But" is better at the beginning.
+
+### Mainly
+
+"mainly had red females" OR "had mainly red females"
+
+A link between eddies, MLD and CHL ... But: A link is technically only between 2 things
+
+### Using (reword, from the journal Conservation Biology.)
+
+In scientific writing, the word using is often the cause of dangling participles and misplaced modifiers.
+
+**Rather than:** Using tissue-isolation protocol, mtDNA was isolated from the dried skins. (Who is doing the using is unclear.)
+
+**Try:** We used tissue-isolation protocol to isolate mtDNA from the dried skins.
+
+**Rather than:** Ivory samples were taken from tusks using a 16-mm drill bit on a 40-cm drill. (This implies that the tusks used the drill)
+
+**Try:** We used a 16-mm drill bit on a 40-cm drill to take ivory samples from tusks.
+
+### Myself is not a substitute for me (Reword)
+
+"This paper has been reviewed by Dr. Smith and myself" and "The report enclosed was prepared by Dr. Jones and myself" are incorrect as is  as is "Don't hesitate to call Dr. Doe or myself"; me would have been correct in all instances. (Use of I also would have been wrong in those examples.) Some correct uses of myself: I found the error  I myself saw it happen. I am not myself today. I cannot convince myself. I locked myself out of the car.
+
+### References and further reading
+
+*Grammar*
+[[http://www.differencebetween.net/]{.underline}](http://www.differencebetween.net/)
+[[http://gunning-fog-index.com/index.html]{.underline}](http://gunning-fog-index.com/index.html)
+[[http://grammar.about.com/]{.underline}](http://grammar.about.com/)
+
+## American English Differences
+
+### British or US English
+
+The Irish playwright Oscar Wilde described America and Britain as "*two nations divided by the same language*." Many of the differences between US and British spelling were championed by the American teacher and lexicographer Noah Webster in the early 19th century. He saw the simplification of English spelling as a mark of American independence. Commonwealth nations generally follow British English. Although traditionally British journals have used British English and American journal American English, journals are usually flexible these days with whether you use British or US English. However, the most important advice is to be consistent in your usage. The best ways to do this are to be familiar with different forms, and to choose the English version on your spell checker in your word processor!
+
+The best ways to do this are to be familiar with different forms, and to choose the English version on your spell checker in your word processor!
+
+The following is a table summarising differences between British and US English, focusing on scientific terms. Some rules are not hard and fast, English is a dynamic language so spelling is in a state of flux.
+
+*Generalisations*
+
++----------------------------+-------------------------+
+| **British English**        | **US English**   |
++----------------------------+-------------------------+
+| **-ae**                    | **-e**           |
++----------------------------+-------------------------+
+| anaemia <br>               | anemia <br>          |
+| archaeology  <br>          | archeology       |
+|  encyclopaedia             | (or archaeology) <br>|
+| (or encyclopedia) <br>     | encyclopedia  <br>   |
+| haemorrhage  <br>          | hemorrhage <br>      |
+| leukaemia  <br>            | leukemia <br>        |
+| paediatric  <br>           | pediatric  <br>      |
+| palaeontology              | paleontology <br>    |
++----------------------------+-------------------------+
+| **+gement**                | **-dgment**      |
++----------------------------+-------------------------+
+| acknowledgement <br>       | acknowledgment<br>   |
+| judgement <br>             | judgment  <br>       |
+| lodgement  <br>            | lodgment <br>        |
++----------------------------+-------------------------+
+|**-ence**                   | **-ense**        |
++----------------------------+-------------------------+
+| defence <br>               |   defense <br>       |
+| licence  <br>              |    license <br>      |
+| offence  <br>              |   offense <br>       |
+| pretence   <br>            | pretense <br>        |
++----------------------------+-------------------------+
+|   **-ise**\*               |  **-ize**        |
++----------------------------+-------------------------+
+| apologise   <br>           | apologize <br>       |
+| characterise  <br>         | characterize <br>    |
+| emphasise <br>             |  emphasize  <br>     |
+| globalise <br>             |  globalize <br>      |
+| normalise <br>             |  normalize <br>      |
+| organise <br>              |   organize  <br>     |
+| recognise  <br>            |   recognize <br>     |
+| specialise <br>            |  specialize <br>     |
+| standardise <br>           |  standardize <br>    |
++----------------------------+-------------------------+
+|    **-ll**\*\*             |   **-l**         |
++----------------------------+-------------------------+
+| cancelled <br>             |  canceled <br>       |
+| equalled  <br>             |  equaled <br>        |
+| fuelled  <br>              |  fueled <br>         |
+| abelled  <br>              |  labeled  <br>       |
+| modelled  <br>             |  modeled <br>        |
+| signalled <br>             | signaled <br>        |
+| travelled <br>             | traveled  <br>       |
++----------------------------+-------------------------+
+|    **-l**                  |   **-ll**           |
++----------------------------+-------------------------+
+|   enrol  <br>              | enroll <br>          |
+|   enrolment <br>           |   enrollment <br>    |
+|   fulfil <br>              |   fulfill <br>       |
+|   fulfilment  <br>         |   fulfillment <br>   |
+|   skilfull <br>            |    skillful <br>     |
++----------------------------+-------------------------+
+|   **-mme**                 |   **-m**         |
++----------------------------+-------------------------+
+|  programme <br>            |  program  <br>      |
++----------------------------+-------------------------+
+|  **-oe**                   |   **-e**          |
++----------------------------+-------------------------+
+| aeon <br>                  |  eon <br>            |
+| foetus <br>                |  fetus   <br>          |
+|  oesophagus <br>           |  esophagus <br>            |
+| oestrogen <br>             |  estrogen <br>            |
+| manoeuvre <br>             |  maneuver <br>            |
++----------------------------+-------------------------+
+|   **-ogue**                |   **-og**\*\*\*         |
++----------------------------+-------------------------+
+|  analogue <br>             |  analog <br>            |
+|  catalogue  <br>           |   catalog <br>           |
+|  dialogue <br>             |  dialog <br>            |
+|  prologue <br>             |  prolog <br>            |
++----------------------------+-------------------------+
+|  **-our**                  |  **-or**            |
++----------------------------+-------------------------+
+| behaviour <br>             |  behavior <br>            |
+| colour  <br>               |    color <br>          |
+| endeavour <br>             |  endeavor <br>            |
+| favour  <br>               |  favor <br>            |
+| harbour <br>               |  harbor <br>            |
+| honour  <br>               |  honor <br>            |
+| labour <br>                |  labor <br>            |
+| neighbour <br>             | neighbor <br>             |
+|  odour <br>                |  odor <br>            |
+|  rigour  <br>              | rigor <br>             |
+|  rumour <br>               | rumor <br>             |
++----------------------------+-------------------------+
+|   **-re**                  |   **-er **        |
++----------------------------+-------------------------+
+|  centre <br>               |  center <br>          |
+|  fibre  <br>               |  fiber <br>            |
+|  litre  <br>               |  liter <br>            |
+|  meagre  <br>              |  meager <br>            |
+|  metre  <br>               |  meter <br>            |
+|  theatre <br>              | theater  <br>            |
++----------------------------+-------------------------+
+|  **-yse**                  |   **-yze**        |
++----------------------------+-------------------------+
+|  analyse <br>              | analyze <br>           |
+|  breathalyse <br>          | breathalyze <br>             |
+|  catalyse  <br>            | catalyze <br>             |
+|   hydrolyse  <br>          |  hydrolyze <br>            |
+|   paralyse <br>            |  paralyze  <br>           |
++----------------------------+-------------------------+
+
+
+
+*Other words*
+
++------------------------+---------------------+
+| **British English** | **US English**   |
++=====================+==================+
+| aeroplane           | airplane       |
++------------------------+---------------------+
+| aluminium           | aluminum       |
++------------------------+---------------------+
+| grey                | gray           |
++------------------------+---------------------+
+| maths               | math           |
++------------------------+---------------------+
+| moult               | molt           |
++------------------------+---------------------+
+| tyre                | tire           |
++------------------------+---------------------+
+| sceptical           | skeptical      |
++------------------------+---------------------+
+| sulphur             | sulfur         |
++------------------------+---------------------+
+| Tonne               | ton            |
++------------------------+---------------------+
+| e.g.                | e.g.,          |
++------------------------+---------------------+
+| i.e.                | i.e.,          |
++------------------------+---------------------+
+
+## Removing waste words
+
+*“Substitute ‘damn’ every time you’re inclined to write ‘very’; the editor will delete it and the writing will be just as it should be.”* Mark Twain
+
+The Table below gives a list of waste words that can be removed to make your writing more concise.
+
++-----------------------------------+-----------------------------------+
+| **Rather than**                   | **Try**                           |
++-----------------------------------+-----------------------------------+
+| a considerable amount of          | much                              |
++-----------------------------------+-----------------------------------+
+| a considerable/large number of    | many/several                      |
++-----------------------------------+-----------------------------------+
+| A possible explanation here is    | remove                            |
+| that                              |                                   |
++-----------------------------------+-----------------------------------+
+| a program named {software         | remove                            |
+| package}                          |                                   |
++-----------------------------------+-----------------------------------+
+| a substantially larger suite of   | more                              |
++-----------------------------------+-----------------------------------+
+| adjacent to                       | adjacent/near                     |
++-----------------------------------+-----------------------------------+
+| aimed to test/explore/investigate/| tested/explored/investigated/     |
+| quantify/examine/ascertain        | quantified/examined/ascertained   |
++-----------------------------------+-----------------------------------+
+| aims to determine                 | will determine                    |
++-----------------------------------+-----------------------------------+
+| All of                            | All                               |
++-----------------------------------+-----------------------------------+
+| Another study found that          | remove                            |
++-----------------------------------+-----------------------------------+
+| any negative/positive differences | "any" not usually necessary       |
++-----------------------------------+-----------------------------------+
+| appear to be                      | are                               |
++-----------------------------------+-----------------------------------+
+| are (well) known to be            | remove                            |
++-----------------------------------+-----------------------------------+
+| are believed to be                | are                               |
++-----------------------------------+-----------------------------------+
+| are observed to (undergo)         | (undergo)                         |
++-----------------------------------+-----------------------------------+
+| are recognised as                 | are                               |
++-----------------------------------+-----------------------------------+
+| are well known to occur           | are                               |
++-----------------------------------+-----------------------------------+
+| As a matter of fact,              | remove                            |
++-----------------------------------+-----------------------------------+
+| As a part of this research, we    | We                                |
++-----------------------------------+-----------------------------------+
+| As a result                       | thus                              |
++-----------------------------------+-----------------------------------+
+| As (previously)                   | remove                            |
+| described/discussed/indicated/    |                                   |
+| mentioned above/in                |                                   |
++-----------------------------------+-----------------------------------+
+| as evidenced by                   | with                              |
++-----------------------------------+-----------------------------------+
+| As evidenced by the statement     | remove                            |
+| above,                            |                                   |
++-----------------------------------+-----------------------------------+
+| As stated in                      | remove                            |
++-----------------------------------+-----------------------------------+
+| as we know                        | remove                            |
++-----------------------------------+-----------------------------------+
+| At the present time               | At present, now, or remove        |
++-----------------------------------+-----------------------------------+
+| At this point in time             | Now or remove                     |
++-----------------------------------+-----------------------------------+
+| Because of the fact that          | Because, Since                    |
++-----------------------------------+-----------------------------------+
+| becoming ever more                | increasingly                      |
++-----------------------------------+-----------------------------------+
+| being deemed                      | being or deemed                   |
++-----------------------------------+-----------------------------------+
+| being noted                       | remove                            |
++-----------------------------------+-----------------------------------+
+| being observed in                 | in                                |
++-----------------------------------+-----------------------------------+
+| being recognised                  | recognised                        |
++-----------------------------------+-----------------------------------+
+| Both of                           | Both                              |
++-----------------------------------+-----------------------------------+
+| By means of                       | By                                |
++-----------------------------------+-----------------------------------+
+| can have                          | have                              |
++-----------------------------------+-----------------------------------+
+| close proximity                   | proximity or close                |
++-----------------------------------+-----------------------------------+
+| concentrated around               | around                            |
++-----------------------------------+-----------------------------------+
+| conclude that                     | remove or conclude                |
++-----------------------------------+-----------------------------------+
+| conducted to date                 | remove                            |
++-----------------------------------+-----------------------------------+
+| considered to be                  | are                               |
++-----------------------------------+-----------------------------------+
+| contributes to 64% of             | contributes 64% of                |
++-----------------------------------+-----------------------------------+
+| coupled together                  | coupled                           |
++-----------------------------------+-----------------------------------+
+| current knowledge                 | knowledge                         |
++-----------------------------------+-----------------------------------+
+| Current knowledge suggests that   | remove                            |
++-----------------------------------+-----------------------------------+
+| currently underway                | underway                          |
++-----------------------------------+-----------------------------------+
+| derived from                      | from                              |
++-----------------------------------+-----------------------------------+
+| Despite the fact that             | remove                            |
++-----------------------------------+-----------------------------------+
+| Diagrammatic representation of    | A diagram of                      |
+|                                   | A representation of               |
++-----------------------------------+-----------------------------------+
+| direct result of                  | result of                         |
++-----------------------------------+-----------------------------------+
+| During the course of              | During                            |
++-----------------------------------+-----------------------------------+
+| each and every                    | each                              |
++-----------------------------------+-----------------------------------+
+| empty out                         | empty                             |
++-----------------------------------+-----------------------------------+
+| essentially models                | models                            |
++-----------------------------------+-----------------------------------+
+| estimations                       | estimates                         |
++-----------------------------------+-----------------------------------+
+| ever expanding                    | expanding                         |
++-----------------------------------+-----------------------------------+
+| evidence shows that               | remove                            |
++-----------------------------------+-----------------------------------+
+| fairly                            | remove                            |
++-----------------------------------+-----------------------------------+
+| focused on investigating          | investigated                      |
++-----------------------------------+-----------------------------------+
+| For comparison purposes,          | For comparison,                   |
++-----------------------------------+-----------------------------------+
+| found/observed/measured to be     | Remove. e.g. differences were     |
+|                                   | ~~found to be~~ significant       |
++-----------------------------------+-----------------------------------+
+| Furthermore,                      | Further,                          |
++-----------------------------------+-----------------------------------+
+| generally considered to be        | is                                |
++-----------------------------------+-----------------------------------+
+| generally seemed to               | seemed to/was/is                  |
++-----------------------------------+-----------------------------------+
+| geographic areas                  | areas                             |
++-----------------------------------+-----------------------------------+
+| giving some indication of         | indicating/suggesting             |
++-----------------------------------+-----------------------------------+
+| going beyond                      | beyond                            |
++-----------------------------------+-----------------------------------+
+| groupings                         | groups                            |
++-----------------------------------+-----------------------------------+
+| hard to interpret                 | difficult to interpret (better    |
+|                                   | because hard                      |
+|                                   | has two meanings)                 |
++-----------------------------------+-----------------------------------+
+| has been demonstrated to have     | has                               |
+| the ability to                    |                                   |
++-----------------------------------+-----------------------------------+
+| has been found/identified to be   | is                                |
++-----------------------------------+-----------------------------------+
+| has been recorded to              | has                               |
++-----------------------------------+-----------------------------------+
+| has been shown to                 | remove                            |
++-----------------------------------+-----------------------------------+
+| have (also) been observed to      | also                              |
++-----------------------------------+-----------------------------------+
+| have a high tendency to           | remove                            |
++-----------------------------------+-----------------------------------+
+| have been                         | have                       |
+| found/reported/shown/subject to   |                            |
++-----------------------------------+-----------------------------------+
+| have been identified as           | remove                     |
++-----------------------------------+-----------------------------------+
+| have been                         | remove                     |
+| shown/found/observed to be        |                            |
++-----------------------------------+-----------------------------------+
+| have proven to be                 | are                        |
++-----------------------------------+-----------------------------------+
+| have recently been shown to       | remove                     |
++-----------------------------------+-----------------------------------+
+| heavily dominated by              | dominated by               |
++-----------------------------------+-----------------------------------+
+| helped improve                    | improved                   |
++-----------------------------------+-----------------------------------+
+| highlights the fact that          | highlights that            |
++-----------------------------------+-----------------------------------+
+| highly                            | remove highly              |
+| significant/speculative/relevant  |                            |
++-----------------------------------+-----------------------------------+
+| impact on                         | impact                     |
++-----------------------------------+-----------------------------------+
+| In an aim to                      | To                         |
++-----------------------------------+-----------------------------------+
+| In contrast to this,              | In contrast/By contrast    |
++-----------------------------------+-----------------------------------+
+| in fact                           | remove                     |
++-----------------------------------+-----------------------------------+
+| In fact,                          | remove                     |
++-----------------------------------+-----------------------------------+
+| in order for/to                   | for/to                     |
++-----------------------------------+-----------------------------------+
+| In order to                       | To                         |
++-----------------------------------+-----------------------------------+
+| In other words                    | remove                     |
++-----------------------------------+-----------------------------------+
+| In spite of the fact that         | remove                     |
++-----------------------------------+-----------------------------------+
+| In the course of                  | In                         |
++-----------------------------------+-----------------------------------+
+| In the Australian context,        | In Australia,              |
++-----------------------------------+-----------------------------------+
+| in the month of May               | in May                     |
++-----------------------------------+-----------------------------------+
+| in the order of                   | remove                     |
++-----------------------------------+-----------------------------------+
+| In this regard                    | remove                     |
++-----------------------------------+-----------------------------------+
+| In this study                     | Here                       |
++-----------------------------------+-----------------------------------+
+| included for perusal              | included                   |
++-----------------------------------+-----------------------------------+
+| Indeed                            | remove                     |
++-----------------------------------+-----------------------------------+
+| Interestingly                     | Usually remove             |
++-----------------------------------+-----------------------------------+
+| Irregardless                      | Regardless or Irrespective |
++-----------------------------------+-----------------------------------+
+| It appears that                   | remove                            |
++-----------------------------------+-----------------------------------+
+| It has been                       | remove                            |
+| demonstrated/discovered that      |                                   |
++-----------------------------------+-----------------------------------+
+| It is also foreseeable that       | remove                            |
++-----------------------------------+-----------------------------------+
+| It is also relevant to note that  | remove                            |
++-----------------------------------+-----------------------------------+
+| It is/was                         | remove or                         |
+| apparent/clear/decided/determined | Apparently/Clearly/Possibly       |
+| /evident/felt/found/possible/     |                                   |
+| estimated that                    |                                   |
++-----------------------------------+-----------------------------------+
+| It is becoming clear that         | remove                            |
++-----------------------------------+-----------------------------------+
+| it is clear/obvious               | remove                            |
+| /apparent/critical that           |                                   |
++-----------------------------------+-----------------------------------+
+| It is clearly shown that          | remove                            |
++-----------------------------------+-----------------------------------+
+| It is generally accepted that     | remove                            |
++-----------------------------------+-----------------------------------+
+| It is important to                | remove or Note that or            |
+| note/understand that              | Importantly                       |
++-----------------------------------+-----------------------------------+
+| it is increasingly acknowledged   | remove                            |
+| that                              |                                   |
++-----------------------------------+-----------------------------------+
+| It is known that                  | remove                            |
++-----------------------------------+-----------------------------------+
+| It is well established/understood | remove                            |
+| that                              |                                   |
++-----------------------------------+-----------------------------------+
+| It must be understood that        | remove                            |
++-----------------------------------+-----------------------------------+
+| It should be                      | remove                            |
+| emphasized/highlighted/mentio     |                                   |
+| ned/noted/pointed                 |                                   |
+| out/stressed/understood that      |                                   |
++-----------------------------------+-----------------------------------+
+| join together                     | join                              |
++-----------------------------------+-----------------------------------+
+| just like                         | similar to                        |
++-----------------------------------+-----------------------------------+
+| largely                           | remove                            |
++-----------------------------------+-----------------------------------+
+| likely due to                     | either 'due to' or 'likely to be  |
+|                                   | due to'                           |
++-----------------------------------+-----------------------------------+
+| likely to occur                   | likely                            |
++-----------------------------------+-----------------------------------+
+| located at                        | at                  |
++-----------------------------------+-----------------------------------+
+| located in                        | in                  |
++-----------------------------------+-----------------------------------+
+| marine pelagic animals            | pelagic animals     |
++-----------------------------------+-----------------------------------+
+| may be revealed to be             | may                 |
++-----------------------------------+-----------------------------------+
+| may suggest                       | suggests            |
++-----------------------------------+-----------------------------------+
+| minor detail                      | detail              |
++-----------------------------------+-----------------------------------+
+| much                              | remove              |
++-----------------------------------+-----------------------------------+
+| much lower number of              | fewer               |
++-----------------------------------+-----------------------------------+
+| multiple replicates               | replicates          |
++-----------------------------------+-----------------------------------+
+| never at any time                 | never               |
++-----------------------------------+-----------------------------------+
+| noticed                           | noted               |
++-----------------------------------+-----------------------------------+
+| obtained from                     | from                |
++-----------------------------------+-----------------------------------+
+| Obviously                         | remove              |
++-----------------------------------+-----------------------------------+
+| occurred                          | was                 |
++-----------------------------------+-----------------------------------+
+| Of added interest was             | remove              |
++-----------------------------------+-----------------------------------+
+| Of particular note is             | remove              |
++-----------------------------------+-----------------------------------+
+| off of Australia                  | off Australia       |
++-----------------------------------+-----------------------------------+
+| Our results provide evidence that | We show             |
++-----------------------------------+-----------------------------------+
+| Our results show                  | We show             |
++-----------------------------------+-----------------------------------+
+| overall consequences              | consequences        |
++-----------------------------------+-----------------------------------+
+| overwhelmingly                    | remove              |
++-----------------------------------+-----------------------------------+
+| particularly                      | remove              |
++-----------------------------------+-----------------------------------+
+| predicted to occur                | predicted           |
++-----------------------------------+-----------------------------------+
+| predominantly/mainly              | associated with     |
+| associated with                   |                     |
++-----------------------------------+-----------------------------------+
+| presented here                    | here                |
++-----------------------------------+-----------------------------------+
+| prevailing currents/wind          | remove              |
++-----------------------------------+-----------------------------------+
+| previously been used              | been used           |
++-----------------------------------+-----------------------------------+
+| primarily focused                 | focused             |
++-----------------------------------+-----------------------------------+
+| prior/previous to                 | before or preceding |
++-----------------------------------+-----------------------------------+
+| provide an analysis of            | analyse             |
++-----------------------------------+-----------------------------------+
+| provides suitable evidence to     | suggests            |
++-----------------------------------+-----------------------------------+
+| suggest                           |                             |
++-----------------------------------+-----------------------------------+
+| quite                             | remove                      |
++-----------------------------------+-----------------------------------+
+| rapidly proliferated              | proliferated                |
++-----------------------------------+-----------------------------------+
+| rather narrow/large               | narrow/large                |
++-----------------------------------+-----------------------------------+
+| reason is because                 | reason is                   |
++-----------------------------------+-----------------------------------+
+| reason why                        | why                         |
++-----------------------------------+-----------------------------------+
+| recent findings mean that         | remove                      |
++-----------------------------------+-----------------------------------+
+| reported to be                    | remove                      |
++-----------------------------------+-----------------------------------+
+| results from such studies         | results                     |
++-----------------------------------+-----------------------------------+
+| revealed that                     | revealed                    |
++-----------------------------------+-----------------------------------+
+| seek out                          | seek                        |
++-----------------------------------+-----------------------------------+
+| seen in                           | in                          |
++-----------------------------------+-----------------------------------+
+| situated further                  | further                     |
++-----------------------------------+-----------------------------------+
+| so begin to move toward           | so move toward              |
++-----------------------------------+-----------------------------------+
+| spanning over                     | spanning                    |
++-----------------------------------+-----------------------------------+
+| step forward                      | step                        |
++-----------------------------------+-----------------------------------+
+| Subsequent to                     | After                       |
++-----------------------------------+-----------------------------------+
+| summer/autumn/winter/spring       | summer/autumn/winter/spring |
+| months                            |                             |
++-----------------------------------+-----------------------------------+
+| tend to be                        | are                         |
++-----------------------------------+-----------------------------------+
+| that are known to exist           | remove                      |
++-----------------------------------+-----------------------------------+
+| that are/were                     | can often be removed        |
++-----------------------------------+-----------------------------------+
+| that indicate that                | that                        |
++-----------------------------------+-----------------------------------+
+| that occur                        | remove                      |
++-----------------------------------+-----------------------------------+
+| The evidence shows that           | remove                      |
++-----------------------------------+-----------------------------------+
+| the fact that                     | that or remove              |
++-----------------------------------+-----------------------------------+
+| The results from this study       | This study                  |
++-----------------------------------+-----------------------------------+
+| There are also suggestions that   | remove and use 'could'      |
++-----------------------------------+-----------------------------------+
+| there are/is                      | remove                      |
++-----------------------------------+-----------------------------------+
+| there is some thought that        | remove                      |
++-----------------------------------+-----------------------------------+
+| These studies stated that         | remove                      |
++-----------------------------------+-----------------------------------+
+| this analysis demonstrates that   | remove                      |
++-----------------------------------+-----------------------------------+
+| This body of work aims to         | Here we                           |
++-----------------------------------+-----------------------------------+
+| this provides a clear signal that | remove                            |
++-----------------------------------+-----------------------------------+
+| To be made based on               | Based on...                       |
++-----------------------------------+-----------------------------------+
+| To/to date                        | remove                            |
++-----------------------------------+-----------------------------------+
+| to have to                        | to                                |
++-----------------------------------+-----------------------------------+
+| To satisfy the outline/proposed   | remove                            |
+| objectives                        |                                   |
++-----------------------------------+-----------------------------------+
+| To this end, we                   | We                                |
++-----------------------------------+-----------------------------------+
+| use up                            | use                               |
++-----------------------------------+-----------------------------------+
+| used in this study                | remove                            |
++-----------------------------------+-----------------------------------+
+| vary between different            | vary among geographical areas     |
+| geographical areas                |                                   |
++-----------------------------------+-----------------------------------+
+| vast majority                     | majority                          |
++-----------------------------------+-----------------------------------+
+| very                              | remove                            |
++-----------------------------------+-----------------------------------+
+| very/highly/pretty similar        | similar                           |
++-----------------------------------+-----------------------------------+
+| very/highly/pretty variable       | variable                          |
++-----------------------------------+-----------------------------------+
+| warming temperatures              | warming                           |
++-----------------------------------+-----------------------------------+
+| was/were/is/are as follows        | is                                |
++-----------------------------------+-----------------------------------+
+| was/were/is/are characterized     | has                               |
+| by                                |                                   |
++-----------------------------------+-----------------------------------+
+| was/were/is/are found to be       | remove                            |
++-----------------------------------+-----------------------------------+
+| was/were/is/are found to exhibit  | exhibited                         |
++-----------------------------------+-----------------------------------+
+| was/were/is/are identified as     | were                              |
++-----------------------------------+-----------------------------------+
+| was/were/is/are known to          | remove                            |
++-----------------------------------+-----------------------------------+
+| was/were/is/are predicted to      | could                             |
++-----------------------------------+-----------------------------------+
+| was/were/is/are reported to       | remove                            |
++-----------------------------------+-----------------------------------+
+| was/were/is/are shown to          | remove                            |
++-----------------------------------+-----------------------------------+
+| which is/that were/who are        | remove. For example, "the data   |
+|                                   | that were related to age were     |
+|                                   | analyzed first" means that the   |
+|                                   | data related to age were analyzed |
+|                                   | first. Similarly, for "the site, |
+|                                   | which is located near             |
+|                                   | Ames," try "the site, located   |
+|                                   | near Ames" or                    |
+|                                   | "the site, near Ames." Rather   |
+|                                   | than "all persons who were       |
+|                                   | present voted," just say that    |
+|                                   | "all persons present voted."    |
+|                                   | Rephrasing sometimes can help.    |
+|                                   | Instead of "a survey, which was  |
+|                                   | conducted in 1974" or "a survey |
+|                                   | conducted in                      |
+|                                   | 1974," try "a 1974 survey."     |
++-----------------------------------+-----------------------------------+
+| will be able to                   | will/can                          |
++-----------------------------------+-----------------------------------+
+| years 1989 and 1990               | 1989 and 1990                     |
++-----------------------------------+-----------------------------------+
+
+### Removing Removing redundant words
++------------------------------------+------------------------------------+
+| **Rather than**                    | **Try**                            |
++------------------------------------+------------------------------------+
+| A quantitatively rigorous approach | A quantitative approach            |
+|                                    | A rigorous approach                |
++------------------------------------+------------------------------------+
