@@ -1,0 +1,3128 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Anthony Richardson">
+<meta name="dcterms.date" content="2025-09-08">
+<meta name="description" content="This tutorial provides what we think is best practice in terms of scientific writing and simple approaches to avoid common pitfalls.">
+
+<title>How to write well – Mathematical Marine Ecology Lab</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../img/favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-a331e776612922e8a26c861783a558cd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-815ee49807f6a3133bf74f4630faa741.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = true;
+    const darkModeDefault = authorPrefersDark;
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../img/logo.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Mathematical Marine Ecology Lab</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../people/index.html"> 
+<span class="menu-text">People</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../research/index.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../join/index.html"> 
+<span class="menu-text">Why Join?</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../future/index.html"> 
+<span class="menu-text">Available Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../education.html"> 
+<span class="menu-text">Education</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications/index.html"> 
+<span class="menu-text">Lab Publications</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:a.richardson1@uq.edu.au"> <i class="bi bi-envelope" role="img" aria-label="email">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/MathMarEcol"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">How to write well</h1>
+                  <div>
+        <div class="description">
+          This tutorial provides what we think is best practice in terms of scientific writing and simple approaches to avoid common pitfalls.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">academia</div>
+                <div class="quarto-category">writing</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page-left">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Anthony Richardson </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">September 8, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a>
+  <ul class="collapse">
+  <li><a href="#what-is-good-scientific-writing" id="toc-what-is-good-scientific-writing" class="nav-link" data-scroll-target="#what-is-good-scientific-writing"><span class="header-section-number">1.1</span> What is good scientific writing?</a></li>
+  <li><a href="#why-write-well" id="toc-why-write-well" class="nav-link" data-scroll-target="#why-write-well"><span class="header-section-number">1.2</span> Why write well?</a></li>
+  <li><a href="#why-do-we-have-difficulties-writing-well" id="toc-why-do-we-have-difficulties-writing-well" class="nav-link" data-scroll-target="#why-do-we-have-difficulties-writing-well"><span class="header-section-number">1.3</span> Why do we have difficulties writing well?</a></li>
+  <li><a href="#how-this-e-book-can-help" id="toc-how-this-e-book-can-help" class="nav-link" data-scroll-target="#how-this-e-book-can-help"><span class="header-section-number">1.4</span> How this e-book can help</a></li>
+  </ul></li>
+  <li><a href="#general-scientific-style" id="toc-general-scientific-style" class="nav-link" data-scroll-target="#general-scientific-style"><span class="header-section-number">2</span> General scientific style</a>
+  <ul class="collapse">
+  <li><a href="#remove-emotive-language" id="toc-remove-emotive-language" class="nav-link" data-scroll-target="#remove-emotive-language"><span class="header-section-number">2.1</span> Remove emotive language</a></li>
+  <li><a href="#be-consistent" id="toc-be-consistent" class="nav-link" data-scroll-target="#be-consistent"><span class="header-section-number">2.2</span> Be consistent</a></li>
+  <li><a href="#be-particular" id="toc-be-particular" class="nav-link" data-scroll-target="#be-particular"><span class="header-section-number">2.3</span> Be particular!</a></li>
+  <li><a href="#repetition-is-good" id="toc-repetition-is-good" class="nav-link" data-scroll-target="#repetition-is-good"><span class="header-section-number">2.4</span> Repetition is good!</a></li>
+  <li><a href="#elegant-variation-confuses" id="toc-elegant-variation-confuses" class="nav-link" data-scroll-target="#elegant-variation-confuses"><span class="header-section-number">2.5</span> Elegant variation confuses…</a></li>
+  <li><a href="#making-word-structure-parallel" id="toc-making-word-structure-parallel" class="nav-link" data-scroll-target="#making-word-structure-parallel"><span class="header-section-number">2.6</span> Making word structure parallel…</a></li>
+  <li><a href="#be-specific" id="toc-be-specific" class="nav-link" data-scroll-target="#be-specific"><span class="header-section-number">2.7</span> Be specific</a></li>
+  <li><a href="#be-formal-not-colloquial" id="toc-be-formal-not-colloquial" class="nav-link" data-scroll-target="#be-formal-not-colloquial"><span class="header-section-number">2.8</span> Be formal, not colloquial</a></li>
+  <li><a href="#typeset-equations-properly" id="toc-typeset-equations-properly" class="nav-link" data-scroll-target="#typeset-equations-properly"><span class="header-section-number">2.9</span> Typeset equations properly</a></li>
+  <li><a href="#make-your-writing-more-accessible-minimise-acronyms" id="toc-make-your-writing-more-accessible-minimise-acronyms" class="nav-link" data-scroll-target="#make-your-writing-more-accessible-minimise-acronyms"><span class="header-section-number">2.10</span> Make your writing more accessible: minimise acronyms</a></li>
+  </ul></li>
+  <li><a href="#simple-words" id="toc-simple-words" class="nav-link" data-scroll-target="#simple-words"><span class="header-section-number">3</span> Simple words</a>
+  <ul class="collapse">
+  <li><a href="#replace-complex-with-simpler-words" id="toc-replace-complex-with-simpler-words" class="nav-link" data-scroll-target="#replace-complex-with-simpler-words"><span class="header-section-number">3.1</span> Replace complex with simpler words</a></li>
+  <li><a href="#simpler-word-groups-unstacking-modifiers" id="toc-simpler-word-groups-unstacking-modifiers" class="nav-link" data-scroll-target="#simpler-word-groups-unstacking-modifiers"><span class="header-section-number">3.2</span> Simpler word groups: unstacking modifiers</a></li>
+  <li><a href="#redundant-word-pairs" id="toc-redundant-word-pairs" class="nav-link" data-scroll-target="#redundant-word-pairs"><span class="header-section-number">3.3</span> Redundant word pairs</a></li>
+  </ul></li>
+  <li><a href="#appropriate-words" id="toc-appropriate-words" class="nav-link" data-scroll-target="#appropriate-words"><span class="header-section-number">4</span> Appropriate words</a>
+  <ul class="collapse">
+  <li><a href="#appropriate-adjectives" id="toc-appropriate-adjectives" class="nav-link" data-scroll-target="#appropriate-adjectives"><span class="header-section-number">4.1</span> Appropriate adjectives</a></li>
+  <li><a href="#appropriate-prepositions" id="toc-appropriate-prepositions" class="nav-link" data-scroll-target="#appropriate-prepositions"><span class="header-section-number">4.2</span> Appropriate prepositions</a></li>
+  <li><a href="#appropriate-word-partners" id="toc-appropriate-word-partners" class="nav-link" data-scroll-target="#appropriate-word-partners"><span class="header-section-number">4.3</span> Appropriate word partners</a></li>
+  <li><a href="#overused-words" id="toc-overused-words" class="nav-link" data-scroll-target="#overused-words"><span class="header-section-number">4.4</span> Overused words</a></li>
+  <li><a href="#occur" id="toc-occur" class="nav-link" data-scroll-target="#occur"><span class="header-section-number">4.5</span> Occur</a></li>
+  <li><a href="#importantcrucialcritical" id="toc-importantcrucialcritical" class="nav-link" data-scroll-target="#importantcrucialcritical"><span class="header-section-number">4.6</span> Important/crucial/critical</a></li>
+  <li><a href="#respectively" id="toc-respectively" class="nav-link" data-scroll-target="#respectively"><span class="header-section-number">4.7</span> Respectively</a></li>
+  <li><a href="#confusing-word-pairs" id="toc-confusing-word-pairs" class="nav-link" data-scroll-target="#confusing-word-pairs"><span class="header-section-number">4.8</span> Confusing word pairs</a></li>
+  <li><a href="#a-rather-than-an" id="toc-a-rather-than-an" class="nav-link" data-scroll-target="#a-rather-than-an"><span class="header-section-number">4.9</span> ‘A’ rather than ‘an’</a></li>
+  <li><a href="#an-rather-than-a" id="toc-an-rather-than-a" class="nav-link" data-scroll-target="#an-rather-than-a"><span class="header-section-number">4.10</span> ‘An’ rather than ‘a’</a></li>
+  <li><a href="#aims-vs-objectives" id="toc-aims-vs-objectives" class="nav-link" data-scroll-target="#aims-vs-objectives"><span class="header-section-number">4.11</span> ‘Aims’ vs ‘objectives’</a></li>
+  <li><a href="#all-together-vs-altogether" id="toc-all-together-vs-altogether" class="nav-link" data-scroll-target="#all-together-vs-altogether"><span class="header-section-number">4.12</span> ‘All together’ vs ‘Altogether’</a></li>
+  <li><a href="#examples-of-altogether" id="toc-examples-of-altogether" class="nav-link" data-scroll-target="#examples-of-altogether"><span class="header-section-number">4.13</span> Examples of ‘altogether’</a></li>
+  <li><a href="#examples-of-all-together" id="toc-examples-of-all-together" class="nav-link" data-scroll-target="#examples-of-all-together"><span class="header-section-number">4.14</span> Examples of ‘all together’</a></li>
+  <li><a href="#between-vs-among" id="toc-between-vs-among" class="nav-link" data-scroll-target="#between-vs-among"><span class="header-section-number">4.15</span> ‘Between’ vs ‘Among’</a></li>
+  <li><a href="#complement-vs-compliment" id="toc-complement-vs-compliment" class="nav-link" data-scroll-target="#complement-vs-compliment"><span class="header-section-number">4.16</span> ‘Complement’ vs ‘Compliment’</a></li>
+  <li><a href="#dependent-vs-dependant" id="toc-dependent-vs-dependant" class="nav-link" data-scroll-target="#dependent-vs-dependant"><span class="header-section-number">4.17</span> ‘Dependent’ vs ‘Dependant’</a></li>
+  <li><a href="#effect-vs-affect" id="toc-effect-vs-affect" class="nav-link" data-scroll-target="#effect-vs-affect"><span class="header-section-number">4.18</span> ‘Effect’ vs ‘Affect’</a></li>
+  <li><a href="#either-or-vs-neither-nor" id="toc-either-or-vs-neither-nor" class="nav-link" data-scroll-target="#either-or-vs-neither-nor"><span class="header-section-number">4.19</span> ‘Either or’ vs ‘Neither nor’</a></li>
+  <li><a href="#estimated-vs-measured-vs-quantified-vs-determined-vs-assessed" id="toc-estimated-vs-measured-vs-quantified-vs-determined-vs-assessed" class="nav-link" data-scroll-target="#estimated-vs-measured-vs-quantified-vs-determined-vs-assessed"><span class="header-section-number">4.20</span> ‘Estimated’ vs ‘Measured’ vs ‘Quantified’ vs ‘Determined’ vs ‘Assessed’</a></li>
+  <li><a href="#measured" id="toc-measured" class="nav-link" data-scroll-target="#measured"><span class="header-section-number">4.21</span> Measured</a></li>
+  <li><a href="#estimated" id="toc-estimated" class="nav-link" data-scroll-target="#estimated"><span class="header-section-number">4.22</span> Estimated</a></li>
+  <li><a href="#assessed" id="toc-assessed" class="nav-link" data-scroll-target="#assessed"><span class="header-section-number">4.23</span> Assessed</a>
+  <ul class="collapse">
+  <li><a href="#quantified" id="toc-quantified" class="nav-link" data-scroll-target="#quantified"><span class="header-section-number">4.23.1</span> Quantified</a></li>
+  <li><a href="#determined" id="toc-determined" class="nav-link" data-scroll-target="#determined"><span class="header-section-number">4.23.2</span> Determined</a></li>
+  <li><a href="#led-vs-lead" id="toc-led-vs-lead" class="nav-link" data-scroll-target="#led-vs-lead"><span class="header-section-number">4.23.3</span> ‘Led’ vs ‘Lead’</a></li>
+  <li><a href="#lesser-vs-fewer" id="toc-lesser-vs-fewer" class="nav-link" data-scroll-target="#lesser-vs-fewer"><span class="header-section-number">4.23.4</span> ‘Lesser’ vs ‘Fewer’</a></li>
+  <li><a href="#maybe-vs-may-be" id="toc-maybe-vs-may-be" class="nav-link" data-scroll-target="#maybe-vs-may-be"><span class="header-section-number">4.23.5</span> ‘Maybe’ vs ‘May be’</a></li>
+  <li><a href="#may-vs-might-vs-could" id="toc-may-vs-might-vs-could" class="nav-link" data-scroll-target="#may-vs-might-vs-could"><span class="header-section-number">4.23.6</span> ‘May’ vs ‘Might’ vs ‘Could’</a></li>
+  <li><a href="#past-vs-last" id="toc-past-vs-last" class="nav-link" data-scroll-target="#past-vs-last"><span class="header-section-number">4.23.7</span> ‘Past’ vs ‘Last’</a></li>
+  <li><a href="#practice-vs-practise" id="toc-practice-vs-practise" class="nav-link" data-scroll-target="#practice-vs-practise"><span class="header-section-number">4.23.8</span> ‘Practice’ vs ‘Practise’</a></li>
+  <li><a href="#predominate-vs-predominant" id="toc-predominate-vs-predominant" class="nav-link" data-scroll-target="#predominate-vs-predominant"><span class="header-section-number">4.23.9</span> Predominate vs Predominant</a></li>
+  <li><a href="#principle-vs-principal" id="toc-principle-vs-principal" class="nav-link" data-scroll-target="#principle-vs-principal"><span class="header-section-number">4.23.10</span> ‘Principle’ vs ‘Principal’</a></li>
+  <li><a href="#should-vs-could" id="toc-should-vs-could" class="nav-link" data-scroll-target="#should-vs-could"><span class="header-section-number">4.23.11</span> Should vs Could</a></li>
+  <li><a href="#toward-vs-towards" id="toc-toward-vs-towards" class="nav-link" data-scroll-target="#toward-vs-towards"><span class="header-section-number">4.23.12</span> ‘Toward’ vs ‘Towards’</a></li>
+  <li><a href="#where-vs-when" id="toc-where-vs-when" class="nav-link" data-scroll-target="#where-vs-when"><span class="header-section-number">4.23.13</span> ‘Where’ vs ‘When’</a></li>
+  <li><a href="#which-vs-that" id="toc-which-vs-that" class="nav-link" data-scroll-target="#which-vs-that"><span class="header-section-number">4.23.14</span> ‘Which’ vs ‘That’</a></li>
+  </ul></li>
+  <li><a href="#punctuation" id="toc-punctuation" class="nav-link" data-scroll-target="#punctuation"><span class="header-section-number">4.24</span> Punctuation</a>
+  <ul class="collapse">
+  <li><a href="#apostrophes" id="toc-apostrophes" class="nav-link" data-scroll-target="#apostrophes"><span class="header-section-number">4.24.1</span> Apostrophes</a></li>
+  <li><a href="#recommendations" id="toc-recommendations" class="nav-link" data-scroll-target="#recommendations"><span class="header-section-number">4.24.2</span> Recommendations</a></li>
+  <li><a href="#commas" id="toc-commas" class="nav-link" data-scroll-target="#commas"><span class="header-section-number">4.24.3</span> Commas</a></li>
+  <li><a href="#spaces" id="toc-spaces" class="nav-link" data-scroll-target="#spaces"><span class="header-section-number">4.24.4</span> Spaces</a></li>
+  <li><a href="#hyphens" id="toc-hyphens" class="nav-link" data-scroll-target="#hyphens"><span class="header-section-number">4.24.5</span> Hyphens</a></li>
+  </ul></li>
+  <li><a href="#short-and-simple-sentences" id="toc-short-and-simple-sentences" class="nav-link" data-scroll-target="#short-and-simple-sentences"><span class="header-section-number">4.25</span> Short and simple sentences</a>
+  <ul class="collapse">
+  <li><a href="#can-you-say-something-more-simply-make-explicit-statements" id="toc-can-you-say-something-more-simply-make-explicit-statements" class="nav-link" data-scroll-target="#can-you-say-something-more-simply-make-explicit-statements"><span class="header-section-number">4.25.1</span> Can you say something more simply? Make explicit statements</a></li>
+  <li><a href="#uncertainties-only-one-in-a-sentence" id="toc-uncertainties-only-one-in-a-sentence" class="nav-link" data-scroll-target="#uncertainties-only-one-in-a-sentence"><span class="header-section-number">4.25.2</span> Uncertainties – only one in a sentence</a></li>
+  <li><a href="#removing-redundancy-in-sentences" id="toc-removing-redundancy-in-sentences" class="nav-link" data-scroll-target="#removing-redundancy-in-sentences"><span class="header-section-number">4.25.3</span> Removing redundancy in sentences</a></li>
+  </ul></li>
+  <li><a href="#effective-sentences" id="toc-effective-sentences" class="nav-link" data-scroll-target="#effective-sentences"><span class="header-section-number">4.26</span> Effective sentences</a>
+  <ul class="collapse">
+  <li><a href="#agreement-of-subject-and-verb" id="toc-agreement-of-subject-and-verb" class="nav-link" data-scroll-target="#agreement-of-subject-and-verb"><span class="header-section-number">4.26.1</span> Agreement of subject and verb</a></li>
+  <li><a href="#putting-like-things-together" id="toc-putting-like-things-together" class="nav-link" data-scroll-target="#putting-like-things-together"><span class="header-section-number">4.26.2</span> Putting like things together</a></li>
+  <li><a href="#active-vs-passive-voice" id="toc-active-vs-passive-voice" class="nav-link" data-scroll-target="#active-vs-passive-voice"><span class="header-section-number">4.26.3</span> Active vs Passive voice</a></li>
+  <li><a href="#logical-sequence" id="toc-logical-sequence" class="nav-link" data-scroll-target="#logical-sequence"><span class="header-section-number">4.26.4</span> Logical sequence</a></li>
+  <li><a href="#numbers-in-sentences" id="toc-numbers-in-sentences" class="nav-link" data-scroll-target="#numbers-in-sentences"><span class="header-section-number">4.26.5</span> Numbers in sentences</a></li>
+  <li><a href="#one-idea-per-sentence" id="toc-one-idea-per-sentence" class="nav-link" data-scroll-target="#one-idea-per-sentence"><span class="header-section-number">4.26.6</span> One idea per sentence</a></li>
+  <li><a href="#lists-in-a-sentence" id="toc-lists-in-a-sentence" class="nav-link" data-scroll-target="#lists-in-a-sentence"><span class="header-section-number">4.26.7</span> Lists in a sentence</a></li>
+  </ul></li>
+  <li><a href="#effective-paragraphs" id="toc-effective-paragraphs" class="nav-link" data-scroll-target="#effective-paragraphs"><span class="header-section-number">4.27</span> Effective paragraphs</a>
+  <ul class="collapse">
+  <li><a href="#structure" id="toc-structure" class="nav-link" data-scroll-target="#structure"><span class="header-section-number">4.27.1</span> Structure</a></li>
+  <li><a href="#lists" id="toc-lists" class="nav-link" data-scroll-target="#lists"><span class="header-section-number">4.27.2</span> Lists</a></li>
+  </ul></li>
+  <li><a href="#common-grammatical-mistakes" id="toc-common-grammatical-mistakes" class="nav-link" data-scroll-target="#common-grammatical-mistakes"><span class="header-section-number">4.28</span> Common grammatical mistakes</a>
+  <ul class="collapse">
+  <li><a href="#remove-double-negatives" id="toc-remove-double-negatives" class="nav-link" data-scroll-target="#remove-double-negatives"><span class="header-section-number">4.28.1</span> Remove double negatives</a></li>
+  <li><a href="#plurals" id="toc-plurals" class="nav-link" data-scroll-target="#plurals"><span class="header-section-number">4.28.2</span> Plurals</a></li>
+  <li><a href="#split-infinitives" id="toc-split-infinitives" class="nav-link" data-scroll-target="#split-infinitives"><span class="header-section-number">4.28.3</span> Split infinitives</a></li>
+  <li><a href="#however" id="toc-however" class="nav-link" data-scroll-target="#however"><span class="header-section-number">4.28.4</span> However</a></li>
+  <li><a href="#mainly" id="toc-mainly" class="nav-link" data-scroll-target="#mainly"><span class="header-section-number">4.28.5</span> Mainly</a></li>
+  <li><a href="#using-reword-from-the-journal-conservation-biology." id="toc-using-reword-from-the-journal-conservation-biology." class="nav-link" data-scroll-target="#using-reword-from-the-journal-conservation-biology."><span class="header-section-number">4.28.6</span> Using (reword, from the journal Conservation Biology.)</a></li>
+  <li><a href="#myself-is-not-a-substitute-for-me-reword" id="toc-myself-is-not-a-substitute-for-me-reword" class="nav-link" data-scroll-target="#myself-is-not-a-substitute-for-me-reword"><span class="header-section-number">4.28.7</span> Myself is not a substitute for me (Reword)</a></li>
+  <li><a href="#references-and-further-reading" id="toc-references-and-further-reading" class="nav-link" data-scroll-target="#references-and-further-reading"><span class="header-section-number">4.28.8</span> References and further reading</a></li>
+  </ul></li>
+  <li><a href="#american-english-differences" id="toc-american-english-differences" class="nav-link" data-scroll-target="#american-english-differences"><span class="header-section-number">4.29</span> American English Differences</a>
+  <ul class="collapse">
+  <li><a href="#british-or-us-english" id="toc-british-or-us-english" class="nav-link" data-scroll-target="#british-or-us-english"><span class="header-section-number">4.29.1</span> British or US English</a></li>
+  </ul></li>
+  <li><a href="#removing-waste-words" id="toc-removing-waste-words" class="nav-link" data-scroll-target="#removing-waste-words"><span class="header-section-number">4.30</span> Removing waste words</a>
+  <ul class="collapse">
+  <li><a href="#removing-removing-redundant-words" id="toc-removing-removing-redundant-words" class="nav-link" data-scroll-target="#removing-removing-redundant-words"><span class="header-section-number">4.30.1</span> Removing Removing redundant words</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
+
+
+
+
+
+<section id="introduction" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
+<p><img src="tree_words.png" class="img-fluid" width="400"></p>
+<p>Writing can be difficult!</p>
+<p><em>“There is nothing to writing. All you do is sit down at a typewriter and bleed.” Ernest Hemingway</em></p>
+<p>Writing can be a lot of work!</p>
+<p><em>“If I had more time I would have written a shorter letter” Blaize Pascal, 1657</em></p>
+<p>Writing can invoke strong feelings!</p>
+<p><em>“Here is a lesson in creative writing. The first rule: do not use semicolons. They are transvestite hermaphrodites representing absolutely nothing. All they do is show you’ve been to college” Kurt Vonnegut, The Man Without a Country</em></p>
+<p>Writing can be fun!</p>
+<p><em>“To write is human, to edit is divine.” Stephen King</em></p>
+<section id="what-is-good-scientific-writing" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="what-is-good-scientific-writing"><span class="header-section-number">1.1</span> What is good scientific writing?</h2>
+<p>Maybe a truthful but uninformative answer is “You know when you read it!”. Being able to understand the message easily is clearly essential. But so is being concise, as words cost journals money and scientists have limited time to read your work. But good scientific writing is more than just being clear and concise. For example, newspaper articles can be clear and concise, but most would say that the journalistic style is inappropriate in a scientific setting. Scientific writing has a host of conventions, not all of which are always made explicit. For example, adhering to the typical structure of a scientific paper, not using colloquialisms, not providing opinion, and not being emotive, to name a few. Although it might feel that such “rules” take the fun out of writing, good scientific writing should not be bland and boring to read. There is room, and indeed a need, for creativity.</p>
+</section>
+<section id="why-write-well" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="why-write-well"><span class="header-section-number">1.2</span> Why write well?</h2>
+<p>There are many reasons why as scientists we need to write well. First, science is about ideas, and we need to communicate those ideas clearly, effectively and interestingly. An engaged reader will remember what s/he has read. If you fail to communicate effectively, your work will ultimately be of little use to the wider scientific community, resulting in lower uptake and fewer citations.</p>
+<p>Second, publishing is the currency of science and requires convincing Editors and Reviewers that your work is robust and meaningful. If your work is not well written, you cannot expect others to understand it. Reviewers can become bogged down in poor writing and sometimes assume that it is indicative of poor science. Reviewers sometimes return poorly written manuscripts directly to the Editor and refuse to review it. At best poor scientific writing leads to delays in the publication process, and at worst outright rejection.</p>
+<p>Third, writing clearly will improve your science. If your supervisors, co-authors, and collaborators understand your message and see that you have worked hard to provide a clearly written piece of work, they will provide far better input. If collaborators have to rewrite your work to understand it before they can comment on the content, you will frustrate them immensely and you will receive fewer quality comments about scientific direction and whether your paper hits the mark. In fact, writing well is valued by many collaborators and will lead to more collaborations.</p>
+<p>Last, writing well is a fundamental scientific skill (along with, for example, knowledge of the scientific method, quantitative skills, and discipline-specific technical skills), and we have a responsibility to write as well as we can out of respect for others, and to pass this knowledge on. With escalating pressures on academics, fewer of them are taking the time to help students with their writing skills. In the worst cases, supervisors and collaborators to pass on the task of language editing to the peer-review process. This is hugely counterproductive, and simply reinforces the cycle of deterioration in writing skills. Students and the academics who supervise them need to take responsibility in being part of the solution – improving scientific writing by passing on their knowledge to others.</p>
+</section>
+<section id="why-do-we-have-difficulties-writing-well" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="why-do-we-have-difficulties-writing-well"><span class="header-section-number">1.3</span> Why do we have difficulties writing well?</h2>
+<p>We all have to learn scientific writing – scientific English is no one’s first language! And it is even more difficult if English is not your mother tongue, especially for people who speak languages from outside Europe. So scientific writing does not come easily and requires hard work.</p>
+<p>Throughout our studies, we are not taught the concepts that are necessary for good writing. In many countries, the teaching of grammar at school is out of vogue. Scientific writing is also often not taught at university at the undergraduate levels. Nowadays, writing well is not a major learning outcome of most science courses, and assignments are marked predominantly on content and not readability and style. It is also easier to learn scientific writing during your postgraduate study when you can draw on your research, but many countries do not have coursework during postgraduate studies. Unfortunately, during this key developmental period, many supervisors often feel too busy to spend time to improve the writing of their students.</p>
+<p>Writing well also takes considerable time and effort. Writing well requires hard work rewriting many drafts, being self-critical of your own work, being afraid to make sometimes substantial changes, and opening up yourself to critique and potential criticism from others. For all these reasons, many scientists have trouble writing well. But scientific writing can be learned.</p>
+</section>
+<section id="how-this-e-book-can-help" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="how-this-e-book-can-help"><span class="header-section-number">1.4</span> How this e-book can help</h2>
+<p>This e-book, <em>How to write well</em>, provides what we think is best practice in terms of scientific writing and simple approaches to avoid common pitfalls. Often errors in writing are corrected or stylistic suggestions made by supervisors,</p>
+<p>reviewers or peers, without an explanation, primarily because of the people are time poor. This book is a result of seeing common mistakes by our students, and wanting to teach them how they can improve their writing. During our careers we have developed inherent knowledge about good scientific writing, and this e- book is an attempt to write this down into a coherent whole that is useful to others.</p>
+<p>Our approach is to identify a common problem, explain why it is a problem, illustrate it with examples, and show solutions. The content here is based on our experience, is by no means exhaustive, and others might have a different opinion. We are not English teachers or grammar Nazis (although Dave might be…?). We are merely practicing scientists interested in improving our own and others’ writing by sharing our experiences.</p>
+<p>Finally, this is part of a series of e-books that can help guide you through your scientific career. Often the best way to learn much of this information is to seek out a mentor. But it can be difficult to find a mentor with the insight, all-round skills, and the time available to provide advice. We have written this series of e- books to provide you with such a mentor – hopefully to provide the knowledge and guidance that you need in your career.</p>
+<p>This is the first e-book in the series. The second e-book is <em>Writing a scientific paper</em>. Early on in our careers we are ill-prepared for this challenge. Experienced scientists generally acquire the skills slowly and haphazardly through osmosis or from trial-and-error. Writing a paper thus often seems like a “dark art” – one that some scientists have mastered, but one that is hidden and rarely shared. The e- book <em>Writing a scientific paper</em> shines a light on the process of writing a scientific paper and helps you master it.</p>
+<p>The third e-book is <em>Navigating the peer-review process</em>. This often-overlooked part of the publication process involves understanding what different journals expect, what Editors and Reviewers look for, and how the peer-review process works. The e-book <em>Navigating the peer-review process</em> formalises our knowledge, experiences and opinions over the past 25 years of how we have gotten our work published. This e-book should will boost your chances of getting your work published, make it easier to get it published, reduce the time it takes to get it published, and help you formalise your own best practice.</p>
+<p>You can read these e-books in any order, and you can read their chapters in any order, dipping into the chapters most relevant to you. These books are targeted at early- and mid-career researchers, but will also provide insights for more experienced scientists. We would appreciate your feedback about what you found useful (or not) in the e-books, and what you would like to see covered in the future.</p>
+<p>Anthony J. Richardson and David S. Schoeman</p>
+</section>
+</section>
+<section id="general-scientific-style" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> General scientific style</h1>
+<section id="remove-emotive-language" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="remove-emotive-language"><span class="header-section-number">2.1</span> Remove emotive language</h2>
+<p>You should try and state the facts without using emotive terms include <em>alarming</em>, <em>concerning</em>, <em>drastic</em>, <em>lovely</em>, <em>useless</em>, <em>wonderful</em> and <em>worringly</em>. Especially in research focusing on conservation of habitats or iconic species, it is easy to use emotive language. If in doubt, think of the animal as a cockroach and see whether you would use the same language!</p>
+<p>Rather than: Following those <em>alarming</em> catch reductions, bans for manta ray fisheries were applied to some areas.</p>
+<p><strong>Try:</strong> Following declining catches, bans for manta ray fisheries were applied to some areas.</p>
+<p><strong>Or, stronger:</strong> Following precipitous declines in catches, bans for manta ray fisheries were applied to some areas.</p>
+</section>
+<section id="be-consistent" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="be-consistent"><span class="header-section-number">2.2</span> Be consistent</h2>
+<p>Reviewers and examiners often regard sloppiness and lack of attention in scientific writing as an indication of carelessness in your science. Some common examples include: - Use capitals for proper nouns everywhere - Whether you choose to use <em>–ize</em> or <em>–ise</em>, be consistent - Whether you choose to use a space (preferably) or not between numbers and their units, be consistent</p>
+</section>
+<section id="be-particular" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="be-particular"><span class="header-section-number">2.3</span> Be particular!</h2>
+<p>There are a bunch of things that are wrong and are just sloppy. Below are some examples, none of which is that important, but show a lack of care that can make the reader question how careful your science is.</p>
+<p><strong>Rather than:</strong> La Nina/El Nino</p>
+<p><strong>It is:</strong> La Niña/El Niño</p>
+<p><strong>Rather than:</strong> <em>Homo spp.</em></p>
+<p><strong>It is:</strong> <em>Homo</em> spp. (Only the genus names is italicised).</p>
+<p>**** Rather than: m2</p>
+<p><strong>It is:</strong> m2</p>
+<p><strong>Rather than:</strong> <a href="http://www.lternet.edu/">www.lternet.edu</a></p>
+<p><strong>It is:</strong> <u>www.lternet.edu (</u>Enables the Reader to use the hyperlink in a pdf).</p>
+</section>
+<section id="repetition-is-good" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="repetition-is-good"><span class="header-section-number">2.4</span> Repetition is good!</h2>
+<p>Scientific writing is different from writing novels. For example, in a novel an author might use different terms to identify the same thing to make it more interesting. However, in a scientific paper, repetition of the same term in makes it easier for the Reader to follow.</p>
+</section>
+<section id="elegant-variation-confuses" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="elegant-variation-confuses"><span class="header-section-number">2.5</span> Elegant variation confuses…</h2>
+<p>When there are multiple ways to say the same thing, one should not cycle through the different options for “elegant variation” because the use of a different word to a Reader can suggest something different is happening. For example, if a scientist is working on ‘copepods’, it is best to use this consistently throughout the paper, rather than referring to them variedly as ‘small crustaceans’, ‘zooplankton’, ‘maxillopodes’, ‘arthropods’, and ‘insects of the sea’, as the Reader will wonder if the author means different things by the different terms.</p>
+<p>In the following example, the Author has switched from using ‘measurement types’ and ‘ecological traits’ to ‘measurement attributes’ and ‘ecological characters’, making the Reader wonder if it is the same quantities being described.</p>
+<p><strong>Rather than:</strong> Predictors were divided into two categories: measurement types and ecological traits. For measurement attributes we considered the frequency of sampling. For ecological characters we used a global database.</p>
+<p><strong>Try:</strong> Predictors were divided into two categories: measurement types and ecological traits. For measurement types we considered the frequency of sampling. For ecological traits we used a global database.</p>
+<p>The following example uses ‘influenced’ and ‘described’ in similar contexts, leaving the Reader wondering whether the author meant to highlight such a difference.</p>
+<p><strong>Rather than:</strong> While the abundance of pelagic fish is <em>influenced</em> by food availability and reproduction, their movement is <em>described</em> by oceanographic variables.</p>
+<p><strong>Try:</strong> While the abundance of pelagic fish is <em>influenced</em> by food availability and reproduction, their movement is <em>influenced</em> by oceanographic variables.</p>
+</section>
+<section id="making-word-structure-parallel" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="making-word-structure-parallel"><span class="header-section-number">2.6</span> Making word structure parallel…</h2>
+<p>Repetition of structure in sentences and paragraphs, and even in headings, can make things easier to follow because it meets the expectations of a Reader. In the following example, the US is at the end of its part of the sentence and the UK is at the start.</p>
+<p><strong>Rather than:</strong> …targeting the National Science Foundation in the US and the UK Natural Environment Research Council.</p>
+<p><strong>Try:</strong> …targeting the US National Science Foundation and the UK Natural Environment Research Council.</p>
+<p>The specification of these three regions is not consistence amongst the parts of the sentence.</p>
+<p><strong>Rather than:</strong> The northern region (10-25˚S) is characterised by warm tropical surface waters and a shallow mixed layer, subtropical waters form the central region (25-45˚S), and the most southern region (45-60˚S) verges on cooler subantarctic waters.</p>
+<p><strong>Try:</strong> The northern region (10-24˚S) has warm tropical surface waters and a shallow mixed layer, the central region (24-45˚S) has subtropical and well mixed waters, and the southern region (45-50˚S) has cool subantarctic waters.</p>
+</section>
+<section id="be-specific" class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="be-specific"><span class="header-section-number">2.7</span> Be specific</h2>
+<p><strong>Rather than:</strong> Aggregations of reef manta rays <em>Manta alfredi</em>, such as those in the Maldives, Western Australia, and Komodo National Park in Indonesia are correlated with productivity.</p>
+<p><strong>Try:</strong> Reef manta rays <em>Manta alfredi</em> in the Maldives, Western Australia, and in Indonesia aggregate in regions and at times when there is greater productivity.</p>
+<p><strong>Rather than:</strong> The third version of the Receiving Water Quality Model, which is the version used in this study, resolved several limitations of the second version. <strong>Try:</strong> We used the third version of the Receiving Water Quality Model, which resolved several limitations of the second version, including X, Y and Z.</p>
+<p><strong>Rather than:</strong> As a consequence, many diatoms exhibit a discontinuous seasonal occurrence that usually coincides with the introduction of nutrients such as during spring blooms.</p>
+<p><strong>Try:</strong> Consequently, many diatoms peak during spring when nutrients and light are available.</p>
+<p><strong>Rather than:</strong> etc.</p>
+<p><strong>Try:</strong> Remove etc. from lists or precede it with “such as” or “including”,</p>
+<p><strong>Why?:</strong> “etc.” is vague and everyone will think of different things. Using “such as” or “including” makes it clear you are only listing some of the options.</p>
+</section>
+<section id="be-formal-not-colloquial" class="level2" data-number="2.8">
+<h2 data-number="2.8" class="anchored" data-anchor-id="be-formal-not-colloquial"><span class="header-section-number">2.8</span> Be formal, not colloquial</h2>
+<p>Scientific writing is a formal writing style and using colloquialisms are not appropriate. For example, using a phrase we might commonly use in everyday conversation such as “something is cool” is not appropriate (unless referring to temperature!). It might be more appropriate, however, in a scientific talk, to show you were excited about your results.</p>
+<p><strong>Rather than:</strong> Like</p>
+<p><strong>Try:</strong> Such as</p>
+<p><strong>Rather than:</strong> My results were not very good/puzzling.</p>
+<p><strong>Try:</strong> Results were unexpected/inaccurate/difficult to explain/non-intuitive/inconclusive/uninformative. Give reasons if possible.</p>
+</section>
+<section id="typeset-equations-properly" class="level2" data-number="2.9">
+<h2 data-number="2.9" class="anchored" data-anchor-id="typeset-equations-properly"><span class="header-section-number">2.9</span> Typeset equations properly</h2>
+<p>If using Word, equations should be included using the Equation Editor, as numbers and variables are treated differently (e.g., variables are italicised) and the typesetting is clearer (e.g., for quotients). It is also better to have units in text rather than equation</p>
+<p><strong>Rather than:</strong> <em>MR (calories kg<sup>-1</sup> day<sup>-1</sup>) = (68.9+177.8 * W) * 3.25 / (W * 24)</em></p>
+<p><strong>Try:</strong> The equation for Metabolic Rate (𝑀𝑅, calories kg-1 d-1) as a function of Mass (𝑊, kg) is: <em>MR</em> = 3.5 × 68.9 + 177.8<em>W</em> / 24×𝑊</p>
+</section>
+<section id="make-your-writing-more-accessible-minimise-acronyms" class="level2" data-number="2.10">
+<h2 data-number="2.10" class="anchored" data-anchor-id="make-your-writing-more-accessible-minimise-acronyms"><span class="header-section-number">2.10</span> Make your writing more accessible: minimise acronyms</h2>
+<ol type="1">
+<li>Always spell them out the first time you use them</li>
+<li>Minimize their use as much as possible to make it easier for Readers. It is best not to use abbreviations if you use them &lt;5 times</li>
+<li>Best not to use them in headings</li>
+<li>Use capital letters</li>
+<li>The further apart the acronym needs to be used in the manuscript (e.g.&nbsp;Methods, Results, Discussion), the more times it needs to be used in the manuscript to warrant the use of the abbreviation</li>
+<li>Don’t use them in titles or figure legends</li>
+</ol>
+</section>
+</section>
+<section id="simple-words" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Simple words</h1>
+<section id="replace-complex-with-simpler-words" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="replace-complex-with-simpler-words"><span class="header-section-number">3.1</span> Replace complex with simpler words</h2>
+<p>Replacing more complex words with simpler (and usually shorter) words will make your writing more easily understood.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 37%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Rather than</strong></th>
+<th><strong>Try</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ameliorate</td>
+<td>improve</td>
+</tr>
+<tr class="even">
+<td>analogous</td>
+<td>similar</td>
+</tr>
+<tr class="odd">
+<td>anticipate</td>
+<td>expect</td>
+</tr>
+<tr class="even">
+<td>approximately</td>
+<td>remove where possible, or use about, ~ or ca. |</td>
+</tr>
+<tr class="odd">
+<td>biota</td>
+<td>species</td>
+</tr>
+<tr class="even">
+<td>contradicts with</td>
+<td>contrasts with</td>
+</tr>
+<tr class="odd">
+<td>differential</td>
+<td>different</td>
+</tr>
+<tr class="even">
+<td>employ</td>
+<td>use</td>
+</tr>
+<tr class="odd">
+<td>enumerate</td>
+<td>count</td>
+</tr>
+<tr class="even">
+<td>facilitate</td>
+<td>help</td>
+</tr>
+<tr class="odd">
+<td>furthermore</td>
+<td>further</td>
+</tr>
+<tr class="even">
+<td>magnitude</td>
+<td>size, extent, importance</td>
+</tr>
+<tr class="odd">
+<td>miniscule</td>
+<td>tiny, small</td>
+</tr>
+<tr class="even">
+<td>numerous</td>
+<td>many, several</td>
+</tr>
+<tr class="odd">
+<td>obviate</td>
+<td>avoid/minimise</td>
+</tr>
+<tr class="even">
+<td>orientate</td>
+<td>orient</td>
+</tr>
+<tr class="odd">
+<td>relatively equal</td>
+<td>similar</td>
+</tr>
+<tr class="even">
+<td>semi-annually</td>
+<td>twice a year</td>
+</tr>
+<tr class="odd">
+<td>terminate</td>
+<td>stop, end, finish</td>
+</tr>
+<tr class="even">
+<td>upon</td>
+<td>on</td>
+</tr>
+<tr class="odd">
+<td>utilise</td>
+<td>use</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="simpler-word-groups-unstacking-modifiers" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="simpler-word-groups-unstacking-modifiers"><span class="header-section-number">3.2</span> Simpler word groups: unstacking modifiers</h2>
+<p>Stacking modifiers before a noun is the written equivalent of a traffic jam. Long noun strings save a word or two, but are awkward and confusing. Here is a bad one:</p>
+<p>“Space telescope wide-field planetary camera instrument definition team ground based charged-couple-device camera” (from <em>New Scientist</em>, cited by Matthew Lindsay Stevens in <em>Subtleties of Scientific Style</em>, 2007)</p>
+<p>Here is another example.</p>
+<p><strong>Rather than:</strong> The availability of statistical correlative species distribution modelling algorithms has led to a rapid increase in their development.</p>
+<p><strong>Try:</strong> The availability of algorithms for correlative species distribution modelling has led to a rapid increase in their development.</p>
+<p><strong>Best:</strong> The availability of algorithms for correlative modelling of species’ distributions has led to their rapid development.</p>
+<p><strong>Rather than:</strong> Thermal niche tracking in marine species</p>
+<p><strong>Try:</strong> The tracking by marine species of their thermal niche</p>
+<p><strong>Rather than:</strong> Marine species range edge shifts</p>
+<p><strong>Try:</strong> Shifts in range edges of marine species</p>
+<p><strong>Rather than:</strong> marine climate change impact studies</p>
+<p><strong>Try:</strong> studies of the impacts of marine climate change</p>
+</section>
+<section id="redundant-word-pairs" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="redundant-word-pairs"><span class="header-section-number">3.3</span> Redundant word pairs</h2>
+<p>Be on the lookout for redundant word pairs, where one word implies the other.</p>
+<p><strong>Examples:</strong> Small in size (small), rectangular in shape (rectangular), blue in colour (blue), tenuous in nature (tenuous), month of February (February), warming temperatures (warming), latitude 25°S (25°S)</p>
+</section>
+</section>
+<section id="appropriate-words" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Appropriate words</h1>
+<section id="appropriate-adjectives" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="appropriate-adjectives"><span class="header-section-number">4.1</span> Appropriate adjectives</h2>
+<p>Low and high and are over-used. Usually more-specific adjectives are more descriptive and interesting. High and low should really be confined to discussing height or elevation. Similarly, comparatives such as lower and higher are also used too often, and usually more specific comparatives are more apt.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Rather than</strong></th>
+<th><strong>Try</strong> |</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>low (high)/lower (higher) abundance</td>
+<td>Small (large, big)/smaller | (larger, bigger) |</td>
+</tr>
+<tr class="even">
+<td>low (high)/lower (higher) biodiversity</td>
+<td>poor (rich)/poorer (richer) |</td>
+</tr>
+<tr class="odd">
+<td>low (high)/lower (higher) cost</td>
+<td>cheap (expensive)/cheaper (more | expensive) <del>cost</del> |</td>
+</tr>
+<tr class="even">
+<td>low (high)/lower (higher) currents/forcing/stress/winds</td>
+<td>weak (strong)/weaker (stronger) |</td>
+</tr>
+<tr class="odd">
+<td>low (high)/lower (higher) density/pitch/pressure/mountains/ relief</td>
+<td>low (high)/lower (higher) |</td>
+</tr>
+<tr class="even">
+<td>low (high)/lower (higher) mass</td>
+<td>light (heavy)/lighter (heavier) | <del>mass</del> |</td>
+</tr>
+<tr class="odd">
+<td>low (high)/lower (higher) distance</td>
+<td>short (long, far)/shorter | (longer, further) |</td>
+</tr>
+<tr class="even">
+<td>low (high)/lower (higher) growth/photosynthetic/production/ speed rates</td>
+<td>slow (fast)/slower (faster) |</td>
+</tr>
+<tr class="odd">
+<td>low (high)/lower (higher) gradients</td>
+<td>flat, weak (steep, | strong)/flatter, weaker | (steepr/stronger) |</td>
+</tr>
+<tr class="even">
+<td>low (high)/lower (higher) numbers</td>
+<td>few (many, several)/fewer | (more, greater) <del>number</del> |</td>
+</tr>
+<tr class="odd">
+<td>low (high)/lower (higher) amount</td>
+<td>small (larger)/smaller, lesser | (larger, greater) |</td>
+</tr>
+<tr class="even">
+<td>low (high)/lower (higher) temperature</td>
+<td>cold, cool (warm, hot)/colder, | cooler (warmer, hotter) | <del>temperature</del> |</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Rather than:</strong> Higher whale shark occurrence has been shown to correlate with La Niña conditions off Western Australia.</p>
+<p><strong>Try:</strong> Whale sharks are more common during La Niña conditions off Western Australia.</p>
+</section>
+<section id="appropriate-prepositions" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="appropriate-prepositions"><span class="header-section-number">4.2</span> Appropriate prepositions</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 27%">
+<col style="width: 58%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Rather than</strong></td>
+<td><strong>Try</strong> |</td>
+</tr>
+<tr class="even">
+<td>biased for</td>
+<td>biased toward. (e.g., Biased toward | temperate latitudes) |</td>
+</tr>
+<tr class="odd">
+<td>comparative to</td>
+<td>compared with <br> in comparison to |</td>
+</tr>
+<tr class="even">
+<td>compared to</td>
+<td>compared with |</td>
+</tr>
+<tr class="odd">
+<td>comparing between</td>
+<td>comparing |</td>
+</tr>
+<tr class="even">
+<td>correlated to</td>
+<td>correlated with |</td>
+</tr>
+<tr class="odd">
+<td>different to</td>
+<td>different from |</td>
+</tr>
+<tr class="even">
+<td>in accordance to</td>
+<td>in accordance with |</td>
+</tr>
+<tr class="odd">
+<td>in comparison to</td>
+<td>in comparison with |</td>
+</tr>
+<tr class="even">
+<td>insight to</td>
+<td>insight into |</td>
+</tr>
+<tr class="odd">
+<td>similar as</td>
+<td>similar to |</td>
+</tr>
+<tr class="even">
+<td>spread in</td>
+<td>spread throughout |</td>
+</tr>
+<tr class="odd">
+<td>targeted at</td>
+<td>targeted for |</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="appropriate-word-partners" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="appropriate-word-partners"><span class="header-section-number">4.3</span> Appropriate word partners</h2>
+<p>Using the appropriate word choice can be more powerful and comfortable, but also is sometimes needed to be correct. There are several examples below where the word “addressed” can be replaced with something more appropriate.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Rather than</strong></th>
+<th><strong>Try</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>There are many questions to be addressed.</td>
+<td>There are many <em>questions</em> to be <em>answered</em></td>
+</tr>
+<tr class="even">
+<td>There are many gaps to be addressed.</td>
+<td>There are many <em>gaps</em> to be <em>filled</em>.</td>
+</tr>
+<tr class="odd">
+<td>There are many problems to be addressed.</td>
+<td>There are many <em>problems</em> to be <em>solved</em>.</td>
+</tr>
+<tr class="even">
+<td>There are many questions to be addressed.</td>
+<td>There are many <em>questions</em> to be <em>answered</em>.</td>
+</tr>
+<tr class="odd">
+<td>There are many challenges to solve</td>
+<td>There are many <em>challenges</em> to <em>address</em> /<em>meet</em></td>
+</tr>
+<tr class="even">
+<td>The goals to be addressed were:</td>
+<td>The <em>goals</em> to <em>meet</em> were:</td>
+</tr>
+<tr class="odd">
+<td>The issue arises</td>
+<td>The issue raised</td>
+</tr>
+<tr class="even">
+<td>The question is raised</td>
+<td>The question arises</td>
+</tr>
+<tr class="odd">
+<td>a number of caveats were conceded</td>
+<td>a number of caveats</td>
+</tr>
+<tr class="even">
+<td>Greater shifts in summer relative to winter</td>
+<td>Greater shifts in summer <em>than</em> <em>winter</em></td>
+</tr>
+<tr class="odd">
+<td>Ranged from 0.008°C/y and 0.016°C/yr</td>
+<td>Ranged <em>from</em> 0.008°C/yr <em>to</em> 0.016°C/y</td>
+</tr>
+<tr class="even">
+<td>The clear difference between oceanic and shelf break stations <em>indicates</em> that temperature influences chaetognath community structure, <em>a premise</em> that is strongly supported in other regions.</td>
+<td>The clear difference between oceanic and shelf break stations <em>suggests</em> that temperature influences chaetognath community structure, a <em>premise</em> that is strongly supported in other regions. <em>Can something that is indicated be a premise?</em></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="overused-words" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="overused-words"><span class="header-section-number">4.4</span> Overused words</h2>
+<p>We all have our different writing styles. However, sometimes we might use a word so frequently in our writing that it can grate on Readers, or a word is used without sufficient thought given to its meaning.</p>
+</section>
+<section id="occur" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="occur"><span class="header-section-number">4.5</span> Occur</h2>
+<p>“Occur” is often used too frequently. In one publication we commented on, the person used “occur/occurs/occurring/occurrence” 8 times in the Introduction, 11 times in the Methods, 44 times in the Results, and 49 times in the Discussion, and she was unaware she was over-using it. Here is an example from one paragraph:</p>
+<p><strong>Rather than:</strong> Scenarios of moderate and strong upwelling were more likely to <em>occur</em> in the late upwelling season. Specifically, moderate upwelling <em>occurred</em> in January and February in seven of the eleven sampling events, while strong upwelling <em>occurred</em> in January, February and March in seven of the eight sampling events. A strong upwelling was recorded to <em>occur</em> only once in the early upwelling season (November 2015) during the study. Cold water (&lt;15 °C) never reached the surface for any sampling event during the study period. Highest φ&nbsp;values, indicative of stratification, <em>occurred</em> during moderate and strong upwelling, while φ&nbsp;values similar to those during winter and preconditioning <em>occurred</em> during suppression indicating a less stable water column and/or breakdown of stratification <em>occurred</em> during suppression.</p>
+<p><strong>Try:</strong> Scenarios of moderate and strong upwelling were more likely in the late upwelling season. Specifically, there was moderate upwelling in January and February in seven of the eleven sampling events, while there was strong upwelling in January, February and March in seven of the eight sampling events. There was strong upwelling only once in the early upwelling season (November 2015). Cold water (&lt;15°C) never reached the surface for any sampling event during the study period. There were highest φ&nbsp;values, indicative of stratification, during moderate and strong upwelling, while φ&nbsp;values were similar to those during winter and preconditioning during suppression, indicating a less stable water column and/or breakdown of stratification.</p>
+<p><strong>Rather than:</strong> For these management actions to occur, it is necessary to have strong and effective law enforcement. (Passive)</p>
+<p><strong>Try:</strong> These management actions require strong and effective law enforcement. (Active)</p>
+<p><strong>Rather than:</strong> We calculated mean annual phytoplankton biomass ( 〉&nbsp;<em>A</em> , mmol.m- 3) for the top 50 m of each latitude band, which is where the greatest phytoplankton biomass typically occurs.</p>
+<p><strong>Try:</strong> We calculated mean annual phytoplankton biomass ( 〉&nbsp;<em>A</em> , mmol.m-3) for the top 50 m of each latitude band, where phytoplankton biomass is typically greatest.</p>
+<p><strong>Rather than:</strong> Most invasions emerging from tropical regions occur before 2040.</p>
+<p><strong>Try:</strong> Most invasions from tropical regions emerge before 2040.</p>
+<p><strong>Rather than:</strong> The Central Indo-Pacific is an extreme example of a region where range contractions are projected to occur faster than expansions.</p>
+<p><strong>Try:</strong> The Central Indo-Pacific is an extreme example of a region where faster range contractions than expansions are projected.</p>
+<p><strong>Passive:</strong> Strong negative density-dependent regulation has been shown to occur at the critical recruitment stage.</p>
+<p><strong>Active:</strong> There is strong negative density-dependent regulation at the critical recruitment stage.</p>
+<p><strong>Passive:</strong> Coral bleaching has occurred in most regions</p>
+<p><strong>Active:</strong> Coral has bleached in most regions.</p>
+<p><strong>Active:</strong> Current evidence suggests range contractions seem to occur at significantly lower rates than expansions (refs).</p>
+<p><strong>Passive:</strong> Range contractions are significantly slower than expansions (refs).</p>
+<p>Often “there are” can be used to remove “occur”</p>
+<p><strong>Rather than:</strong> Anecdotal reports from dive centres along this coast indicate that whale shark aggregations occur at various locations between Zàvora and Bazaruto throughout the year.</p>
+<p><strong>Try:</strong> Anecdotal reports from dive centres along this coast indicate that there are whale shark aggregations at various locations between Zàvora and Bazaruto throughout the year.</p>
+<p><strong>Rather than:</strong> Remote connections occurring over longer time periods such as the Pacific Decadal Oscillation also affect the productivity of the region (Bakun and Broad, 2003).</p>
+<p><strong>Try:</strong> Remote connections over longer time periods such as the Pacific Decadal Oscillation also affect the productivity of the region (Bakun and Broad, 2003).</p>
+<p><strong>Rather than:</strong> It can occur that a single process such as recruitment may regulate a population if it is density-dependent in one instance, but limit a population if it is density-independent in another.</p>
+<p><strong>Try:</strong> A single process such as recruitment may regulate a population if it is density-dependent in one instance, but limit a population if it is density- independent in another.</p>
+</section>
+<section id="importantcrucialcritical" class="level2" data-number="4.6">
+<h2 data-number="4.6" class="anchored" data-anchor-id="importantcrucialcritical"><span class="header-section-number">4.6</span> Important/crucial/critical</h2>
+<p>The words “important”, “crucial” and “critical” are overused. If we say everything is important, crucial or critical, then they lose their impact and meaning. These words can be powerful when used sparingly and if the reasoning behind them is explained. If they are used multiple times in a paper, these words can often be removed with no ill effect. Valuable can often be used instead, but should also be followed by an explanation.</p>
+<p><strong>Rather than:</strong> Salps are important members of the zooplankton community that have historically been ignored.</p>
+<p><strong>Try:</strong> Salps are important in the global carbon cycle, but have historically been ignored.</p>
+<p><strong>Rather than:</strong> <em>E. radiata</em> is a critical species in coastal ecosystems (Steneck et al., 2003).</p>
+<p><strong>Try:</strong> <em>E. radiata</em> is a critical component of coastal ecosystems because it is a habitat-forming species that creates diverse niches for other species, as well as being highly productive and a preferred food source for a range of secondary consumers (Steneck et al., 2003).</p>
+<p><strong>Rather than:</strong> <em>Ecklonia</em> communities are important because they play several major roles in coastal marine ecosystems (Hurd, 2000).</p>
+<p><strong>Try:</strong> <em>Ecklonia</em> communities play several major roles in coastal marine ecosystems (Hurd, 2000).</p>
+<p><strong>Rather than:</strong> It is important to identify the threats to flatback turtles while they are in their inter-nesting habitat around the Port of Gladstone so that points of conflict can be reduced, enabling the population to be more resilient (Witherington <em>et al.</em> 2008).</p>
+<p><strong>Try:</strong> Identifying the threats to flatback turtles while they are in their inter- nesting habitat around the Port of Gladstone will allow points of conflict to be reduced, enabling the population to be more resilient (Witherington <em>et al.</em> 2008).</p>
+<p><strong>Rather than:</strong> It is crucial that work such as this can be translated to on-ground decisions through open communication and collaboration among stakeholders in the region, thus ensuring sustainable development occurs that minimises the risk of negative outcomes for both biodiversity and livelihoods.</p>
+<p><strong>Try:</strong> Similar work can be translated into on-ground decisions through open communication and collaboration among stakeholders in the region, thus ensuring sustainable development that minimises negative outcomes for both biodiversity and livelihoods.</p>
+</section>
+<section id="respectively" class="level2" data-number="4.7">
+<h2 data-number="4.7" class="anchored" data-anchor-id="respectively"><span class="header-section-number">4.7</span> Respectively</h2>
+<p>Using ‘respectively’ in sentences can be needed, but often the sentence can be simplified to make it easier to read.</p>
+<p><strong>Rather than:</strong> In the North Atlantic Ocean and north east Pacific albacore preferred respective temperatures between 10-17 ˚C and 11-23 ˚C, but individuals in the South Pacific (off the coast of American Samoa) have shown higher temperature preferences of 20-25 ˚C.</p>
+<p><strong>Try</strong>: Pacific albacore prefer 10-17˚C water in the North Atlantic Ocean and 11- 23˚C water in the northeast Pacific, but warmer 20-25˚C waters in the South Pacific.</p>
+</section>
+<section id="confusing-word-pairs" class="level2" data-number="4.8">
+<h2 data-number="4.8" class="anchored" data-anchor-id="confusing-word-pairs"><span class="header-section-number">4.8</span> Confusing word pairs</h2>
+<p>Here are some confusing word pairs and how to select the correct word.</p>
+<p><em><strong>‘A’</strong></em> vs <em><strong>‘an’</strong></em></p>
+<p>We know that ‘a’ is used before a word starting with a consonant, and ‘an’ is used before a word starting with a vowel. But, which sounds better?</p>
+<p>“An university degree” or “A university degree”?</p>
+<p>Here even though ‘university’ starts with a vowel, the ‘u’ makes the sound of the consonant ‘y’ (as in ‘yellow’) and thus sounds better with an ‘a’. So the rule that ‘an’ should precede words that start with a vowel is a generalization that does not cover all situations. An addendum to this rule is that ‘a’ should precede words where the first letter makes the sound of a consonant. Similarly, ‘an’ should precede words where the first letter makes the sound of a vowel.</p>
+<p>It is worth noting that some writers use “a hypothesis” and others use “an hypothesis”. We prefer using “a hypotheisis”.</p>
+</section>
+<section id="a-rather-than-an" class="level2" data-number="4.9">
+<h2 data-number="4.9" class="anchored" data-anchor-id="a-rather-than-an"><span class="header-section-number">4.9</span> ‘A’ rather than ‘an’</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 28%">
+<col style="width: 30%">
+<col style="width: 39%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Rather than</strong></th>
+<th><strong>Try</strong></th>
+<th><strong>Why?</strong> |</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>An eucalyptus</td>
+<td>A eucalyptus</td>
+<td>‘eu’ pronounced ‘y’ as in | ‘yellow’ |</td>
+</tr>
+<tr class="even">
+<td>An euphemism</td>
+<td>A euphemism</td>
+<td>‘eu’ pronounced ‘y’ |</td>
+</tr>
+<tr class="odd">
+<td>An euphoric</td>
+<td>A euphoric</td>
+<td>‘eu’ pronounced ‘y’ |</td>
+</tr>
+<tr class="even">
+<td>An European</td>
+<td>A European</td>
+<td>‘eu’ pronounced ‘y’ |</td>
+</tr>
+<tr class="odd">
+<td>An eutrophic</td>
+<td>A eutrophic</td>
+<td>‘eu’ pronounced ‘y’ |</td>
+</tr>
+<tr class="even">
+<td>An one-hundred fold</td>
+<td>A one-hundred fold</td>
+<td>‘o’ pronounced ‘w’ |</td>
+</tr>
+<tr class="odd">
+<td>An SCUBA</td>
+<td>A SCUBA</td>
+<td>Because acronym is said | rather than spelt |</td>
+</tr>
+<tr class="even">
+<td>An uniform</td>
+<td>A uniform</td>
+<td>‘u’ pronounced ‘y’ |</td>
+</tr>
+<tr class="odd">
+<td>An union</td>
+<td>A union</td>
+<td>‘u’ pronounced ‘y’ |</td>
+</tr>
+<tr class="even">
+<td>An unilateral</td>
+<td>A unilateral</td>
+<td>‘u’ pronounced ‘y’ |</td>
+</tr>
+<tr class="odd">
+<td>An unique</td>
+<td>A unique</td>
+<td>‘u’ pronounced ‘y’ |</td>
+</tr>
+<tr class="even">
+<td>An united</td>
+<td>A united</td>
+<td>‘u’ pronounced ‘y’ |</td>
+</tr>
+<tr class="odd">
+<td>An university</td>
+<td>A university</td>
+<td>‘u’ pronounced ‘y’ |</td>
+</tr>
+<tr class="even">
+<td>An US</td>
+<td>A US</td>
+<td>‘U’ sounds like ‘y’ |</td>
+</tr>
+<tr class="odd">
+<td>An used</td>
+<td>A used</td>
+<td>‘u’ pronounced ‘y’ |</td>
+</tr>
+<tr class="even">
+<td>An user-friendly</td>
+<td>A user-friendly</td>
+<td>‘u’ pronounced ‘y’ |</td>
+</tr>
+<tr class="odd">
+<td>An UV</td>
+<td>A UV</td>
+<td>‘U’ sounds like ‘y’ |</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="an-rather-than-a" class="level2" data-number="4.10">
+<h2 data-number="4.10" class="anchored" data-anchor-id="an-rather-than-a"><span class="header-section-number">4.10</span> ‘An’ rather than ‘a’</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 31%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Rather than</strong></th>
+<th><strong>Try</strong></th>
+<th><strong>Why?</strong> |</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A heirloom</td>
+<td>An heirloom</td>
+<td>‘h’ silent |</td>
+</tr>
+<tr class="even">
+<td>A honest</td>
+<td>An honest</td>
+<td>‘h’ silent |</td>
+</tr>
+<tr class="odd">
+<td>A honour/honourable</td>
+<td>An honour/honourable</td>
+<td>‘h’ silent |</td>
+</tr>
+<tr class="even">
+<td>A hour</td>
+<td>An hour</td>
+<td>‘h’ silent |</td>
+</tr>
+<tr class="odd">
+<td>A x-ray</td>
+<td>An x-ray</td>
+<td>‘x’ pronounced ‘e’ |</td>
+</tr>
+<tr class="even">
+<td>A x-chromosome</td>
+<td>An x-chromosome</td>
+<td>‘x’ pronounced ‘e’ |</td>
+</tr>
+<tr class="odd">
+<td>A FDA-approved</td>
+<td>An FDA-approved</td>
+<td>‘F’ pronounced ‘e’ |</td>
+</tr>
+<tr class="even">
+<td>A LCD</td>
+<td>An LCD</td>
+<td>‘L’ pronounced ‘e’ |</td>
+</tr>
+<tr class="odd">
+<td>A MSc</td>
+<td>An MSc</td>
+<td>‘M’ pronounced ‘e’ |</td>
+</tr>
+<tr class="even">
+<td>A RGB</td>
+<td>An RGB</td>
+<td>‘R’ pronounced ‘ah’ |</td>
+</tr>
+<tr class="odd">
+<td>A STD call</td>
+<td>An STD call</td>
+<td>‘S’ pronounced ‘e’ |</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="aims-vs-objectives" class="level2" data-number="4.11">
+<h2 data-number="4.11" class="anchored" data-anchor-id="aims-vs-objectives"><span class="header-section-number">4.11</span> ‘Aims’ vs ‘objectives’</h2>
+<p>Although some authors use these interchangeably, careful writers distinguish them. Aims (and similarly goals) are general statements and are usually long- term or big picture. Objectives are specific, concrete statements that are often short-term, and can follow the SMART framework (Specific, Measurable, Accurate, Reasonable and Time-bound). Aims are often strategic in nature whereas objectives are more tactical.</p>
+</section>
+<section id="all-together-vs-altogether" class="level2" data-number="4.12">
+<h2 data-number="4.12" class="anchored" data-anchor-id="all-together-vs-altogether"><span class="header-section-number">4.12</span> ‘All together’ vs ‘Altogether’</h2>
+<p>‘Altogether’ means ‘overall’ or ‘completely’. ‘All together’ pertains to a group and means ‘everyone’ or everything-together’.</p>
+<p>One way of assessing which to use is to test the sentence without the word ‘all’. If the sentence remains intact and comprehensible without ‘all’, it means the appropriate adverb is ‘all together’. If it no longer makes sense after ‘all’ has been removed, ‘altogether’ should be used.</p>
+</section>
+<section id="examples-of-altogether" class="level2" data-number="4.13">
+<h2 data-number="4.13" class="anchored" data-anchor-id="examples-of-altogether"><span class="header-section-number">4.13</span> Examples of ‘altogether’</h2>
+<ol type="1">
+<li>Such barriers are generally weaker than those on land, subtly retarding movement in one direction or another rather than preventing it altogether (Gaines <em>et al</em>., 2007).</li>
+<li>The gemfish fishery, already under pressure from apparent over-fishing, collapsed altogether when the zonal winds declined to their low point in the 10-year cycle.</li>
+<li>In the interest of brevity, the suspect data have been removed from the paper altogether.</li>
+<li>Most of these estuaries have small river catchments and river flow is minimal or stops altogether for long periods at a time.</li>
+<li>For each of the three groups, two measures were analysed, giving six models altogether.</li>
+</ol>
+</section>
+<section id="examples-of-all-together" class="level2" data-number="4.14">
+<h2 data-number="4.14" class="anchored" data-anchor-id="examples-of-all-together"><span class="header-section-number">4.14</span> Examples of ‘all together’</h2>
+<ol type="1">
+<li>Using the lattice package we can produce a histogram of gcsescore for each score, placing them all together on a single page</li>
+<li>All together, the papers documents the complete development process</li>
+</ol>
+</section>
+<section id="between-vs-among" class="level2" data-number="4.15">
+<h2 data-number="4.15" class="anchored" data-anchor-id="between-vs-among"><span class="header-section-number">4.15</span> ‘Between’ vs ‘Among’</h2>
+<p>Between for two things (e.g.&nbsp;between the goal posts)</p>
+<p>Among for three or more things (e.g.&nbsp;among the trees)</p>
+</section>
+<section id="complement-vs-compliment" class="level2" data-number="4.16">
+<h2 data-number="4.16" class="anchored" data-anchor-id="complement-vs-compliment"><span class="header-section-number">4.16</span> ‘Complement’ vs ‘Compliment’</h2>
+<p>‘Complement’ means ‘something that completes or brings to perfection.’ A <em>compliment</em> is an expression of praise. Almost all scientific uses are ‘complement’.</p>
+<p><strong>Example:</strong> Although he said that men and women have strengths that complement each other, she did not take this as a compliment.</p>
+<p><strong>Rather than:</strong> This is a complimentary data set to the Australian Zooplankton Database available through the Australian Ocean Data Network portal.</p>
+<p><strong>It is:</strong> This is a complementary data set to the Australian Zooplankton Database available through the Australian Ocean Data Network portal.</p>
+<p><strong>‘Comprise’/‘Consist of’/‘Composed of’ vs ‘Constitute’</strong> “Comprise”, “consist of”, and “composed of” are synonymous and all mean “is made up of”. By contrast, constitute means “makes up”</p>
+<p><strong>Example:</strong> The nucleus <em>comprises</em> protons and neutrons. <strong>Example:</strong> The nucleus <em>consists of</em> protons and neutrons. <strong>Example:</strong> The nucleus is <em>composed of</em> protons and neutrons. <strong>Example:</strong> Protons and neutrons <em>constitute</em> the nucleus.</p>
+<p>You could say that the parts ‘constitute’ the whole, and the whole ‘comprises’ or ‘consists of’ or is ‘composed of’ the parts. Note that you never say ‘composed of’.</p>
+<p><strong>Rather than:</strong> Benthic crustaceans and molluscs comprise most of the fishery catch. <strong>Rather than:</strong> Benthic crustaceans and molluscs consists of most of the fishery catch. <strong>Rather than:</strong> Benthic crustaceans and molluscs composes most of the fishery catch.</p>
+<p><strong>It is:</strong> Benthic crustaceans and molluscs constitute most of the fishery catch. <strong>It is:</strong> Most of the fishery catch comprises benthic crustaceans and molluscs. <strong>It is:</strong> Most of the fishery catch consists of benthic crustaceans and molluscs. <strong>It is:</strong> Most of the fishery catch is composed of benthic crustaceans and molluscs.</p>
+<p><strong>Rather than:</strong> Each stock has a preferred latitudinal and depth range, comprising the species’ habitat.</p>
+<p><strong>Rather than:</strong> Each stock has a preferred latitudinal and depth range, comprising the species’ habitat.</p>
+<p><strong>It is:</strong> Each stock has a preferred latitudinal and depth range, constituting the species’ habitat.</p>
+<p>Sometimes it is neater to remove comprises/consists of/is composed completely.</p>
+<p><strong>Rather than:</strong> Copepods comprised/consisted of/are composed of ~75% of the community by number.</p>
+<p><strong>It is:</strong> Copepods constitute ~75% of the community by number.</p>
+<p><strong>Best:</strong> Copepods are ~75% of the community by number.</p>
+<p><strong>Rather than:</strong> Ecuador’s coastal and offshore waters comprises/consists of/is composed of part of the Humboldt Current.</p>
+<p><strong>It is:</strong> Ecuador’s coastal and offshore waters constitutes part of the Humboldt Current.</p>
+<p><strong>Best:</strong> Ecuador’s coastal and offshore waters are part of the Humboldt Current.</p>
+</section>
+<section id="dependent-vs-dependant" class="level2" data-number="4.17">
+<h2 data-number="4.17" class="anchored" data-anchor-id="dependent-vs-dependant"><span class="header-section-number">4.17</span> ‘Dependent’ vs ‘Dependant’</h2>
+<p>In UK English, ‘Dependant’ is the noun, and ‘dependent’ is the adjective. In scientific writing, almost all cases are ‘dependent’. This distinction is not made in US English; it uses ‘dependent’ in both instances.</p>
+<p><strong>Rather than:</strong> The response of fish to climate change is dependant upon evolutionary history.</p>
+<p><strong>It is:</strong> The response of fish to climate change is dependent upon evolutionary history.</p>
+</section>
+<section id="effect-vs-affect" class="level2" data-number="4.18">
+<h2 data-number="4.18" class="anchored" data-anchor-id="effect-vs-affect"><span class="header-section-number">4.18</span> ‘Effect’ vs ‘Affect’</h2>
+<p>‘Effect’ and ‘affect’ are probably the two words that are regularly confused in scientific writing. ‘Affect’ is a verb meaning ‘to influence’. ‘Effect’ is usually a noun meaning result, but it can also (more rarely) be used as a verb meaning to cause. ‘Effect’ as a noun is followed by the preposition ‘on’ and preceded by an article (‘a’, ‘an’, ‘the’).</p>
+<p><strong>Example:</strong> Temperature affects metabolic rates. (Affect is a verb).</p>
+<p><strong>Example:</strong> Temperature has an effect on metabolism. (Common use of effect as a noun).</p>
+<p><strong>Example:</strong> Temperature effects a change on metabolism. (Rarer use of effect as a verb).</p>
+</section>
+<section id="either-or-vs-neither-nor" class="level2" data-number="4.19">
+<h2 data-number="4.19" class="anchored" data-anchor-id="either-or-vs-neither-nor"><span class="header-section-number">4.19</span> ‘Either or’ vs ‘Neither nor’</h2>
+<p>These apply to no more than two items. Similarly, former and latter refer only to the first and second of only two items.</p>
+</section>
+<section id="estimated-vs-measured-vs-quantified-vs-determined-vs-assessed" class="level2" data-number="4.20">
+<h2 data-number="4.20" class="anchored" data-anchor-id="estimated-vs-measured-vs-quantified-vs-determined-vs-assessed"><span class="header-section-number">4.20</span> ‘Estimated’ vs ‘Measured’ vs ‘Quantified’ vs ‘Determined’ vs ‘Assessed’</h2>
+<p>These verbs all have somewhat similar meanings, but there are nuanced differences. They are generally not used interchangeably. It is worthwhile giving some thought to which is appropriate in different circumstances, but one should not cycle through the different options for “elegant variation” because the use of a different word to a Reader can suggest something different is happening. Although it is difficult to give hard-and-fast rules, and it can be slightly different depending on discipline, but here are some rules-of-thumb.</p>
+</section>
+<section id="measured" class="level2" data-number="4.21">
+<h2 data-number="4.21" class="anchored" data-anchor-id="measured"><span class="header-section-number">4.21</span> Measured</h2>
+<p>Measured is used when a relatively simple instrument is used to make a measurement. Although in the following examples it is correct grammatically to use estimated, quantified, assessed, quantified or determined instead of measured, measured is more appropriate.</p>
+<p><strong>Example:</strong> We measured the temperature of seawater using a thermometer.</p>
+<p><strong>Example:</strong> We used an anemometer to measure wind strength and direction.</p>
+</section>
+<section id="estimated" class="level2" data-number="4.22">
+<h2 data-number="4.22" class="anchored" data-anchor-id="estimated"><span class="header-section-number">4.22</span> Estimated</h2>
+<p>Estimated is less precise than measured. We often measure physical quantities and estimate biological quantities.</p>
+<p><strong>Example 1:</strong> We estimated the density of fish using visual transects.</p>
+<p><strong>Example 2:</strong> You estimate the density of copepods in the surface water</p>
+</section>
+<section id="assessed" class="level2" data-number="4.23">
+<h2 data-number="4.23" class="anchored" data-anchor-id="assessed"><span class="header-section-number">4.23</span> Assessed</h2>
+<p>Assessed is generally used when testing a hypothesis, answering a question, or drawing conclusions from data.</p>
+<p><strong>Example:</strong> We assessed whether the density of fish was related to habitat quality.</p>
+<section id="quantified" class="level3" data-number="4.23.1">
+<h3 data-number="4.23.1" class="anchored" data-anchor-id="quantified"><span class="header-section-number">4.23.1</span> Quantified</h3>
+<p>Quantified is typically used when you want to find a count, amount or a percentage of something.</p>
+<p><strong>Example:</strong> We quantified the number of fish on the reef.</p>
+</section>
+<section id="determined" class="level3" data-number="4.23.2">
+<h3 data-number="4.23.2" class="anchored" data-anchor-id="determined"><span class="header-section-number">4.23.2</span> Determined</h3>
+<p>Can be used when experimental values recorded by an instrument have to be processed to obtain the values.</p>
+<p><strong>Example 1:</strong> We determined the chlorophyll concentations by measuring the fluorescence.</p>
+<p><strong>Example 2:</strong> We determined that copepods stop feeding at food concentrations &lt;0.01 mg.m3 of chl-a.</p>
+</section>
+<section id="led-vs-lead" class="level3" data-number="4.23.3">
+<h3 data-number="4.23.3" class="anchored" data-anchor-id="led-vs-lead"><span class="header-section-number">4.23.3</span> ‘Led’ vs ‘Lead’</h3>
+<p>Mixing these two is a very common mistake in scientific writing.</p>
+<p><em>Led</em> is the past tense and past participle of the verb <em>to lead</em> (rhymes with <em>bead</em>). Lead (rhymes with <em>bead</em>) is a noun referring to an initiative or a position at the front.</p>
+<p>Lead (rhymes with <em>red</em>) is also a noun referring to the metal.</p>
+<p><em>“</em>The Australian programme is led by the University of Queensland, which is also the lead institution in the International Consortium of Lead Research Institutions.”</p>
+</section>
+<section id="lesser-vs-fewer" class="level3" data-number="4.23.4">
+<h3 data-number="4.23.4" class="anchored" data-anchor-id="lesser-vs-fewer"><span class="header-section-number">4.23.4</span> ‘Lesser’ vs ‘Fewer’</h3>
+<p>‘Lesser’ refers to quantity, whereas ’fewer refers to number.</p>
+</section>
+<section id="maybe-vs-may-be" class="level3" data-number="4.23.5">
+<h3 data-number="4.23.5" class="anchored" data-anchor-id="maybe-vs-may-be"><span class="header-section-number">4.23.5</span> ‘Maybe’ vs ‘May be’</h3>
+<p>“Maybe” is an adverb and refers to a choice. “Maybe” means “perhaps” when used as an adverb and denotes a choice. A simple trick of finding out if you have used “maybe” in the right place is by interchanging “maybe” with “perhaps.” The sentence should refer to a choice and make sense.</p>
+<p><strong>Rather than:</strong> The jellyfish collected by the Continuous Plankton Recorder are primarily epipelagic, but <em>may be</em> not neustonic.</p>
+<p><strong>It is:</strong> The jellyfish collected by the Continuous Plankton Recorder are primarily epipelagic, but <em>maybe</em> not neustonic.</p>
+<p><strong>Rather than:</strong> A decline of mud content in sediments took place over extensive areas, <em>may be</em> because of the removal of all mussel beds around 1990.</p>
+<p><strong>It is:</strong> A decline of mud content in sediments took place over extensive areas, <em>maybe</em> because of the removal of all mussel beds around 1990.</p>
+<p>“May be” is a verb and refers to a possibility. The way to check if “may be” is correct, is to substitute “could be” or “would be” in its place. If it makes sense, the usage is correct.</p>
+<p><strong>Rather than:</strong> It maybe difficult to separate from’ ‘Coelenterate tissue’’ if the bell is not found.</p>
+<p><strong>It is:</strong> It may be difficult to separate from’ ‘Coelenterate tissue’’ if the bell is not found.</p>
+<p><strong>Rather than:</strong> Generally, all individuals are counted, but for particularly dense samples a sub-sample maybe counted.</p>
+<p><strong>It is:</strong> Generally, all individuals are counted, but for particularly dense samples a sub-sample may be counted.</p>
+</section>
+<section id="may-vs-might-vs-could" class="level3" data-number="4.23.6">
+<h3 data-number="4.23.6" class="anchored" data-anchor-id="may-vs-might-vs-could"><span class="header-section-number">4.23.6</span> ‘May’ vs ‘Might’ vs ‘Could’</h3>
+<p>Some journals prefer ‘might’ rather than ‘may’ because ‘may’ can have a connotation of permission. ‘Could’ is often stronger than ‘may’ or ‘might’ and thus is preferable sometimes.</p>
+</section>
+<section id="past-vs-last" class="level3" data-number="4.23.7">
+<h3 data-number="4.23.7" class="anchored" data-anchor-id="past-vs-last"><span class="header-section-number">4.23.7</span> ‘Past’ vs ‘Last’</h3>
+<p>There is not much difference, but careful writers prefer ‘past’. This is because ‘last’ can have the connotation of finality; there can be nothing after the last. It is thus preferable to use ‘past’ when referring to the period of time leading up to the present.</p>
+</section>
+<section id="practice-vs-practise" class="level3" data-number="4.23.8">
+<h3 data-number="4.23.8" class="anchored" data-anchor-id="practice-vs-practise"><span class="header-section-number">4.23.8</span> ‘Practice’ vs ‘Practise’</h3>
+<p>‘Practice’ is a noun referring to the application of an idea (‘the practice of science’), the exercise of a profession (‘he left scientific practice’), customary procedure (‘it was common practice’), or repeated exercise or performance (‘knowing his times table required a lot of practice’)</p>
+<p>‘Practise’ is a verb meaning to perform an activity or skill repeatedly to improve one's proficiency (‘He practised his dissection techniques’, or to observe or work at something (‘She practises science’)</p>
+<p><em>Example:</em> You can practise your grammar at English Practice.</p>
+<p>Note that in US English, ‘practise’ is not used at all, only ‘practice’ for both meanings. If unsure, do what the Americans do and use practice!</p>
+</section>
+<section id="predominate-vs-predominant" class="level3" data-number="4.23.9">
+<h3 data-number="4.23.9" class="anchored" data-anchor-id="predominate-vs-predominant"><span class="header-section-number">4.23.9</span> Predominate vs Predominant</h3>
+<p>Predominate is a verb. Predominant is the adjective; as an adverb, predominantly (not "predominately").</p>
+<p><strong>Example:</strong> Brown eye colour is the predominant trait</p>
+<p><strong>Example:</strong> Brown eye colour predominates in humans.</p>
+</section>
+<section id="principle-vs-principal" class="level3" data-number="4.23.10">
+<h3 data-number="4.23.10" class="anchored" data-anchor-id="principle-vs-principal"><span class="header-section-number">4.23.10</span> ‘Principle’ vs ‘Principal’</h3>
+<p>‘Principle’ is always a noun and is a ‘basic truth’ or ‘rule’</p>
+<p>‘Principal’ can be an adjective or a noun. As an adjective it means ‘most important’. As a noun it means an “administrator” or “sum of money’. Note that when principal is used as a noun (e.g.&nbsp;<em>principal</em> of a school or the <em>principal</em> of a loan), it is the shortened form of a phrase (‘<em>principal teacher</em>’ or ‘<em>principal</em> sum’).</p>
+<p><em>Hint:</em> A useful way to remember which one to use is: “If you can substitute ‘main’ (which contains an ‘a’), use <em>principal</em> (which also contains an ‘a’). If you can substitute ‘rule’ (which ends in ‘le’), use <em>principle</em> (which also ends in ‘le’) (William and Mary Morris, <em>Harper Dictionary of Contemporary Usage</em>. Harper &amp; Row, 1975).</p>
+<p>“The principal reason that allometry is a scientific principle is principally that size governs the physiological, biological and ecological processes of plants and animals.”</p>
+</section>
+<section id="should-vs-could" class="level3" data-number="4.23.11">
+<h3 data-number="4.23.11" class="anchored" data-anchor-id="should-vs-could"><span class="header-section-number">4.23.11</span> Should vs Could</h3>
+<p>Stating something “should” be done, rather than “could” be done, can be interpreted as too prescriptive and even a bit arrogant. It is usually better to say “could”.</p>
+<p><strong>Rather than:</strong> Further studies should investigate vertical water column biomass structure as concentrated zooplankton prey densities may occur deeper at this site.</p>
+<p><strong>Try:</strong> Further studies could investigate vertical water column biomass structure as concentrated zooplankton prey densities may occur deeper at this site</p>
+</section>
+<section id="toward-vs-towards" class="level3" data-number="4.23.12">
+<h3 data-number="4.23.12" class="anchored" data-anchor-id="toward-vs-towards"><span class="header-section-number">4.23.12</span> ‘Toward’ vs ‘Towards’</h3>
+<p>These are interchangeable. US and Canadian writers ‘towards’ and British and other English writers prefer ‘towards’. The same is true for ‘backwards/fowards’ and ‘backward/forward’ when used as adverb in the UK and US respectively. But when used as an adverb ‘Something is backward compatible’ or ‘She is forward- looking’, then it never has an ‘s’.</p>
+</section>
+<section id="where-vs-when" class="level3" data-number="4.23.13">
+<h3 data-number="4.23.13" class="anchored" data-anchor-id="where-vs-when"><span class="header-section-number">4.23.13</span> ‘Where’ vs ‘When’</h3>
+<p>Think about whether the sentence is talking about space or time. For example:</p>
+<p><strong>Rather than:</strong> “Where <em>M. birostris</em> were observed with their cephalic fins firmly rolled up and not engaging in any other activity, behaviour was designated as cruising.”</p>
+<p><strong>Try:</strong> “When <em>M. birostris</em> were observed with their cephalic fins firmly rolled up and not engaging in any other activity, behaviour was designated as cruising.”</p>
+</section>
+<section id="which-vs-that" class="level3" data-number="4.23.14">
+<h3 data-number="4.23.14" class="anchored" data-anchor-id="which-vs-that"><span class="header-section-number">4.23.14</span> ‘Which’ vs ‘That’</h3>
+<p>Distinguishing these two words can help to make intended relationships unmistakable, which is important in reporting scientific information. If the clause can be omitted without leaving the modified noun incomplete, use which and enclose the clause within commas or parentheses; otherwise, use that.</p>
+<p>Careful users of English distinguish the two. A ‘that’ should be used before a restrictive clause and ‘which’ before a non-restrictive clause. A restrictive clause is one that defines the situation and cannot be removed. A non-restrictive clause is separated by commas and is an additional piece of information that can be removed from the sentence without altering the meaning.</p>
+<p>For example, which of the following is correct:</p>
+<p>“Chickens that are well fed produce many eggs” “Chickens, which are well fed, produce many eggs” “Chickens which are well fed produce many eggs”</p>
+<p>The 1st one is correct, because only chickens that are well fed will produce many eggs. In the 2nd sentence, removing the ‘which are well fed’ separated by commas, leaves us with a sentence ‘Chickens produce many eggs’ that has a different meaning to the first sentence and is untrue (chickens produce no eggs when they are starving). In the 3rd sentence, it is better to replace the ‘which’ with ‘that’, as a clause with ‘which’ should be separated by commas and it is not then the restrictive clause that is needed here. Here is another example:</p>
+<p>“Copepods that are the world’s most abundant metazoans are ubiquitous.” “Copepods, which are the world’s most abundant metazoans, are ubiquitous.” “Copepods which are the world’s most abundant metazoans are ubiquitous.” Here the 2nd one is correct. The ‘which are the world’s most abundant metazoans’ is a non-restrictive clause, and removing this clause does not change the meaning of the sentence ‘Copepods are ubiquitous’.</p>
+<p>Although this might seem to be splitting hairs (or setae in the case of copepods!), it helps the Reader more easily follow your writing.</p>
+</section>
+</section>
+<section id="punctuation" class="level2" data-number="4.24">
+<h2 data-number="4.24" class="anchored" data-anchor-id="punctuation"><span class="header-section-number">4.24</span> Punctuation</h2>
+<section id="apostrophes" class="level3" data-number="4.24.1">
+<h3 data-number="4.24.1" class="anchored" data-anchor-id="apostrophes"><span class="header-section-number">4.24.1</span> Apostrophes</h3>
+<p>Apostrophes are used to show the omission of a letter or letters in a contraction, and to indicate possession. The possessive case causes the most problems. The following guidelines apply:</p>
+<ol type="1">
+<li>Singular nouns are made possessive by adding an apostrophe and an ‘s’ at the end of them, even if they end in an ‘s’ or ‘ss’:</li>
+</ol>
+<p>The manta’s feeding area (the feeding area belongs to the manta) The student’s thesis (the thesis belongs to the student)</p>
+<p>The pus’s colour (the colour belongs to the pus)</p>
+<p>The moss’s growth (the growth belongs to the moss)</p>
+<ol start="2" type="1">
+<li>Plural nouns (e.g.&nbsp;multiple animals) that end in ‘s’ (which is most plurals) are made possessive by adding an apostrophe without an ‘s’:</li>
+</ol>
+<p>The mantas’ feeding area (the feeding area belongs to multiple mantas).</p>
+<p>The fishes’ tank (the tank belongs to the fish)</p>
+<p>The students' theses (the theses belong to the students)</p>
+<ol start="3" type="1">
+<li>Plural nouns that do not end in ‘s’ are made possessive by adding an apostrophe with an ‘s’:</li>
+</ol>
+<p>The people’s conference (the conference belonging to the people) The sheep’s brains (the brains belonging to the sheep)</p>
+<ol start="4" type="1">
+<li>There is an exception to #1. If the singular and plural of a noun both end in an ‘s’, the possessive for both is then formed by adding an apostrophe only:</li>
+</ol>
+<p>The species’ status is endangered (the status belonging to species)</p>
+<p>Rabies’ cases were increasing (the cases belonging to rabies)</p>
+<p>In the case of a noun where both forms end in an ‘s’, it may be necessary to reword the sentence to clarify whether you are referring to a singular or plural noun:</p>
+<p>The status of the species was endangered. The status of the two species was endangered.</p>
+<ol start="5" type="1">
+<li>When two or more nouns possess the same thing, add apostrophe ‘s’ to the last noun:</li>
+</ol>
+<p>Smith and Pauly’s paper (Smith and Pauly worked together on the same paper)</p>
+<ol start="6" type="1">
+<li>When two or more nouns separately possess something, add apostrophe ‘s’ to each noun:</li>
+</ol>
+<p>Smith's and Pauly’s papers (Each person has their own paper)</p>
+<ol start="7" type="1">
+<li><p>Do Not Use an Apostrophe with Possessive Pronouns. Possessive pronouns already show ownership (e.g.&nbsp;yours, his, hers, theirs). However, we do add an apostrophe ‘s’ to form the possessive of some indefinite pronouns (e.g.&nbsp;anybody's guess, one's personal responsibility, somebody's breakthrough)</p></li>
+<li><p>Do not use an apostrophe when the word desired is a plura. For example, it shodul be 1980s, not 1980’s.</p></li>
+</ol>
+</section>
+<section id="recommendations" class="level3" data-number="4.24.2">
+<h3 data-number="4.24.2" class="anchored" data-anchor-id="recommendations"><span class="header-section-number">4.24.2</span> Recommendations</h3>
+<p>Apostrophes can be a bit of a minefield, and are often avoided in scientific writing. Here are some recommendations.</p>
+<section id="minimize-contractions." class="level4" data-number="4.24.2.1">
+<h4 data-number="4.24.2.1" class="anchored" data-anchor-id="minimize-contractions."><span class="header-section-number">4.24.2.1</span> Minimize contractions.</h4>
+<p>Contractions are used frequently in informal writing, but are rare in scientific writing</p>
+<p><strong>Rather than:</strong> Isn’t</p>
+<p><strong>Try:</strong> Is not</p>
+<p><strong>Rather than:</strong> There’s</p>
+<p><strong>Try:</strong> There is</p>
+</section>
+<section id="minimize-apostrophes-for-possessives." class="level4" data-number="4.24.2.2">
+<h4 data-number="4.24.2.2" class="anchored" data-anchor-id="minimize-apostrophes-for-possessives."><span class="header-section-number">4.24.2.2</span> Minimize apostrophes for possessives.</h4>
+<p><strong>Rather than:</strong> The manta’s underside is blotched</p>
+<p><strong>Try:</strong> The underside of the manta is blotched</p>
+</section>
+<section id="never-use-an-apostrophe-to-form-a-plural." class="level4" data-number="4.24.2.3">
+<h4 data-number="4.24.2.3" class="anchored" data-anchor-id="never-use-an-apostrophe-to-form-a-plural."><span class="header-section-number">4.24.2.3</span> Never use an apostrophe to form a plural.</h4>
+<p>Use an ‘s’ without an apostrophe to form plurals of nouns, including dates, acronyms, and family names (it is not possessive)</p>
+<p><strong>Rather than:</strong> The mid-1980’s</p>
+<p><strong>Try:</strong> The mid-1980s</p>
+<p><strong>Rather than:</strong> Ecosystem Based Model’s (<em>EBM’s</em>) are common</p>
+<p><strong>Try:</strong> Ecosystem Based Models (<em>EBMs</em>) are common</p>
+</section>
+<section id="its-vs-its.-these-are-often-confused.its-is-common-in-colloquial-writing-and-can-be-replaced-by-it-is-in-scientific-writing.-its-is-a-personal-pronoun." class="level4" data-number="4.24.2.4">
+<h4 data-number="4.24.2.4" class="anchored" data-anchor-id="its-vs-its.-these-are-often-confused.its-is-common-in-colloquial-writing-and-can-be-replaced-by-it-is-in-scientific-writing.-its-is-a-personal-pronoun."><span class="header-section-number">4.24.2.4</span> “<strong>It’s” vs ”Its”.</strong> These are often confused.”It’s” is common in colloquial writing and can be replaced by “it is” in scientific writing. “Its” is a personal pronoun.</h4>
+<p><strong>Rather than:</strong> It’s difficult to calculate its value</p>
+<p><strong>Try:</strong> It is difficult to calculate its value</p>
+</section>
+</section>
+<section id="commas" class="level3" data-number="4.24.3">
+<h3 data-number="4.24.3" class="anchored" data-anchor-id="commas"><span class="header-section-number">4.24.3</span> Commas</h3>
+<p>Commas make your writing more readable and sometimes are essential for correct meaning. A comma is used to break up two clauses where a pause is needed between them. The pause can be used to introduce a new idea or to separate items in a list. A comma often helps to separate clauses that being with “but” or “with”, and at pauses at start of sentences, say after “Similarly,”.</p>
+<p>The following sentence is more readable with a comma after “reproduction”.</p>
+<p><strong>Rather than:</strong> While the abundance of pelagic fish is influenced by food availability and reproduction their movement is influenced by oceanographic variables.</p>
+<p><strong>Try:</strong> While the abundance of pelagic fish is influenced by food availability and reproduction, their movement is influenced by oceanographic variables.</p>
+<p>Similarly, a comma after “live weight” makes the following sentence clearer.</p>
+<p>Without the comma after “live weight”, you have to read the first sentence multiple times to understand its meaning.</p>
+<p><strong>Rather than:</strong> As data were expressed in terms of live weight conversion factors were used again to determine the weight of consumable seafood in tonnes.</p>
+<p><strong>Try:</strong> As data were expressed in terms of live weight, conversion factors were used to determine the weight of consumable seafood in tonnes.</p>
+<p>Often a comma is needed for clarity in a list when there are multiple “ands”. In the following, the comma after “flows” makes the list much easier to read.</p>
+<p><strong>Rather than:</strong> The tidal range, flood and ebb flows and reef morphology create patterns in zooplankton accumulation and productivity around islands.</p>
+<p><strong>Try:</strong> The tidal range, flood and ebb flows, and reef morphology create patterns in zooplankton accumulation and productivity around islands.</p>
+<p>Sometimes the meaning of a sentence can be changed entirely depending on if and where a comma is used.</p>
+<p><strong>Version 1:</strong> While this hypothesis has not been formally tested, at least for Irukandji it appears to be fairly reliable. (The hypothesis has not been tested but appears to be reliable for Irukandji)</p>
+<p><strong>Version 2:</strong> While this hypothesis has not been formally tested, at least for the Irukandji <em>Carukia barnesi</em>, it does appear to be fairly reliable. (The hypothesis has not been tested for Irukandji, but it appears reliable for other species)</p>
+<p>And one last example to illustrate that you can get yourself into real trouble with the (mis)-use of commas. This appeared in the Times, intended as a description of a Peter Ustinov documentary:</p>
+<p><strong>Hmmm:</strong> Highlights of his global tour include encounters with Nelson Mandela, an 800-year-old demigod and a dildo collector.</p>
+<p>Do not omit commas before conjunctions in compound sentences.</p>
+</section>
+<section id="spaces" class="level3" data-number="4.24.4">
+<h3 data-number="4.24.4" class="anchored" data-anchor-id="spaces"><span class="header-section-number">4.24.4</span> Spaces</h3>
+<p>Historically writers have used two spaces after a fullstop, but now the norm is to use one space. This is the standard in scientific journals. It also makes your work a bit shorter, which is always good. You can search for two spaces and replace with one space once ready to submit.</p>
+<p>Most journals use a space between numbers and units. Usually journals do not leave a space between the number and units of °C, %, °N, °S, °E, °W.</p>
+</section>
+<section id="hyphens" class="level3" data-number="4.24.5">
+<h3 data-number="4.24.5" class="anchored" data-anchor-id="hyphens"><span class="header-section-number">4.24.5</span> Hyphens</h3>
+<p>Hyphening of compound or unit modifiers is often needed to clarify what is modifying what. For example, a small-grain harvest (harvest of small grain) is different from a small grain harvest (small harvest of all grain). A man eating fish is different from a man-eating fish! (see <a href="http://www.chem.ucla.edu/dept/Faculty/merchant/pdf/Word_Usage_Scientific_Writin"><u>http://www.chem.ucla.edu/dept/Faculty/merchant/pdf/Word_Usage_Scientific_Writin</u></a> <u>g.pdf</u>)</p>
+</section>
+</section>
+<section id="short-and-simple-sentences" class="level2" data-number="4.25">
+<h2 data-number="4.25" class="anchored" data-anchor-id="short-and-simple-sentences"><span class="header-section-number">4.25</span> Short and simple sentences</h2>
+<p>There is a tendency in scientific writing to have long, complex sentences, making it difficult for the Reader to follow. Your work will be cited more if you use shorter and more understandable sentences. If you need to have a long sentence, follow it with a short sentence to give the Reader a rest.</p>
+<p>One way of assessing how convoluted your writing is, is to use a Fog Index. Gunnings’s Fog Index is the best known and measures the level of reading difficulty of any document. It is an estimate of the education grade/year that a Reader would need to understand your work. It can be calculated at <a href="http://gunning-fog-index.com/index.html"><u>http://gunning-fog-index.com/index.html</u>.</a></p>
+<p>Gunning’s Fog Index = [(average number of words per sentence) + (number of words of 3 syllables or more)] ×&nbsp;0.4</p>
+<p>The Bible, Shakespeare and Mark Twain all have Fog Indexes of about 6. Time, Newsweek, and the Wall Street Journal average about 11. Scientific writing has higher Fog Indexes because of the nature of the content, but it is worth calculating yours for different pieces of work and try to reduce it. If your Fog Index soars then you might lose your readers in the fog!</p>
+<p>Microsoft Word calculates two other indexes for you. The Flesch Reading Ease Test is on a 100-point scale, with the higher the score the easier it is to read. The Flesch-Kincaid Grade Level Test rates text on a U.S. school grade level, similar to the Gunnings Fog Index, with a score of 7 meaning that a seventh grader can understand it. You can calculate these directly in your Word documents. In Windows, under Word ‘Options’, click ‘Proofing’, select ‘Check grammar with spelling’, and under ‘When correcting grammar in Word’ select ‘Show readability statistics check box’. For a Mac, go to Word ‘Preferences’, select ‘Spelling and Grammar’, and check ‘Show readability statistics’. When you then go through and use Tools Spelling and Grammar, Word will give you scores for the Flesch Reading Ease Test and the Flesch-Kincaid Grade Level Test.</p>
+<section id="can-you-say-something-more-simply-make-explicit-statements" class="level3" data-number="4.25.1">
+<h3 data-number="4.25.1" class="anchored" data-anchor-id="can-you-say-something-more-simply-make-explicit-statements"><span class="header-section-number">4.25.1</span> Can you say something more simply? Make explicit statements</h3>
+<p>Many scientists are reluctant to state facts explicitly, constantly couching expressions in vague terms. Maybe the logic is that if you are not making definitive statements then you can never be wrong. However, this means you end up saying very little, and what you do say confuses rather than informs. Remember words cost money for a journal (in terms of space) so be concise. A key skill in science is to be clear what we know and state those explicitly, and what we suspect/think and couch those more carefully. Many times, explicit statements are much clearer.</p>
+<p><strong>Rather than:</strong> Some reef fish are known to farm algae, which shifts the benthos from a bare surface to an algal covered benthos.</p>
+<p><strong>Try:</strong> Some reef fish farm algae, which shifts the seafloor from a bare surface to one covered by algae.</p>
+<p><strong>Rather than:</strong> These organisms may require mechanisms of motility to access nutrients and preferred environmental conditions.</p>
+<p><strong>Try:</strong> These organisms are motile so they can access nutrients and their preferred environmental conditions.</p>
+<p><strong>Rather than:</strong> The possibility of vertical adjustment of species as a response to climate change has been shown at a large-scale for fish and invertebrate species in various parts of the ocean.</p>
+<p><strong>Try:</strong> Fish and invertebrates can move deeper as oceans warm.</p>
+<p>In the next example, did the researchers “aim to investigate” the problem, or did they actually “investigate” the problem?</p>
+<p><strong>Rather than:</strong> Here we aimed to investigate the interaction between whale shark feeding ecology and characteristics of the zooplankton community.</p>
+<p><strong>Try:</strong> Here we investigated the relationship between whale shark feeding ecology and the zooplankton community.</p>
+<p><strong>Rather than:</strong> There is very little difference of the impact of the different scenarios on evenness.</p>
+<p><strong>Try:</strong> Different scenarios have similar evenness.</p>
+<p><strong>Rather than:</strong> Targeted fisheries at aggregation sites can considerably affect population abundance of a species and can rapidly lead to local depletion.</p>
+<p><strong>Try:</strong> Targeted fisheries at aggregation sites can deplete local populations.</p>
+<p><strong>Rather than:</strong> There is strong evidence that trophic level has been shown to increase continuously with body size in plankton, benthic invertebrates and pelagic fish communities.</p>
+<p><strong>Try:</strong> Trophic level increases with body size in plankton, benthic invertebrates and pelagic fish.</p>
+<p><strong>Rather than:</strong> Climate velocity and connectivity tailored to capture the rates and directions of change in climate matching temporal windows of biological processes or life stages can therefore provide critically meaningful information for conservation.</p>
+<p><strong>Try:</strong> Climate velocity and connectivity tailored to match temporal windows of biological processes or life stages can therefore provide meaningful information for conservation.</p>
+<p>An additional way to make your writing more concise is to remove ‘the’ before plurals.</p>
+<p><strong>Rather than:</strong> The samples were collected…</p>
+<p><strong>Try:</strong> Samples were collected…</p>
+<p><strong>Rather than:</strong> Thermal niche tracking in marine species was shown in a previous study by Poloczanska <em>et al.</em>, (2013) where from a meta-database (Marine Climate Change Impacts Database) containing 1,735 marine species’ responses, species exhibiting a shift typically moved at a rate consistent with sea-surface temperature changes.</p>
+<p><strong>Try:</strong> Based on a meta-database containing 1,735 marine species’ responses, Poloczanska <em>et al.</em>, (2013) showed that species tracked their thermal niche, moving at a rate consistent with sea surface temperature changes.</p>
+</section>
+<section id="uncertainties-only-one-in-a-sentence" class="level3" data-number="4.25.2">
+<h3 data-number="4.25.2" class="anchored" data-anchor-id="uncertainties-only-one-in-a-sentence"><span class="header-section-number">4.25.2</span> Uncertainties – only one in a sentence</h3>
+<p>Multiple uncertainties in a sentence weaken your message and waste words.</p>
+<p><strong>Rather than</strong>: It is possible that this optimum temperature may be too high for albacore in our region.</p>
+<p><strong>Try:</strong> It is possible that this optimum temperature is too high for albacore in our region.</p>
+<p><strong>Best:</strong> This optimum temperature could be too warm for albacore in our region.</p>
+<p><strong>Rather than:</strong> We suggest that the majority of dietary intake for this species may be of mesopelagic origin.</p>
+<p><strong>Try:</strong> We suggest that the majority of dietary intake for this species is of mesopelagic origin.</p>
+<p><strong>Rather than:</strong> Reduction of residence time may suggest reduced viability of a protected area.</p>
+<p><strong>Try:</strong> Reduction of residence time suggests reduced viability of a protected area.</p>
+</section>
+<section id="removing-redundancy-in-sentences" class="level3" data-number="4.25.3">
+<h3 data-number="4.25.3" class="anchored" data-anchor-id="removing-redundancy-in-sentences"><span class="header-section-number">4.25.3</span> Removing redundancy in sentences</h3>
+<p>Sentences can often be made clearer and shorter by removing redundant and superfluous words. In the following sentence, the last clause “but this remains undemonstrated” is redundant, as it is implied by the third clause “has been hypothesized to cause illness”.</p>
+<p><strong>Rather than:</strong> One species in the genus Carybdea, the Australian form of <em>Carybdea xaymacana</em>, has been hypothesised to cause illness, but this remains undemonstrated.</p>
+<p><strong>Try:</strong> One species in the genus Carybdea, the Australian form of <em>Carybdea xaymacana</em>, has been hypothesised to cause illness.</p>
+<p>In the following example, there is no need to give coordinates when you refer to a map in a figure.</p>
+<p><strong>Rather than:</strong> The region was subsetted into five discrete 5° latitudinal by 5° longitudinal cells for analyses (Figure 1). The five regions included the north- south latitudinal gradient with the following coordinates; region 1, 20°S to 25°S, 20°S, 155°E to 160°E; region 2, 25°S to 30°S, 155°E to 160°E; region 3, 30°S to 35°S, 155°E to 160°E; region 4, 35°S to 40°S, 152.5°E to 157.5°E; and region 5, 40°S to 45°S, 150°E to 155°E.</p>
+<p><strong>Try:</strong> The region was subsetted into five 5° latitudinal by 5° longitudinal cells for analyses (Figure 1).</p>
+<p>In the next example, it is best not to refer back to previous sections of your work (e.g., as described/discussed/mentioned above, as described/discussed/mentioned previously), because it is vague, as you know exactly where, but your Readers do not. You should either assume people have read it or be more explicit about what you are referring to. The same goes for referring to something below.</p>
+<p><strong>Rather than:</strong> As numerical techniques and accuracy evolved, models showed that kelp distribution was correlated with many of the other variables discussed above.</p>
+<p><strong>Try:</strong> As numerical techniques and accuracy evolved, models showed that kelp distribution was correlated with X, Y and Z. Remove sentences that do not say much.</p>
+<p>Sometimes sentences do not say much and thus confuse the Reader and muddle your message. The examples below say very little and they are</p>
+<p>These are throw statements that you do not learn much from.</p>
+<p><strong>Meaning?</strong> Although they concluded that further knowledge is needed regarding food web organization, …</p>
+<p>If 83% of the ocean is warming then this implies ocean temperatures are changing.</p>
+<p><strong>Rather than:</strong> Approximately 83% of the area of the global ocean has warmed over the past half century (Burrows <em>et al</em>., 2011), as ocean temperatures change worldwide (Durack <em>et al.</em>, 2014).</p>
+<p><strong>Try:</strong> Approximately 83% of the area of the global ocean has warmed over the past half century (Burrows <em>et al</em>., 2011, Durack <em>et al.</em>, 2014).</p>
+</section>
+</section>
+<section id="effective-sentences" class="level2" data-number="4.26">
+<h2 data-number="4.26" class="anchored" data-anchor-id="effective-sentences"><span class="header-section-number">4.26</span> Effective sentences</h2>
+<p>Sentences are the building blocks of any written piece. Knowing how to write well means getting your sentences right.</p>
+<section id="agreement-of-subject-and-verb" class="level3" data-number="4.26.1">
+<h3 data-number="4.26.1" class="anchored" data-anchor-id="agreement-of-subject-and-verb"><span class="header-section-number">4.26.1</span> Agreement of subject and verb</h3>
+<p>Singular subjects need singular verbs and plural subjects need plural verbs. This can be tricky when the subject is not immediately next to the verb, as in the following. In the following two examples, the subject of the sentence is singular (‘information’ and ‘number’) and not plural (‘parameters’ or ‘analyses’), so a singular verb (‘is’) is needed.</p>
+<p><strong>Rather than:</strong> <em>Information</em> on basic biological parameters <em>are</em> essential.</p>
+<p><strong>It is:</strong> <em>Information</em> on basic biological parameters <em>is</em> essential.</p>
+<p><strong>Rather than:</strong> A <em>number</em> of supplementary analyses <em>were</em> conducted.</p>
+<p><strong>It is:</strong> A <em>number</em> of supplementary analyses <em>was</em> conducted</p>
+<p>Here is one final example of a singular subject (‘distance’) needing a singular verb (‘is’).</p>
+<p><strong>Rather than:</strong> The <em>distance</em> shifted at the leading and trailing edges <em>are</em> less prominent.</p>
+<p><strong>It is:</strong> The <em>distance</em> shifted at the leading and trailing edges <em>is</em> less prominent</p>
+<p>And here is an example where the subject of the sentence is plural (‘distances’) and not singular (‘edge’), so a plural verb (‘are’) is needed.</p>
+<p><strong>Rather than:</strong> <em>Distances</em> shifted at the leading and trailing edge <em>is</em> less prominent.</p>
+<p><strong>It is:</strong> <em>Distances</em> shifted at the leading and trailing edge <em>are</em> less prominent.</p>
+</section>
+<section id="putting-like-things-together" class="level3" data-number="4.26.2">
+<h3 data-number="4.26.2" class="anchored" data-anchor-id="putting-like-things-together"><span class="header-section-number">4.26.2</span> Putting like things together</h3>
+<p>Similar points should be closer together in a sentence or you risk. Here mercury and lead are not tissues but trace elements, so should go near trace elements.</p>
+<p><strong>Rather than:</strong> Elasmobranchs accumulate trace elements in their tissues such as mercury and lead.</p>
+<p><strong>Try:</strong> Elasmobranchs accumulate trace elements such as mercury and lead in their tissues</p>
+</section>
+<section id="active-vs-passive-voice" class="level3" data-number="4.26.3">
+<h3 data-number="4.26.3" class="anchored" data-anchor-id="active-vs-passive-voice"><span class="header-section-number">4.26.3</span> Active vs Passive voice</h3>
+<p>There are two voices in English – active and passive. The active voice is often more direct, clearer and vivid, and is preferred for scientific writing and giving instructions. However, the passive voice is preferred when the subject of the sentence is implied, indefinite, general, unimportant, or if the writer is trying to increase vagueness or suspense. The passive voice often uses the word ‘by’ and is usually longer. The active voice often used personal pronouns (I, We, His, Her, Us). Historically, it has been frowned upon to use personal pronouns in scientific writing, perhaps because science should be independent of personal biases and detached from the researchers themselves. We are often taught in our undergraduate studies that using personal pronouns in scientific writing is anathema and many traditional scientists still reject it.</p>
+<p>In more recent years, however, there has been a push toward using the active rather than the passive voice in scientific writing because it is more direct and shorter. Our advice is to write in the active voice and use personal pronouns wherever you need to. Occasionally you will get an Editor who might not like it, but this is increasingly rare. If you do strike an Editor who does not like it, change it. Microsoft Word will highlight passive sentences and help you change them.</p>
+<p>Examples of passive vs active voice follow. Which voice do you prefer?</p>
+<p>##Passive:## Gravity was discovered by Galileo. <em>Here ‘Gravity’ is the subject, ‘Galileo’ is the object and ‘was discovered by’ is the verb.</em></p>
+<p>##Active:## Galileo discovered gravity. <em>Here ‘Galileo’ is the subject of the sentence, ‘gravity’ is the object and ‘discovered’ is the verb</em></p>
+<p>##Passive 1:## An ecosystem model was constructed by us. <em>Here ‘an ecosystem model’ is the subject, ‘us’ is the object, and ‘was constructed by’ is the verb.</em></p>
+<p>##Passive 2:## An ecosystem model was constructed. <em>As above, but the object “us” is implied.</em></p>
+<p>##Active:## We constructed an ecosystem model. <em>Here ‘We’ is the subject, ‘an ecosystem model’ is the object, and ‘constructed’ is the verb.</em></p>
+<p>##Rather than##: Photosynthesis is regulated by light and nutrients.</p>
+<p><strong>Try:</strong> Light and nutrients regulate photosynthesis.</p>
+</section>
+<section id="logical-sequence" class="level3" data-number="4.26.4">
+<h3 data-number="4.26.4" class="anchored" data-anchor-id="logical-sequence"><span class="header-section-number">4.26.4</span> Logical sequence</h3>
+<p>It is usually best to use a logical sequence in a sentence, wherever possible. For example, in time (e.g., February before March), space (e.g., describe sites from North to South), phylogenetically (e.g., from simple to complex), or importance (e.g., human stresses on ecosystems that are most to least harmful). When this is not possible, alphabetical order is a good option.</p>
+<p>In the next example, transposing ‘weekly and daily’ makes more sense, as the sentence now goes from hourly, through daily, to weekly.</p>
+<p><strong>Rather than:</strong> Hourly data were used for the case studies, while weekly and daily means were calculated for time-series analyses.</p>
+<p><strong>Try:</strong> Hourly data were used for the case studies, while daily and weekly means were calculated for time-series analyses.</p>
+</section>
+<section id="numbers-in-sentences" class="level3" data-number="4.26.5">
+<h3 data-number="4.26.5" class="anchored" data-anchor-id="numbers-in-sentences"><span class="header-section-number">4.26.5</span> Numbers in sentences</h3>
+<p>The general rule of writing numbers is that you spell out numbers less than 10 and write as a number those 10 or greater. There are a few extensions to this though.</p>
+<p>Never write numbers before units.</p>
+<p><strong>Rather than:</strong> five m.s-1</p>
+<p><strong>It is:</strong> 5 m.s-1</p>
+<p>When there are several numbers in a sentence and some are smaller and some are larger than 10, it is clearer for Readers to write them all as numbers.</p>
+<p><strong>Rather than:</strong> The three lionesses had 10 cubs.</p>
+<p><strong>Try:</strong> The 3 lionesses had 10 cubs.</p>
+<p>Some writers do not like starting a sentence with a number and prefer to spell it out, but it is usually neater to rewrite the sentence.</p>
+<p><strong>Rather than:</strong> 50 samples were collected.</p>
+<p><strong>Try:</strong> A total of 50 samples were collected.</p>
+</section>
+<section id="one-idea-per-sentence" class="level3" data-number="4.26.6">
+<h3 data-number="4.26.6" class="anchored" data-anchor-id="one-idea-per-sentence"><span class="header-section-number">4.26.6</span> One idea per sentence</h3>
+<p>One idea per sentence makes it easier to follow, although two ideas can be linked if they are short and simple.</p>
+<p><strong>Rather than:</strong> Occurring in all of the world’s oceans, diatoms are primarily comprised of rigid silica walls and are the first taxa to rapidly increase their abundance, or “bloom” following the introduction of nutrient-rich waters.</p>
+<p><strong>Try:</strong> Diatoms have rigid silica walls and are found in all oceans. Diatoms are the first taxa to rapidly increase in abundance (“bloom”) following the introduction of nutrient-rich waters.</p>
+</section>
+<section id="lists-in-a-sentence" class="level3" data-number="4.26.7">
+<h3 data-number="4.26.7" class="anchored" data-anchor-id="lists-in-a-sentence"><span class="header-section-number">4.26.7</span> Lists in a sentence</h3>
+<p>A standard way to have a list in a sentence is to start it with a colon, have semicolons between the items, and to use an ‘and’ after the last semicolon. It can be with or without numbers.</p>
+<p><strong>Example:</strong> Assuming these trends in ocean warming are continued in the future, we hypothesise that: (1) pelagic fish species leading edges would shift further than their trailing edges; (2) shifts would be greater in winter than summer; and (3) shallower species would shift further south than deeper species.</p>
+</section>
+</section>
+<section id="effective-paragraphs" class="level2" data-number="4.27">
+<h2 data-number="4.27" class="anchored" data-anchor-id="effective-paragraphs"><span class="header-section-number">4.27</span> Effective paragraphs</h2>
+<section id="structure" class="level3" data-number="4.27.1">
+<h3 data-number="4.27.1" class="anchored" data-anchor-id="structure"><span class="header-section-number">4.27.1</span> Structure</h3>
+<p>Topic sentence and concluding sentences in paragraphs – not appropriate in fictional writing.</p>
+<p>The 1st sentence of a paragraph should summarize the paragraph. Thus if you want to skim a paper, you should be able to read the 1st sentence of each paragraph and follow the logic of the paper. This means that when writing a paragraph, keep in mind that it should give the overall message of the paragraph.</p>
+<p>Paragraphs should also not be too long. The longer the paragraph, the more difficult it is for the Reader to follow the message, and the more likely the Writer is to meander. Short, punchy paragraphs will best convey your messages.</p>
+<p>Here it is useful to separate the single long paragraph into two shorter paragraphs so the Reader does not get the impression that you are saying the same thing twice – it emphasises that one analysis is for Biomass and the other one is for Abundance.</p>
+<p><strong>Rather than:</strong> Zooplankton biomass was significantly higher during manta ray feeding events than when manta rays were not feeding or were absent (ANOVA F<sub>(2,87)</sub>=11.41, p=3.98x10-5; Figure 4a). There was no significant difference in zooplankton biomass when manta rays were not feeding or were absent. Zooplankton was also significantly more abundant during feeding events than when manta rays were not feeding or were absent (ANOVA F<sub>2,47</sub>=11.48, p=8.69x10-5; Figure 4b). There was no significant difference in manta ray abundance when manta rays were not feeding or were absent.</p>
+<p><strong>Try:</strong> Biomass of zooplankton (Figure 4a) was significantly higher during manta ray feeding events than when manta rays were not feeding (9.33 mg m-3, n=12; or were absent (ANOVA F<sub>(2,87)</sub>=11.41, p=3.98x10-5). There was no significant difference in zooplankton biomass when manta rays were not feeding or were absent.</p>
+<p>Abundance of zooplankton (Figure 4b) was also significantly higher during feeding events than when manta rays were not feeding or were absent (ANOVA F<sub>2,47</sub>=11.48, p=8.69x10-5). There was no significant difference in manta ray abundance when manta rays were not feeding or were absent</p>
+</section>
+<section id="lists" class="level3" data-number="4.27.2">
+<h3 data-number="4.27.2" class="anchored" data-anchor-id="lists"><span class="header-section-number">4.27.2</span> Lists</h3>
+<p>The use of lists highlights a difference between writing in novels and scientific/technical writing. In a novel, there are never boring, repetitive lists that would lose Readers’ interest. In scientific and technical writing, however, lists are often vital for helping the Reader follow a complex argument or know all the different causes. Only use lists when there are three or more items: two items can just be explained one after the other and the Reader can easily follow. Lists are normally introduced with a sentence that states there are few/several/many explanations/reasons/steps for something.</p>
+<p><strong>Rather than:</strong> Firstly, … Secondly, … Thirdly</p>
+<p><strong>Try:</strong> Firstly, … Secondly, … Lastly</p>
+<p><strong>Or best:</strong> First, … Second, … Last</p>
+</section>
+</section>
+<section id="common-grammatical-mistakes" class="level2" data-number="4.28">
+<h2 data-number="4.28" class="anchored" data-anchor-id="common-grammatical-mistakes"><span class="header-section-number">4.28</span> Common grammatical mistakes</h2>
+<section id="remove-double-negatives" class="level3" data-number="4.28.1">
+<h3 data-number="4.28.1" class="anchored" data-anchor-id="remove-double-negatives"><span class="header-section-number">4.28.1</span> Remove double negatives</h3>
+<p><strong>Rather than:</strong> not over the limit.</p>
+<p><strong>Try:</strong> below the limit.</p>
+</section>
+<section id="plurals" class="level3" data-number="4.28.2">
+<h3 data-number="4.28.2" class="anchored" data-anchor-id="plurals"><span class="header-section-number">4.28.2</span> Plurals</h3>
+<p><strong>Rather than:</strong> data is</p>
+<p><strong>Try:</strong> data are</p>
+<p><strong>Rather than:</strong> strata is</p>
+<p><strong>Try:</strong> strata are</p>
+</section>
+<section id="split-infinitives" class="level3" data-number="4.28.3">
+<h3 data-number="4.28.3" class="anchored" data-anchor-id="split-infinitives"><span class="header-section-number">4.28.3</span> Split infinitives</h3>
+<p><strong>Rather than:</strong> estimations</p>
+<p><strong>Try:</strong> estimates</p>
+</section>
+<section id="however" class="level3" data-number="4.28.4">
+<h3 data-number="4.28.4" class="anchored" data-anchor-id="however"><span class="header-section-number">4.28.4</span> However</h3>
+<p>Better to place it more often within a sentence than at the beginning or end. “But” is better at the beginning.</p>
+</section>
+<section id="mainly" class="level3" data-number="4.28.5">
+<h3 data-number="4.28.5" class="anchored" data-anchor-id="mainly"><span class="header-section-number">4.28.5</span> Mainly</h3>
+<p>“mainly had red females” OR “had mainly red females”</p>
+<p>A link between eddies, MLD and CHL … But: A link is technically only between 2 things</p>
+</section>
+<section id="using-reword-from-the-journal-conservation-biology." class="level3" data-number="4.28.6">
+<h3 data-number="4.28.6" class="anchored" data-anchor-id="using-reword-from-the-journal-conservation-biology."><span class="header-section-number">4.28.6</span> Using (reword, from the journal Conservation Biology.)</h3>
+<p>In scientific writing, the word using is often the cause of dangling participles and misplaced modifiers.</p>
+<p><strong>Rather than:</strong> Using tissue-isolation protocol, mtDNA was isolated from the dried skins. (Who is doing the using is unclear.)</p>
+<p><strong>Try:</strong> We used tissue-isolation protocol to isolate mtDNA from the dried skins.</p>
+<p><strong>Rather than:</strong> Ivory samples were taken from tusks using a 16-mm drill bit on a 40-cm drill. (This implies that the tusks used the drill)</p>
+<p><strong>Try:</strong> We used a 16-mm drill bit on a 40-cm drill to take ivory samples from tusks.</p>
+</section>
+<section id="myself-is-not-a-substitute-for-me-reword" class="level3" data-number="4.28.7">
+<h3 data-number="4.28.7" class="anchored" data-anchor-id="myself-is-not-a-substitute-for-me-reword"><span class="header-section-number">4.28.7</span> Myself is not a substitute for me (Reword)</h3>
+<p>“This paper has been reviewed by Dr.&nbsp;Smith and myself” and “The report enclosed was prepared by Dr.&nbsp;Jones and myself” are incorrect as is as is “Don’t hesitate to call Dr.&nbsp;Doe or myself”; me would have been correct in all instances. (Use of I also would have been wrong in those examples.) Some correct uses of myself: I found the error I myself saw it happen. I am not myself today. I cannot convince myself. I locked myself out of the car.</p>
+</section>
+<section id="references-and-further-reading" class="level3" data-number="4.28.8">
+<h3 data-number="4.28.8" class="anchored" data-anchor-id="references-and-further-reading"><span class="header-section-number">4.28.8</span> References and further reading</h3>
+<p><em>Grammar</em> <a href="http://www.differencebetween.net/"><u>http://www.differencebetween.net/</u></a> <a href="http://gunning-fog-index.com/index.html"><u>http://gunning-fog-index.com/index.html</u></a> <a href="http://grammar.about.com/"><u>http://grammar.about.com/</u></a></p>
+</section>
+</section>
+<section id="american-english-differences" class="level2" data-number="4.29">
+<h2 data-number="4.29" class="anchored" data-anchor-id="american-english-differences"><span class="header-section-number">4.29</span> American English Differences</h2>
+<section id="british-or-us-english" class="level3" data-number="4.29.1">
+<h3 data-number="4.29.1" class="anchored" data-anchor-id="british-or-us-english"><span class="header-section-number">4.29.1</span> British or US English</h3>
+<p>The Irish playwright Oscar Wilde described America and Britain as “<em>two nations divided by the same language</em>.” Many of the differences between US and British spelling were championed by the American teacher and lexicographer Noah Webster in the early 19th century. He saw the simplification of English spelling as a mark of American independence. Commonwealth nations generally follow British English. Although traditionally British journals have used British English and American journal American English, journals are usually flexible these days with whether you use British or US English. However, the most important advice is to be consistent in your usage. The best ways to do this are to be familiar with different forms, and to choose the English version on your spell checker in your word processor!</p>
+<p>The best ways to do this are to be familiar with different forms, and to choose the English version on your spell checker in your word processor!</p>
+<p>The following is a table summarising differences between British and US English, focusing on scientific terms. Some rules are not hard and fast, English is a dynamic language so spelling is in a state of flux.</p>
+<p><em>Generalisations</em></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 36%">
+<col style="width: 6%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>British English</strong></td>
+<td colspan="2"><strong>US English</strong> |</td>
+</tr>
+<tr class="even">
+<td><strong>-ae</strong></td>
+<td colspan="2"><strong>-e</strong> |</td>
+</tr>
+<tr class="odd">
+<td>anaemia <br> archaeology <br> encyclopaedia (or encyclopedia) <br> haemorrhage <br> leukaemia <br> paediatric <br> palaeontology</td>
+<td colspan="2">anemia <br> | archeology | (or archaeology) <br>| encyclopedia <br> | hemorrhage <br> | leukemia <br> | pediatric <br> | paleontology <br> |</td>
+</tr>
+<tr class="even">
+<td><strong>+gement</strong></td>
+<td colspan="2"><strong>-dgment</strong> |</td>
+</tr>
+<tr class="odd">
+<td>acknowledgement <br> judgement <br> lodgement <br></td>
+<td colspan="2">acknowledgment<br> | judgment <br> | lodgment <br> |</td>
+</tr>
+<tr class="even">
+<td><strong>-ence</strong></td>
+<td colspan="2"><strong>-ense</strong> |</td>
+</tr>
+<tr class="odd">
+<td>defence <br> licence <br> offence <br> pretence <br></td>
+<td colspan="2">defense <br> | license <br> | offense <br> | pretense <br> |</td>
+</tr>
+<tr class="even">
+<td><strong>-ise</strong>*</td>
+<td colspan="2"><strong>-ize</strong> |</td>
+</tr>
+<tr class="odd">
+<td>apologise <br> characterise <br> emphasise <br> globalise <br> normalise <br> organise <br> recognise <br> specialise <br> standardise <br></td>
+<td colspan="2">apologize <br> | characterize <br> | emphasize <br> | globalize <br> | normalize <br> | organize <br> | recognize <br> | specialize <br> | standardize <br> |</td>
+</tr>
+<tr class="even">
+<td><strong>-ll</strong>**</td>
+<td colspan="2"><strong>-l</strong> |</td>
+</tr>
+<tr class="odd">
+<td>cancelled <br> equalled <br> fuelled <br> abelled <br> modelled <br> signalled <br> travelled <br></td>
+<td colspan="2">canceled <br> | equaled <br> | fueled <br> | labeled <br> | modeled <br> | signaled <br> | traveled <br> |</td>
+</tr>
+<tr class="even">
+<td><strong>-l</strong></td>
+<td colspan="2"><strong>-ll</strong> |</td>
+</tr>
+<tr class="odd">
+<td>enrol <br> enrolment <br> fulfil <br> fulfilment <br> skilfull <br></td>
+<td colspan="2">enroll <br> | enrollment <br> | fulfill <br> | fulfillment <br> | skillful <br> |</td>
+</tr>
+<tr class="even">
+<td><strong>-mme</strong></td>
+<td colspan="2"><strong>-m</strong> |</td>
+</tr>
+<tr class="odd">
+<td>programme <br></td>
+<td colspan="2">program <br> |</td>
+</tr>
+<tr class="even">
+<td><strong>-oe</strong></td>
+<td colspan="2"><strong>-e</strong> |</td>
+</tr>
+<tr class="odd">
+<td>aeon <br> foetus <br> oesophagus <br> oestrogen <br> manoeuvre <br></td>
+<td colspan="2">eon <br> | fetus <br> | esophagus <br> | estrogen <br> | maneuver <br> |</td>
+</tr>
+<tr class="even">
+<td><strong>-ogue</strong></td>
+<td><strong>-og</strong>***</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>analogue <br> catalogue <br> dialogue <br> prologue <br></td>
+<td colspan="2">analog <br> | catalog <br> | dialog <br> | prolog <br> |</td>
+</tr>
+<tr class="even">
+<td><strong>-our</strong></td>
+<td colspan="2"><strong>-or</strong> |</td>
+</tr>
+<tr class="odd">
+<td>behaviour <br> colour <br> endeavour <br> favour <br> harbour <br> honour <br> labour <br> neighbour <br> odour <br> rigour <br> rumour <br></td>
+<td colspan="2">behavior <br> | color <br> | endeavor <br> | favor <br> | harbor <br> | honor <br> | labor <br> | neighbor <br> | odor <br> | rigor <br> | rumor <br> |</td>
+</tr>
+<tr class="even">
+<td><strong>-re</strong></td>
+<td colspan="2"><strong>-er </strong> |</td>
+</tr>
+<tr class="odd">
+<td>centre <br> fibre <br> litre <br> meagre <br> metre <br> theatre <br></td>
+<td colspan="2">center <br> | fiber <br> | liter <br> | meager <br> | meter <br> | theater <br> |</td>
+</tr>
+<tr class="even">
+<td><strong>-yse</strong></td>
+<td colspan="2"><strong>-yze</strong> |</td>
+</tr>
+<tr class="odd">
+<td>analyse <br> breathalyse <br> catalyse <br> hydrolyse <br> paralyse <br></td>
+<td colspan="2">analyze <br> | breathalyze <br> catalyze <br> | hydrolyze <br> | paralyze <br> |</td>
+</tr>
+</tbody>
+</table>
+<p><em>Other words</em></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 34%">
+<col style="width: 30%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td colspan="2" rowspan="2"><strong>British English</strong> | <strong>US English</strong> | =====================+==================+ aeroplane | airplane |</td>
+</tr>
+<tr class="even">
+</tr>
+<tr class="odd">
+<td colspan="2">aluminium | aluminum |</td>
+</tr>
+<tr class="even">
+<td colspan="2">grey | gray |</td>
+</tr>
+<tr class="odd">
+<td colspan="2">maths | math |</td>
+</tr>
+<tr class="even">
+<td colspan="2">moult | molt |</td>
+</tr>
+<tr class="odd">
+<td colspan="2">tyre | tire |</td>
+</tr>
+<tr class="even">
+<td colspan="2">sceptical | skeptical |</td>
+</tr>
+<tr class="odd">
+<td colspan="2">sulphur | sulfur |</td>
+</tr>
+<tr class="even">
+<td colspan="2">Tonne | ton |</td>
+</tr>
+<tr class="odd">
+<td colspan="2">e.g.&nbsp;| e.g., |</td>
+</tr>
+<tr class="even">
+<td colspan="2">i.e.&nbsp;| i.e., |</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="removing-waste-words" class="level2" data-number="4.30">
+<h2 data-number="4.30" class="anchored" data-anchor-id="removing-waste-words"><span class="header-section-number">4.30</span> Removing waste words</h2>
+<p><em>“Substitute ‘damn’ every time you’re inclined to write ‘very’; the editor will delete it and the writing will be just as it should be.”</em> Mark Twain</p>
+<p>The Table below gives a list of waste words that can be removed to make your writing more concise.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Rather than</strong></td>
+<td><strong>Try</strong></td>
+</tr>
+<tr class="even">
+<td>a considerable amount of</td>
+<td>much</td>
+</tr>
+<tr class="odd">
+<td>a considerable/large number of</td>
+<td>many/several</td>
+</tr>
+<tr class="even">
+<td>A possible explanation here is that</td>
+<td>remove</td>
+</tr>
+<tr class="odd">
+<td>a program named {software package}</td>
+<td>remove</td>
+</tr>
+<tr class="even">
+<td>a substantially larger suite of</td>
+<td>more</td>
+</tr>
+<tr class="odd">
+<td>adjacent to</td>
+<td>adjacent/near</td>
+</tr>
+<tr class="even">
+<td>aimed to test/explore/investigate/ quantify/examine/ascertain</td>
+<td>tested/explored/investigated/ quantified/examined/ascertained</td>
+</tr>
+<tr class="odd">
+<td>aims to determine</td>
+<td>will determine</td>
+</tr>
+<tr class="even">
+<td>All of</td>
+<td>All</td>
+</tr>
+<tr class="odd">
+<td>Another study found that</td>
+<td>remove</td>
+</tr>
+<tr class="even">
+<td>any negative/positive differences</td>
+<td>“any” not usually necessary</td>
+</tr>
+<tr class="odd">
+<td>appear to be</td>
+<td>are</td>
+</tr>
+<tr class="even">
+<td>are (well) known to be</td>
+<td>remove</td>
+</tr>
+<tr class="odd">
+<td>are believed to be</td>
+<td>are</td>
+</tr>
+<tr class="even">
+<td>are observed to (undergo)</td>
+<td>(undergo)</td>
+</tr>
+<tr class="odd">
+<td>are recognised as</td>
+<td>are</td>
+</tr>
+<tr class="even">
+<td>are well known to occur</td>
+<td>are</td>
+</tr>
+<tr class="odd">
+<td>As a matter of fact,</td>
+<td>remove</td>
+</tr>
+<tr class="even">
+<td>As a part of this research, we</td>
+<td>We</td>
+</tr>
+<tr class="odd">
+<td>As a result</td>
+<td>thus</td>
+</tr>
+<tr class="even">
+<td>As (previously) described/discussed/indicated/ mentioned above/in</td>
+<td>remove</td>
+</tr>
+<tr class="odd">
+<td>as evidenced by</td>
+<td>with</td>
+</tr>
+<tr class="even">
+<td>As evidenced by the statement above,</td>
+<td>remove</td>
+</tr>
+<tr class="odd">
+<td>As stated in</td>
+<td>remove</td>
+</tr>
+<tr class="even">
+<td>as we know</td>
+<td>remove</td>
+</tr>
+<tr class="odd">
+<td>At the present time</td>
+<td>At present, now, or remove</td>
+</tr>
+<tr class="even">
+<td>At this point in time</td>
+<td>Now or remove</td>
+</tr>
+<tr class="odd">
+<td>Because of the fact that</td>
+<td>Because, Since</td>
+</tr>
+<tr class="even">
+<td>becoming ever more</td>
+<td>increasingly</td>
+</tr>
+<tr class="odd">
+<td>being deemed</td>
+<td>being or deemed</td>
+</tr>
+<tr class="even">
+<td>being noted</td>
+<td>remove</td>
+</tr>
+<tr class="odd">
+<td>being observed in</td>
+<td>in</td>
+</tr>
+<tr class="even">
+<td>being recognised</td>
+<td>recognised</td>
+</tr>
+<tr class="odd">
+<td>Both of</td>
+<td>Both</td>
+</tr>
+<tr class="even">
+<td>By means of</td>
+<td>By</td>
+</tr>
+<tr class="odd">
+<td>can have</td>
+<td>have</td>
+</tr>
+<tr class="even">
+<td>close proximity</td>
+<td>proximity or close</td>
+</tr>
+<tr class="odd">
+<td>concentrated around</td>
+<td>around</td>
+</tr>
+<tr class="even">
+<td>conclude that</td>
+<td>remove or conclude</td>
+</tr>
+<tr class="odd">
+<td>conducted to date</td>
+<td>remove</td>
+</tr>
+<tr class="even">
+<td>considered to be</td>
+<td>are</td>
+</tr>
+<tr class="odd">
+<td>contributes to 64% of</td>
+<td>contributes 64% of</td>
+</tr>
+<tr class="even">
+<td>coupled together</td>
+<td>coupled</td>
+</tr>
+<tr class="odd">
+<td>current knowledge</td>
+<td>knowledge</td>
+</tr>
+<tr class="even">
+<td>Current knowledge suggests that</td>
+<td>remove</td>
+</tr>
+<tr class="odd">
+<td>currently underway</td>
+<td>underway</td>
+</tr>
+<tr class="even">
+<td>derived from</td>
+<td>from</td>
+</tr>
+<tr class="odd">
+<td>Despite the fact that</td>
+<td>remove</td>
+</tr>
+<tr class="even">
+<td>Diagrammatic representation of</td>
+<td>A diagram of A representation of</td>
+</tr>
+<tr class="odd">
+<td>direct result of</td>
+<td>result of</td>
+</tr>
+<tr class="even">
+<td>During the course of</td>
+<td>During</td>
+</tr>
+<tr class="odd">
+<td>each and every</td>
+<td>each</td>
+</tr>
+<tr class="even">
+<td>empty out</td>
+<td>empty</td>
+</tr>
+<tr class="odd">
+<td>essentially models</td>
+<td>models</td>
+</tr>
+<tr class="even">
+<td>estimations</td>
+<td>estimates</td>
+</tr>
+<tr class="odd">
+<td>ever expanding</td>
+<td>expanding</td>
+</tr>
+<tr class="even">
+<td>evidence shows that</td>
+<td>remove</td>
+</tr>
+<tr class="odd">
+<td>fairly</td>
+<td>remove</td>
+</tr>
+<tr class="even">
+<td>focused on investigating</td>
+<td>investigated</td>
+</tr>
+<tr class="odd">
+<td>For comparison purposes,</td>
+<td>For comparison,</td>
+</tr>
+<tr class="even">
+<td>found/observed/measured to be</td>
+<td>Remove. e.g.&nbsp;differences were <del>found to be</del> significant</td>
+</tr>
+<tr class="odd">
+<td>Furthermore,</td>
+<td>Further,</td>
+</tr>
+<tr class="even">
+<td>generally considered to be</td>
+<td>is</td>
+</tr>
+<tr class="odd">
+<td>generally seemed to</td>
+<td>seemed to/was/is</td>
+</tr>
+<tr class="even">
+<td>geographic areas</td>
+<td>areas</td>
+</tr>
+<tr class="odd">
+<td>giving some indication of</td>
+<td>indicating/suggesting</td>
+</tr>
+<tr class="even">
+<td>going beyond</td>
+<td>beyond</td>
+</tr>
+<tr class="odd">
+<td>groupings</td>
+<td>groups</td>
+</tr>
+<tr class="even">
+<td>hard to interpret</td>
+<td>difficult to interpret (better because hard has two meanings)</td>
+</tr>
+<tr class="odd">
+<td>has been demonstrated to have the ability to</td>
+<td>has</td>
+</tr>
+<tr class="even">
+<td>has been found/identified to be</td>
+<td>is</td>
+</tr>
+<tr class="odd">
+<td>has been recorded to</td>
+<td>has</td>
+</tr>
+<tr class="even">
+<td>has been shown to</td>
+<td>remove</td>
+</tr>
+<tr class="odd">
+<td>have (also) been observed to</td>
+<td>also</td>
+</tr>
+<tr class="even">
+<td>have a high tendency to</td>
+<td>remove</td>
+</tr>
+<tr class="odd">
+<td>have been found/reported/shown/subject to</td>
+<td>have | |</td>
+</tr>
+<tr class="even">
+<td>have been identified as</td>
+<td>remove |</td>
+</tr>
+<tr class="odd">
+<td>have been shown/found/observed to be</td>
+<td>remove | |</td>
+</tr>
+<tr class="even">
+<td>have proven to be</td>
+<td>are |</td>
+</tr>
+<tr class="odd">
+<td>have recently been shown to</td>
+<td>remove |</td>
+</tr>
+<tr class="even">
+<td>heavily dominated by</td>
+<td>dominated by |</td>
+</tr>
+<tr class="odd">
+<td>helped improve</td>
+<td>improved |</td>
+</tr>
+<tr class="even">
+<td>highlights the fact that</td>
+<td>highlights that |</td>
+</tr>
+<tr class="odd">
+<td>highly significant/speculative/relevant</td>
+<td>remove highly | |</td>
+</tr>
+<tr class="even">
+<td>impact on</td>
+<td>impact |</td>
+</tr>
+<tr class="odd">
+<td>In an aim to</td>
+<td>To |</td>
+</tr>
+<tr class="even">
+<td>In contrast to this,</td>
+<td>In contrast/By contrast |</td>
+</tr>
+<tr class="odd">
+<td>in fact</td>
+<td>remove |</td>
+</tr>
+<tr class="even">
+<td>In fact,</td>
+<td>remove |</td>
+</tr>
+<tr class="odd">
+<td>in order for/to</td>
+<td>for/to |</td>
+</tr>
+<tr class="even">
+<td>In order to</td>
+<td>To |</td>
+</tr>
+<tr class="odd">
+<td>In other words</td>
+<td>remove |</td>
+</tr>
+<tr class="even">
+<td>In spite of the fact that</td>
+<td>remove |</td>
+</tr>
+<tr class="odd">
+<td>In the course of</td>
+<td>In |</td>
+</tr>
+<tr class="even">
+<td>In the Australian context,</td>
+<td>In Australia, |</td>
+</tr>
+<tr class="odd">
+<td>in the month of May</td>
+<td>in May |</td>
+</tr>
+<tr class="even">
+<td>in the order of</td>
+<td>remove |</td>
+</tr>
+<tr class="odd">
+<td>In this regard</td>
+<td>remove |</td>
+</tr>
+<tr class="even">
+<td>In this study</td>
+<td>Here |</td>
+</tr>
+<tr class="odd">
+<td>included for perusal</td>
+<td>included |</td>
+</tr>
+<tr class="even">
+<td>Indeed</td>
+<td>remove |</td>
+</tr>
+<tr class="odd">
+<td>Interestingly</td>
+<td>Usually remove |</td>
+</tr>
+<tr class="even">
+<td>Irregardless</td>
+<td>Regardless or Irrespective |</td>
+</tr>
+<tr class="odd">
+<td>It appears that</td>
+<td>remove</td>
+</tr>
+<tr class="even">
+<td>It has been demonstrated/discovered that</td>
+<td>remove</td>
+</tr>
+<tr class="odd">
+<td>It is also foreseeable that</td>
+<td>remove</td>
+</tr>
+<tr class="even">
+<td>It is also relevant to note that</td>
+<td>remove</td>
+</tr>
+<tr class="odd">
+<td>It is/was apparent/clear/decided/determined /evident/felt/found/possible/ estimated that</td>
+<td>remove or Apparently/Clearly/Possibly</td>
+</tr>
+<tr class="even">
+<td>It is becoming clear that</td>
+<td>remove</td>
+</tr>
+<tr class="odd">
+<td>it is clear/obvious /apparent/critical that</td>
+<td>remove</td>
+</tr>
+<tr class="even">
+<td>It is clearly shown that</td>
+<td>remove</td>
+</tr>
+<tr class="odd">
+<td>It is generally accepted that</td>
+<td>remove</td>
+</tr>
+<tr class="even">
+<td>It is important to note/understand that</td>
+<td>remove or Note that or Importantly</td>
+</tr>
+<tr class="odd">
+<td>it is increasingly acknowledged that</td>
+<td>remove</td>
+</tr>
+<tr class="even">
+<td>It is known that</td>
+<td>remove</td>
+</tr>
+<tr class="odd">
+<td>It is well established/understood that</td>
+<td>remove</td>
+</tr>
+<tr class="even">
+<td>It must be understood that</td>
+<td>remove</td>
+</tr>
+<tr class="odd">
+<td>It should be emphasized/highlighted/mentio ned/noted/pointed out/stressed/understood that</td>
+<td>remove</td>
+</tr>
+<tr class="even">
+<td>join together</td>
+<td>join</td>
+</tr>
+<tr class="odd">
+<td>just like</td>
+<td>similar to</td>
+</tr>
+<tr class="even">
+<td>largely</td>
+<td>remove</td>
+</tr>
+<tr class="odd">
+<td>likely due to</td>
+<td>either ‘due to’ or ‘likely to be due to’</td>
+</tr>
+<tr class="even">
+<td>likely to occur</td>
+<td>likely</td>
+</tr>
+<tr class="odd">
+<td>located at</td>
+<td>at |</td>
+</tr>
+<tr class="even">
+<td>located in</td>
+<td>in |</td>
+</tr>
+<tr class="odd">
+<td>marine pelagic animals</td>
+<td>pelagic animals |</td>
+</tr>
+<tr class="even">
+<td>may be revealed to be</td>
+<td>may |</td>
+</tr>
+<tr class="odd">
+<td>may suggest</td>
+<td>suggests |</td>
+</tr>
+<tr class="even">
+<td>minor detail</td>
+<td>detail |</td>
+</tr>
+<tr class="odd">
+<td>much</td>
+<td>remove |</td>
+</tr>
+<tr class="even">
+<td>much lower number of</td>
+<td>fewer |</td>
+</tr>
+<tr class="odd">
+<td>multiple replicates</td>
+<td>replicates |</td>
+</tr>
+<tr class="even">
+<td>never at any time</td>
+<td>never |</td>
+</tr>
+<tr class="odd">
+<td>noticed</td>
+<td>noted |</td>
+</tr>
+<tr class="even">
+<td>obtained from</td>
+<td>from |</td>
+</tr>
+<tr class="odd">
+<td>Obviously</td>
+<td>remove |</td>
+</tr>
+<tr class="even">
+<td>occurred</td>
+<td>was |</td>
+</tr>
+<tr class="odd">
+<td>Of added interest was</td>
+<td>remove |</td>
+</tr>
+<tr class="even">
+<td>Of particular note is</td>
+<td>remove |</td>
+</tr>
+<tr class="odd">
+<td>off of Australia</td>
+<td>off Australia |</td>
+</tr>
+<tr class="even">
+<td>Our results provide evidence that</td>
+<td>We show |</td>
+</tr>
+<tr class="odd">
+<td>Our results show</td>
+<td>We show |</td>
+</tr>
+<tr class="even">
+<td>overall consequences</td>
+<td>consequences |</td>
+</tr>
+<tr class="odd">
+<td>overwhelmingly</td>
+<td>remove |</td>
+</tr>
+<tr class="even">
+<td>particularly</td>
+<td>remove |</td>
+</tr>
+<tr class="odd">
+<td>predicted to occur</td>
+<td>predicted |</td>
+</tr>
+<tr class="even">
+<td>predominantly/mainly associated with</td>
+<td>associated with | |</td>
+</tr>
+<tr class="odd">
+<td>presented here</td>
+<td>here |</td>
+</tr>
+<tr class="even">
+<td>prevailing currents/wind</td>
+<td>remove |</td>
+</tr>
+<tr class="odd">
+<td>previously been used</td>
+<td>been used |</td>
+</tr>
+<tr class="even">
+<td>primarily focused</td>
+<td>focused |</td>
+</tr>
+<tr class="odd">
+<td>prior/previous to</td>
+<td>before or preceding |</td>
+</tr>
+<tr class="even">
+<td>provide an analysis of</td>
+<td>analyse |</td>
+</tr>
+<tr class="odd">
+<td>provides suitable evidence to</td>
+<td>suggests |</td>
+</tr>
+<tr class="even">
+<td>suggest</td>
+<td><pre><code>                        |</code></pre></td>
+</tr>
+<tr class="odd">
+<td>quite</td>
+<td>remove |</td>
+</tr>
+<tr class="even">
+<td>rapidly proliferated</td>
+<td>proliferated |</td>
+</tr>
+<tr class="odd">
+<td>rather narrow/large</td>
+<td>narrow/large |</td>
+</tr>
+<tr class="even">
+<td>reason is because</td>
+<td>reason is |</td>
+</tr>
+<tr class="odd">
+<td>reason why</td>
+<td>why |</td>
+</tr>
+<tr class="even">
+<td>recent findings mean that</td>
+<td>remove |</td>
+</tr>
+<tr class="odd">
+<td>reported to be</td>
+<td>remove |</td>
+</tr>
+<tr class="even">
+<td>results from such studies</td>
+<td>results |</td>
+</tr>
+<tr class="odd">
+<td>revealed that</td>
+<td>revealed |</td>
+</tr>
+<tr class="even">
+<td>seek out</td>
+<td>seek |</td>
+</tr>
+<tr class="odd">
+<td>seen in</td>
+<td>in |</td>
+</tr>
+<tr class="even">
+<td>situated further</td>
+<td>further |</td>
+</tr>
+<tr class="odd">
+<td>so begin to move toward</td>
+<td>so move toward |</td>
+</tr>
+<tr class="even">
+<td>spanning over</td>
+<td>spanning |</td>
+</tr>
+<tr class="odd">
+<td>step forward</td>
+<td>step |</td>
+</tr>
+<tr class="even">
+<td>Subsequent to</td>
+<td>After |</td>
+</tr>
+<tr class="odd">
+<td>summer/autumn/winter/spring months</td>
+<td>summer/autumn/winter/spring | |</td>
+</tr>
+<tr class="even">
+<td>tend to be</td>
+<td>are |</td>
+</tr>
+<tr class="odd">
+<td>that are known to exist</td>
+<td>remove |</td>
+</tr>
+<tr class="even">
+<td>that are/were</td>
+<td>can often be removed |</td>
+</tr>
+<tr class="odd">
+<td>that indicate that</td>
+<td>that |</td>
+</tr>
+<tr class="even">
+<td>that occur</td>
+<td>remove |</td>
+</tr>
+<tr class="odd">
+<td>The evidence shows that</td>
+<td>remove |</td>
+</tr>
+<tr class="even">
+<td>the fact that</td>
+<td>that or remove |</td>
+</tr>
+<tr class="odd">
+<td>The results from this study</td>
+<td>This study |</td>
+</tr>
+<tr class="even">
+<td>There are also suggestions that</td>
+<td>remove and use ‘could’ |</td>
+</tr>
+<tr class="odd">
+<td>there are/is</td>
+<td>remove |</td>
+</tr>
+<tr class="even">
+<td>there is some thought that</td>
+<td>remove |</td>
+</tr>
+<tr class="odd">
+<td>These studies stated that</td>
+<td>remove |</td>
+</tr>
+<tr class="even">
+<td>this analysis demonstrates that</td>
+<td>remove |</td>
+</tr>
+<tr class="odd">
+<td>This body of work aims to</td>
+<td>Here we</td>
+</tr>
+<tr class="even">
+<td>this provides a clear signal that</td>
+<td>remove</td>
+</tr>
+<tr class="odd">
+<td>To be made based on</td>
+<td>Based on…</td>
+</tr>
+<tr class="even">
+<td>To/to date</td>
+<td>remove</td>
+</tr>
+<tr class="odd">
+<td>to have to</td>
+<td>to</td>
+</tr>
+<tr class="even">
+<td>To satisfy the outline/proposed objectives</td>
+<td>remove</td>
+</tr>
+<tr class="odd">
+<td>To this end, we</td>
+<td>We</td>
+</tr>
+<tr class="even">
+<td>use up</td>
+<td>use</td>
+</tr>
+<tr class="odd">
+<td>used in this study</td>
+<td>remove</td>
+</tr>
+<tr class="even">
+<td>vary between different geographical areas</td>
+<td>vary among geographical areas</td>
+</tr>
+<tr class="odd">
+<td>vast majority</td>
+<td>majority</td>
+</tr>
+<tr class="even">
+<td>very</td>
+<td>remove</td>
+</tr>
+<tr class="odd">
+<td>very/highly/pretty similar</td>
+<td>similar</td>
+</tr>
+<tr class="even">
+<td>very/highly/pretty variable</td>
+<td>variable</td>
+</tr>
+<tr class="odd">
+<td>warming temperatures</td>
+<td>warming</td>
+</tr>
+<tr class="even">
+<td>was/were/is/are as follows</td>
+<td>is</td>
+</tr>
+<tr class="odd">
+<td>was/were/is/are characterized by</td>
+<td>has</td>
+</tr>
+<tr class="even">
+<td>was/were/is/are found to be</td>
+<td>remove</td>
+</tr>
+<tr class="odd">
+<td>was/were/is/are found to exhibit</td>
+<td>exhibited</td>
+</tr>
+<tr class="even">
+<td>was/were/is/are identified as</td>
+<td>were</td>
+</tr>
+<tr class="odd">
+<td>was/were/is/are known to</td>
+<td>remove</td>
+</tr>
+<tr class="even">
+<td>was/were/is/are predicted to</td>
+<td>could</td>
+</tr>
+<tr class="odd">
+<td>was/were/is/are reported to</td>
+<td>remove</td>
+</tr>
+<tr class="even">
+<td>was/were/is/are shown to</td>
+<td>remove</td>
+</tr>
+<tr class="odd">
+<td>which is/that were/who are</td>
+<td>remove. For example, “the data | that were related to age were analyzed first” means that the | data related to age were analyzed first. Similarly, for “the site, | which is located near Ames,” try “the site, located | near Ames” or | “the site, near Ames.” Rather | than “all persons who were | present voted,” just say that | “all persons present voted.” | Rephrasing sometimes can help. Instead of “a survey, which was | conducted in 1974” or “a survey | conducted in 1974,” try “a 1974 survey.” |</td>
+</tr>
+<tr class="even">
+<td>will be able to</td>
+<td>will/can</td>
+</tr>
+<tr class="odd">
+<td>years 1989 and 1990</td>
+<td>1989 and 1990</td>
+</tr>
+</tbody>
+</table>
+<section id="removing-removing-redundant-words" class="level3" data-number="4.30.1">
+<h3 data-number="4.30.1" class="anchored" data-anchor-id="removing-removing-redundant-words"><span class="header-section-number">4.30.1</span> Removing Removing redundant words</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Rather than</strong></td>
+<td><strong>Try</strong></td>
+</tr>
+<tr class="even">
+<td>A quantitatively rigorous approach</td>
+<td>A quantitative approach A rigorous approach</td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><span class="faux-block">© 2025 Mathematical Marine Ecology Laboratory, The University of Queensland</span></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p><span class="faux-block"><a href="https://github.com/MathMarEcol/MathMarEcol.github.io">View source on GitHub</a></span></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
