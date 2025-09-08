@@ -11,6 +11,8 @@ categories:
 image: quarto.png
 draft: false
 number-sections: true
+toc: true
+toc-title: "Contents"
 editor: 
   markdown: 
     wrap: sentence

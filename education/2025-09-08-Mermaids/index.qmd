@@ -1,0 +1,23 @@
+---
+title: "Mystery solved: mermaids exist"
+description: "A tongue-in-cheek manuscript that helps demonstrates the structure of a scientific paper."
+author:
+  - name: Anthony Richardson
+  - name: David Schoeman
+date: 2025-09-08
+categories:
+  - academia
+  - writing
+image: mermaid.png
+draft: false
+number-sections: true
+toc: true
+toc-expand: true
+toc-title: "Contents"
+editor:
+  markdown:
+    wrap: sentence
+---
+
+
+<embed src="MermaidPaper_V7.pdf" width="100%" height="1000px" type="application/pdf">
