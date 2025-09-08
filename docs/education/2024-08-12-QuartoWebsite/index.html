@@ -303,7 +303,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
+    <div class="quarto-title column-page-left">
       <h1 class="title">Build your own Quarto website</h1>
                   <div>
         <div class="description">
@@ -319,7 +319,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
     
   
-  <div class="quarto-title-meta column-page">
+  <div class="quarto-title-meta column-page-left">
 
       <div>
       <div class="quarto-title-meta-heading">Author</div>
@@ -342,9 +342,55 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a></li>
+  <li><a href="#setting-up-your-website-with-quarto" id="toc-setting-up-your-website-with-quarto" class="nav-link" data-scroll-target="#setting-up-your-website-with-quarto"><span class="header-section-number">2</span> Setting up your website with Quarto</a>
+  <ul class="collapse">
+  <li><a href="#the-template" id="toc-the-template" class="nav-link" data-scroll-target="#the-template"><span class="header-section-number">2.1</span> The template</a></li>
+  <li><a href="#renaming-the-template-files" id="toc-renaming-the-template-files" class="nav-link" data-scroll-target="#renaming-the-template-files"><span class="header-section-number">2.2</span> Renaming the template files</a></li>
+  <li><a href="#opening-the-template-in-rstudio" id="toc-opening-the-template-in-rstudio" class="nav-link" data-scroll-target="#opening-the-template-in-rstudio"><span class="header-section-number">2.3</span> Opening the template in RStudio</a></li>
+  <li><a href="#global-configuration" id="toc-global-configuration" class="nav-link" data-scroll-target="#global-configuration"><span class="header-section-number">2.4</span> Global configuration</a>
+  <ul class="collapse">
+  <li><a href="#author-info" id="toc-author-info" class="nav-link" data-scroll-target="#author-info"><span class="header-section-number">2.4.1</span> Author info</a></li>
+  <li><a href="#sec-navigation" id="toc-sec-navigation" class="nav-link" data-scroll-target="#sec-navigation"><span class="header-section-number">2.4.2</span> Navigation</a></li>
+  <li><a href="#advanced-settings" id="toc-advanced-settings" class="nav-link" data-scroll-target="#advanced-settings"><span class="header-section-number">2.4.3</span> Advanced settings</a></li>
+  <li><a href="#more-config-tweaks" id="toc-more-config-tweaks" class="nav-link" data-scroll-target="#more-config-tweaks"><span class="header-section-number">2.4.4</span> More config tweaks</a></li>
+  </ul></li>
+  <li><a href="#the-landing-page" id="toc-the-landing-page" class="nav-link" data-scroll-target="#the-landing-page"><span class="header-section-number">2.5</span> The landing page</a></li>
+  <li><a href="#changing-the-theme" id="toc-changing-the-theme" class="nav-link" data-scroll-target="#changing-the-theme"><span class="header-section-number">2.6</span> Changing the theme</a></li>
+  <li><a href="#customizing-the-colors" id="toc-customizing-the-colors" class="nav-link" data-scroll-target="#customizing-the-colors"><span class="header-section-number">2.7</span> Customizing the colors</a></li>
+  <li><a href="#adding-new-pages" id="toc-adding-new-pages" class="nav-link" data-scroll-target="#adding-new-pages"><span class="header-section-number">2.8</span> Adding new pages</a></li>
+  </ul></li>
+  <li><a href="#publishing-your-website-to-the-internet" id="toc-publishing-your-website-to-the-internet" class="nav-link" data-scroll-target="#publishing-your-website-to-the-internet"><span class="header-section-number">3</span> Publishing your website to the internet</a>
+  <ul class="collapse">
+  <li><a href="#preparing-your-website-for-github-pages" id="toc-preparing-your-website-for-github-pages" class="nav-link" data-scroll-target="#preparing-your-website-for-github-pages"><span class="header-section-number">3.1</span> Preparing your website for GitHub pages</a></li>
+  <li><a href="#deployment" id="toc-deployment" class="nav-link" data-scroll-target="#deployment"><span class="header-section-number">3.2</span> Deployment 🥳</a></li>
+  </ul></li>
+  <li><a href="#creating-content" id="toc-creating-content" class="nav-link" data-scroll-target="#creating-content"><span class="header-section-number">4</span> Creating Content</a></li>
+  <li><a href="#some-quick-tips" id="toc-some-quick-tips" class="nav-link" data-scroll-target="#some-quick-tips"><span class="header-section-number">5</span> Some quick tips</a>
+  <ul class="collapse">
+  <li><a href="#general-web-development-tips" id="toc-general-web-development-tips" class="nav-link" data-scroll-target="#general-web-development-tips"><span class="header-section-number">5.1</span> General web development tips</a>
+  <ul class="collapse">
+  <li><a href="#relative-links" id="toc-relative-links" class="nav-link" data-scroll-target="#relative-links"><span class="header-section-number">5.1.1</span> Relative links</a></li>
+  <li><a href="#css-flavors" id="toc-css-flavors" class="nav-link" data-scroll-target="#css-flavors"><span class="header-section-number">5.1.2</span> CSS flavors</a></li>
+  <li><a href="#include-order" id="toc-include-order" class="nav-link" data-scroll-target="#include-order"><span class="header-section-number">5.1.3</span> Include Order</a></li>
+  <li><a href="#add-favicon" id="toc-add-favicon" class="nav-link" data-scroll-target="#add-favicon"><span class="header-section-number">5.1.4</span> Add favicon</a></li>
+  </ul></li>
+  <li><a href="#quarto-specific-tips" id="toc-quarto-specific-tips" class="nav-link" data-scroll-target="#quarto-specific-tips"><span class="header-section-number">5.2</span> Quarto specific tips</a>
+  <ul class="collapse">
+  <li><a href="#adding-a-table-of-contents" id="toc-adding-a-table-of-contents" class="nav-link" data-scroll-target="#adding-a-table-of-contents"><span class="header-section-number">5.2.1</span> Adding a table of contents</a></li>
+  </ul></li>
+  <li><a href="#huge-thanks" id="toc-huge-thanks" class="nav-link" data-scroll-target="#huge-thanks"><span class="header-section-number">5.3</span> Huge thanks!</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 

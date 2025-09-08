@@ -3,6 +3,7 @@ title: "How to write well"
 description: "This tutorial provides what we think is best practice in terms of scientific writing and simple approaches to avoid common pitfalls."
 author:
   - name: Anthony Richardson
+  - name: David Schoeman
 date: 2025-09-08
 categories:
   - academia
@@ -11,7 +12,6 @@ image: tree_words.png
 draft: false
 number-sections: true
 toc: true
-toc-expand: true
 toc-title: "Contents"
 editor:
   markdown:
@@ -59,24 +59,6 @@ We all have to learn scientific writing -- scientific English is no one's first 
 Throughout our studies, we are not taught the concepts that are necessary for good writing. In many countries, the teaching of grammar at school is out of vogue. Scientific writing is also often not taught at university at the undergraduate levels. Nowadays, writing well is not a major learning outcome of most science courses, and assignments are marked predominantly on content and not readability and style. It is also easier to learn scientific writing during your postgraduate study when you can draw on your research, but many countries do not have coursework during postgraduate studies. Unfortunately, during this key developmental period, many supervisors often feel too busy to spend time to improve the writing of their students.
 
 Writing well also takes considerable time and effort. Writing well requires hard work rewriting many drafts, being self-critical of your own work, being afraid to make sometimes substantial changes, and opening up yourself to critique and potential criticism from others.  For all these reasons, many scientists have trouble writing well. But scientific writing can be learned.
-
-## How this e-book can help
-
-This e-book, _How to write well_, provides what we think is best practice in terms of scientific writing and simple approaches to avoid common pitfalls. Often errors in writing are corrected or stylistic suggestions made by supervisors,
-
-reviewers or peers, without an explanation, primarily because of the people are time poor. This book is a result of seeing common mistakes by our students, and wanting to teach them how they can improve their writing. During our careers we have developed inherent knowledge about good scientific writing, and this e- book is an attempt to write this down into a coherent whole that is useful to others.
-
-Our approach is to identify a common problem, explain why it is a problem, illustrate it with examples, and show solutions. The content here is based on our experience, is by no means exhaustive, and others might have a different opinion. We are not English teachers or grammar Nazis (although Dave might be...?). We are merely practicing scientists interested in improving our own and others' writing by sharing our experiences.
-
-Finally, this is part of a series of e-books that can help guide you through your scientific career. Often the best way to learn much of this information is to seek out a mentor. But it can be difficult to find a mentor with the insight, all-round skills, and the time available to provide advice. We have written this series of e- books to provide you with such a mentor -- hopefully to provide the knowledge and guidance that you need in your career.
-
-This is the first e-book in the series. The second e-book is _Writing a scientific paper_. Early on in our careers we are ill-prepared for this challenge. Experienced scientists generally acquire the skills slowly and haphazardly through osmosis or from trial-and-error. Writing a paper thus often seems like a "dark art" -- one that some scientists have mastered, but one that is hidden and rarely shared. The e- book _Writing a scientific paper_ shines a light on the process of writing a scientific paper and helps you master it.
-
-The third e-book is _Navigating the peer-review process_. This often-overlooked part of the publication process involves understanding what different journals expect, what Editors and Reviewers look for, and how the peer-review process works. The e-book _Navigating the peer-review process_ formalises our knowledge, experiences and opinions over the past 25 years of how we have gotten our work published. This e-book should will boost your chances of getting your work published, make it easier to get it published, reduce the time it takes to get it published, and help you formalise your own best practice.
-
-You can read these e-books in any order, and you can read their chapters in any order, dipping into the chapters most relevant to you. These books are targeted at early- and mid-career researchers, but will also provide insights for more experienced scientists. We would appreciate your feedback about what you found useful (or not) in the e-books, and what you would like to see covered in the future.
-
-Anthony J. Richardson and David S. Schoeman
 
 # General scientific style
 
