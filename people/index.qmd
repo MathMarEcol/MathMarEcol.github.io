@@ -215,6 +215,16 @@ Some of his previous work can be found [here](https://scholar.google.com.au/cita
 :::
 :::
 
+### Josh Hill
+::: columns
+::: {.column width="25%"}
+<img src="Josh.jpg" style="width: 80%; object-fit: contain"/>
+:::
+::: {.column width="75%"}
+Josh is an ecologist with a background in fish functional ecology and ecosystem processes. He has a BSc (Hons) in Marine Ecology and is currently a PhD student at the University of the Sunshine Coast. His research interests include climate change, biogeochemical cycles, and the role of fish and zooplankton in marine ecosystems. Josh’s work focuses on quantifying the temperature dependence of zooplankton physiology and rate processes to better understand how different groups will respond to a changing climate.
+:::
+:::
+
 ## Tropimundo Students
 We regularly supervise students from the [Tropimundo Program](https://tropimundo.eu) for their final year thesis. 
 
